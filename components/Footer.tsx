@@ -13,7 +13,7 @@ export default function Footer() {
                             <div className="bg-blue-600 p-2 rounded-lg">
                                 <Wrench className="text-white" size={24} />
                             </div>
-                            Bucks Home Tech Help
+                            Bucks Tech Help
                         </Link>
                         <p className="text-blue-200 leading-relaxed font-medium">
                             Patient, local home technology support across Buckinghamshire. I focus on helping you get things working without the stress or jargon.

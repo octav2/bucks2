@@ -10,7 +10,7 @@ The business visits customers at home by appointment.
 
 ## Suggested business name
 
-Bucks Home Tech Help
+Bucks Tech Help
 
 Use only the real business name. Do not keyword-stuff the Google Business Profile name.
 

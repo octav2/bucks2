@@ -1,10 +1,10 @@
 // lib/data.ts
 
 export const businessDetails = {
-    name: "Bucks Home Tech Help",
+    name: "Bucks Tech Help",
     phone: "07XXX XXX XXX", // Replace with real number
     whatsappLink: "https://wa.me/447XXXXXXXXX", // Replace with real number
-    email: "hello@buckshometechhelp.co.uk",
+    email: "hello@buckstechhelp.co.uk",
     basePrice: "£65",
     motPrice: "£140"
 };

@@ -125,11 +125,11 @@ export default function Home() {
                             </div>
                             <div className="mt-16 max-w-xl mx-auto bg-white p-8 md:p-10 rounded-3xl text-left shadow-2xl relative z-20">
                                 <h3 className="text-2xl font-bold text-blue-950 mb-6 text-center">Or Send a Message</h3>
-                                <form action="https://formsubmit.co/hello@buckshometechhelp.co.uk" method="POST" className="space-y-5">
+                                <form action="https://formsubmit.co/hello@buckstechhelp.co.uk" method="POST" className="space-y-5">
                                     {/* Formsubmit.co configuration */}
                                     <input type="text" name="_honey" style={{ display: 'none' }} />
                                     <input type="hidden" name="_captcha" value="false" />
-                                    <input type="hidden" name="_subject" value="New Website Enquiry - Bucks Home Tech Help" />
+                                    <input type="hidden" name="_subject" value="New Website Enquiry - Bucks Tech Help" />
 
                                     <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                                         <div>

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: 'Friendly home tech support across Buckinghamshire. Help with Wi-Fi, printers, phones, tablets, laptops, smart TVs, email issues and scam messages. Evening and weekend appointments.',
     keywords: ['Home tech help Buckinghamshire', 'Wi-Fi help', 'Printer setup', 'Tech help for seniors', 'IT support at home'],
     openGraph: {
-        title: 'Bucks Home Tech Help',
+        title: 'Bucks Tech Help',
         description: 'Patient, jargon-free home technology support across Buckinghamshire.',
         locale: 'en_GB',
         type: 'website',

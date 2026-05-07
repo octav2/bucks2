@@ -1,4 +1,4 @@
-# Bucks Home Tech Help Website
+# Bucks Tech Help Website
 
 This project is for a local home technology support business in Buckinghamshire, UK.
 

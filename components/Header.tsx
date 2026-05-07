@@ -8,7 +8,7 @@ export default function Header() {
             <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
                 <Link href="/" className="text-2xl font-bold text-blue-900 flex items-center gap-2">
                     <Wrench className="text-green-600" />
-                    <span>Bucks Home Tech Help</span>
+                    <span>Bucks Tech Help</span>
                 </Link>
                 <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-600">
                     <Link href="/#services" className="hover:text-blue-900">Services</Link>
