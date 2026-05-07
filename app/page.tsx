@@ -123,9 +123,45 @@ export default function Home() {
                                     Call Me
                                 </a>
                             </div>
-                            <div className="mt-12 text-blue-200 font-medium">
-                                <p className="mb-2">Email: {businessDetails.email}</p>
-                                <p className="text-sm opacity-75">Please include your name, postcode, and a brief description of the problem.</p>
+                            <div className="mt-16 max-w-xl mx-auto bg-white p-8 md:p-10 rounded-3xl text-left shadow-2xl relative z-20">
+                                <h3 className="text-2xl font-bold text-blue-950 mb-6 text-center">Or Send a Message</h3>
+                                <form action="https://formsubmit.co/hello@buckshometechhelp.co.uk" method="POST" className="space-y-5">
+                                    {/* Formsubmit.co configuration */}
+                                    <input type="text" name="_honey" style={{ display: 'none' }} />
+                                    <input type="hidden" name="_captcha" value="false" />
+                                    <input type="hidden" name="_subject" value="New Website Enquiry - Bucks Home Tech Help" />
+
+                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                                        <div>
+                                            <label htmlFor="name" className="block text-sm font-semibold text-gray-700 mb-1.5">Name</label>
+                                            <input type="text" id="name" name="name" required className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-blue-600 focus:border-blue-600 outline-none transition-all bg-gray-50 text-gray-900" placeholder="John Smith" />
+                                        </div>
+                                        <div>
+                                            <label htmlFor="phone" className="block text-sm font-semibold text-gray-700 mb-1.5">Phone Number</label>
+                                            <input type="tel" id="phone" name="phone" required className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-blue-600 focus:border-blue-600 outline-none transition-all bg-gray-50 text-gray-900" placeholder="07XXX XXXXXX" />
+                                        </div>
+                                    </div>
+                                    
+                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                                        <div>
+                                            <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-1.5">Email Address</label>
+                                            <input type="email" id="email" name="email" required className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-blue-600 focus:border-blue-600 outline-none transition-all bg-gray-50 text-gray-900" placeholder="john@example.com" />
+                                        </div>
+                                        <div>
+                                            <label htmlFor="postcode" className="block text-sm font-semibold text-gray-700 mb-1.5">Postcode</label>
+                                            <input type="text" id="postcode" name="postcode" required className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-blue-600 focus:border-blue-600 outline-none transition-all bg-gray-50 text-gray-900" placeholder="e.g. HP11 1AA" />
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <label htmlFor="message" className="block text-sm font-semibold text-gray-700 mb-1.5">How can I help?</label>
+                                        <textarea id="message" name="message" rows={4} required className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-blue-600 focus:border-blue-600 outline-none transition-all resize-none bg-gray-50 text-gray-900" placeholder="Please describe the problem you're having..."></textarea>
+                                    </div>
+
+                                    <button type="submit" className="w-full bg-blue-900 text-white font-bold py-4 rounded-xl hover:bg-blue-800 transition-all active:scale-[0.98] shadow-md flex justify-center items-center gap-2 text-lg mt-2">
+                                        Send Message <ArrowRight size={20} />
+                                    </button>
+                                </form>
                             </div>
                         </div>
                     </div>
