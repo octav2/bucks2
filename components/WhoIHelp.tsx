@@ -10,24 +10,24 @@ export default function WhoIHelp() {
     ];
 
     return (
-        <section className="py-16 px-4 bg-white">
-            <div className="max-w-6xl mx-auto">
-                <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-4">Who I Help</h2>
-                    <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                        You do not need to be good with technology. That is what I am here for.
+        <section className="py-24 px-4 bg-white relative overflow-hidden">
+            <div className="max-w-6xl mx-auto relative z-10">
+                <div className="text-center mb-16">
+                    <h2 className="text-4xl md:text-6xl font-black text-blue-950 mb-6 tracking-tight">Who I Help</h2>
+                    <p className="text-xl text-gray-600 max-w-2xl mx-auto font-medium">
+                        You don't need to be an expert. That's what I'm here for.
                     </p>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                     {categories.map((cat, index) => {
                         const Icon = cat.icon;
                         return (
-                            <div key={index} className="bg-blue-50 p-6 rounded-xl border border-blue-100 flex flex-col items-center text-center">
-                                <div className="bg-white p-3 rounded-full shadow-sm text-blue-600 mb-4">
-                                    <Icon size={24} />
+                            <div key={index} className="group bg-blue-50/50 p-8 rounded-[2.5rem] border border-blue-100 hover:bg-white hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 flex flex-col items-center text-center">
+                                <div className="bg-white p-5 rounded-2xl shadow-sm text-blue-600 mb-6 group-hover:bg-blue-600 group-hover:text-white transition-all duration-500">
+                                    <Icon size={28} />
                                 </div>
-                                <h3 className="font-bold text-blue-900 mb-2">{cat.title}</h3>
-                                <p className="text-sm text-gray-600 leading-relaxed">{cat.desc}</p>
+                                <h3 className="font-black text-blue-950 mb-3 text-lg uppercase tracking-wide">{cat.title}</h3>
+                                <p className="text-gray-600 font-medium leading-relaxed">{cat.desc}</p>
                             </div>
                         );
                     })}

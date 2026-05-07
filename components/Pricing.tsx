@@ -13,68 +13,78 @@ export default function Pricing() {
                     <p className="text-xl text-gray-600 max-w-2xl mx-auto">Clear costs with no hidden fees or surprise upselling.</p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+    return (
+        <section id="pricing" className="py-32 px-4 bg-gray-50 relative overflow-hidden">
+            <div className="absolute top-0 left-0 w-full h-1/2 bg-white skew-y-2 origin-top-left -translate-y-20 -z-10"></div>
+            
+            <div className="max-w-6xl mx-auto relative z-10">
+                <div className="text-center mb-20">
+                    <h2 className="text-4xl md:text-6xl font-black text-blue-950 mb-6 tracking-tight">Simple, Honest Pricing</h2>
+                    <p className="text-xl text-gray-600 max-w-2xl mx-auto font-medium">Clear costs with no hidden fees. I value your trust above all else.</p>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 max-w-5xl mx-auto items-stretch">
                     {/* Standard Visit */}
-                    <div className="bg-white border border-gray-100 rounded-[2.5rem] p-10 shadow-sm hover:shadow-lg transition-all border-b-4 border-b-blue-600 flex flex-col">
-                        <div className="mb-8">
-                            <h3 className="text-2xl font-bold text-blue-950 mb-2">Standard Visit</h3>
-                            <p className="text-gray-500 font-medium">For troubleshooting & setup</p>
+                    <div className="bg-white border border-gray-100 rounded-[3rem] p-10 md:p-12 shadow-sm hover:shadow-xl transition-all border-b-8 border-b-blue-600 flex flex-col group">
+                        <div className="mb-10">
+                            <h3 className="text-2xl font-black text-blue-950 mb-3 uppercase tracking-wider">Standard Visit</h3>
+                            <p className="text-gray-500 font-bold">Troubleshooting & Support</p>
                         </div>
-                        <div className="mb-8 flex items-baseline gap-1">
-                            <span className="text-6xl font-black text-blue-950">{businessDetails.basePrice}</span>
-                            <span className="text-gray-400 font-bold">/ first hour</span>
+                        <div className="mb-10 flex items-baseline gap-2">
+                            <span className="text-7xl font-black text-blue-950 tracking-tighter">{businessDetails.basePrice}</span>
+                            <span className="text-gray-400 font-black uppercase text-sm tracking-widest">/ first hour</span>
                         </div>
-                        <p className="text-gray-600 mb-8 leading-relaxed font-medium">
-                            Then <span className="text-blue-700 font-bold">£35 per 30 mins</span>. Most common issues are fixed within the first hour.
+                        <p className="text-gray-600 mb-10 leading-relaxed font-medium text-lg">
+                            Then <span className="text-blue-600 font-black italic">£35 per 30 mins</span>. Most common issues are resolved within the first hour.
                         </p>
-                        <div className="space-y-4 mb-10 flex-grow">
+                        <div className="space-y-5 mb-12 flex-grow">
                             {[
-                                "Printer setup & repair",
-                                "Phone & tablet help",
-                                "Wi-Fi & internet checks",
-                                "Smart TV app setup"
+                                "Printer setup & troubleshooting",
+                                "Phone & tablet optimization",
+                                "Wi-Fi & network diagnostics",
+                                "Smart TV & streaming setup"
                             ].map((item, i) => (
-                                <div key={i} className="flex items-center gap-3 text-gray-700 font-medium">
-                                    <CheckCircle size={20} className="text-green-500 flex-shrink-0" />
+                                <div key={i} className="flex items-center gap-4 text-gray-700 font-bold">
+                                    <CheckCircle size={24} className="text-blue-500 flex-shrink-0" />
                                     {item}
                                 </div>
                             ))}
                         </div>
-                        <a href="#contact" className="block w-full py-4 text-center bg-blue-50 text-blue-700 font-bold rounded-2xl hover:bg-blue-100 transition-colors mt-auto">
+                        <a href="#contact" className="block w-full py-5 text-center bg-blue-50 text-blue-700 font-black rounded-2xl hover:bg-blue-600 hover:text-white transition-all transform hover:scale-[1.02] shadow-sm">
                             Book a Visit
                         </a>
                     </div>
 
                     {/* Digital MOT */}
-                    <div className="bg-blue-900 text-white rounded-[2.5rem] p-10 shadow-2xl relative overflow-hidden flex flex-col border-b-4 border-b-green-500 scale-105">
-                        <div className="absolute top-6 right-6 bg-green-500 text-white text-xs font-black px-4 py-1.5 rounded-full tracking-widest uppercase">MOST POPULAR</div>
+                    <div className="bg-gradient-to-br from-blue-950 via-blue-900 to-blue-950 text-white rounded-[3rem] p-10 md:p-12 shadow-2xl relative overflow-hidden flex flex-col border-b-8 border-b-green-500 transform lg:scale-105">
+                        <div className="absolute top-8 right-8 bg-gradient-to-r from-green-500 to-green-600 text-white text-[10px] font-black px-5 py-2 rounded-full tracking-[0.2em] uppercase shadow-lg shadow-green-500/20">MOST POPULAR</div>
                         
-                        <div className="mb-8">
-                            <h3 className="text-2xl font-bold mb-2">Digital MOT</h3>
-                            <p className="text-blue-200 font-medium">2-hour home tech check-up</p>
+                        <div className="mb-10">
+                            <h3 className="text-2xl font-black mb-3 uppercase tracking-wider">Digital MOT</h3>
+                            <p className="text-blue-300 font-bold">2-Hour Complete Check-up</p>
                         </div>
-                        <div className="mb-8 flex items-baseline gap-1">
-                            <span className="text-6xl font-black">{businessDetails.motPrice}</span>
-                            <span className="text-blue-300 font-bold">/ fixed price</span>
+                        <div className="mb-10 flex items-baseline gap-2">
+                            <span className="text-7xl font-black tracking-tighter">{businessDetails.motPrice}</span>
+                            <span className="text-blue-400 font-black uppercase text-sm tracking-widest">/ fixed price</span>
                         </div>
-                        <p className="text-blue-100 mb-8 leading-relaxed">
-                            Ideal for a complete device clean-up, security check, and Wi-Fi optimization.
+                        <p className="text-blue-100 mb-10 leading-relaxed font-medium text-lg">
+                            The ultimate check-up for your home tech. Optimize speed, security, and reliability.
                         </p>
-                        <div className="space-y-4 mb-10 flex-grow">
+                        <div className="space-y-5 mb-12 flex-grow">
                             {[
-                                "Full Wi-Fi & signal check",
-                                "Device security review",
-                                "Password & scam advice",
-                                "Laptop & tablet updates",
-                                "Printer & Smart TV check"
+                                "Full Wi-Fi signal & speed audit",
+                                "Deep device security review",
+                                "Password & anti-scam hardening",
+                                "OS updates & bloatware removal",
+                                "Complete printer & TV sync"
                             ].map((item, i) => (
-                                <div key={i} className="flex items-center gap-3 text-blue-50 font-medium">
-                                    <ShieldCheck size={20} className="text-green-400 flex-shrink-0" />
+                                <div key={i} className="flex items-center gap-4 text-blue-50 font-bold">
+                                    <ShieldCheck size={24} className="text-green-400 flex-shrink-0" />
                                     {item}
                                 </div>
                             ))}
                         </div>
-                        <a href="#contact" className="block w-full py-4 text-center bg-white text-blue-900 font-bold rounded-2xl hover:bg-blue-50 transition-colors shadow-lg mt-auto">
+                        <a href="#contact" className="block w-full py-6 text-center bg-gradient-to-r from-green-500 to-green-600 text-white font-black rounded-2xl hover:from-green-400 hover:to-green-500 transition-all shadow-xl shadow-green-500/20 transform hover:scale-[1.02]">
                             Book Your MOT
                         </a>
                     </div>

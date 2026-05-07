@@ -10,22 +10,25 @@ export default function HowItWorks() {
     ];
 
     return (
-        <section className="py-16 px-4 bg-gray-50">
-            <div className="max-w-6xl mx-auto text-center">
-                <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-12">How It Works</h2>
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-8 relative">
+        <section className="py-24 px-4 bg-gray-50 relative overflow-hidden">
+            <div className="max-w-6xl mx-auto text-center relative z-10">
+                <h2 className="text-4xl md:text-6xl font-black text-blue-950 mb-16 tracking-tight">How It Works</h2>
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-12 relative">
                     {/* Progress line for desktop */}
-                    <div className="hidden md:block absolute top-12 left-0 right-0 h-0.5 bg-blue-100 -z-10"></div>
+                    <div className="hidden md:block absolute top-16 left-[10%] right-[10%] h-1 bg-gradient-to-r from-blue-200 via-blue-100 to-blue-200 -z-10 rounded-full"></div>
                     
                     {steps.map((step, index) => {
                         const Icon = step.icon;
                         return (
-                            <div key={index} className="flex flex-col items-center">
-                                <div className="bg-blue-900 text-white p-6 rounded-full mb-6 relative">
+                            <div key={index} className="flex flex-col items-center group">
+                                <div className="bg-gradient-to-br from-blue-900 to-blue-950 text-white p-8 rounded-3xl mb-8 relative shadow-xl shadow-blue-900/20 group-hover:scale-110 transition-transform duration-500">
                                     <Icon size={32} />
+                                    <div className="absolute -bottom-2 -right-2 bg-green-500 text-white w-8 h-8 rounded-full flex items-center justify-center font-black text-xs shadow-lg border-2 border-white">
+                                        {index + 1}
+                                    </div>
                                 </div>
-                                <h3 className="font-bold text-lg text-blue-900 mb-2">{step.title}</h3>
-                                <p className="text-gray-600 text-sm">{step.desc}</p>
+                                <h3 className="font-black text-xl text-blue-950 mb-3 uppercase tracking-wider">{step.title.split('. ')[1]}</h3>
+                                <p className="text-gray-600 font-medium leading-relaxed">{step.desc}</p>
                             </div>
                         );
                     })}

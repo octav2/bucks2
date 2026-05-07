@@ -6,9 +6,12 @@ export default function Header() {
     return (
         <header className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
             <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-                <Link href="/" className="text-2xl font-bold text-blue-900 flex items-center gap-2">
-                    <Wrench className="text-green-600" />
-                    <span>Bucks Tech Help</span>
+                <Link href="/" className="flex items-center group py-1">
+                    <img 
+                        src="/logo.png" 
+                        alt="Bucks Tech Help" 
+                        className="h-16 md:h-20 w-auto object-contain transition-all group-hover:scale-105 duration-500" 
+                    />
                 </Link>
                 <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-600">
                     <Link href="/#services" className="hover:text-blue-900">Services</Link>

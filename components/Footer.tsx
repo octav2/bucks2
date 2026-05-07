@@ -9,11 +9,12 @@ export default function Footer() {
             <div className="max-w-6xl mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-16 mb-16">
                     <div className="flex flex-col gap-6">
-                        <Link href="/" className="flex items-center gap-3 text-white font-black text-2xl">
-                            <div className="bg-blue-600 p-2 rounded-lg">
-                                <Wrench className="text-white" size={24} />
-                            </div>
-                            Bucks Tech Help
+                        <Link href="/" className="flex items-center group mb-4">
+                            <img 
+                                src="/logo.png" 
+                                alt="Bucks Tech Help" 
+                                className="h-16 w-auto object-contain brightness-0 invert opacity-90 group-hover:opacity-100 transition-opacity" 
+                            />
                         </Link>
                         <p className="text-blue-200 leading-relaxed font-medium">
                             Patient, local home technology support across Buckinghamshire. I focus on helping you get things working without the stress or jargon.
