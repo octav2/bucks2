@@ -4,16 +4,6 @@ import { businessDetails } from '@/lib/data';
 
 export default function Pricing() {
     return (
-        <section id="pricing" className="py-24 px-4 bg-gray-50 relative overflow-hidden">
-            <div className="absolute top-0 left-0 w-full h-1/2 bg-white skew-y-3 origin-top-left -translate-y-12 -z-10"></div>
-            
-            <div className="max-w-6xl mx-auto relative z-10">
-                <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-5xl font-bold text-blue-950 mb-6 tracking-tight">Simple, Honest Pricing</h2>
-                    <p className="text-xl text-gray-600 max-w-2xl mx-auto">Clear costs with no hidden fees or surprise upselling.</p>
-                </div>
-
-    return (
         <section id="pricing" className="py-32 px-4 bg-gray-50 relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-1/2 bg-white skew-y-2 origin-top-left -translate-y-20 -z-10"></div>
             
