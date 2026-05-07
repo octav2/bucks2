@@ -7,7 +7,7 @@ import WhoIHelp from '@/components/WhoIHelp';
 import HowItWorks from '@/components/HowItWorks';
 import AreasCovered from '@/components/AreasCovered';
 import FAQ from '@/components/FAQ';
-import { Phone, MessageCircle, Clock, MapPin, CheckCircle, ShieldAlert, AlertTriangle, ArrowRight } from 'lucide-react';
+import { Phone, MessageCircle, Clock, MapPin, CheckCircle, ShieldAlert, AlertTriangle, ArrowRight, Heart } from 'lucide-react';
 import { businessDetails } from '@/lib/data';
 
 export default function Home() {
