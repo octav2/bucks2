@@ -8,11 +8,40 @@ import HowItWorks from '@/components/HowItWorks';
 import AreasCovered from '@/components/AreasCovered';
 import FAQ from '@/components/FAQ';
 import { Phone, MessageCircle, Clock, MapPin, CheckCircle, ShieldAlert, AlertTriangle, ArrowRight, Heart } from 'lucide-react';
-import { businessDetails } from '@/lib/data';
+import { businessDetails, faqs } from '@/lib/data';
+import Script from 'next/script';
 
 export default function Home() {
     return (
         <div className="min-h-screen bg-white text-gray-800 font-sans selection:bg-blue-100 selection:text-blue-900">
+            <Script
+                id="faq-structured-data"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            ...faqs.map(faq => ({
+                                "@type": "Question",
+                                "name": faq.question,
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": faq.answer
+                                }
+                            })),
+                            {
+                                "@type": "Question",
+                                "name": "Do I need to know my passwords?",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "For many jobs, yes. If you need help with email, Apple ID, Google, Netflix, Wi-Fi or Microsoft accounts, you may need access to your passwords. I can guide you through recovery if needed."
+                                }
+                            }
+                        ]
+                    })
+                }}
+            />
             <Header />
 
             {/* Hero Section */}
