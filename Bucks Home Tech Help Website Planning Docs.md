@@ -8,54 +8,54 @@ The website should be simple, trustworthy, local, fast, mobile-friendly and SEO-
 
 The business provides patient home tech help for people who need support with:
 
-- Wi-Fi problems
-- Printers
-- Phones and tablets
-- iPads and iPhones
-- Android devices
-- Laptops and computers
-- Smart TVs and streaming apps
-- Email issues
-- Scam emails and suspicious messages
-- Password and account security
-- General home technology troubleshooting
+* Wi-Fi problems
+* Printers
+* Phones and tablets
+* iPads and iPhones
+* Android devices
+* Laptops and computers
+* Smart TVs and streaming apps
+* Email issues
+* Scam emails and suspicious messages
+* Password and account security
+* General home technology troubleshooting
 
 The business does not provide:
 
-- Drilling
-- Cabling through walls
-- Wall mounting TVs
-- Electrical work
-- Hardwired CCTV
-- Smart lock installation
-- Internal hardware repair
-- Phone screen repairs
-- Advanced data recovery
+* Drilling
+* Cabling through walls
+* Wall mounting TVs
+* Electrical work
+* Hardwired CCTV
+* Smart lock installation
+* Internal hardware repair
+* Phone screen repairs
+* Advanced data recovery
 
 ## Recommended stack
 
-- Next.js
-- Tailwind CSS
-- TypeScript
-- Vercel hosting
-- GitHub repository
-- Custom `.co.uk` domain
+* Next.js
+* Tailwind CSS
+* TypeScript
+* Vercel hosting
+* GitHub repository
+* Custom `.co.uk` domain
 
 ## Main website goal
 
 The website should convert local visitors into enquiries via:
 
-- Phone call
-- WhatsApp
-- Contact form
-- Email
+* Phone call
+* WhatsApp
+* Contact form
+* Email
 
 The website should make visitors feel:
 
-- Safe
-- Reassured
-- Understood
-- Confident that the service is local and trustworthy
+* Safe
+* Reassured
+* Understood
+* Confident that the service is local and trustworthy
 
 ## Initial pages
 
@@ -63,17 +63,17 @@ Start with one strong homepage.
 
 Later add:
 
-- Wi-Fi Help
-- Printer Help
-- Phone & Tablet Setup
-- Smart TV Help
-- Scam Email & Online Safety
-- Tech Help for Seniors
-- Location pages for key Buckinghamshire towns
+* Wi-Fi Help
+* Printer Help
+* Phone \& Tablet Setup
+* Smart TV Help
+* Scam Email \& Online Safety
+* Tech Help for Seniors
+* Location pages for key Buckinghamshire towns
 
----
+\---
 
-# File: docs/PROJECT_BRIEF.md
+# File: docs/PROJECT\_BRIEF.md
 
 # Project Brief
 
@@ -101,15 +101,15 @@ Main target customers:
 
 Customers may say things like:
 
-- My Wi-Fi does not reach the whole house.
-- My printer will not connect.
-- I bought a new iPad and do not know how to set it up.
-- My smart TV apps are confusing.
-- I cannot access my email.
-- I think I clicked on a scam message.
-- I need someone patient to explain this properly.
-- My parents need help with their phone and tablet.
-- I do not want to call a big company or wait on hold.
+* My Wi-Fi does not reach the whole house.
+* My printer will not connect.
+* I bought a new iPad and do not know how to set it up.
+* My smart TV apps are confusing.
+* I cannot access my email.
+* I think I clicked on a scam message.
+* I need someone patient to explain this properly.
+* My parents need help with their phone and tablet.
+* I do not want to call a big company or wait on hold.
 
 ## Main promise
 
@@ -125,10 +125,10 @@ The business does not carry out drilling, hardwiring, electrical work, cabling t
 
 The website should encourage users to:
 
-- Call
-- WhatsApp
-- Send an enquiry
-- Book a home visit
+* Call
+* WhatsApp
+* Send an enquiry
+* Book a home visit
 
 WhatsApp should be prominent because many customers and family members may prefer quick messaging.
 
@@ -136,22 +136,22 @@ WhatsApp should be prominent because many customers and family members may prefe
 
 Use the following trust signals where true:
 
-- Local Buckinghamshire service
-- DBS checked
-- Fully insured
-- Patient and jargon-free
-- Evening and weekend appointments
-- Clear pricing
-- No hard selling
-- No unnecessary upselling
-- Respectful with passwords and personal information
-- Home visits by appointment
+* Local Buckinghamshire service
+* DBS checked
+* Fully insured
+* Patient and jargon-free
+* Evening and weekend appointments
+* Clear pricing
+* No hard selling
+* No unnecessary upselling
+* Respectful with passwords and personal information
+* Home visits by appointment
 
 Do not include DBS checked or insured unless this is actually true.
 
----
+\---
 
-# File: docs/WEBSITE_CONTENT.md
+# File: docs/WEBSITE\_CONTENT.md
 
 # Website Content
 
@@ -190,12 +190,12 @@ I can help diagnose Wi-Fi problems, improve coverage, set up plug-in mesh Wi-Fi 
 
 Common help includes:
 
-- Slow Wi-Fi
-- Weak signal
-- Router issues
-- Mesh Wi-Fi setup
-- Reconnecting devices after a router change
-- Smart TV, printer and phone Wi-Fi problems
+* Slow Wi-Fi
+* Weak signal
+* Router issues
+* Mesh Wi-Fi setup
+* Reconnecting devices after a router change
+* Smart TV, printer and phone Wi-Fi problems
 
 ## Service: Printer Help
 
@@ -205,12 +205,12 @@ I can help with printer setup, “printer offline” problems, printing from pho
 
 Common help includes:
 
-- Printer offline errors
-- Wireless printer setup
-- Printing from iPhone, iPad, Android, Windows or Mac
-- Scanner setup
-- Printer app setup
-- Clearing print queues
+* Printer offline errors
+* Wireless printer setup
+* Printing from iPhone, iPad, Android, Windows or Mac
+* Scanner setup
+* Printer app setup
+* Clearing print queues
 
 ## Service: Phone, Tablet and iPad Setup
 
@@ -220,14 +220,14 @@ I can help set up iPhones, iPads and Android devices, transfer contacts and phot
 
 Common help includes:
 
-- New iPhone setup
-- New iPad setup
-- Android phone setup
-- Data transfer
-- Email setup
-- WhatsApp setup
-- Photo backup
-- App installation
+* New iPhone setup
+* New iPad setup
+* Android phone setup
+* Data transfer
+* Email setup
+* WhatsApp setup
+* Photo backup
+* App installation
 
 ## Service: Laptop and Computer Help
 
@@ -235,14 +235,14 @@ I can help with Windows laptops, MacBooks, email problems, updates, slow devices
 
 Common help includes:
 
-- Slow laptop checks
-- Email setup
-- Windows updates
-- MacBook support
-- Microsoft 365 setup
-- OneDrive or iCloud confusion
-- Basic security checks
-- File and photo organisation
+* Slow laptop checks
+* Email setup
+* Windows updates
+* MacBook support
+* Microsoft 365 setup
+* OneDrive or iCloud confusion
+* Basic security checks
+* File and photo organisation
 
 ## Service: Smart TV and Streaming Help
 
@@ -252,14 +252,14 @@ I can connect your TV to Wi-Fi, install apps, log in to accounts, tune channels 
 
 Common help includes:
 
-- Smart TV setup
-- Fire Stick setup
-- Netflix setup
-- BBC iPlayer setup
-- ITVX setup
-- Prime Video setup
-- TV Wi-Fi connection
-- Remote control help
+* Smart TV setup
+* Fire Stick setup
+* Netflix setup
+* BBC iPlayer setup
+* ITVX setup
+* Prime Video setup
+* TV Wi-Fi connection
+* Remote control help
 
 ## Service: Scam Email and Online Safety Checks
 
@@ -269,13 +269,13 @@ I can help check whether something is genuine, improve your passwords, set up tw
 
 Common help includes:
 
-- Scam email checks
-- Suspicious text message checks
-- Password advice
-- Two-factor authentication
-- Browser pop-up checks
-- Basic malware/adware checks
-- Account security review
+* Scam email checks
+* Suspicious text message checks
+* Password advice
+* Two-factor authentication
+* Browser pop-up checks
+* Basic malware/adware checks
+* Account security review
 
 ## Important service boundary
 
@@ -291,12 +291,12 @@ If a job requires an electrician, handyman or specialist installer, I will let y
 
 This service is ideal for:
 
-- Older people who want patient help with technology
-- Families who want tech support for parents or grandparents
-- Busy professionals who do not have time to troubleshoot devices
-- Homeowners with Wi-Fi or printer problems
-- People moving house and setting up devices again
-- Anyone who wants technology explained clearly and calmly
+* Older people who want patient help with technology
+* Families who want tech support for parents or grandparents
+* Busy professionals who do not have time to troubleshoot devices
+* Homeowners with Wi-Fi or printer problems
+* People moving house and setting up devices again
+* Anyone who wants technology explained clearly and calmly
 
 You do not need to be good with technology. That is what I am here for.
 
@@ -337,13 +337,13 @@ If a job looks like it will take longer, I will explain the options before conti
 
 ## Popular Services
 
-- Printer setup or repair help: from £65
-- New phone or tablet setup: from £85
-- Smart TV or streaming setup: from £75
-- Wi-Fi diagnosis: from £75
-- Mesh Wi-Fi setup: from £150
-- Online safety or scam check: from £75
-- 2-hour Digital MOT: from £140
+* Printer setup or repair help: from £65
+* New phone or tablet setup: from £85
+* Smart TV or streaming setup: from £75
+* Wi-Fi diagnosis: from £75
+* Mesh Wi-Fi setup: from £150
+* Online safety or scam check: from £75
+* 2-hour Digital MOT: from £140
 
 Hardware, subscriptions or paid software are not included.
 
@@ -357,15 +357,15 @@ Ideal if you have several small issues or want peace of mind.
 
 Includes help with:
 
-- Wi-Fi check
-- Printer check
-- Phone and tablet questions
-- Laptop updates
-- Email problems
-- Scam message advice
-- Password and security tips
-- Smart TV and streaming issues
-- General tech tidy-up
+* Wi-Fi check
+* Printer check
+* Phone and tablet questions
+* Laptop updates
+* Email problems
+* Scam message advice
+* Password and security tips
+* Smart TV and streaming issues
+* General tech tidy-up
 
 At the end, I will explain what I found and recommend any next steps.
 
@@ -373,23 +373,23 @@ At the end, I will explain what I found and recommend any next steps.
 
 ## How It Works
 
-### 1. Get in touch
+### 1\. Get in touch
 
 Call, text or WhatsApp with a brief description of the problem.
 
-### 2. I confirm if I can help
+### 2\. I confirm if I can help
 
 I will ask a few questions and let you know whether it sounds like something I can assist with.
 
-### 3. Book a visit
+### 3\. Book a visit
 
 We arrange a convenient evening or weekend appointment.
 
-### 4. I visit and help
+### 4\. I visit and help
 
 I diagnose the issue, fix what I can, explain what I am doing and make sure you understand the result.
 
-### 5. Follow-up if needed
+### 5\. Follow-up if needed
 
 If you need further help, I can arrange another visit or provide simple next steps.
 
@@ -397,23 +397,23 @@ If you need further help, I can arrange another visit or provide simple next ste
 
 I provide home tech help across Buckinghamshire and nearby areas, including:
 
-- High Wycombe
-- Beaconsfield
-- Amersham
-- Chesham
-- Marlow
-- Gerrards Cross
-- Chalfont St Peter
-- Chalfont St Giles
-- Aylesbury
-- Hazlemere
-- Great Missenden
-- Princes Risborough
-- Wendover
-- Bourne End
-- Flackwell Heath
-- Penn
-- Stoke Poges
+* High Wycombe
+* Beaconsfield
+* Amersham
+* Chesham
+* Marlow
+* Gerrards Cross
+* Chalfont St Peter
+* Chalfont St Giles
+* Aylesbury
+* Hazlemere
+* Great Missenden
+* Princes Risborough
+* Wendover
+* Bourne End
+* Flackwell Heath
+* Penn
+* Stoke Poges
 
 If you are nearby but not listed, just ask.
 
@@ -425,12 +425,12 @@ I understand that inviting someone into your home to help with technology requir
 
 I always aim to be:
 
-- Polite
-- Patient
-- Respectful
-- Clear
-- Honest
-- Careful with personal information
+* Polite
+* Patient
+* Respectful
+* Clear
+* Honest
+* Careful with personal information
 
 I will never rush you, talk down to you, or pressure you into buying something you do not need.
 
@@ -495,17 +495,17 @@ Email: hello@example.co.uk
 
 Please include:
 
-- Your name
-- Your postcode
-- The device or problem
-- Best day/time for a visit
+* Your name
+* Your postcode
+* The device or problem
+* Best day/time for a visit
 
 Primary button: WhatsApp Me  
 Secondary button: Send an Enquiry
 
----
+\---
 
-# File: docs/DESIGN_BRIEF.md
+# File: docs/DESIGN\_BRIEF.md
 
 # Design Brief
 
@@ -513,14 +513,14 @@ Secondary button: Send an Enquiry
 
 The website should feel:
 
-- Friendly
-- Local
-- Trustworthy
-- Calm
-- Clear
-- Professional but not corporate
-- Suitable for older visitors
-- Easy to read on mobile
+* Friendly
+* Local
+* Trustworthy
+* Calm
+* Clear
+* Professional but not corporate
+* Suitable for older visitors
+* Easy to read on mobile
 
 Avoid a dark, overly technical or futuristic design.
 
@@ -532,19 +532,19 @@ The site should feel like a helpful local service.
 
 Suggested colour palette:
 
-- Deep blue or navy for trust
-- Soft light blue backgrounds
-- White sections
-- Light grey borders
-- Green accent for reassurance or success
-- Warm accent colour for buttons if needed
+* Deep blue or navy for trust
+* Soft light blue backgrounds
+* White sections
+* Light grey borders
+* Green accent for reassurance or success
+* Warm accent colour for buttons if needed
 
 Example feel:
 
-- Trustworthy blue
-- Clean white
-- Soft grey
-- Friendly green highlights
+* Trustworthy blue
+* Clean white
+* Soft grey
+* Friendly green highlights
 
 ## Typography
 
@@ -552,11 +552,11 @@ Use large, readable text.
 
 Important for older users:
 
-- Body text should not be too small
-- Buttons should be large and easy to tap
-- Good line spacing
-- High contrast
-- Avoid thin grey text
+* Body text should not be too small
+* Buttons should be large and easy to tap
+* Good line spacing
+* High contrast
+* Avoid thin grey text
 
 ## Layout
 
@@ -580,14 +580,14 @@ The homepage should be structured like this:
 
 Header should include:
 
-- Business name/logo
-- Services anchor link
-- Pricing anchor link
-- Areas anchor link
-- FAQ anchor link
-- Contact anchor link
-- Call button
-- WhatsApp button
+* Business name/logo
+* Services anchor link
+* Pricing anchor link
+* Areas anchor link
+* FAQ anchor link
+* Contact anchor link
+* Call button
+* WhatsApp button
 
 On mobile, use a simple hamburger menu or keep header minimal.
 
@@ -595,27 +595,27 @@ On mobile, use a simple hamburger menu or keep header minimal.
 
 Hero should include:
 
-- Strong headline
-- Short supporting paragraph
-- Primary CTA: Book a Home Visit
-- Secondary CTA: WhatsApp Me
-- Optional trust text: Local Buckinghamshire service. Evening and weekend appointments.
+* Strong headline
+* Short supporting paragraph
+* Primary CTA: Book a Home Visit
+* Secondary CTA: WhatsApp Me
+* Optional trust text: Local Buckinghamshire service. Evening and weekend appointments.
 
 Suggested hero visual:
 
-- Friendly photo of the owner
-- Or simple illustration/photo of laptop, phone, router and tablet
-- Avoid stock photos that look fake
+* Friendly photo of the owner
+* Or simple illustration/photo of laptop, phone, router and tablet
+* Avoid stock photos that look fake
 
 ## CTA buttons
 
 Primary CTA:
 
-- Book a Home Visit
+* Book a Home Visit
 
 Secondary CTA:
 
-- WhatsApp Me
+* WhatsApp Me
 
 Button style should be large, clear and mobile-friendly.
 
@@ -625,15 +625,15 @@ The website should be accessible and easy to use.
 
 Requirements:
 
-- Good colour contrast
-- Large buttons
-- Semantic HTML
-- Clear headings
-- Descriptive links
-- Mobile responsive
-- No tiny text
-- No excessive animations
-- Contact details visible without hunting
+* Good colour contrast
+* Large buttons
+* Semantic HTML
+* Clear headings
+* Descriptive links
+* Mobile responsive
+* No tiny text
+* No excessive animations
+* Contact details visible without hunting
 
 ## Imagery
 
@@ -641,24 +641,24 @@ Use real photos where possible.
 
 Useful photos:
 
-- Friendly photo of the owner
-- Laptop and phone on a table
-- Router or mesh Wi-Fi device
-- Smart TV remote
-- Printer setup
-- Small toolkit/cables
+* Friendly photo of the owner
+* Laptop and phone on a table
+* Router or mesh Wi-Fi device
+* Smart TV remote
+* Printer setup
+* Small toolkit/cables
 
 Avoid showing:
 
-- Customer private details
-- Passwords
-- Emails
-- Personal documents
-- Bank screens
+* Customer private details
+* Passwords
+* Emails
+* Personal documents
+* Bank screens
 
----
+\---
 
-# File: docs/SEO_PLAN.md
+# File: docs/SEO\_PLAN.md
 
 # SEO Plan
 
@@ -670,16 +670,16 @@ Rank locally for home technology support searches in Buckinghamshire and nearby 
 
 Primary themes:
 
-- Home tech help Buckinghamshire
-- Home tech support Buckinghamshire
-- Wi-Fi help Buckinghamshire
-- Printer help Buckinghamshire
-- Computer help Buckinghamshire
-- Tech help for seniors Buckinghamshire
-- iPad help for elderly
-- Smart TV setup help
-- Scam email help
-- Home IT support Buckinghamshire
+* Home tech help Buckinghamshire
+* Home tech support Buckinghamshire
+* Wi-Fi help Buckinghamshire
+* Printer help Buckinghamshire
+* Computer help Buckinghamshire
+* Tech help for seniors Buckinghamshire
+* iPad help for elderly
+* Smart TV setup help
+* Scam email help
+* Home IT support Buckinghamshire
 
 ## Local keyword themes
 
@@ -687,20 +687,20 @@ Use combinations of service + location.
 
 Examples:
 
-- Wi-Fi help Beaconsfield
-- Printer help Amersham
-- Home tech support High Wycombe
-- Computer help Marlow
-- iPad setup Gerrards Cross
-- Tech help for seniors Chesham
-- Smart TV setup Aylesbury
-- Home IT support Chalfont St Peter
+* Wi-Fi help Beaconsfield
+* Printer help Amersham
+* Home tech support High Wycombe
+* Computer help Marlow
+* iPad setup Gerrards Cross
+* Tech help for seniors Chesham
+* Smart TV setup Aylesbury
+* Home IT support Chalfont St Peter
 
 ## Homepage SEO
 
 Suggested SEO title:
 
-Home Tech Help Buckinghamshire | Wi-Fi, Printers, Phones & Smart TVs
+Home Tech Help Buckinghamshire | Wi-Fi, Printers, Phones \& Smart TVs
 
 Suggested meta description:
 
@@ -712,13 +712,13 @@ Frustrated With Technology? I Can Help.
 
 Suggested H2 sections:
 
-- How I Can Help
-- Patient Home Tech Support Across Buckinghamshire
-- Simple Pricing
-- How It Works
-- Areas Covered
-- Frequently Asked Questions
-- Need Help With Home Technology?
+* How I Can Help
+* Patient Home Tech Support Across Buckinghamshire
+* Simple Pricing
+* How It Works
+* Areas Covered
+* Frequently Asked Questions
+* Need Help With Home Technology?
 
 ## Website phase plan
 
@@ -730,13 +730,13 @@ Create a strong homepage with all services, areas, pricing and contact details.
 
 Add dedicated pages for:
 
-- Wi-Fi Help
-- Printer Help
-- Phone and Tablet Setup
-- Laptop and Computer Help
-- Smart TV and Streaming Help
-- Scam Email and Online Safety
-- Tech Help for Seniors
+* Wi-Fi Help
+* Printer Help
+* Phone and Tablet Setup
+* Laptop and Computer Help
+* Smart TV and Streaming Help
+* Scam Email and Online Safety
+* Tech Help for Seniors
 
 ### Phase 3: Location pages
 
@@ -744,14 +744,14 @@ Add local pages for important service areas.
 
 Start with:
 
-- Beaconsfield
-- Amersham
-- High Wycombe
-- Marlow
-- Gerrards Cross
-- Chesham
-- Aylesbury
-- Chalfont St Peter
+* Beaconsfield
+* Amersham
+* High Wycombe
+* Marlow
+* Gerrards Cross
+* Chesham
+* Aylesbury
+* Chalfont St Peter
 
 ## Important local SEO warning
 
@@ -761,35 +761,35 @@ Each location page should be genuinely useful and include unique local content.
 
 Good location pages should include:
 
-- Specific town name
-- Nearby villages/areas
-- Common local issues
-- Services offered in that area
-- Local testimonial if available
-- Local examples when real
-- Clear pricing
-- FAQ
-- Contact call to action
+* Specific town name
+* Nearby villages/areas
+* Common local issues
+* Services offered in that area
+* Local testimonial if available
+* Local examples when real
+* Clear pricing
+* FAQ
+* Contact call to action
 
 ## Suggested service page URLs
 
-- /wifi-help-buckinghamshire
-- /printer-help-buckinghamshire
-- /phone-tablet-setup-buckinghamshire
-- /smart-tv-help-buckinghamshire
-- /scam-email-online-safety-buckinghamshire
-- /tech-help-for-seniors-buckinghamshire
+* /wifi-help-buckinghamshire
+* /printer-help-buckinghamshire
+* /phone-tablet-setup-buckinghamshire
+* /smart-tv-help-buckinghamshire
+* /scam-email-online-safety-buckinghamshire
+* /tech-help-for-seniors-buckinghamshire
 
 ## Suggested location page URLs
 
-- /home-tech-help-beaconsfield
-- /home-tech-help-amersham
-- /home-tech-help-high-wycombe
-- /home-tech-help-marlow
-- /home-tech-help-gerrards-cross
-- /home-tech-help-chesham
-- /home-tech-help-aylesbury
-- /home-tech-help-chalfont-st-peter
+* /home-tech-help-beaconsfield
+* /home-tech-help-amersham
+* /home-tech-help-high-wycombe
+* /home-tech-help-marlow
+* /home-tech-help-gerrards-cross
+* /home-tech-help-chesham
+* /home-tech-help-aylesbury
+* /home-tech-help-chalfont-st-peter
 
 ## Internal linking plan
 
@@ -797,18 +797,18 @@ Homepage should link to service pages and key location pages once they exist.
 
 Service pages should link to:
 
-- Homepage
-- Contact section
-- Relevant location pages
-- Related services
+* Homepage
+* Contact section
+* Relevant location pages
+* Related services
 
 Location pages should link to:
 
-- Homepage
-- Wi-Fi Help
-- Printer Help
-- Tech Help for Seniors
-- Contact section
+* Homepage
+* Wi-Fi Help
+* Printer Help
+* Tech Help for Seniors
+* Contact section
 
 ## Review SEO
 
@@ -816,16 +816,16 @@ Encourage customers to mention the service and town naturally in Google reviews.
 
 Examples:
 
-- Helped my mum in Amersham with her iPad and printer.
-- Fixed our Wi-Fi issue in Beaconsfield.
-- Great home tech support in High Wycombe.
-- Very patient help with my smart TV in Marlow.
+* Helped my mum in Amersham with her iPad and printer.
+* Fixed our Wi-Fi issue in Beaconsfield.
+* Great home tech support in High Wycombe.
+* Very patient help with my smart TV in Marlow.
 
 Do not fake reviews.
 
----
+\---
 
-# File: docs/GBP_CONTENT.md
+# File: docs/GBP\_CONTENT.md
 
 # Google Business Profile Content
 
@@ -849,35 +849,35 @@ Use the closest available Google category.
 
 Preferred:
 
-- Computer support and services
+* Computer support and services
 
 Alternative options:
 
-- Computer service
-- Computer consultant
-- Computer repair service
+* Computer service
+* Computer consultant
+* Computer repair service
 
 ## Service areas
 
 Add realistic areas covered, such as:
 
-- High Wycombe
-- Beaconsfield
-- Amersham
-- Chesham
-- Marlow
-- Gerrards Cross
-- Chalfont St Peter
-- Chalfont St Giles
-- Aylesbury
-- Hazlemere
-- Great Missenden
-- Princes Risborough
-- Wendover
-- Bourne End
-- Flackwell Heath
-- Penn
-- Stoke Poges
+* High Wycombe
+* Beaconsfield
+* Amersham
+* Chesham
+* Marlow
+* Gerrards Cross
+* Chalfont St Peter
+* Chalfont St Giles
+* Aylesbury
+* Hazlemere
+* Great Missenden
+* Princes Risborough
+* Wendover
+* Bourne End
+* Flackwell Heath
+* Penn
+* Stoke Poges
 
 ## Opening hours
 
@@ -955,9 +955,9 @@ Wireless printers often stop working after router changes or updates. I can help
 
 ## Review request message
 
-Hi [Name], glad I could help today. If you were happy with the service, would you mind leaving a quick Google review? It really helps a small local business. You can mention what I helped with, such as Wi-Fi, printer, iPad, smart TV or email support. Thank you.
+Hi \[Name], glad I could help today. If you were happy with the service, would you mind leaving a quick Google review? It really helps a small local business. You can mention what I helped with, such as Wi-Fi, printer, iPad, smart TV or email support. Thank you.
 
-## GBP Q&A
+## GBP Q\&A
 
 ### Do you help older people with technology?
 
@@ -979,9 +979,9 @@ No. I do not carry out drilling, cabling, wall mounting or electrical work.
 
 Yes. I can help check suspicious messages, improve account security and advise on safe next steps.
 
----
+\---
 
-# File: docs/LOCALITY_PAGES_PLAN.md
+# File: docs/LOCALITY\_PAGES\_PLAN.md
 
 # Locality Pages Plan
 
@@ -1012,39 +1012,39 @@ Start with the most valuable and relevant areas:
 
 Each location page should follow this structure:
 
-# Home Tech Help in [Town]
+# Home Tech Help in \[Town]
 
 Intro paragraph:
-Friendly, patient home technology support in [Town] for Wi-Fi problems, printers, phones, tablets, laptops, smart TVs, email issues and scam messages.
+Friendly, patient home technology support in \[Town] for Wi-Fi problems, printers, phones, tablets, laptops, smart TVs, email issues and scam messages.
 
-## Local Home Tech Support in [Town]
+## Local Home Tech Support in \[Town]
 
 Explain the service in that town. Mention common customer needs and why people locally may use the service.
 
-## How I Can Help in [Town]
+## How I Can Help in \[Town]
 
 Include service sections:
 
-- Wi-Fi help
-- Printer help
-- Phone and tablet setup
-- Laptop and computer help
-- Smart TV and streaming setup
-- Scam email and online safety checks
-- Tech help for seniors
+* Wi-Fi help
+* Printer help
+* Phone and tablet setup
+* Laptop and computer help
+* Smart TV and streaming setup
+* Scam email and online safety checks
+* Tech help for seniors
 
 ## Common Problems I Help With
 
 Examples:
 
-- Wi-Fi does not reach upstairs
-- Printer says offline
-- New iPad setup
-- Smart TV apps not working
-- Email password issues
-- Suspicious scam messages
-- Slow laptop
-- Help for elderly parents
+* Wi-Fi does not reach upstairs
+* Printer says offline
+* New iPad setup
+* Smart TV apps not working
+* Email password issues
+* Suspicious scam messages
+* Slow laptop
+* Help for elderly parents
 
 ## Nearby Areas Covered
 
@@ -1068,7 +1068,7 @@ Add local FAQ.
 
 ## Contact CTA
 
-Need home tech help in [Town]? Call or WhatsApp to check availability.
+Need home tech help in \[Town]? Call or WhatsApp to check availability.
 
 ## Example: Beaconsfield page notes
 
@@ -1076,7 +1076,7 @@ URL:
 /home-tech-help-beaconsfield
 
 SEO title:
-Home Tech Help Beaconsfield | Wi-Fi, Printers, iPads & Smart TVs
+Home Tech Help Beaconsfield | Wi-Fi, Printers, iPads \& Smart TVs
 
 Meta description:
 Friendly home tech support in Beaconsfield. Help with Wi-Fi, printers, phones, tablets, laptops, smart TVs, email issues and scam messages. Home visits available.
@@ -1096,7 +1096,7 @@ URL:
 /home-tech-help-amersham
 
 SEO title:
-Home Tech Help Amersham | Wi-Fi, Printers, iPads & Smart TVs
+Home Tech Help Amersham | Wi-Fi, Printers, iPads \& Smart TVs
 
 Meta description:
 Patient home tech support in Amersham. Help with Wi-Fi, printers, phones, tablets, laptops, smart TVs, email problems and online safety.
@@ -1116,7 +1116,7 @@ URL:
 /home-tech-help-high-wycombe
 
 SEO title:
-Home Tech Help High Wycombe | Wi-Fi, Printers, Laptops & Smart TVs
+Home Tech Help High Wycombe | Wi-Fi, Printers, Laptops \& Smart TVs
 
 Meta description:
 Local home technology support in High Wycombe. Help with Wi-Fi, printers, phones, tablets, laptops, smart TVs, email and scam messages.
@@ -1136,7 +1136,7 @@ URL:
 /home-tech-help-marlow
 
 SEO title:
-Home Tech Help Marlow | Wi-Fi, Printers, iPads & Smart TVs
+Home Tech Help Marlow | Wi-Fi, Printers, iPads \& Smart TVs
 
 Meta description:
 Friendly home tech support in Marlow. Help with Wi-Fi, printers, phones, tablets, smart TVs, email issues and scam messages.
@@ -1156,7 +1156,7 @@ URL:
 /home-tech-help-gerrards-cross
 
 SEO title:
-Home Tech Help Gerrards Cross | Wi-Fi, Printers, Phones & Smart TVs
+Home Tech Help Gerrards Cross | Wi-Fi, Printers, Phones \& Smart TVs
 
 Meta description:
 Patient home technology support in Gerrards Cross. Help with Wi-Fi, printers, iPads, laptops, smart TVs, email and online safety.
@@ -1170,9 +1170,9 @@ Chalfont St Peter, Chalfont St Giles, Fulmer, Stoke Poges, Denham
 Local angle:
 Strong for premium home support, Wi-Fi in larger houses and help for elderly parents.
 
----
+\---
 
-# File: docs/DEVELOPMENT_NOTES.md
+# File: docs/DEVELOPMENT\_NOTES.md
 
 # Development Notes
 
@@ -1180,50 +1180,50 @@ Strong for premium home support, Wi-Fi in larger houses and help for elderly par
 
 Use:
 
-- Next.js App Router
-- TypeScript
-- Tailwind CSS
-- Static rendering where possible
-- Vercel deployment
-- Mobile-first design
+* Next.js App Router
+* TypeScript
+* Tailwind CSS
+* Static rendering where possible
+* Vercel deployment
+* Mobile-first design
 
 ## SEO implementation
 
 Add metadata in Next.js layout/page files:
 
-- Title
-- Description
-- Open Graph title
-- Open Graph description
-- Canonical URL
-- Local business structured data later
+* Title
+* Description
+* Open Graph title
+* Open Graph description
+* Canonical URL
+* Local business structured data later
 
 ## Suggested components
 
 Components to create:
 
-- Header
-- Hero
-- TrustBar
-- ServicesGrid
-- ServiceCard
-- WhoIHelp
-- NoDrillingNote
-- Pricing
-- DigitalMOT
-- HowItWorks
-- AreasCovered
-- FAQ
-- ContactCTA
-- Footer
+* Header
+* Hero
+* TrustBar
+* ServicesGrid
+* ServiceCard
+* WhoIHelp
+* NoDrillingNote
+* Pricing
+* DigitalMOT
+* HowItWorks
+* AreasCovered
+* FAQ
+* ContactCTA
+* Footer
 
 ## Contact options
 
 At launch, use simple contact options:
 
-- Phone link
-- WhatsApp link
-- Email link
+* Phone link
+* WhatsApp link
+* Email link
 
 Example WhatsApp link format:
 
@@ -1235,11 +1235,11 @@ Replace the number with the UK mobile number in international format without spa
 
 A contact form can be added later using:
 
-- Formspree
-- Tally
-- Netlify Forms alternative
-- Vercel serverless function
-- Resend email API
+* Formspree
+* Tally
+* Netlify Forms alternative
+* Vercel serverless function
+* Resend email API
 
 For launch, phone and WhatsApp may be enough.
 
@@ -1247,9 +1247,9 @@ For launch, phone and WhatsApp may be enough.
 
 Consider adding later:
 
-- Privacy Policy
-- Terms of Service
-- Cookie Policy if analytics/cookies are used
+* Privacy Policy
+* Terms of Service
+* Cookie Policy if analytics/cookies are used
 
 If using only basic static pages and no tracking cookies, cookie requirements may be simpler.
 
@@ -1259,9 +1259,9 @@ If using Google Analytics or advertising pixels, add a cookie banner and cookie 
 
 Suggested analytics:
 
-- Vercel Analytics
-- Google Search Console
-- Google Analytics only if needed
+* Vercel Analytics
+* Google Search Console
+* Google Analytics only if needed
 
 Google Search Console is strongly recommended once the domain is live.
 
@@ -1269,22 +1269,23 @@ Google Search Console is strongly recommended once the domain is live.
 
 Keep the site fast:
 
-- Avoid heavy animations
-- Optimise images
-- Use compressed images
-- Use semantic HTML
-- Keep third-party scripts minimal
+* Avoid heavy animations
+* Optimise images
+* Use compressed images
+* Use semantic HTML
+* Keep third-party scripts minimal
 
 ## Future features
 
 Possible future improvements:
 
-- Online booking
-- Testimonials
-- Service pages
-- Location pages
-- Blog posts
-- FAQ schema
-- LocalBusiness schema
-- Review snippets, if compliant
-- Subscription support plan page
+* Online booking
+* Testimonials
+* Service pages
+* Location pages
+* Blog posts
+* FAQ schema
+* LocalBusiness schema
+* Review snippets, if compliant
+* Subscription support plan page
+

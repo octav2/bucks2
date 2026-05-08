@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import Script from 'next/script';
 import './globals.css';
 
 // Use a clean, readable font for older demographics
@@ -25,6 +26,21 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en" className="scroll-smooth">
+            <head>
+                <Script
+                    async
+                    src="https://www.googletagmanager.com/gtag/js?id=G-YKTBYJCCLC"
+                />
+                <Script id="google-analytics">
+                    {`
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+
+                        gtag('config', 'G-YKTBYJCCLC');
+                    `}
+                </Script>
+            </head>
             <body className={`${inter.className} bg-white text-gray-900 antialiased`}>
                 {children}
             </body>
