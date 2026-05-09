@@ -2,6 +2,7 @@ import React from 'react';
 import { Wrench, Phone, MessageCircle, MapPin } from 'lucide-react';
 import { serviceAreas, businessDetails } from '@/lib/data';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Footer() {
     return (
@@ -10,9 +11,11 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-16 mb-16">
                     <div className="flex flex-col gap-6">
                         <Link href="/" className="flex items-center group mb-4">
-                            <img 
+                            <Image 
                                 src="/logo.png" 
                                 alt="Bucks Tech Help" 
+                                width={200}
+                                height={64}
                                 className="h-16 w-auto object-contain brightness-0 invert opacity-90 group-hover:opacity-100 transition-opacity" 
                             />
                         </Link>
@@ -54,6 +57,7 @@ export default function Footer() {
                     <div className="flex gap-6">
                         <Link href="/privacy" className="hover:text-white">Privacy Policy</Link>
                         <Link href="/terms" className="hover:text-white">Terms of Service</Link>
+                        <Link href="/cookie-policy" className="hover:text-white">Cookie Policy</Link>
                     </div>
                 </div>
             </div>

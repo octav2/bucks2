@@ -6,6 +6,7 @@ import Pricing from '@/components/Pricing';
 import WhoIHelp from '@/components/WhoIHelp';
 import HowItWorks from '@/components/HowItWorks';
 import AreasCovered from '@/components/AreasCovered';
+import Testimonials from '@/components/Testimonials';
 import FAQ from '@/components/FAQ';
 import { Phone, MessageCircle, Clock, MapPin, CheckCircle, ShieldAlert, AlertTriangle, ArrowRight, Heart } from 'lucide-react';
 import { businessDetails, faqs } from '@/lib/data';
@@ -134,6 +135,8 @@ export default function Home() {
             <HowItWorks />
             
             <AreasCovered />
+            
+            <Testimonials />
             
             <FAQ />
 
