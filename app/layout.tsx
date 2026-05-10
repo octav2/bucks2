@@ -52,7 +52,7 @@ export default function RootLayout({
                             "image": "https://www.buckstechhelp.co.uk/logo.png",
                             "@id": "https://www.buckstechhelp.co.uk",
                             "url": "https://www.buckstechhelp.co.uk",
-                            "telephone": "07XXX XXX XXX",
+                            "telephone": "0734 307 9390",
                             "priceRange": "££",
                             "address": {
                                 "@type": "PostalAddress",

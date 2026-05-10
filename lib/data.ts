@@ -2,8 +2,8 @@
 
 export const businessDetails = {
     name: "Bucks Tech Help",
-    phone: "07XXX XXX XXX", // Replace with real number
-    whatsappLink: "https://wa.me/447XXXXXXXXX", // Replace with real number
+    phone: "0734 307 9390",
+    whatsappLink: "https://wa.me/447343079390",
     email: "hello@buckstechhelp.co.uk",
     basePrice: "£65",
     motPrice: "£140"

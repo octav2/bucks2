@@ -51,7 +51,7 @@ export default function TownPage({ params }: { params: { town: string } }) {
                         <strong> Friendly, local home visits tailored to your pace.</strong>
                     </p>
                     <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-                        <a href="tel:07000000000" className="w-full sm:w-auto bg-blue-900 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-blue-800 transition-all shadow-lg flex items-center justify-center gap-2">
+                        <a href="tel:07343079390" className="w-full sm:w-auto bg-blue-900 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-blue-800 transition-all shadow-lg flex items-center justify-center gap-2">
                             <Phone size={20} />
                             Book a Visit in {townName}
                         </a>
@@ -109,9 +109,9 @@ export default function TownPage({ params }: { params: { town: string } }) {
                         Whether it's a printer that won't print or a Wi-Fi dead zone, I'm just a call or message away from helping you solve it.
                     </p>
                     <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-                        <a href="tel:07000000000" className="w-full sm:w-auto bg-blue-900 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-800 transition-all flex items-center justify-center gap-2">
+                        <a href="tel:07343079390" className="w-full sm:w-auto bg-blue-900 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-800 transition-all flex items-center justify-center gap-2">
                             <Phone size={20} />
-                            07XXX XXX XXX
+                            0734 307 9390
                         </a>
                         <a href={businessDetails.whatsappLink} target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto bg-green-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-green-700 transition-all flex items-center justify-center gap-2">
                             <MessageCircle size={20} />

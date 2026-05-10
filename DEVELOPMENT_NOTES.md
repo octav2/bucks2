@@ -51,7 +51,7 @@ At launch, use simple contact options:
 
 Example WhatsApp link format:
 
-https://wa.me/447XXXXXXXXX
+https://wa.me/447343079390
 
 Replace the number with the UK mobile number in international format without spaces.
 

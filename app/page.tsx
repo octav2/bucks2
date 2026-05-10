@@ -71,7 +71,7 @@ export default function Home() {
                     </p>
 
                     <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
-                        <a href="tel:07000000000" className="w-full sm:w-auto bg-gradient-to-br from-blue-600 to-blue-700 text-white px-12 py-6 rounded-2xl font-bold text-xl hover:from-blue-700 hover:to-blue-800 transition-all hover:scale-[1.03] active:scale-95 shadow-2xl shadow-blue-600/30 flex items-center justify-center gap-3">
+                        <a href="tel:07343079390" className="w-full sm:w-auto bg-gradient-to-br from-blue-600 to-blue-700 text-white px-12 py-6 rounded-2xl font-bold text-xl hover:from-blue-700 hover:to-blue-800 transition-all hover:scale-[1.03] active:scale-95 shadow-2xl shadow-blue-600/30 flex items-center justify-center gap-3">
                             <Phone size={24} />
                             Book a Visit
                         </a>
@@ -159,13 +159,13 @@ export default function Home() {
                                     <div className="bg-white/5 backdrop-blur-sm p-8 rounded-[2.5rem] border border-white/10 hover:bg-white/10 transition-colors">
                                         <h3 className="text-2xl font-bold text-white mb-6">Contact Options</h3>
                                         <div className="space-y-6">
-                                            <a href="tel:07000000000" className="flex items-center gap-5 group">
+                                            <a href="tel:07343079390" className="flex items-center gap-5 group">
                                                 <div className="bg-blue-600 p-4 rounded-2xl group-hover:bg-blue-500 transition-colors shadow-lg shadow-blue-600/20">
                                                     <Phone className="text-white" size={24} />
                                                 </div>
                                                 <div>
                                                     <p className="text-blue-300 text-sm font-bold uppercase tracking-wider">Call Directly</p>
-                                                    <p className="text-xl text-white font-black">07000 000 000</p>
+                                                    <p className="text-xl text-white font-black">0734 307 9390</p>
                                                 </div>
                                             </a>
                                             <a href={businessDetails.whatsappLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-5 group">
