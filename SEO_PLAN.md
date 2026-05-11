@@ -38,11 +38,11 @@ Examples:
 
 Suggested SEO title:
 
-Home Tech Help Buckinghamshire | Wi-Fi, Printers, Phones & Smart TVs
+Bucks Tech Help | Home Tech Support Buckinghamshire
 
 Suggested meta description:
 
-Friendly home tech support across Buckinghamshire. Help with Wi-Fi, printers, phones, tablets, laptops, smart TVs, email issues and scam messages. Evening and weekend appointments.
+Patient, jargon-free home technology support across Buckinghamshire. Expert help with Wi-Fi, printers, phones, smart TVs and more. Evening and weekend appointments.
 
 Suggested H1:
 

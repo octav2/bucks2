@@ -4,7 +4,7 @@
 
 # Frustrated With Technology? I Can Help.
 
-Friendly home tech help across Buckinghamshire for Wi-Fi, printers, phones, tablets, laptops, smart TVs, email issues and scam messages.
+Friendly Bucks Tech Help across Buckinghamshire for Wi-Fi, printers, phones, tablets, laptops, smart TVs, email issues and scam messages.
 
 Patient, jargon-free support at home.
 
@@ -240,7 +240,7 @@ If you need further help, I can arrange another visit or provide simple next ste
 
 ## Areas covered
 
-I provide home tech help across Buckinghamshire and nearby areas, including:
+I provide Bucks Tech Help across Buckinghamshire and nearby areas, including:
 
 - High Wycombe
 - Beaconsfield

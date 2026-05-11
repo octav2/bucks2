@@ -23,8 +23,12 @@ export default function Footer() {
                             Patient, local home technology support across Buckinghamshire. I focus on helping you get things working without the stress or jargon.
                         </p>
                         <div className="flex items-center gap-4">
-                            <span className="bg-green-600 text-white p-2 rounded-full"><MessageCircle size={18} /></span>
-                            <span className="bg-blue-600 text-white p-2 rounded-full"><Phone size={18} /></span>
+                            <a href={businessDetails.whatsappLink} target="_blank" rel="noopener noreferrer" className="bg-green-600 text-white p-2.5 rounded-full hover:bg-green-500 transition-all hover:scale-110 shadow-lg shadow-green-600/20" title="WhatsApp Me">
+                                <MessageCircle size={18} />
+                            </a>
+                            <a href={`sms:${businessDetails.phone.replace(/\s+/g, '')}`} className="bg-blue-600 text-white p-2.5 rounded-full hover:bg-blue-500 transition-all hover:scale-110 shadow-lg shadow-blue-600/20" title="Send an SMS">
+                                <Phone size={18} />
+                            </a>
                         </div>
                     </div>
                     

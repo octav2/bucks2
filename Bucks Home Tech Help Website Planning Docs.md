@@ -1,6 +1,6 @@
 # File: README.md
 
-# Bucks Home Tech Help Website
+# Bucks Tech Help Website
 
 This project is for a local home technology support business in Buckinghamshire, UK.
 
@@ -700,7 +700,7 @@ Examples:
 
 Suggested SEO title:
 
-Home Tech Help Buckinghamshire | Wi-Fi, Printers, Phones \& Smart TVs
+Bucks Tech Help | Home Tech Support Buckinghamshire
 
 Suggested meta description:
 
@@ -839,7 +839,7 @@ The business visits customers at home by appointment.
 
 ## Suggested business name
 
-Bucks Home Tech Help
+Bucks Tech Help
 
 Use only the real business name. Do not keyword-stuff the Google Business Profile name.
 
@@ -1012,7 +1012,7 @@ Start with the most valuable and relevant areas:
 
 Each location page should follow this structure:
 
-# Home Tech Help in \[Town]
+# Bucks Tech Help in \[Town]
 
 Intro paragraph:
 Friendly, patient home technology support in \[Town] for Wi-Fi problems, printers, phones, tablets, laptops, smart TVs, email issues and scam messages.
@@ -1076,13 +1076,13 @@ URL:
 /home-tech-help-beaconsfield
 
 SEO title:
-Home Tech Help Beaconsfield | Wi-Fi, Printers, iPads \& Smart TVs
+Bucks Tech Help Beaconsfield | Wi-Fi, Printers, iPads \& Smart TVs
 
 Meta description:
 Friendly home tech support in Beaconsfield. Help with Wi-Fi, printers, phones, tablets, laptops, smart TVs, email issues and scam messages. Home visits available.
 
 H1:
-Home Tech Help in Beaconsfield
+Bucks Tech Help in Beaconsfield
 
 Nearby areas:
 Seer Green, Knotty Green, Holtspur, Forty Green, Penn, Wooburn Green
@@ -1096,13 +1096,13 @@ URL:
 /home-tech-help-amersham
 
 SEO title:
-Home Tech Help Amersham | Wi-Fi, Printers, iPads \& Smart TVs
+Bucks Tech Help Amersham | Wi-Fi, Printers, iPads \& Smart TVs
 
 Meta description:
 Patient home tech support in Amersham. Help with Wi-Fi, printers, phones, tablets, laptops, smart TVs, email problems and online safety.
 
 H1:
-Home Tech Help in Amersham
+Bucks Tech Help in Amersham
 
 Nearby areas:
 Old Amersham, Amersham-on-the-Hill, Chesham Bois, Little Chalfont, Coleshill
@@ -1116,13 +1116,13 @@ URL:
 /home-tech-help-high-wycombe
 
 SEO title:
-Home Tech Help High Wycombe | Wi-Fi, Printers, Laptops \& Smart TVs
+Bucks Tech Help High Wycombe | Wi-Fi, Printers, Laptops \& Smart TVs
 
 Meta description:
 Local home technology support in High Wycombe. Help with Wi-Fi, printers, phones, tablets, laptops, smart TVs, email and scam messages.
 
 H1:
-Home Tech Help in High Wycombe
+Bucks Tech Help in High Wycombe
 
 Nearby areas:
 Hazlemere, Downley, Loudwater, Wycombe Marsh, Hughenden Valley, Penn
@@ -1136,13 +1136,13 @@ URL:
 /home-tech-help-marlow
 
 SEO title:
-Home Tech Help Marlow | Wi-Fi, Printers, iPads \& Smart TVs
+Bucks Tech Help Marlow | Wi-Fi, Printers, iPads \& Smart TVs
 
 Meta description:
 Friendly home tech support in Marlow. Help with Wi-Fi, printers, phones, tablets, smart TVs, email issues and scam messages.
 
 H1:
-Home Tech Help in Marlow
+Bucks Tech Help in Marlow
 
 Nearby areas:
 Marlow Bottom, Little Marlow, Bisham, Cookham, Bourne End
@@ -1156,13 +1156,13 @@ URL:
 /home-tech-help-gerrards-cross
 
 SEO title:
-Home Tech Help Gerrards Cross | Wi-Fi, Printers, Phones \& Smart TVs
+Bucks Tech Help Gerrards Cross | Wi-Fi, Printers, Phones \& Smart TVs
 
 Meta description:
 Patient home technology support in Gerrards Cross. Help with Wi-Fi, printers, iPads, laptops, smart TVs, email and online safety.
 
 H1:
-Home Tech Help in Gerrards Cross
+Bucks Tech Help in Gerrards Cross
 
 Nearby areas:
 Chalfont St Peter, Chalfont St Giles, Fulmer, Stoke Poges, Denham

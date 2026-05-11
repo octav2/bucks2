@@ -199,9 +199,14 @@ export default function Home() {
                                                 <input type="text" id="name" name="name" required className="w-full px-5 py-4 rounded-2xl border border-gray-100 focus:ring-4 focus:ring-blue-600/10 focus:border-blue-600 outline-none transition-all bg-gray-50/50 text-gray-900 font-medium" placeholder="John Smith" />
                                             </div>
                                             <div>
-                                                <label htmlFor="phone" className="block text-sm font-bold text-gray-700 mb-2">Phone</label>
-                                                <input type="tel" id="phone" name="phone" required className="w-full px-5 py-4 rounded-2xl border border-gray-100 focus:ring-4 focus:ring-blue-600/10 focus:border-blue-600 outline-none transition-all bg-gray-50/50 text-gray-900 font-medium" placeholder="07XXX XXXXXX" />
+                                                <label htmlFor="email" className="block text-sm font-bold text-gray-700 mb-2">Email</label>
+                                                <input type="email" id="email" name="email" required className="w-full px-5 py-4 rounded-2xl border border-gray-100 focus:ring-4 focus:ring-blue-600/10 focus:border-blue-600 outline-none transition-all bg-gray-50/50 text-gray-900 font-medium" placeholder="john@example.com" />
                                             </div>
+                                        </div>
+                                        
+                                        <div>
+                                            <label htmlFor="phone" className="block text-sm font-bold text-gray-700 mb-2">Phone <span className="text-gray-400 font-normal">(Optional)</span></label>
+                                            <input type="tel" id="phone" name="phone" className="w-full px-5 py-4 rounded-2xl border border-gray-100 focus:ring-4 focus:ring-blue-600/10 focus:border-blue-600 outline-none transition-all bg-gray-50/50 text-gray-900 font-medium" placeholder="07XXX XXXXXX" />
                                         </div>
                                         
                                         <div>

@@ -16,8 +16,8 @@ export async function generateMetadata({ params }: { params: { town: string } })
         .join(' ');
 
     return {
-        title: `Home Tech Help ${townName} | Wi-Fi, Printers, iPads & Smart TVs`,
-        description: `Friendly home tech support in ${townName}. Help with Wi-Fi, printers, phones, tablets, laptops, smart TVs, email issues and scam messages. Patient support for ${townName} residents.`,
+        title: `Bucks Tech Help ${townName} | Home Technology Support`,
+        description: `Friendly home tech support in ${townName} from Bucks Tech Help. Expert help with Wi-Fi, printers, phones, smart TVs and more. Patient, jargon-free support for ${townName} residents.`,
     };
 }
 
