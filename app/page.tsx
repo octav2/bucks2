@@ -19,28 +19,41 @@ export default function Home() {
                 id="faq-structured-data"
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "FAQPage",
-                        "mainEntity": [
-                            ...faqs.map(faq => ({
-                                "@type": "Question",
-                                "name": faq.question,
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": faq.answer
+                    __html: JSON.stringify([
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "FAQPage",
+                            "mainEntity": [
+                                ...faqs.map(faq => ({
+                                    "@type": "Question",
+                                    "name": faq.question,
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": faq.answer
+                                    }
+                                })),
+                                {
+                                    "@type": "Question",
+                                    "name": "Do I need to know my passwords?",
+                                    "acceptedAnswer": {
+                                        "@type": "Answer",
+                                        "text": "For many jobs, yes. If you need help with email, Apple ID, Google, Netflix, Wi-Fi or Microsoft accounts, you may need access to your passwords. I can guide you through recovery if needed."
+                                    }
                                 }
-                            })),
-                            {
-                                "@type": "Question",
-                                "name": "Do I need to know my passwords?",
-                                "acceptedAnswer": {
-                                    "@type": "Answer",
-                                    "text": "For many jobs, yes. If you need help with email, Apple ID, Google, Netflix, Wi-Fi or Microsoft accounts, you may need access to your passwords. I can guide you through recovery if needed."
-                                }
+                            ]
+                        },
+                        {
+                            "@context": "https://schema.org",
+                            "@type": "WebPage",
+                            "@id": "https://www.buckstechhelp.co.uk/#webpage",
+                            "url": "https://www.buckstechhelp.co.uk",
+                            "name": "Bucks Tech Help | Home Tech Support Buckinghamshire",
+                            "description": "Patient, jargon-free home technology support across Buckinghamshire. Expert help with Wi-Fi, printers, phones, smart TVs and more.",
+                            "about": {
+                                "@id": "https://www.buckstechhelp.co.uk/#localbusiness"
                             }
-                        ]
-                    })
+                        }
+                    ])
                 }}
             />
             <Header />

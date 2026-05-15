@@ -1,4 +1,5 @@
 import React from 'react';
+import Script from 'next/script';
 import { notFound } from 'next/navigation';
 import { serviceAreas, businessDetails } from '@/lib/data';
 import { MapPin, Phone, MessageCircle, Clock, CheckCircle } from 'lucide-react';
@@ -33,6 +34,30 @@ export default function TownPage({ params }: { params: { town: string } }) {
     return (
         <div className="min-h-screen bg-white text-gray-800 font-sans selection:bg-blue-100 selection:text-blue-900">
             <Header />
+            <Script
+                id={`local-schema-${params.town}`}
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "LocalBusiness",
+                        "name": `Bucks Tech Help ${townName}`,
+                        "description": `Patient, jargon-free home technology support in ${townName}. Expert help with Wi-Fi, printers, phones, and smart TVs for ${townName} residents.`,
+                        "url": `https://www.buckstechhelp.co.uk/${params.town}`,
+                        "telephone": "0734 307 9390",
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": townName,
+                            "addressRegion": "Buckinghamshire",
+                            "addressCountry": "GB"
+                        },
+                        "areaServed": {
+                            "@type": "City",
+                            "name": townName
+                        }
+                    })
+                }}
+            />
 
             {/* Localized Hero Section */}
             <section className="relative overflow-hidden bg-blue-50 py-16 md:py-24 px-4 border-b border-blue-100">

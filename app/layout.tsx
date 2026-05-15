@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Script from 'next/script';
+import { serviceAreas } from '@/lib/data';
 import './globals.css';
 
 // Use a clean, readable font for older demographics
@@ -45,78 +46,117 @@ export default function RootLayout({
                     id="structured-data"
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{
-                        __html: JSON.stringify({
-                            "@context": "https://schema.org",
-                            "@type": "LocalBusiness",
-                            "name": "Bucks Tech Help",
-                            "image": "https://www.buckstechhelp.co.uk/logo.png",
-                            "@id": "https://www.buckstechhelp.co.uk",
-                            "url": "https://www.buckstechhelp.co.uk",
-                            "telephone": "0734 307 9390",
-                            "priceRange": "££",
-                            "address": {
-                                "@type": "PostalAddress",
-                                "addressLocality": "High Wycombe",
-                                "addressRegion": "Buckinghamshire",
-                                "addressCountry": "GB"
-                            },
-                            "areaServed": [
-                                {
-                                    "@type": "AdministrativeArea",
-                                    "name": "Buckinghamshire"
-                                }
-                            ],
-                            "description": "Patient, jargon-free home technology support across Buckinghamshire. Expert help for seniors and home users with Wi-Fi, printers, phones, and smart TVs.",
-                            "openingHoursSpecification": [
-                                {
-                                    "@type": "OpeningHoursSpecification",
-                                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                                    "opens": "09:00",
-                                    "closes": "21:00"
-                                }
-                            ],
-                            "hasOfferCatalog": {
-                                "@type": "OfferCatalog",
-                                "name": "Technology Support Services",
-                                "itemListElement": [
+                        __html: JSON.stringify([
+                            {
+                                "@context": "https://schema.org",
+                                "@type": "LocalBusiness",
+                                "name": "Bucks Tech Help",
+                                "image": "https://www.buckstechhelp.co.uk/logo.png",
+                                "@id": "https://www.buckstechhelp.co.uk/#localbusiness",
+                                "url": "https://www.buckstechhelp.co.uk",
+                                "telephone": "0734 307 9390",
+                                "priceRange": "££",
+                                "address": {
+                                    "@type": "PostalAddress",
+                                    "addressLocality": "High Wycombe",
+                                    "addressRegion": "Buckinghamshire",
+                                    "addressCountry": "GB"
+                                },
+                                "geo": {
+                                    "@type": "GeoCoordinates",
+                                    "latitude": 51.6287,
+                                    "longitude": -0.7482
+                                },
+                                "areaServed": [
                                     {
-                                        "@type": "Offer",
-                                        "itemOffered": {
-                                            "@type": "Service",
-                                            "name": "Wi-Fi & Connectivity Troubleshooting"
-                                        }
+                                        "@type": "AdministrativeArea",
+                                        "name": "Buckinghamshire"
                                     },
+                                    ...serviceAreas.map(town => ({
+                                        "@type": "City",
+                                        "name": town
+                                    }))
+                                ],
+                                "description": "Patient, jargon-free home technology support across Buckinghamshire. Expert help for seniors and home users with Wi-Fi, printers, phones, and smart TVs.",
+                                "openingHoursSpecification": [
                                     {
-                                        "@type": "Offer",
-                                        "itemOffered": {
-                                            "@type": "Service",
-                                            "name": "Printer Setup & Support"
-                                        }
-                                    },
-                                    {
-                                        "@type": "Offer",
-                                        "itemOffered": {
-                                            "@type": "Service",
-                                            "name": "Smartphone & Tablet Help"
-                                        }
-                                    },
-                                    {
-                                        "@type": "Offer",
-                                        "itemOffered": {
-                                            "@type": "Service",
-                                            "name": "Smart TV & Streaming Setup"
-                                        }
-                                    },
-                                    {
-                                        "@type": "Offer",
-                                        "itemOffered": {
-                                            "@type": "Service",
-                                            "name": "Tech MOT (Security & Optimization)"
-                                        }
+                                        "@type": "OpeningHoursSpecification",
+                                        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                                        "opens": "09:00",
+                                        "closes": "21:00"
                                     }
-                                ]
+                                ],
+                                "hasOfferCatalog": {
+                                    "@type": "OfferCatalog",
+                                    "name": "Technology Support Services",
+                                    "itemListElement": [
+                                        {
+                                            "@type": "Offer",
+                                            "itemOffered": {
+                                                "@type": "Service",
+                                                "name": "Wi-Fi & Connectivity Troubleshooting",
+                                                "description": "Help with slow internet, dead zones, and connecting devices to your home network."
+                                            }
+                                        },
+                                        {
+                                            "@type": "Offer",
+                                            "itemOffered": {
+                                                "@type": "Service",
+                                                "name": "Printer Setup & Support",
+                                                "description": "Installation, wireless configuration, and troubleshooting for home printers."
+                                            }
+                                        },
+                                        {
+                                            "@type": "Offer",
+                                            "itemOffered": {
+                                                "@type": "Service",
+                                                "name": "Smartphone & Tablet Help",
+                                                "description": "Patient guidance on using iPhones, iPads, and Android devices."
+                                            }
+                                        },
+                                        {
+                                            "@type": "Offer",
+                                            "itemOffered": {
+                                                "@type": "Service",
+                                                "name": "Smart TV & Streaming Setup",
+                                                "description": "Setting up Netflix, iPlayer, and other streaming services on your TV."
+                                            }
+                                        },
+                                        {
+                                            "@type": "Offer",
+                                            "itemOffered": {
+                                                "@type": "Service",
+                                                "name": "Tech MOT (Security & Optimization)",
+                                                "description": "Full device checkup, security updates, and performance optimization."
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "@context": "https://schema.org",
+                                "@type": "Organization",
+                                "name": "Bucks Tech Help",
+                                "url": "https://www.buckstechhelp.co.uk",
+                                "logo": "https://www.buckstechhelp.co.uk/logo.png",
+                                "contactPoint": {
+                                    "@type": "ContactPoint",
+                                    "telephone": "+44-7343-079390",
+                                    "contactType": "customer support",
+                                    "areaServed": "GB",
+                                    "availableLanguage": "en"
+                                }
+                            },
+                            {
+                                "@context": "https://schema.org",
+                                "@type": "WebSite",
+                                "name": "Bucks Tech Help",
+                                "url": "https://www.buckstechhelp.co.uk",
+                                "publisher": {
+                                    "@id": "https://www.buckstechhelp.co.uk/#localbusiness"
+                                }
                             }
-                        })
+                        ])
                     }}
                 />
             </head>
