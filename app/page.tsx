@@ -8,7 +8,7 @@ import HowItWorks from '@/components/HowItWorks';
 import AreasCovered from '@/components/AreasCovered';
 import Testimonials from '@/components/Testimonials';
 import FAQ from '@/components/FAQ';
-import { Phone, MessageCircle, Clock, MapPin, CheckCircle, ShieldAlert, AlertTriangle, ArrowRight, Heart } from 'lucide-react';
+import { Phone, MessageCircle, Clock, MapPin, CheckCircle, ShieldAlert, AlertTriangle, ArrowRight, Heart, Laptop, Globe } from 'lucide-react';
 import { businessDetails, faqs } from '@/lib/data';
 import Script from 'next/script';
 
@@ -70,11 +70,11 @@ export default function Home() {
                 <div className="max-w-5xl mx-auto text-center relative z-10">
                     <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-900 to-blue-800 text-blue-50 px-5 py-2 rounded-full text-sm font-bold mb-10 shadow-lg shadow-blue-900/10 border border-blue-700/50">
                         <MapPin size={16} className="text-green-400" />
-                        Buckinghamshire's Trusted Tech Expert
+                        Buckinghamshire's Trusted Computer Technician
                     </div>
                     
                     <h1 className="text-5xl md:text-8xl font-black text-blue-950 mb-8 leading-[1.05] tracking-tight">
-                        Technology Support <br className="hidden md:block" />
+                        Home IT Support <br className="hidden md:block" />
                         <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-blue-500 to-green-500">Made Simple.</span>
                     </h1>
                     
@@ -138,6 +138,22 @@ export default function Home() {
                             I focus on setup, troubleshooting and support for the devices you already have. 
                             <strong> I do not carry out electrical work, hardwiring, wall mounting, drilling, or CCTV cabling.</strong> 
                             If a job requires a specialist installer or electrician, I will always let you know honestly.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            {/* Remote Support Note */}
+            <section className="bg-blue-50 py-16 px-4 border-t border-blue-100">
+                <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 bg-white p-8 md:p-12 rounded-[2rem] shadow-sm border border-blue-100 relative overflow-hidden group hover:shadow-md transition-all duration-500">
+                    <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/5 rounded-full blur-[40px] pointer-events-none group-hover:scale-150 transition-transform duration-700"></div>
+                    <div className="bg-blue-100 p-6 rounded-3xl text-blue-600 flex-shrink-0">
+                        <Globe size={48} className="animate-pulse" />
+                    </div>
+                    <div>
+                        <h3 className="text-2xl font-bold text-blue-950 mb-4 tracking-tight">Remote IT Support Available</h3>
+                        <p className="text-gray-600 text-lg leading-relaxed font-medium">
+                            Don't live in the immediate area? We also offer remote IT support! We can safely connect to your computer over the internet to fix email issues, speed up your laptop, and help with software updates without needing to visit your home.
                         </p>
                     </div>
                 </div>

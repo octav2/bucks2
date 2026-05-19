@@ -19,6 +19,7 @@ export default function Header() {
                 <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-600">
                     <Link href="/#services" className="hover:text-blue-900 text-[11px] tracking-widest uppercase">Services</Link>
                     <Link href="/#pricing" className="hover:text-blue-900 text-[11px] tracking-widest uppercase">Pricing</Link>
+                    <Link href="/guides" className="hover:text-blue-900 text-[11px] tracking-widest uppercase">Tech Guides</Link>
                     <Link href="/#contact" className="hover:text-blue-900 text-[11px] tracking-widest uppercase">Contact</Link>
                 </nav>
                 <div className="flex items-center gap-3">

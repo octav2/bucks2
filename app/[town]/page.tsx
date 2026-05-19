@@ -68,12 +68,10 @@ export default function TownPage({ params }: { params: { town: string } }) {
                         </span>
                     </div>
                     <h1 className="text-4xl md:text-6xl font-bold text-blue-950 mb-8 leading-tight tracking-tight">
-                        Need Technology Help <br className="hidden md:block" />
-                        in <span className="text-blue-600">{townName}?</span>
+                        IT Support & Computer Technician in <span className="text-blue-600">{townName}</span>
                     </h1>
                     <p className="text-lg md:text-xl text-gray-600 mb-10 leading-relaxed max-w-2xl mx-auto">
-                        If you live in {townName} or nearby and are struggling with your Wi-Fi, printer, phone, laptop or smart TV, I can help. 
-                        <strong> Friendly, local home visits tailored to your pace.</strong>
+                        If you are searching for computer help near me in {townName}, Bucks Tech Help is here to provide patient, jargon-free support. We offer local computer services, software troubleshooting, and home tech setup right to your door.
                     </p>
                     <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
                         <a href="tel:07343079390" className="w-full sm:w-auto bg-blue-900 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-blue-800 transition-all shadow-lg flex items-center justify-center gap-2">

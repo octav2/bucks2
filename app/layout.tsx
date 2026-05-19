@@ -9,12 +9,12 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
     metadataBase: new URL('https://www.buckstechhelp.co.uk'),
-    title: 'Bucks Tech Help | Home Tech Support Buckinghamshire',
-    description: 'Patient, jargon-free home technology support across Buckinghamshire. Expert help with Wi-Fi, printers, phones, smart TVs and more.',
+    title: 'Bucks Tech Help | Friendly Computer Technician & IT Support Near You',
+    description: 'Patient, jargon-free home tech support in Buckinghamshire. We offer IT support near you, computer help, Wi-Fi setup, and printer troubleshooting.',
     keywords: ['Bucks Tech Help', 'Home tech help Buckinghamshire', 'Wi-Fi help', 'Printer setup', 'Tech help for seniors', 'IT support at home'],
     openGraph: {
         title: 'Bucks Tech Help',
-        description: 'Patient, jargon-free home technology support across Buckinghamshire.',
+        description: 'Patient, jargon-free home tech support in Buckinghamshire.',
         locale: 'en_GB',
         type: 'website',
     },

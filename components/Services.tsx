@@ -1,5 +1,6 @@
 import React from 'react';
 import { Wifi, Printer, Smartphone, Laptop, Tv, ShieldAlert, ChevronRight } from 'lucide-react';
+import Link from 'next/link';
 
 export default function Services() {
     const servicesList = [
@@ -7,44 +8,50 @@ export default function Services() {
             icon: Wifi, 
             title: "Wi-Fi Help", 
             desc: "Slow internet? Weak signal upstairs? I can help diagnose problems, improve coverage, and set up mesh Wi-Fi systems.",
-            features: ["Router Setup", "Mesh Systems", "Dead Zones"]
+            features: ["Router Setup", "Mesh Systems", "Dead Zones"],
+            slug: "wifi-internet-setup"
         },
         { 
             icon: Printer, 
             title: "Printer Help", 
-            desc: "I can help with wireless printer setup, 'printer offline' problems, and printing from phones or tablets.",
-            features: ["Wireless Setup", "Scanner Setup", "Fix Offline"]
+            desc: "I can help with wireless printer setup, 'printer offline' problems, and printing from phones or tablets. I provide Canon printer help, support for Brother printers, and HP setup.",
+            features: ["Wireless Setup", "Scanner Setup", "Fix Offline"],
+            slug: "home-printer-setup-help"
         },
         { 
             icon: Smartphone, 
             title: "Phone & Tablet", 
             desc: "Bought a new device? I can help set up iPhones, iPads, transfer contacts, and show you how to use everything.",
-            features: ["New Device Setup", "Data Transfer", "App Help"]
+            features: ["New Device Setup", "Data Transfer", "App Help"],
+            slug: "phone-tablet-setup"
         },
         { 
             icon: Laptop, 
             title: "Laptop & Computer", 
-            desc: "Help with Windows, MacBooks, email problems, updates, slow devices, and general troubleshooting.",
-            features: ["Speed Up Laptop", "Email Issues", "Updates"]
+            desc: "Friendly computer services and IT support near you. Help with Windows, MacBooks, speeding up slow laptops, email problems, updates, and general troubleshooting.",
+            features: ["Speed Up Laptop", "Email Issues", "Updates"],
+            slug: "computer-laptop-support"
         },
         { 
             icon: Tv, 
             title: "Smart TV Help", 
             desc: "I can connect your TV to Wi-Fi, install apps like Netflix or iPlayer, and show you how to use your remote.",
-            features: ["App Installation", "Wi-Fi Connection", "Fire Stick"]
+            features: ["App Installation", "Wi-Fi Connection", "Fire Stick"],
+            slug: "smart-tv-setup"
         },
         { 
             icon: ShieldAlert, 
             title: "Scam & Safety", 
             desc: "Worried about suspicious emails? I can check your devices, improve passwords, and give advice on staying safe.",
-            features: ["Scam Checks", "Password Security", "Safety Advice"]
+            features: ["Scam Checks", "Password Security", "Safety Advice"],
+            slug: "computer-security-scam-checks"
         }
     ];
 
     return (
         <section id="services" className="py-24 px-4 bg-white relative overflow-hidden">
             {/* Background Accent */}
-            <div className="absolute top-1/2 left-0 -translate-y-1/2 w-64 h-64 bg-blue-500/5 rounded-full blur-[100px] pointer-events-none"></div>
+            <div className="absolute top-1/2 left-0 -translate-y-1/2 w-64 h-64 bg-blue-50/5 rounded-full blur-[100px] pointer-events-none"></div>
 
             <div className="max-w-6xl mx-auto relative z-10">
                 <div className="text-center mb-20">
@@ -69,15 +76,24 @@ export default function Services() {
                                     <div className="bg-gradient-to-br from-blue-50 to-blue-100/50 w-20 h-20 rounded-[1.5rem] flex items-center justify-center text-blue-600 mb-8 group-hover:from-blue-600 group-hover:to-blue-700 group-hover:text-white transition-all duration-500 shadow-inner">
                                         <Icon size={36} />
                                     </div>
-                                    <h3 className="text-2xl font-black text-blue-950 mb-4 tracking-tight group-hover:text-blue-600 transition-colors">{service.title}</h3>
+                                    <h3 className="text-2xl font-black text-blue-950 mb-4 tracking-tight group-hover:text-blue-600 transition-colors">
+                                        <Link href={`/services/${service.slug}`} className="hover:underline">
+                                            {service.title}
+                                        </Link>
+                                    </h3>
                                     <p className="text-gray-600 mb-8 leading-relaxed font-medium flex-grow">{service.desc}</p>
                                     
-                                    <div className="flex flex-wrap gap-2 pt-6 border-t border-gray-100">
-                                        {service.features.map((feat, i) => (
-                                            <span key={i} className="text-[10px] font-black uppercase tracking-[0.1em] text-blue-900/40 bg-blue-50/50 px-3 py-1.5 rounded-lg group-hover:bg-blue-600/5 group-hover:text-blue-600 transition-colors">
-                                                {feat}
-                                            </span>
-                                        ))}
+                                    <div className="mt-6 pt-6 border-t border-gray-100 flex items-center justify-between">
+                                        <div className="flex flex-wrap gap-2">
+                                            {service.features.map((feat, i) => (
+                                                <span key={i} className="text-[10px] font-black uppercase tracking-[0.1em] text-blue-900/40 bg-blue-50/50 px-3 py-1.5 rounded-lg group-hover:bg-blue-600/5 group-hover:text-blue-600 transition-colors">
+                                                    {feat}
+                                                </span>
+                                            ))}
+                                        </div>
+                                        <Link href={`/services/${service.slug}`} className="text-blue-600 hover:text-blue-800 font-bold text-sm flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                                            Learn More <ChevronRight size={16} />
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

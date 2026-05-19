@@ -8,7 +8,7 @@ export default function Footer() {
     return (
         <footer className="bg-blue-950 text-blue-100 py-20 px-4">
             <div className="max-w-6xl mx-auto">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-16 mb-16">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-16">
                     <div className="flex flex-col gap-6">
                         <Link href="/" className="flex items-center group mb-4">
                             <Image 
@@ -37,8 +37,21 @@ export default function Footer() {
                         <ul className="space-y-4 font-medium">
                             <li><Link href="/#services" className="hover:text-white transition-colors">Services</Link></li>
                             <li><Link href="/#pricing" className="hover:text-white transition-colors">Pricing</Link></li>
+                            <li><Link href="/guides" className="hover:text-white transition-colors">Tech Guides</Link></li>
                             <li><Link href="/#faq" className="hover:text-white transition-colors">FAQ</Link></li>
                             <li><Link href="/#contact" className="hover:text-white transition-colors">Contact</Link></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 className="text-white font-bold text-lg mb-8 tracking-tight">Our Services</h4>
+                        <ul className="space-y-4 font-medium text-sm">
+                            <li><Link href="/services/computer-laptop-support" className="hover:text-white transition-colors">Laptop & Computer Help</Link></li>
+                            <li><Link href="/services/home-printer-setup-help" className="hover:text-white transition-colors">Printer Setup & Support</Link></li>
+                            <li><Link href="/services/wifi-internet-setup" className="hover:text-white transition-colors">Wi-Fi & Network Help</Link></li>
+                            <li><Link href="/services/phone-tablet-setup" className="hover:text-white transition-colors">Phone & Tablet Setup</Link></li>
+                            <li><Link href="/services/smart-tv-setup" className="hover:text-white transition-colors">Smart TV & App Setup</Link></li>
+                            <li><Link href="/services/computer-security-scam-checks" className="hover:text-white transition-colors">Scam & Security Checks</Link></li>
                         </ul>
                     </div>
 

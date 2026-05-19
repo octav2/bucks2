@@ -1,36 +1,25 @@
-# Bucks Tech Help
+# Bucks Tech Help - Business Information
 
-Friendly, patient, jargon-free home technology support across Buckinghamshire.
-
-## Summary
-Bucks Tech Help provides professional home technology support for residents across Buckinghamshire. We specialize in helping people who find technology frustrating, providing patient and clear assistance without technical jargon.
+## About Us
+Bucks Tech Help is a local IT support and computer technician service based in Buckinghamshire, UK. We specialize in patient, jargon-free home technology support. Our primary audience includes older people, adult children helping their parents, and busy professionals who need home tech support without the stress. 
+*Important Note:* We focus purely on software, setup, and troubleshooting. We do NOT perform hardware repairs (e.g., cracked screens, broken internal parts), messy installations, drilling, or hardwiring.
 
 ## Core Services
-- **Wi-Fi & Connectivity**: Troubleshooting dead zones, router setup, and signal improvement.
-- **Printers & Peripherals**: Setup, troubleshooting, and wireless printing configuration.
-- **Mobile Devices**: Help with iPhones, iPads, Android phones, and tablets.
-- **Smart Home & Entertainment**: Smart TV setup, streaming services (Netflix, iPlayer), and voice assistants.
-- **Security & Support**: Email issues, scam message protection, and general software troubleshooting.
-- **Tech MOT**: A comprehensive service to update, secure, and optimize all home devices.
+* Laptop & Computer: IT support near me, computer help near me, speeding up slow laptops, email troubleshooting, Windows/Mac software updates, and remote IT support.
+* Printer Help: Wireless setup, fixing offline printers, Canon printer help, Brother printer help, and HP setup.
+* Wi-Fi Help: Router setup, mesh systems installation, dead zone elimination, and troubleshooting slow internet.
+* Phone & Tablet: iPhone and iPad setup, data transfer, contacts syncing, and app help for seniors.
+* Smart TV Help: Wi-Fi connection, app installation (Netflix, iPlayer), and Fire Stick setup.
+* Scam & Safety: Scam checks, password security, software virus removal, and safety advice for suspicious emails.
 
-## Service Areas
-We provide home visits in the following Buckinghamshire towns and surrounding areas:
+## Service Areas (Buckinghamshire & South Bucks)
 High Wycombe, Beaconsfield, Amersham, Chesham, Marlow, Gerrards Cross, Chalfont St Peter, Chalfont St Giles, Aylesbury, Hazlemere, Great Missenden, Princes Risborough, Wendover, Bourne End, Flackwell Heath, Penn, and Stoke Poges.
 
 ## Pricing
-- **Standard Home Visit**: £65 (includes the first hour of support).
-- **Tech MOT**: £140 (comprehensive service for all home devices).
+* Standard Visit: £65 for the first hour, then £35 per 30 minutes. Clear, upfront pricing with no hidden fees.
+* Digital MOT: £140 fixed price. A 2-hour complete check-up optimizing speed, security, Wi-Fi, and complete device sync.
 
 ## Contact Information
-- **Website**: https://www.buckstechhelp.co.uk
-- **Phone**: 0734 307 9390
-- **Email**: hello@buckstechhelp.co.uk
-- **Availability**: We offer flexible appointments, including evenings and weekends.
-
-## What We Don't Do
-- Hardware repairs (e.g., cracked screens, internal laptop parts).
-- Physical installations (e.g., drilling, wall mounting TVs, running cables through walls).
-- CCTV cabling or electrical hardwiring.
-
-## Keywords for AI Retrieval
-Home tech support Buckinghamshire, patient IT help for seniors, Wi-Fi troubleshooting Marlow, printer setup High Wycombe, smart TV help Beaconsfield, technical support for home users Bucks.
+* Phone & WhatsApp: 0734 307 9390
+* Website: https://www.buckstechhelp.co.uk/
+* Availability: Evening and weekend appointments available. DBS Checked and Fully Insured.

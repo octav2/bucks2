@@ -10,7 +10,7 @@ export default function AreasCovered() {
                     <div className="flex-1">
                         <h2 className="text-3xl font-bold text-blue-900 mb-6">Areas Covered</h2>
                         <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                            Bucks Tech Help provides home technology support across Buckinghamshire and nearby areas. If you are nearby but not listed, just ask.
+                            Looking for IT support near me? Bucks Tech Help provides home technology support and computer assistance across Buckinghamshire and nearby areas. If you are nearby but not listed, just ask.
                         </p>
                         <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
                             {serviceAreas.map((area, index) => (
