@@ -28,7 +28,7 @@ export default function FAQ() {
                             Do I need to know my passwords?
                         </h3>
                         <p className="text-gray-600 leading-relaxed pl-9">
-                            For many jobs, yes. If you need help with email, Apple ID, Google, Netflix, Wi-Fi or Microsoft accounts, you may need access to your passwords. I can guide you through recovery if needed.
+                            For many jobs, yes. If you need help with email, Apple ID, Google, Netflix, Wi-Fi or Microsoft accounts, you may need access to your passwords. We can guide you through recovery if needed.
                         </p>
                     </div>
                 </div>

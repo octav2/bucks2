@@ -36,7 +36,7 @@ export default function Header() {
                         className="flex items-center gap-2 bg-green-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-green-700 transition-colors"
                     >
                         <MessageCircle size={18} />
-                        WhatsApp Me
+                        WhatsApp Us
                     </a>
                 </div>
             </div>

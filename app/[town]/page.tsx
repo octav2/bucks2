@@ -80,7 +80,7 @@ export default function TownPage({ params }: { params: { town: string } }) {
                         </a>
                         <a href={businessDetails.whatsappLink} target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto bg-white text-gray-900 border-2 border-gray-100 px-8 py-4 rounded-2xl font-bold text-lg hover:bg-gray-50 transition-all shadow-sm flex items-center justify-center gap-2">
                             <MessageCircle className="text-green-600" size={20} />
-                            WhatsApp Me
+                            WhatsApp Us
                         </a>
                     </div>
                     <div className="mt-8 flex items-center justify-center gap-6 text-sm text-gray-500 font-medium">
@@ -100,7 +100,7 @@ export default function TownPage({ params }: { params: { town: string } }) {
                 <div className="max-w-4xl mx-auto text-center relative z-10">
                     <h2 className="text-3xl font-bold mb-6">Trusted Local Support for {townName} Residents</h2>
                     <p className="text-xl text-blue-100 mb-8 leading-relaxed">
-                        I specialize in helping older residents and busy families in {townName} get the most out of their home technology without the stress.
+                        We specialize in helping older residents and busy families in {townName} get the most out of their home technology without the stress.
                     </p>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                         <div className="bg-blue-800/50 p-6 rounded-2xl backdrop-blur-sm border border-blue-700">
@@ -111,7 +111,7 @@ export default function TownPage({ params }: { params: { town: string } }) {
                         <div className="bg-blue-800/50 p-6 rounded-2xl backdrop-blur-sm border border-blue-700">
                             <CheckCircle className="text-green-400 mx-auto mb-3" size={32} />
                             <h3 className="font-bold">Home Visits</h3>
-                            <p className="text-sm text-blue-200">I come to you in {townName}.</p>
+                            <p className="text-sm text-blue-200">We come to you in {townName}.</p>
                         </div>
                         <div className="bg-blue-800/50 p-6 rounded-2xl backdrop-blur-sm border border-blue-700">
                             <CheckCircle className="text-green-400 mx-auto mb-3" size={32} />
@@ -129,7 +129,7 @@ export default function TownPage({ params }: { params: { town: string } }) {
                 <div className="max-w-4xl mx-auto bg-blue-50 rounded-[2.5rem] p-10 md:p-16 text-center border border-blue-100 shadow-sm">
                     <h2 className="text-3xl font-bold text-blue-950 mb-6">Get Tech Help in {townName} Today</h2>
                     <p className="text-lg text-gray-600 mb-10 max-w-2xl mx-auto">
-                        Whether it's a printer that won't print or a Wi-Fi dead zone, I'm just a call or message away from helping you solve it.
+                        Whether it's a printer that won't print or a Wi-Fi dead zone, we're just a call or message away from helping you solve it.
                     </p>
                     <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
                         <a href="tel:07343079390" className="w-full sm:w-auto bg-blue-900 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-800 transition-all flex items-center justify-center gap-2">
@@ -138,7 +138,7 @@ export default function TownPage({ params }: { params: { town: string } }) {
                         </a>
                         <a href={businessDetails.whatsappLink} target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto bg-green-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-green-700 transition-all flex items-center justify-center gap-2">
                             <MessageCircle size={20} />
-                            WhatsApp Me
+                            WhatsApp Us
                         </a>
                     </div>
                 </div>

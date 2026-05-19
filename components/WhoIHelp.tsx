@@ -13,9 +13,9 @@ export default function WhoIHelp() {
         <section className="py-24 px-4 bg-white relative overflow-hidden">
             <div className="max-w-6xl mx-auto relative z-10">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl md:text-6xl font-black text-blue-950 mb-6 tracking-tight">Who I Help</h2>
+                    <h2 className="text-4xl md:text-6xl font-black text-blue-950 mb-6 tracking-tight">Who We Help</h2>
                     <p className="text-xl text-gray-600 max-w-2xl mx-auto font-medium">
-                        You don't need to be an expert. That's what I'm here for.
+                        You don't need to be an expert. That's what we're here for.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">

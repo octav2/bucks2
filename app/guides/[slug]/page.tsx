@@ -78,7 +78,7 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
                                 <Phone size={18} /> Call {businessDetails.phone}
                             </a>
                             <a href={businessDetails.whatsappLink} target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto bg-green-600 text-white px-6 py-3 rounded-xl font-bold hover:bg-green-700 transition-all shadow-md flex items-center justify-center gap-2">
-                                <MessageCircle size={18} /> WhatsApp Me
+                                <MessageCircle size={18} /> WhatsApp Us
                             </a>
                         </div>
                     </div>

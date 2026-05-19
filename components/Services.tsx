@@ -7,21 +7,21 @@ export default function Services() {
         { 
             icon: Wifi, 
             title: "Wi-Fi Help", 
-            desc: "Slow internet? Weak signal upstairs? I can help diagnose problems, improve coverage, and set up mesh Wi-Fi systems.",
+            desc: "Slow internet? Weak signal upstairs? We can help diagnose problems, improve coverage, and set up mesh Wi-Fi systems.",
             features: ["Router Setup", "Mesh Systems", "Dead Zones"],
             slug: "wifi-internet-setup"
         },
         { 
             icon: Printer, 
             title: "Printer Help", 
-            desc: "I can help with wireless printer setup, 'printer offline' problems, and printing from phones or tablets. I provide Canon printer help, support for Brother printers, and HP setup.",
+            desc: "We can help with wireless printer setup, 'printer offline' problems, and printing from phones or tablets. We provide Canon printer help, support for Brother printers, and HP setup.",
             features: ["Wireless Setup", "Scanner Setup", "Fix Offline"],
             slug: "home-printer-setup-help"
         },
         { 
             icon: Smartphone, 
             title: "Phone & Tablet", 
-            desc: "Bought a new device? I can help set up iPhones, iPads, transfer contacts, and show you how to use everything.",
+            desc: "Bought a new device? We can help set up iPhones, iPads, transfer contacts, and show you how to use everything.",
             features: ["New Device Setup", "Data Transfer", "App Help"],
             slug: "phone-tablet-setup"
         },
@@ -35,14 +35,14 @@ export default function Services() {
         { 
             icon: Tv, 
             title: "Smart TV Help", 
-            desc: "I can connect your TV to Wi-Fi, install apps like Netflix or iPlayer, and show you how to use your remote.",
+            desc: "We can connect your TV to Wi-Fi, install apps like Netflix or iPlayer, and show you how to use your remote.",
             features: ["App Installation", "Wi-Fi Connection", "Fire Stick"],
             slug: "smart-tv-setup"
         },
         { 
             icon: ShieldAlert, 
             title: "Scam & Safety", 
-            desc: "Worried about suspicious emails? I can check your devices, improve passwords, and give advice on staying safe.",
+            desc: "Worried about suspicious emails? We can check your devices, improve passwords, and give advice on staying safe.",
             features: ["Scam Checks", "Password Security", "Safety Advice"],
             slug: "computer-security-scam-checks"
         }
@@ -60,7 +60,7 @@ export default function Services() {
                         <span className="text-blue-600">Your Home Tech.</span>
                     </h2>
                     <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed font-medium">
-                        Whether it's a quick fix, a complex setup, or just needing someone to explain it simply, I'm here to help.
+                        Whether it's a quick fix, a complex setup, or just needing someone to explain it simply, we're here to help.
                     </p>
                 </div>
                 

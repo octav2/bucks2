@@ -37,7 +37,7 @@ export default function Home() {
                                     "name": "Do I need to know my passwords?",
                                     "acceptedAnswer": {
                                         "@type": "Answer",
-                                        "text": "For many jobs, yes. If you need help with email, Apple ID, Google, Netflix, Wi-Fi or Microsoft accounts, you may need access to your passwords. I can guide you through recovery if needed."
+                                        "text": "For many jobs, yes. If you need help with email, Apple ID, Google, Netflix, Wi-Fi or Microsoft accounts, you may need access to your passwords. We can guide you through recovery if needed."
                                     }
                                 }
                             ]
@@ -90,7 +90,7 @@ export default function Home() {
                         </a>
                         <a href={businessDetails.whatsappLink} target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto bg-white text-gray-900 border-2 border-gray-100 px-12 py-6 rounded-2xl font-bold text-xl hover:bg-gray-50 transition-all hover:scale-[1.03] active:scale-95 shadow-xl flex items-center justify-center gap-3">
                             <MessageCircle className="text-green-600" size={24} />
-                            WhatsApp Me
+                            WhatsApp Us
                         </a>
                     </div>
                     
@@ -135,9 +135,9 @@ export default function Home() {
                     <div>
                         <h3 className="text-2xl font-bold text-gray-900 mb-4 tracking-tight">Simple, Practical Tech Support — No Messy Installations</h3>
                         <p className="text-gray-600 text-lg leading-relaxed">
-                            I focus on setup, troubleshooting and support for the devices you already have. 
-                            <strong> I do not carry out electrical work, hardwiring, wall mounting, drilling, or CCTV cabling.</strong> 
-                            If a job requires a specialist installer or electrician, I will always let you know honestly.
+                            We focus on setup, troubleshooting and support for the devices you already have. 
+                            <strong> We do not carry out electrical work, hardwiring, wall mounting, drilling, or CCTV cabling.</strong> 
+                            If a job requires a specialist installer or electrician, we will always let you know honestly.
                         </p>
                     </div>
                 </div>
@@ -202,7 +202,7 @@ export default function Home() {
                                                     <MessageCircle className="text-white" size={24} />
                                                 </div>
                                                 <div>
-                                                    <p className="text-green-300 text-sm font-bold uppercase tracking-wider">WhatsApp Me</p>
+                                                    <p className="text-green-300 text-sm font-bold uppercase tracking-wider">WhatsApp Us</p>
                                                     <p className="text-xl text-white font-black">Quick Response</p>
                                                 </div>
                                             </a>
@@ -211,7 +211,7 @@ export default function Home() {
                                     
                                     <div className="bg-gradient-to-br from-blue-600/20 to-green-600/10 p-8 rounded-[2.5rem] border border-white/5">
                                         <p className="text-blue-100 font-medium leading-relaxed italic">
-                                            "I aim to respond to all enquiries within 2 hours. Looking forward to helping you get your tech sorted!"
+                                            "We aim to respond to all enquiries within 2 hours. Looking forward to helping you get your tech sorted!"
                                         </p>
                                     </div>
                                 </div>
@@ -239,8 +239,8 @@ export default function Home() {
                                         </div>
                                         
                                         <div>
-                                            <label htmlFor="message" className="block text-sm font-bold text-gray-700 mb-2">How can I help?</label>
-                                            <textarea id="message" name="message" rows={4} required className="w-full px-5 py-4 rounded-2xl border border-gray-100 focus:ring-4 focus:ring-blue-600/10 focus:border-blue-600 outline-none transition-all resize-none bg-gray-50/50 text-gray-900 font-medium" placeholder="Tell me about your tech issue..."></textarea>
+                                            <label htmlFor="message" className="block text-sm font-bold text-gray-700 mb-2">How can we help?</label>
+                                            <textarea id="message" name="message" rows={4} required className="w-full px-5 py-4 rounded-2xl border border-gray-100 focus:ring-4 focus:ring-blue-600/10 focus:border-blue-600 outline-none transition-all resize-none bg-gray-50/50 text-gray-900 font-medium" placeholder="Tell us about your tech issue..."></textarea>
                                         </div>
 
                                         <button type="submit" className="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white font-black py-5 rounded-2xl hover:from-blue-700 hover:to-blue-800 transition-all active:scale-[0.98] shadow-xl shadow-blue-600/20 flex justify-center items-center gap-3 text-xl">

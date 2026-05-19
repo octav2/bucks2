@@ -26,7 +26,7 @@ export default function Testimonials() {
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-5xl font-black text-blue-950 mb-4 tracking-tight">What Locals Say</h2>
                     <p className="text-xl text-gray-600 max-w-2xl mx-auto font-medium">
-                        Real feedback from people I've helped across Buckinghamshire.
+                        Real feedback from people we've helped across Buckinghamshire.
                     </p>
                 </div>
 

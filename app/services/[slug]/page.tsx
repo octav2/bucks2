@@ -118,7 +118,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                         </a>
                         <a href={businessDetails.whatsappLink} target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto bg-white text-gray-900 border-2 border-gray-100 px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-50 transition-all flex items-center justify-center gap-2 shadow-sm">
                             <MessageCircle className="text-green-600" size={20} />
-                            WhatsApp Me
+                            WhatsApp Us
                         </a>
                     </div>
                 </div>
@@ -138,7 +138,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                             </div>
 
                             <div className="bg-gray-50/50 rounded-3xl p-8 border border-gray-100">
-                                <h3 className="text-xl font-bold text-blue-950 mb-6">Common Help I Provide:</h3>
+                                <h3 className="text-xl font-bold text-blue-950 mb-6">Common Help We Provide:</h3>
                                 <ul className="space-y-4">
                                     {service.features.map((feat, index) => (
                                         <li key={index} className="flex items-start gap-3 text-gray-700 text-base font-medium">
@@ -173,7 +173,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                                     <MapPin size={18} className="text-blue-600" /> Service Area
                                 </h3>
                                 <p className="text-sm text-gray-600 leading-relaxed font-medium mb-4">
-                                    I visit homes across Buckinghamshire and South Bucks.
+                                    We visit homes across Buckinghamshire and South Bucks.
                                 </p>
                                 <div className="flex flex-wrap gap-1.5">
                                     {serviceAreas.slice(0, 8).map((area, i) => (
@@ -205,7 +205,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                         </a>
                         <a href={businessDetails.whatsappLink} target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto bg-green-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-green-700 transition-all flex items-center justify-center gap-2 shadow-md shadow-green-600/10">
                             <MessageCircle size={20} />
-                            WhatsApp Me
+                            WhatsApp Us
                         </a>
                     </div>
                 </div>
@@ -214,7 +214,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
             {/* Dynamic Other Services Navigation */}
             <section className="py-20 px-4 bg-white">
                 <div className="max-w-4xl mx-auto">
-                    <h3 className="text-2xl font-black text-blue-950 mb-10 tracking-tight text-center">Other Services I Can Help With</h3>
+                    <h3 className="text-2xl font-black text-blue-950 mb-10 tracking-tight text-center">Other Services We Can Help With</h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         {otherServices.slice(0, 4).map((s, index) => {
                             const SIcon = s.icon;

@@ -4,9 +4,9 @@ import { PhoneCall, CheckCircle, Calendar, Zap } from 'lucide-react';
 export default function HowItWorks() {
     const steps = [
         { icon: PhoneCall, title: "1. Get in touch", desc: "Call, text or WhatsApp with a brief description of the problem." },
-        { icon: CheckCircle, title: "2. I confirm help", desc: "I'll let you know if I can assist and give you a rough idea of the fix." },
+        { icon: CheckCircle, title: "2. We confirm help", desc: "We'll let you know if we can assist and give you a rough idea of the fix." },
         { icon: Calendar, title: "3. Book a visit", desc: "We arrange a convenient evening or weekend appointment." },
-        { icon: Zap, title: "4. I visit and help", desc: "I diagnose the issue, fix what I can, and explain how it works." }
+        { icon: Zap, title: "4. We visit and help", desc: "We diagnose the issue, fix what we can, and explain how it works." }
     ];
 
     return (

@@ -10,7 +10,7 @@ export default function Pricing() {
             <div className="max-w-6xl mx-auto relative z-10">
                 <div className="text-center mb-20">
                     <h2 className="text-4xl md:text-6xl font-black text-blue-950 mb-6 tracking-tight">Simple, Honest Pricing</h2>
-                    <p className="text-xl text-gray-600 max-w-2xl mx-auto font-medium">Clear costs with no hidden fees. I value your trust above all else.</p>
+                    <p className="text-xl text-gray-600 max-w-2xl mx-auto font-medium">Clear costs with no hidden fees. We value your trust above all else.</p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 max-w-5xl mx-auto items-stretch">
