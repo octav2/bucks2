@@ -91,7 +91,11 @@ export default function Services() {
                                                 </span>
                                             ))}
                                         </div>
-                                        <Link href={`/services/${service.slug}`} className="text-blue-600 hover:text-blue-800 font-bold text-sm flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                                        <Link 
+                                            href={`/services/${service.slug}`} 
+                                            aria-label={`Learn more about our ${service.title} service`}
+                                            className="text-blue-600 hover:text-blue-800 font-bold text-sm flex items-center gap-1 group-hover:translate-x-1 transition-transform"
+                                        >
                                             Learn More <ChevronRight size={16} />
                                         </Link>
                                     </div>
