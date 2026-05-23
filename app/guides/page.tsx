@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { guidesData } from '@/lib/guidesData';
-import { ArrowRight, BookOpen, Clock, User, ShieldCheck, Wifi, HelpCircle } from 'lucide-react';
+import { ArrowRight, BookOpen, Clock, User, ShieldCheck, Wifi, Printer, Laptop, Heart } from 'lucide-react';
 import type { Metadata } from 'next';
 import { businessDetails } from '@/lib/data';
 
@@ -25,6 +25,12 @@ export default function GuidesPage() {
                 return <ShieldCheck className="text-emerald-600" size={20} />;
             case 'home internet':
                 return <Wifi className="text-blue-600" size={20} />;
+            case 'printers & devices':
+                return <Printer className="text-orange-500" size={20} />;
+            case 'laptops & computers':
+                return <Laptop className="text-violet-600" size={20} />;
+            case 'tech for seniors':
+                return <Heart className="text-rose-500" size={20} />;
             default:
                 return <BookOpen className="text-indigo-600" size={20} />;
         }
@@ -37,6 +43,12 @@ export default function GuidesPage() {
                 return 'bg-emerald-50 text-emerald-700 border-emerald-100';
             case 'home internet':
                 return 'bg-blue-50 text-blue-700 border-blue-100';
+            case 'printers & devices':
+                return 'bg-orange-50 text-orange-700 border-orange-100';
+            case 'laptops & computers':
+                return 'bg-violet-50 text-violet-700 border-violet-100';
+            case 'tech for seniors':
+                return 'bg-rose-50 text-rose-700 border-rose-100';
             default:
                 return 'bg-indigo-50 text-indigo-700 border-indigo-100';
         }
@@ -128,7 +140,7 @@ export default function GuidesPage() {
                 <div className="max-w-4xl mx-auto bg-gradient-to-r from-blue-550 to-blue-900 bg-blue-900 text-white rounded-[2.5rem] p-10 md:p-14 text-center shadow-lg relative overflow-hidden">
                     <div className="absolute top-0 right-0 w-48 h-48 bg-white/5 rounded-full blur-[40px] pointer-events-none"></div>
                     <div className="relative z-10">
-                        <HelpCircle size={44} className="mx-auto mb-4 text-emerald-400" />
+                        <BookOpen size={44} className="mx-auto mb-4 text-emerald-400" />
                         <h2 className="text-2xl md:text-3xl font-black mb-4">Still Stretched or Confused?</h2>
                         <p className="text-blue-100 mb-8 max-w-xl mx-auto text-base leading-relaxed">
                             No problem! We specialize in patient, stress-free home visits to resolve all your tech issues in simple, understandable terms.

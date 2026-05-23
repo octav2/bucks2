@@ -5,7 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { guidesData } from '@/lib/guidesData';
 import { businessDetails } from '@/lib/data';
-import { ArrowLeft, ArrowRight, Phone, MessageCircle, Clock, User, ShieldAlert, Wifi, CheckCircle2, ChevronRight, Bookmark } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Phone, MessageCircle, Clock, User, ShieldAlert, Wifi, CheckCircle2, ChevronRight, Bookmark, Printer, Laptop, Heart } from 'lucide-react';
 
 export async function generateStaticParams() {
     return Object.keys(guidesData).map((slug) => ({
@@ -49,6 +49,27 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
                     icon: <Wifi className="text-blue-600" size={18} />,
                     heroBg: 'from-blue-950 via-slate-900 to-slate-900',
                     accentColor: 'text-blue-400'
+                };
+            case 'printers & devices':
+                return {
+                    pill: 'bg-orange-50 text-orange-700 border-orange-100',
+                    icon: <Printer className="text-orange-500" size={18} />,
+                    heroBg: 'from-orange-950 via-slate-900 to-slate-900',
+                    accentColor: 'text-orange-400'
+                };
+            case 'laptops & computers':
+                return {
+                    pill: 'bg-violet-50 text-violet-700 border-violet-100',
+                    icon: <Laptop className="text-violet-500" size={18} />,
+                    heroBg: 'from-violet-950 via-slate-900 to-slate-900',
+                    accentColor: 'text-violet-400'
+                };
+            case 'tech for seniors':
+                return {
+                    pill: 'bg-rose-50 text-rose-700 border-rose-100',
+                    icon: <Heart className="text-rose-500" size={18} />,
+                    heroBg: 'from-rose-950 via-slate-900 to-slate-900',
+                    accentColor: 'text-rose-400'
                 };
             default:
                 return {
