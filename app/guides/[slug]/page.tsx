@@ -64,73 +64,34 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
 
     // Helper to parse content into beautiful React elements
     const renderParsedContent = (content: string) => {
-        const paragraphs = content.split('\n\n');
-        return paragraphs.map((para, idx) => {
-            const trimmed = para.trim();
-            if (!trimmed) return null;
-
-            // Handle Subheadings (###)
+        const blocks = content.split('\n\n').filter(b => b.trim());
+        const elements = [];
+        
+        const renderBlock = (trimmed: string, blockIdx: number) => {
             if (trimmed.startsWith('###')) {
                 const headingText = trimmed.replace('### ', '');
-                
-                // If it is a crucial warning section (HMRC / Scammed / Bank details)
-                if (headingText.toLowerCase().includes('crucial') || headingText.toLowerCase().includes('scammed')) {
-                    return (
-                        <div key={idx} className="bg-red-50/70 border-l-4 border-red-500 rounded-r-3xl p-6 md:p-8 mt-10 mb-6 shadow-sm">
-                            <div className="flex gap-3 items-center mb-3">
-                                <ShieldAlert size={28} className="text-red-650 text-red-650 text-red-600 flex-shrink-0" />
-                                <h3 className="text-xl md:text-2xl font-black text-red-950 tracking-tight">{headingText}</h3>
-                            </div>
-                            <div className="text-red-950/90 text-base leading-relaxed">
-                                {paragraphs[idx + 1] ? renderParsedContent(paragraphs[idx + 1]) : null}
-                            </div>
-                        </div>
-                    );
-                }
-
                 return (
-                    <h3 key={idx} className="text-2xl md:text-3xl font-extrabold text-blue-950 mt-12 mb-5 tracking-tight border-b border-slate-100 pb-3 flex items-center gap-2">
+                    <h3 key={`h-${blockIdx}`} className="text-2xl md:text-3xl font-extrabold text-blue-950 mt-12 mb-5 tracking-tight border-b border-slate-100 pb-3 flex items-center gap-2">
                         <span className="w-2.5 h-6 bg-gradient-to-b from-blue-600 to-emerald-500 rounded-full inline-block"></span>
                         {headingText}
                     </h3>
                 );
             }
 
-            // Skip paragraph if it was already rendered inside the alert box above
-            const prevTrimmed = paragraphs[idx - 1]?.trim() || '';
-            if (prevTrimmed.startsWith('###') && (prevTrimmed.toLowerCase().includes('crucial') || prevTrimmed.toLowerCase().includes('scammed'))) {
-                return null;
-            }
-
-            // Handle Lists / Bullet points starting with *
             if (trimmed.startsWith('*')) {
                 const listItems = trimmed.split('\n').filter(Boolean);
                 return (
-                    <ul key={idx} className="space-y-4 my-6 pl-1">
+                    <ul key={`ul-${blockIdx}`} className="space-y-4 my-6 pl-1">
                         {listItems.map((item, itemIdx) => {
-                            const bulletText = item.replace('* ', '');
-                            
-                            // Check if bullet point is bold
-                            if (bulletText.includes('**')) {
-                                const parts = bulletText.split('**');
-                                // parts[0] is usually empty, parts[1] is bold text, parts[2] is normal text
-                                const boldPart = parts[1] || '';
-                                const normalPart = parts[2] || '';
-                                return (
-                                    <li key={itemIdx} className="flex gap-3 text-slate-700 text-lg leading-relaxed">
-                                        <CheckCircle2 className="text-emerald-500 mt-1 flex-shrink-0" size={20} />
-                                        <span>
-                                            <strong className="text-slate-900 font-extrabold">{boldPart}</strong>
-                                            {normalPart}
-                                        </span>
-                                    </li>
-                                );
-                            }
-
+                            const bulletText = item.replace(/^\*\s*/, '');
+                            const parts = bulletText.split('**');
+                            const formattedText = parts.map((part, pIdx) => 
+                                pIdx % 2 === 1 ? <strong key={pIdx} className="text-slate-900 font-extrabold">{part}</strong> : part
+                            );
                             return (
                                 <li key={itemIdx} className="flex gap-3 text-slate-700 text-lg leading-relaxed">
                                     <CheckCircle2 className="text-blue-500 mt-1 flex-shrink-0" size={20} />
-                                    <span>{bulletText}</span>
+                                    <span>{formattedText}</span>
                                 </li>
                             );
                         })}
@@ -138,28 +99,19 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
                 );
             }
 
-            // Handle Numbered list starting with 1., 2.
             if (/^\d+\./.test(trimmed)) {
                 const listItems = trimmed.split('\n').filter(Boolean);
                 return (
-                    <ol key={idx} className="space-y-6 my-8 pl-1">
+                    <ol key={`ol-${blockIdx}`} className="space-y-6 my-8 pl-1">
                         {listItems.map((item, itemIdx) => {
-                            // Extract number and text
                             const match = item.match(/^(\d+)\.\s(.*)/);
                             const number = match ? match[1] : (itemIdx + 1).toString();
                             const text = match ? match[2] : item;
 
-                            // Handle bold tags in text
-                            let formattedText: React.ReactNode = text;
-                            if (text.includes('**')) {
-                                const parts = text.split('**');
-                                formattedText = (
-                                    <span>
-                                        <strong className="text-slate-900 font-extrabold">{parts[1] || ''}</strong>
-                                        {parts[2] || ''}
-                                    </span>
-                                );
-                            }
+                            const parts = text.split('**');
+                            const formattedText = parts.map((part, pIdx) => 
+                                pIdx % 2 === 1 ? <strong key={pIdx} className="text-slate-900 font-extrabold">{part}</strong> : part
+                            );
 
                             return (
                                 <li key={itemIdx} className="flex gap-4 items-start">
@@ -177,20 +129,47 @@ export default function GuidePage({ params }: { params: { slug: string } }) {
             }
 
             // Standard Paragraph
-            let formattedParagraph: React.ReactNode = trimmed;
-            if (trimmed.includes('**')) {
-                const parts = trimmed.split('**');
-                // Alternates: parts[0] (normal), parts[1] (bold), parts[2] (normal)...
-                formattedParagraph = parts.map((part, pIdx) => {
-                    if (pIdx % 2 === 1) {
-                        return <strong key={pIdx} className="text-slate-900 font-extrabold">{part}</strong>;
-                    }
-                    return part;
-                });
+            const parts = trimmed.split('**');
+            const formattedParagraph = parts.map((part, pIdx) => 
+                pIdx % 2 === 1 ? <strong key={pIdx} className="text-slate-900 font-extrabold">{part}</strong> : part
+            );
+            return <p key={`p-${blockIdx}`} className="mb-6 text-slate-700 text-lg leading-relaxed font-medium">{formattedParagraph}</p>;
+        };
+        
+        for (let i = 0; i < blocks.length; i++) {
+            const trimmed = blocks[i].trim();
+            
+            // Handle crucial warning block grouping
+            if (trimmed.startsWith('###') && (trimmed.toLowerCase().includes('crucial') || trimmed.toLowerCase().includes('scammed'))) {
+                const headingText = trimmed.replace('### ', '');
+                const innerElements = [];
+                i++; // Move to next block
+                
+                // Absorb blocks until the next heading or end of content
+                while (i < blocks.length && !blocks[i].trim().startsWith('###')) {
+                   innerElements.push(blocks[i].trim());
+                   i++;
+                }
+                i--; // Step back so the outer loop processes the next heading correctly
+
+                elements.push(
+                    <div key={`alert-${i}`} className="bg-red-50 border-l-4 border-red-500 rounded-r-2xl p-6 md:p-8 mt-10 mb-8 shadow-sm">
+                        <div className="flex gap-3 items-center mb-5">
+                            <ShieldAlert size={28} className="text-red-600 flex-shrink-0" />
+                            <h3 className="text-xl md:text-2xl font-black text-red-950 tracking-tight">{headingText}</h3>
+                        </div>
+                        <div className="text-red-950/90">
+                            {innerElements.map((text, j) => <React.Fragment key={`inner-${j}`}>{renderBlock(text, j)}</React.Fragment>)}
+                        </div>
+                    </div>
+                );
+                continue;
             }
 
-            return <p key={idx} className="mb-6 text-slate-700 text-lg leading-relaxed font-medium">{formattedParagraph}</p>;
-        });
+            elements.push(<React.Fragment key={`block-${i}`}>{renderBlock(trimmed, i)}</React.Fragment>);
+        }
+
+        return elements;
     };
 
     return (
