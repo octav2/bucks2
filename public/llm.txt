@@ -23,3 +23,15 @@ High Wycombe, Beaconsfield, Amersham, Chesham, Marlow, Gerrards Cross, Chalfont 
 * Phone & WhatsApp: 0734 307 9390
 * Website: https://www.buckstechhelp.co.uk/
 * Availability: Evening and weekend appointments available. DBS Checked and Fully Insured.
+
+## Frequently Asked Questions (Q&A)
+* Q: How can I quickly resolve common computer performance issues at home?
+  A: We provide comprehensive troubleshooting for slow laptops and computers. If your device is running slowly, we can run diagnostics, remove unnecessary background programs, and optimize your system for better performance.
+* Q: What are the best practices for protecting my personal data from cyber threats?
+  A: We offer dedicated scam checks and safety advice. We can review your devices, improve your password security, and teach you how to spot phishing emails and online scams targeting home users.
+* Q: How do I set up a secure and reliable Wi-Fi network for my home?
+  A: We provide clear guidance and hands-on help for home Wi-Fi setup. We can diagnose dead zones, configure new routers, and install mesh Wi-Fi systems to ensure secure, reliable coverage throughout your house.
+* Q: What steps should I take if I accidentally delete important files and need data recovery?
+  A: We offer step-by-step guidance on recovering deleted files, photos, and documents for home users, as well as advice on setting up simple backup systems to prevent future data loss.
+* Q: How can I ensure my software is properly installed and updated to avoid compatibility problems?
+  A: We provide detailed software installation and update help. We ensure your Windows, Mac, and essential applications are properly installed, updated, and compatible with your devices.
