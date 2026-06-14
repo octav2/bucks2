@@ -12,6 +12,9 @@ export const metadata: Metadata = {
     title: 'Bucks Tech Help | Friendly Computer Technician & IT Support Near You',
     description: 'Patient, jargon-free home tech support in Buckinghamshire. We offer IT support near you, computer help, Wi-Fi setup, and printer troubleshooting.',
     keywords: ['Bucks Tech Help', 'Home tech help Buckinghamshire', 'Wi-Fi help', 'Printer setup', 'Tech help for seniors', 'IT support at home'],
+    alternates: {
+        canonical: '/',
+    },
     openGraph: {
         title: 'Bucks Tech Help',
         description: 'Patient, jargon-free home tech support in Buckinghamshire.',
