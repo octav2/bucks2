@@ -36,7 +36,7 @@ export default function RootLayout({
                 <link rel="alternate" type="text/plain" href="/llm.txt" />
                 <Script
                     strategy="lazyOnload"
-                    src="https://www.googletagmanager.com/gtag/js?id=G-YKTBYJCCLC"
+                    src="https://www.googletagmanager.com/gtag/js?id=AW-861758447"
                 />
                 <Script id="google-analytics" strategy="lazyOnload">
                     {`
@@ -45,6 +45,7 @@ export default function RootLayout({
                         gtag('js', new Date());
 
                         gtag('config', 'G-YKTBYJCCLC');
+                        gtag('config', 'AW-861758447');
                     `}
                 </Script>
                 <Script
