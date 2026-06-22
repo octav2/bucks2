@@ -184,6 +184,15 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                                     <span className="text-[10px] font-bold text-gray-500 px-2 py-1">and more...</span>
                                 </div>
                             </div>
+
+                            <div className="bg-blue-50 border border-blue-100 rounded-[2rem] p-8 shadow-sm">
+                                <h3 className="text-lg font-black text-blue-950 mb-3 flex items-center gap-2">
+                                    <span className="text-xl">🛡️</span> "No Fix, No Fee"
+                                </h3>
+                                <p className="text-gray-600 text-sm font-medium leading-relaxed">
+                                    Total peace of mind. In the rare event that we cannot diagnose your technical issue or provide a solution, you won’t pay a single penny. We value your trust above all else.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -178,9 +178,9 @@ export default function Home() {
                         <div className="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/4 w-96 h-96 bg-green-500/10 rounded-full blur-[100px]"></div>
                         
                         <div className="relative z-10">
-                            <h2 className="text-4xl md:text-6xl font-black text-white mb-8 tracking-tight">Need Help with Your Home Tech?</h2>
+                            <h2 className="text-4xl md:text-6xl font-black text-white mb-8 tracking-tight">Ready to get it sorted?</h2>
                             <p className="text-xl text-blue-100 mb-16 max-w-2xl mx-auto leading-relaxed font-medium">
-                                Don't let technology frustrate you anymore. Get in touch today for friendly, local help that comes to you.
+                                Give us a call or fill out the form below. Remember, all of our standard visits are backed by our No Fix, No Fee Promise. If we can't diagnose your issue or offer a solution, it won't cost you a thing!
                             </p>
                             
                             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 text-left">
