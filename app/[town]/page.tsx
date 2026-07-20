@@ -19,6 +19,9 @@ export async function generateMetadata({ params }: { params: { town: string } })
     return {
         title: `Bucks Tech Help ${townName} | Home Technology Support`,
         description: `Friendly home tech support in ${townName} from Bucks Tech Help. Expert help with Wi-Fi, printers, phones, smart TVs and more. Patient, jargon-free support for ${townName} residents.`,
+        alternates: {
+            canonical: `/${params.town}`,
+        },
     };
 }
 

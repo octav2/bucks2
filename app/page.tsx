@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -11,6 +12,12 @@ import FAQ from '@/components/FAQ';
 import { Phone, MessageCircle, Clock, MapPin, CheckCircle, ShieldAlert, AlertTriangle, ArrowRight, Heart, Laptop, Globe } from 'lucide-react';
 import { businessDetails, faqs } from '@/lib/data';
 import Script from 'next/script';
+
+export const metadata: Metadata = {
+    alternates: {
+        canonical: '/',
+    },
+};
 
 export default function Home() {
     return (
