@@ -5,9 +5,10 @@ import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
 import remarkHtml from 'remark-html';
+import remarkGfm from 'remark-gfm';
 
 const CONTENT_DIR = path.join(process.cwd(), 'content', 'services');
-const markdownProcessor = remark().use(remarkHtml);
+const markdownProcessor = remark().use(remarkGfm).use(remarkHtml);
 
 export interface ServiceFrontmatter {
     id: string;
@@ -116,7 +117,7 @@ export function getServiceBySlug(slug: string): ServiceContent | null {
 
     const { data, content } = matter(raw);
     const frontmatter = data as unknown as ServiceFrontmatter;
-    const tree: any = remark().parse(content);
+    const tree: any = remark().use(remarkGfm).parse(content);
 
     const buckets: { title: string; nodes: any[] }[] = [];
     for (const child of tree.children ?? []) {

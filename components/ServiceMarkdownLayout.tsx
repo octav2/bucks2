@@ -54,19 +54,19 @@ function renderSection(section: MarkdownSection, key: number) {
                     <div className="max-w-5xl mx-auto">
                         <h2 className="text-3xl md:text-4xl font-black text-white mb-10 tracking-tight text-center">{section.title}</h2>
                         <div className="overflow-x-auto rounded-2xl border border-slate-800 bg-slate-900/60">
-                            <table className="w-full text-left text-sm">
-                                <thead className="bg-slate-800/90 text-white">
+                            <table className="markdown-table text-sm">
+                                <thead>
                                     <tr>
                                         {section.headers.map((h, i) => (
-                                            <th key={i} className="px-5 py-4 font-black uppercase tracking-wider text-[11px]">{h}</th>
+                                            <th key={i}>{h}</th>
                                         ))}
                                     </tr>
                                 </thead>
-                                <tbody className="divide-y divide-slate-800">
+                                <tbody>
                                     {section.rows.map((row, ri) => (
-                                        <tr key={ri} className="even:bg-slate-900/40">
+                                        <tr key={ri}>
                                             {row.map((cell, ci) => (
-                                                <td key={ci} className="px-5 py-4 text-slate-300 font-medium align-top">{cell}</td>
+                                                <td key={ci}>{cell}</td>
                                             ))}
                                         </tr>
                                     ))}

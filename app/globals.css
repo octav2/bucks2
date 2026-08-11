@@ -50,4 +50,16 @@
     .markdown-body p {
         @apply mb-5;
     }
+.markdown-table {
+        @apply w-full text-left border-collapse;
+    }
+    .markdown-table th {
+        @apply bg-slate-800/80 text-cyan-400 p-3 text-sm font-semibold border border-slate-700 whitespace-nowrap;
+    }
+    .markdown-table td {
+        @apply p-3 text-sm text-slate-300 border border-slate-800 bg-slate-900/50 align-top;
+    }
+    .markdown-table tr:hover td {
+        @apply bg-slate-800/40;
+    }
 }
