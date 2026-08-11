@@ -1,37 +1,28 @@
 # Bucks Tech Help - Business Information
 
 ## About Us
-Bucks Tech Help is a local IT support and computer technician service based in Buckinghamshire, UK. We specialize in patient, jargon-free home technology support. Our primary audience includes older people, adult children helping their parents, and busy professionals who need home tech support without the stress. 
-*Important Note:* We focus purely on software, setup, and troubleshooting. We do NOT perform hardware repairs (e.g., cracked screens, broken internal parts), messy installations, drilling, or hardwiring.
+Bucks Tech Help is a local network & cabling infrastructure agency based in Buckinghamshire, UK.
+We design, install and test enterprise Wi-Fi, structured Cat6/Cat6a cabling and IP CCTV solutions
+for large homes, garden offices, estates/farms and businesses. We sell high-ticket infrastructure
+projects, typically £1,500–£4,000+, not micro-fix services.
 
 ## Core Services
-* Laptop & Computer: IT support near me, computer help near me, speeding up slow laptops, email troubleshooting, Windows/Mac software updates, and remote IT support.
-* Printer Help: Wireless setup, fixing offline printers, Canon printer help, Brother printer help, and HP setup.
-* Wi-Fi Help: Router setup, mesh systems installation, dead zone elimination, and troubleshooting slow internet.
-* Phone & Tablet: iPhone and iPad setup, data transfer, contacts syncing, and app help for seniors.
-* Smart TV Help: Wi-Fi connection, app installation (Netflix, iPlayer), and Fire Stick setup.
-* Scam & Safety: Scam checks, password security, software virus removal, and safety advice for suspicious emails.
+* Whole-Property & Garden Room Wi-Fi: Hardwired Ubiquiti UniFi and TP-Link Omada access points with zero dead zones.
+* Commercial Cat6/Cat6a Structured Cabling: Office cabling, patch panels, racks and managed switch installations.
+* IP CCTV & Access Control: Commercial-grade 4K IP cameras, on-site NVR storage, subscription-free (no monthly fees).
 
-## Service Areas (Buckinghamshire & South Bucks)
-High Wycombe, Beaconsfield, Amersham, Chesham, Marlow, Gerrards Cross, Chalfont St Peter, Chalfont St Giles, Aylesbury, Hazlemere, Great Missenden, Princes Risborough, Wendover, Bourne End, Flackwell Heath, Penn, and Stoke Poges.
+## Service Areas (Buckinghamshire)
+Beaconsfield, Amersham, Chesham, Gerrards Cross, High Wycombe, and surrounding towns across South & Central Buckinghamshire.
 
 ## Pricing
-* Standard Visit: £65 for the first hour, then £35 per 30 minutes. Clear, upfront pricing with no hidden fees.
-* Digital MOT: £140 fixed price. A 2-hour complete check-up optimizing speed, security, Wi-Fi, and complete device sync.
+* Projects typically range from £1,500 to £4,000+ depending on survey and specification.
+* Fixed, itemised quotes are emailed after a free online quote audit (usually within 24 hours).
+
+## Quote Process
+Customers complete a multi-step online quote audit at /quote (property type, challenge, budget, contact details).
+No incoming phone number is published; enquiries are handled by email.
 
 ## Contact Information
-* Phone & WhatsApp: 0734 307 9390
 * Website: https://www.buckstechhelp.co.uk/
-* Availability: Evening and weekend appointments available. DBS Checked and Fully Insured.
-
-## Frequently Asked Questions (Q&A)
-* Q: How can I quickly resolve common computer performance issues at home?
-  A: We provide comprehensive troubleshooting for slow laptops and computers. If your device is running slowly, we can run diagnostics, remove unnecessary background programs, and optimize your system for better performance.
-* Q: What are the best practices for protecting my personal data from cyber threats?
-  A: We offer dedicated scam checks and safety advice. We can review your devices, improve your password security, and teach you how to spot phishing emails and online scams targeting home users.
-* Q: How do I set up a secure and reliable Wi-Fi network for my home?
-  A: We provide clear guidance and hands-on help for home Wi-Fi setup. We can diagnose dead zones, configure new routers, and install mesh Wi-Fi systems to ensure secure, reliable coverage throughout your house.
-* Q: What steps should I take if I accidentally delete important files and need data recovery?
-  A: We offer step-by-step guidance on recovering deleted files, photos, and documents for home users, as well as advice on setting up simple backup systems to prevent future data loss.
-* Q: How can I ensure my software is properly installed and updated to avoid compatibility problems?
-  A: We provide detailed software installation and update help. We ensure your Windows, Mac, and essential applications are properly installed, updated, and compatible with your devices.
+* Email: hello@buckstechhelp.co.uk
+* Fully insured installers, tidy low-disruption work, fully tested and certified.

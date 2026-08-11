@@ -1,36 +1,46 @@
+'use client';
+
 import React from 'react';
-import { HelpCircle, ChevronDown } from 'lucide-react';
+import { HelpCircle } from 'lucide-react';
 import { faqs } from '@/lib/data';
 
 export default function FAQ() {
+    const [openIndex, setOpenIndex] = React.useState<number | null>(0);
+
     return (
-        <section id="faq" className="py-16 px-4 bg-gray-50">
+        <section id="faq" className="py-24 px-4 bg-slate-950">
             <div className="max-w-3xl mx-auto">
-                <div className="text-center mb-12">
-                    <h2 className="text-3xl font-bold text-blue-900 mb-4">Frequently Asked Questions</h2>
-                    <p className="text-gray-600">Common questions about the service.</p>
+                <div className="text-center mb-14">
+                    <span className="inline-block text-xs font-black uppercase tracking-[0.2em] text-blue-400 mb-4">FAQ</span>
+                    <h2 className="text-3xl md:text-5xl font-black text-white mb-4 tracking-tight">Common Questions</h2>
+                    <p className="text-slate-400 text-lg">Everything you need to know about our infrastructure work.</p>
                 </div>
                 <div className="space-y-4">
-                    {faqs.map((faq, index) => (
-                        <div key={index} className="bg-white rounded-xl border border-gray-200 p-6 shadow-sm">
-                            <h3 className="text-lg font-bold text-blue-900 flex gap-3 mb-3">
-                                <HelpCircle className="text-green-600 flex-shrink-0" size={24} />
-                                {faq.question}
-                            </h3>
-                            <p className="text-gray-600 leading-relaxed pl-9">
-                                {faq.answer}
-                            </p>
-                        </div>
-                    ))}
-                    <div className="bg-white rounded-xl border border-gray-200 p-6 shadow-sm">
-                        <h3 className="text-lg font-bold text-blue-900 flex gap-3 mb-3">
-                            <HelpCircle className="text-green-600 flex-shrink-0" size={24} />
-                            Do I need to know my passwords?
-                        </h3>
-                        <p className="text-gray-600 leading-relaxed pl-9">
-                            For many jobs, yes. If you need help with email, Apple ID, Google, Netflix, Wi-Fi or Microsoft accounts, you may need access to your passwords. We can guide you through recovery if needed.
-                        </p>
-                    </div>
+                    {faqs.map((faq, index) => {
+                        const isOpen = openIndex === index;
+                        return (
+                            <div key={index} className="bg-slate-900/70 border border-slate-800 rounded-2xl overflow-hidden">
+                                <button
+                                    onClick={() => setOpenIndex(isOpen ? null : index)}
+                                    className="w-full flex items-center justify-between gap-4 text-left p-6 hover:bg-slate-800/50 transition-colors"
+                                    aria-expanded={isOpen}
+                                >
+                                    <span className="font-bold text-white text-lg flex gap-3 items-center">
+                                        <HelpCircle className="text-blue-400 flex-shrink-0" size={22} />
+                                        {faq.question}
+                                    </span>
+                                    <span className={`text-blue-400 flex-shrink-0 transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                                            <path d="m6 9 6 6 6-6" />
+                                        </svg>
+                                    </span>
+                                </button>
+                                {isOpen && (
+                                    <p className="text-slate-400 leading-relaxed pl-6 pr-6 pb-6 font-medium">{faq.answer}</p>
+                                )}
+                            </div>
+                        );
+                    })}
                 </div>
             </div>
         </section>

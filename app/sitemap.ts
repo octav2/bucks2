@@ -1,17 +1,9 @@
 import { MetadataRoute } from 'next';
-import { serviceAreas } from '@/lib/data';
 import { servicesData } from '@/lib/servicesData';
-import { guidesData } from '@/lib/guidesData';
+import { locationsData } from '@/lib/locationsData';
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = 'https://www.buckstechhelp.co.uk';
-
-    const towns = serviceAreas.map((town) => ({
-        url: `${baseUrl}/${town.toLowerCase().replace(/ /g, '-')}`,
-        lastModified: new Date(),
-        changeFrequency: 'monthly' as const,
-        priority: 0.8,
-    }));
 
     const services = Object.keys(servicesData).map((slug) => ({
         url: `${baseUrl}/services/${slug}`,
@@ -20,11 +12,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.9,
     }));
 
-    const guides = Object.keys(guidesData).map((slug) => ({
-        url: `${baseUrl}/guides/${slug}`,
+    const locations = Object.keys(locationsData).map((slug) => ({
+        url: `${baseUrl}/locations/${slug}`,
         lastModified: new Date(),
         changeFrequency: 'monthly' as const,
-        priority: 0.7,
+        priority: 0.8,
     }));
 
     return [
@@ -35,13 +27,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
             priority: 1,
         },
         {
-            url: `${baseUrl}/guides`,
+            url: `${baseUrl}/quote`,
             lastModified: new Date(),
-            changeFrequency: 'weekly' as const,
-            priority: 0.8,
+            changeFrequency: 'monthly' as const,
+            priority: 0.9,
         },
         ...services,
-        ...guides,
-        ...towns,
+        ...locations,
     ];
 }
+

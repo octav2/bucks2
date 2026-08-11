@@ -3,265 +3,101 @@ import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Services from '@/components/Services';
-import Pricing from '@/components/Pricing';
 import WhoIHelp from '@/components/WhoIHelp';
 import HowItWorks from '@/components/HowItWorks';
-import AreasCovered from '@/components/AreasCovered';
+import CoverageMap from '@/components/CoverageMap';
 import Testimonials from '@/components/Testimonials';
 import FAQ from '@/components/FAQ';
-import { Phone, MessageCircle, Clock, MapPin, CheckCircle, ShieldAlert, AlertTriangle, ArrowRight, Heart, Laptop, Globe } from 'lucide-react';
-import { businessDetails, faqs } from '@/lib/data';
-import Script from 'next/script';
+import ServiceCTA from '@/components/ServiceCTA';
+import { ArrowRight, Zap, ShieldCheck, Wifi, Gauge, HardHat } from 'lucide-react';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
-    alternates: {
-        canonical: '/',
-    },
+    alternates: { canonical: '/' },
 };
 
 export default function Home() {
     return (
-        <div className="min-h-screen bg-white text-gray-800 font-sans selection:bg-blue-100 selection:text-blue-900">
-            <Script
-                id="faq-structured-data"
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                    __html: JSON.stringify([
-                        {
-                            "@context": "https://schema.org",
-                            "@type": "FAQPage",
-                            "mainEntity": [
-                                ...faqs.map(faq => ({
-                                    "@type": "Question",
-                                    "name": faq.question,
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": faq.answer
-                                    }
-                                })),
-                                {
-                                    "@type": "Question",
-                                    "name": "Do I need to know my passwords?",
-                                    "acceptedAnswer": {
-                                        "@type": "Answer",
-                                        "text": "For many jobs, yes. If you need help with email, Apple ID, Google, Netflix, Wi-Fi or Microsoft accounts, you may need access to your passwords. We can guide you through recovery if needed."
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "@context": "https://schema.org",
-                            "@type": "WebPage",
-                            "@id": "https://www.buckstechhelp.co.uk/#webpage",
-                            "url": "https://www.buckstechhelp.co.uk",
-                            "name": "Bucks Tech Help | Home Tech Support Buckinghamshire",
-                            "description": "Patient, jargon-free home technology support across Buckinghamshire. Expert help with Wi-Fi, printers, phones, smart TVs and more.",
-                            "about": {
-                                "@id": "https://www.buckstechhelp.co.uk/#localbusiness"
-                            }
-                        }
-                    ])
-                }}
-            />
+        <div className="min-h-screen bg-slate-950 text-slate-100">
             <Header />
 
-            {/* Hero Section */}
-            <section className="relative overflow-hidden bg-white py-24 md:py-40 px-4">
-                {/* Modern Tech Background Elements */}
-                <div className="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 w-[600px] h-[600px] bg-blue-500/10 rounded-full blur-[120px] animate-pulse"></div>
-                <div className="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/4 w-[600px] h-[600px] bg-green-500/10 rounded-full blur-[120px] animate-pulse" style={{ animationDelay: '2s' }}></div>
-                
-                {/* Subtle Grid Pattern */}
-                <div className="absolute inset-0 opacity-[0.03] pointer-events-none" style={{ backgroundImage: 'radial-gradient(#2563eb 1px, transparent 0)', backgroundSize: '40px 40px' }}></div>
+            {/* HERO */}
+            <section className="relative overflow-hidden bg-slate-950 py-24 md:py-32 px-4">
+                <div className="absolute top-0 right-0 -translate-y-1/3 translate-x-1/4 w-[600px] h-[600px] bg-blue-600/20 rounded-full blur-[120px]"></div>
+                <div className="absolute bottom-0 left-0 translate-y-1/3 -translate-x-1/4 w-[500px] h-[500px] bg-blue-500/10 rounded-full blur-[120px]"></div>
+                <div className="absolute inset-0 bg-grid opacity-60 pointer-events-none"></div>
 
                 <div className="max-w-5xl mx-auto text-center relative z-10">
-                    <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-900 to-blue-800 text-blue-50 px-5 py-2 rounded-full text-sm font-bold mb-10 shadow-lg shadow-blue-900/10 border border-blue-700/50">
-                        <MapPin size={16} className="text-green-400" />
-                        Buckinghamshire's Trusted Computer Technician
+                    <div className="inline-flex items-center gap-2 bg-blue-500/10 text-blue-300 border border-blue-500/20 px-5 py-2 rounded-full text-sm font-bold mb-10">
+                        <Wifi size={16} /> Network &amp; Cabling Infrastructure · Buckinghamshire
                     </div>
-                    
-                    <h1 className="text-5xl md:text-8xl font-black text-blue-950 mb-8 leading-[1.05] tracking-tight">
-                        Home IT Support <br className="hidden md:block" />
-                        <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-blue-500 to-green-500">Made Simple.</span>
+
+                    <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-white mb-8 leading-[1.08] tracking-tight text-balance">
+                        Seamless Gigabit Wi-Fi &amp; Structured Network Cabling for{" "}
+                        <span className="text-blue-400">Large Homes, Garden Offices &amp; Businesses</span>{" "}
+                        across Buckinghamshire.
                     </h1>
-                    
-                    <p className="text-xl md:text-2xl text-gray-600 mb-14 leading-relaxed max-w-2xl mx-auto font-medium">
-                        Patient, jargon-free home help for Wi-Fi, printers, smart TVs and more. 
-                        <span className="text-blue-900 font-bold block mt-2">Professional support that comes to your door.</span>
+
+                    <p className="text-xl md:text-2xl text-slate-400 mb-14 leading-relaxed max-w-3xl mx-auto font-medium">
+                        Hardwired Ubiquiti UniFi &amp; TP-Link Omada networks, Cat6 structured cabling and
+                        subscription-free 4K IP CCTV — designed, installed and tested with zero dead zones.
                     </p>
 
                     <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
-                        <a href="tel:07343079390" className="w-full sm:w-auto bg-gradient-to-br from-blue-600 to-blue-700 text-white px-12 py-6 rounded-2xl font-bold text-xl hover:from-blue-700 hover:to-blue-800 transition-all hover:scale-[1.03] active:scale-95 shadow-2xl shadow-blue-600/30 flex items-center justify-center gap-3">
-                            <Phone size={24} />
-                            Book a Visit
-                        </a>
-                        <a href={businessDetails.whatsappLink} target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto bg-white text-gray-900 border-2 border-gray-100 px-12 py-6 rounded-2xl font-bold text-xl hover:bg-gray-50 transition-all hover:scale-[1.03] active:scale-95 shadow-xl flex items-center justify-center gap-3">
-                            <MessageCircle className="text-green-600" size={24} />
-                            WhatsApp Us
-                        </a>
+                        <Link href="/quote" className="w-full sm:w-auto bg-gradient-to-r from-blue-500 to-blue-700 text-white px-12 py-6 rounded-2xl font-black text-xl hover:from-blue-600 hover:to-blue-800 transition-all hover:scale-[1.03] active:scale-95 shadow-2xl shadow-blue-600/30 flex items-center justify-center gap-3">
+                            Get My Free Quote Audit <ArrowRight size={24} />
+                        </Link>
+                        <Link href="/services/whole-home-wifi" className="w-full sm:w-auto bg-slate-900 text-white border border-slate-700 px-12 py-6 rounded-2xl font-bold text-xl hover:bg-slate-800 hover:scale-[1.03] active:scale-95 transition-all flex items-center justify-center gap-3">
+                            <Gauge size={24} className="text-blue-400" /> Explore Services
+                        </Link>
                     </div>
-                    
-                    <div className="mt-16 flex flex-wrap items-center justify-center gap-x-10 gap-y-5 text-gray-500 font-bold text-sm md:text-base uppercase tracking-widest">
-                        <span className="flex items-center gap-2.5"><Clock className="text-blue-500" size={20} /> Evening & Weekends</span>
-                        <span className="flex items-center gap-2.5"><CheckCircle className="text-green-500" size={20} /> DBS Checked</span>
-                        <span className="flex items-center gap-2.5"><CheckCircle className="text-blue-500" size={20} /> Fully Insured</span>
+
+                    <div className="mt-16 flex flex-wrap items-center justify-center gap-x-10 gap-y-5 text-slate-400 font-bold text-sm md:text-base uppercase tracking-widest">
+                        <span className="flex items-center gap-2.5"><ShieldCheck className="text-emerald-400" size={20} /> Fully Tested &amp; Certified</span>
+                        <span className="flex items-center gap-2.5"><Zap className="text-blue-400" size={20} /> Zero Dead Zones</span>
+                        <span className="flex items-center gap-2.5"><HardHat className="text-blue-400" size={20} /> Tidy, Low-Disruption Installs</span>
                     </div>
                 </div>
             </section>
 
-            {/* Trust Bar / Quick Features */}
-            <section className="bg-gray-50/50 py-16 border-y border-gray-100 px-4">
-                <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-12">
-                    {[
-                        { title: "Local Service", subtitle: "Buckinghamshire based", icon: MapPin, color: "text-blue-600" },
-                        { title: "Patient Help", subtitle: "We go at your pace", icon: Heart, color: "text-red-500" },
-                        { title: "No Jargon", subtitle: "Simple explanations", icon: MessageCircle, color: "text-green-500" },
-                        { title: "Transparent", subtitle: "Clear, upfront pricing", icon: ShieldAlert, color: "text-orange-500" }
-                    ].map((item, i) => (
-                        <div key={i} className="flex flex-col items-center text-center group">
-                            <div className="bg-white p-5 rounded-3xl mb-5 shadow-sm border border-gray-100 group-hover:shadow-md transition-all group-hover:-translate-y-1">
-                                <item.icon className={item.color} size={32} />
-                            </div>
-                            <h3 className="font-bold text-blue-950 text-lg mb-1">{item.title}</h3>
-                            <p className="text-sm text-gray-500 font-medium">{item.subtitle}</p>
-                        </div>
-                    ))}
+            {/*_HOME_REST*/}
+            {/* VALUE PROPS */}
+            <section className="py-20 px-4 bg-slate-900 border-y border-slate-800">
+                <div className="max-w-6xl mx-auto">
+                    <div className="text-center mb-14">
+                        <span className="inline-block text-xs font-black uppercase tracking-[0.2em] text-blue-400 mb-4">Why Bucks Tech Help</span>
+                        <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight">Infrastructure That Performs Like an Enterprise Network</h2>
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        {[
+                            { icon: Gauge, title: "Engineered Performance", desc: "Hardwired access points and structured cabling deliver consistent Gigabit speeds in every room, not the halved throughput of plug-in boosters." },
+                            { icon: ShieldCheck, title: "Done Once, Done Right", desc: "Every project is planned, terminated and certified. Labelled cabling, tidy containment and a documented handover built to last." },
+                            { icon: Zap, title: "No Monthly Fees", desc: "Subscriptions are the default elsewhere. Our CCTV and networks are owned outright, with no recurring charges and no cloud lock-in." },
+                        ].map((v, i) => {
+                            const Icon = v.icon;
+                            return (
+                                <div key={i} className="bg-slate-800/60 border border-slate-700 p-8 rounded-3xl hover:border-blue-600/40 hover:-translate-y-1 transition-all duration-300">
+                                    <div className="bg-gradient-to-br from-blue-500 to-blue-700 w-14 h-14 rounded-2xl flex items-center justify-center text-white mb-6 shadow-lg shadow-blue-600/20">
+                                        <Icon size={26} />
+                                    </div>
+                                    <h3 className="text-xl font-black text-white mb-3">{v.title}</h3>
+                                    <p className="text-slate-400 font-medium leading-relaxed">{v.desc}</p>
+                                </div>
+                            );
+                        })}
+                    </div>
                 </div>
             </section>
 
             <Services />
-            
             <WhoIHelp />
-
-            {/* Boundary Note */}
-            <section className="bg-orange-50 py-16 px-4">
-                <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 bg-white p-8 md:p-12 rounded-[2rem] shadow-sm border border-orange-100">
-                    <div className="bg-orange-100 p-6 rounded-3xl text-orange-600 flex-shrink-0">
-                        <AlertTriangle size={48} />
-                    </div>
-                    <div>
-                        <h3 className="text-2xl font-bold text-gray-900 mb-4 tracking-tight">Simple, Practical Tech Support — No Messy Installations</h3>
-                        <p className="text-gray-600 text-lg leading-relaxed">
-                            We focus on setup, troubleshooting and support for the devices you already have. 
-                            <strong> We do not carry out electrical work, hardwiring, wall mounting, drilling, or CCTV cabling.</strong> 
-                            If a job requires a specialist installer or electrician, we will always let you know honestly.
-                        </p>
-                    </div>
-                </div>
-            </section>
-
-            {/* Remote Support Note */}
-            <section className="bg-blue-50 py-16 px-4 border-t border-blue-100">
-                <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 bg-white p-8 md:p-12 rounded-[2rem] shadow-sm border border-blue-100 relative overflow-hidden group hover:shadow-md transition-all duration-500">
-                    <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/5 rounded-full blur-[40px] pointer-events-none group-hover:scale-150 transition-transform duration-700"></div>
-                    <div className="bg-blue-100 p-6 rounded-3xl text-blue-600 flex-shrink-0">
-                        <Globe size={48} className="animate-pulse" />
-                    </div>
-                    <div>
-                        <h3 className="text-2xl font-bold text-blue-950 mb-4 tracking-tight">Remote IT Support Available</h3>
-                        <p className="text-gray-600 text-lg leading-relaxed font-medium">
-                            Don't live in the immediate area? We also offer remote IT support! We can safely connect to your computer over the internet to fix email issues, speed up your laptop, and help with software updates without needing to visit your home.
-                        </p>
-                    </div>
-                </div>
-            </section>
-
-            <Pricing />
-            
             <HowItWorks />
-            
-            <AreasCovered />
-            
+            <CoverageMap />
             <Testimonials />
-            
             <FAQ />
-
-            {/* Final Contact CTA */}
-            <section id="contact" className="py-24 px-4 bg-white relative overflow-hidden">
-                <div className="max-w-6xl mx-auto">
-                    <div className="bg-gradient-to-br from-blue-950 via-blue-900 to-blue-950 rounded-[4rem] p-10 md:p-24 text-center relative overflow-hidden shadow-2xl border border-blue-800">
-                        {/* Decorative elements */}
-                        <div className="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 w-96 h-96 bg-blue-500/20 rounded-full blur-[100px]"></div>
-                        <div className="absolute bottom-0 left-0 translate-y-1/2 -translate-x-1/4 w-96 h-96 bg-green-500/10 rounded-full blur-[100px]"></div>
-                        
-                        <div className="relative z-10">
-                            <h2 className="text-4xl md:text-6xl font-black text-white mb-8 tracking-tight">Ready to get it sorted?</h2>
-                            <p className="text-xl text-blue-100 mb-16 max-w-2xl mx-auto leading-relaxed font-medium">
-                                Give us a call or fill out the form below. Remember, all of our standard visits are backed by our No Fix, No Fee Promise. If we can't diagnose your issue or offer a solution, it won't cost you a thing!
-                            </p>
-                            
-                            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 text-left">
-                                <div className="space-y-8">
-                                    <div className="bg-white/5 backdrop-blur-sm p-8 rounded-[2.5rem] border border-white/10 hover:bg-white/10 transition-colors">
-                                        <h3 className="text-2xl font-bold text-white mb-6">Contact Options</h3>
-                                        <div className="space-y-6">
-                                            <a href="tel:07343079390" className="flex items-center gap-5 group">
-                                                <div className="bg-blue-600 p-4 rounded-2xl group-hover:bg-blue-500 transition-colors shadow-lg shadow-blue-600/20">
-                                                    <Phone className="text-white" size={24} />
-                                                </div>
-                                                <div>
-                                                    <p className="text-blue-300 text-sm font-bold uppercase tracking-wider">Call Directly</p>
-                                                    <p className="text-xl text-white font-black">0734 307 9390</p>
-                                                </div>
-                                            </a>
-                                            <a href={businessDetails.whatsappLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-5 group">
-                                                <div className="bg-green-600 p-4 rounded-2xl group-hover:bg-green-500 transition-colors shadow-lg shadow-green-600/20">
-                                                    <MessageCircle className="text-white" size={24} />
-                                                </div>
-                                                <div>
-                                                    <p className="text-green-300 text-sm font-bold uppercase tracking-wider">WhatsApp Us</p>
-                                                    <p className="text-xl text-white font-black">Quick Response</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    
-                                    <div className="bg-gradient-to-br from-blue-600/20 to-green-600/10 p-8 rounded-[2.5rem] border border-white/5">
-                                        <p className="text-blue-100 font-medium leading-relaxed italic">
-                                            "We aim to respond to all enquiries within 2 hours. Looking forward to helping you get your tech sorted!"
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div className="bg-white p-10 md:p-12 rounded-[3rem] shadow-2xl relative z-20">
-                                    <h3 className="text-3xl font-black text-blue-950 mb-8">Send a Message</h3>
-                                    <form action="https://formsubmit.co/f3e77d17624af15bfa5f71ec63951c35" method="POST" className="space-y-6">
-                                        <input type="text" name="_honey" style={{ display: 'none' }} />
-                                        <input type="hidden" name="_captcha" value="false" />
-                                        
-                                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                                            <div>
-                                                <label htmlFor="name" className="block text-sm font-bold text-gray-700 mb-2">Name</label>
-                                                <input type="text" id="name" name="name" required className="w-full px-5 py-4 rounded-2xl border border-gray-100 focus:ring-4 focus:ring-blue-600/10 focus:border-blue-600 outline-none transition-all bg-gray-50/50 text-gray-900 font-medium" placeholder="John Smith" />
-                                            </div>
-                                            <div>
-                                                <label htmlFor="email" className="block text-sm font-bold text-gray-700 mb-2">Email</label>
-                                                <input type="email" id="email" name="email" required className="w-full px-5 py-4 rounded-2xl border border-gray-100 focus:ring-4 focus:ring-blue-600/10 focus:border-blue-600 outline-none transition-all bg-gray-50/50 text-gray-900 font-medium" placeholder="john@example.com" />
-                                            </div>
-                                        </div>
-                                        
-                                        <div>
-                                            <label htmlFor="phone" className="block text-sm font-bold text-gray-700 mb-2">Phone <span className="text-gray-400 font-normal">(Optional)</span></label>
-                                            <input type="tel" id="phone" name="phone" className="w-full px-5 py-4 rounded-2xl border border-gray-100 focus:ring-4 focus:ring-blue-600/10 focus:border-blue-600 outline-none transition-all bg-gray-50/50 text-gray-900 font-medium" placeholder="07XXX XXXXXX" />
-                                        </div>
-                                        
-                                        <div>
-                                            <label htmlFor="message" className="block text-sm font-bold text-gray-700 mb-2">How can we help?</label>
-                                            <textarea id="message" name="message" rows={4} required className="w-full px-5 py-4 rounded-2xl border border-gray-100 focus:ring-4 focus:ring-blue-600/10 focus:border-blue-600 outline-none transition-all resize-none bg-gray-50/50 text-gray-900 font-medium" placeholder="Tell us about your tech issue..."></textarea>
-                                        </div>
-
-                                        <button type="submit" className="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white font-black py-5 rounded-2xl hover:from-blue-700 hover:to-blue-800 transition-all active:scale-[0.98] shadow-xl shadow-blue-600/20 flex justify-center items-center gap-3 text-xl">
-                                            Send Message <ArrowRight size={24} />
-                                        </button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
+            <ServiceCTA />
             <Footer />
+            {/*_HOME_REST_END*/}
         </div>
     );
 }

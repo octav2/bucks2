@@ -1,75 +1,79 @@
 import React from 'react';
-import { Wrench, Phone, MessageCircle, MapPin } from 'lucide-react';
+import { Wifi, Mail, ArrowRight } from 'lucide-react';
 import { serviceAreas, businessDetails } from '@/lib/data';
+import { servicesData } from '@/lib/servicesData';
+import { locationsData } from '@/lib/locationsData';
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function Footer() {
+    const serviceList = Object.values(servicesData);
+    const locationList = Object.values(locationsData);
+
     return (
-        <footer className="bg-blue-950 text-blue-100 py-20 px-4">
+        <footer className="bg-slate-950 text-slate-300 py-16 px-4">
             <div className="max-w-6xl mx-auto">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-16">
-                    <div className="flex flex-col gap-6">
-                        <Link href="/" className="flex items-center group mb-4">
-                            <Image 
-                                src="/logo.png" 
-                                alt="Bucks Tech Help" 
-                                width={200}
-                                height={64}
-                                className="h-16 w-auto object-contain brightness-0 invert opacity-90 group-hover:opacity-100 transition-opacity" 
-                            />
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-14">
+                    <div className="flex flex-col gap-5">
+                        <Link href="/" className="flex items-center gap-3">
+                            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center text-white">
+                                <Wifi size={22} />
+                            </div>
+                            <span className="text-white text-lg font-black tracking-tight">Bucks Tech Help</span>
                         </Link>
-                        <p className="text-blue-200 leading-relaxed font-medium">
-                            Patient, local home technology support across Buckinghamshire. I focus on helping you get things working without the stress or jargon.
+                        <p className="text-slate-400 leading-relaxed font-medium">
+                            Enterprise Wi-Fi, structured cabling and IP CCTV infrastructure for large homes, garden offices and businesses across Buckinghamshire.
                         </p>
-                        <div className="flex items-center gap-4">
-                            <a href={businessDetails.whatsappLink} target="_blank" rel="noopener noreferrer" className="bg-green-600 text-white p-2.5 rounded-full hover:bg-green-500 transition-all hover:scale-110 shadow-lg shadow-green-600/20" title="WhatsApp Me">
-                                <MessageCircle size={18} />
-                            </a>
-                            <a href={`sms:${businessDetails.phone.replace(/\s+/g, '')}`} className="bg-blue-600 text-white p-2.5 rounded-full hover:bg-blue-500 transition-all hover:scale-110 shadow-lg shadow-blue-600/20" title="Send an SMS">
-                                <Phone size={18} />
-                            </a>
+                        <div className="flex items-center gap-3 text-sm text-slate-400 font-medium">
+                            <Mail size={16} className="text-blue-400" />
+                            <a href={`mailto:${businessDetails.email}`} className="hover:text-white">{businessDetails.email}</a>
                         </div>
                     </div>
-                    
+
                     <div>
-                        <h4 className="text-white font-bold text-lg mb-8 tracking-tight">Quick Links</h4>
+                        <h4 className="text-white font-bold text-sm uppercase tracking-wider mb-6">Services</h4>
                         <ul className="space-y-4 font-medium">
-                            <li><Link href="/#services" className="hover:text-white transition-colors">Services</Link></li>
-                            <li><Link href="/#pricing" className="hover:text-white transition-colors">Pricing</Link></li>
-                            <li><Link href="/guides" className="hover:text-white transition-colors">Tech Guides</Link></li>
-                            <li><Link href="/#faq" className="hover:text-white transition-colors">FAQ</Link></li>
-                            <li><Link href="/#contact" className="hover:text-white transition-colors">Contact</Link></li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h4 className="text-white font-bold text-lg mb-8 tracking-tight">Our Services</h4>
-                        <ul className="space-y-4 font-medium text-sm">
-                            <li><Link href="/services/computer-laptop-support" className="hover:text-white transition-colors">Laptop & Computer Help</Link></li>
-                            <li><Link href="/services/home-printer-setup-help" className="hover:text-white transition-colors">Printer Setup & Support</Link></li>
-                            <li><Link href="/services/wifi-internet-setup" className="hover:text-white transition-colors">Wi-Fi & Network Help</Link></li>
-                            <li><Link href="/services/phone-tablet-setup" className="hover:text-white transition-colors">Phone & Tablet Setup</Link></li>
-                            <li><Link href="/services/smart-tv-setup" className="hover:text-white transition-colors">Smart TV & App Setup</Link></li>
-                            <li><Link href="/services/computer-security-scam-checks" className="hover:text-white transition-colors">Scam & Security Checks</Link></li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h4 className="text-white font-bold text-lg mb-8 tracking-tight">Service Areas</h4>
-                        <p className="text-sm text-blue-200 mb-6 font-medium">Covering towns across South Bucks, including:</p>
-                        <div className="flex flex-wrap gap-2 text-xs">
-                            {serviceAreas.slice(0, 10).map((area, i) => (
-                                <Link key={i} href={`/${area.toLowerCase().replace(/\s+/g, '-')}`} className="bg-blue-900 hover:bg-blue-800 px-3 py-1.5 rounded-full transition-colors border border-blue-800">
-                                    {area}
-                                </Link>
+                            {serviceList.map((service) => (
+                                <li key={service.slug}>
+                                    <Link href={`/services/${service.slug}`} className="hover:text-white transition-colors">
+                                        {service.shortTitle}
+                                    </Link>
+                                </li>
                             ))}
-                            <span className="px-3 py-1.5 opacity-50">...and more</span>
+                            <li>
+                                <Link href="/quote" className="inline-flex items-center gap-1 text-blue-400 hover:text-blue-300 transition-colors">
+                                    Get a Quote <ArrowRight size={14} />
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 className="text-white font-bold text-sm uppercase tracking-wider mb-6">Locations</h4>
+                        <ul className="space-y-4 font-medium">
+                            {locationList.map((loc) => (
+                                <li key={loc.slug}>
+                                    <Link href={`/locations/${loc.slug}`} className="hover:text-white transition-colors">
+                                        Network Installations in {loc.name}
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 className="text-white font-bold text-sm uppercase tracking-wider mb-6">Coverage</h4>
+                        <p className="text-slate-400 text-sm mb-5 font-medium">Serving South &amp; Central Bucks:</p>
+                        <div className="flex flex-wrap gap-2 text-xs">
+                            {serviceAreas.map((area, i) => (
+                                <span key={i} className="bg-slate-900 hover:bg-slate-800 px-3 py-1.5 rounded-full transition-colors border border-slate-800">
+                                    {area}
+                                </span>
+                            ))}
                         </div>
                     </div>
                 </div>
-                
-                <div className="pt-10 border-t border-blue-900 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-blue-400 font-medium">
+
+                <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-slate-500 font-medium">
                     <p>&copy; {new Date().getFullYear()} {businessDetails.name}. All rights reserved.</p>
                     <div className="flex gap-6">
                         <Link href="/privacy" className="hover:text-white">Privacy Policy</Link>
@@ -81,3 +85,4 @@ export default function Footer() {
         </footer>
     );
 }
+

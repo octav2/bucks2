@@ -1,103 +1,62 @@
 import React from 'react';
-import { Wifi, Printer, Smartphone, Laptop, Tv, ShieldAlert, ChevronRight } from 'lucide-react';
+import { ChevronRight, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
+import { servicesData } from '@/lib/servicesData';
 
 export default function Services() {
-    const servicesList = [
-        { 
-            icon: Wifi, 
-            title: "Wi-Fi Help", 
-            desc: "Slow internet? Weak signal upstairs? We can help diagnose problems, improve coverage, and set up mesh Wi-Fi systems.",
-            features: ["Router Setup", "Mesh Systems", "Dead Zones"],
-            slug: "wifi-internet-setup"
-        },
-        { 
-            icon: Printer, 
-            title: "Printer Help", 
-            desc: "We can help with wireless printer setup, 'printer offline' problems, and printing from phones or tablets. We provide Canon printer help, support for Brother printers, and HP setup.",
-            features: ["Wireless Setup", "Scanner Setup", "Fix Offline"],
-            slug: "home-printer-setup-help"
-        },
-        { 
-            icon: Smartphone, 
-            title: "Phone & Tablet", 
-            desc: "Bought a new device? We can help set up iPhones, iPads, transfer contacts, and show you how to use everything.",
-            features: ["New Device Setup", "Data Transfer", "App Help"],
-            slug: "phone-tablet-setup"
-        },
-        { 
-            icon: Laptop, 
-            title: "Laptop & Computer", 
-            desc: "Friendly computer services and IT support near you. Help with Windows, MacBooks, speeding up slow laptops, email problems, updates, and general troubleshooting.",
-            features: ["Speed Up Laptop", "Email Issues", "Updates"],
-            slug: "computer-laptop-support"
-        },
-        { 
-            icon: Tv, 
-            title: "Smart TV Help", 
-            desc: "We can connect your TV to Wi-Fi, install apps like Netflix or iPlayer, and show you how to use your remote.",
-            features: ["App Installation", "Wi-Fi Connection", "Fire Stick"],
-            slug: "smart-tv-setup"
-        },
-        { 
-            icon: ShieldAlert, 
-            title: "Scam & Safety", 
-            desc: "Worried about suspicious emails? We can check your devices, improve passwords, and give advice on staying safe.",
-            features: ["Scam Checks", "Password Security", "Safety Advice"],
-            slug: "computer-security-scam-checks"
-        }
-    ];
+    const servicesList = Object.values(servicesData);
 
     return (
-        <section id="services" className="py-24 px-4 bg-white relative overflow-hidden">
-            {/* Background Accent */}
-            <div className="absolute top-1/2 left-0 -translate-y-1/2 w-64 h-64 bg-blue-50/5 rounded-full blur-[100px] pointer-events-none"></div>
+        <section id="services" className="py-24 px-4 bg-slate-950 relative overflow-hidden">
+            <div className="absolute top-0 left-0 w-96 h-96 bg-blue-600/10 rounded-full blur-[120px] pointer-events-none"></div>
 
             <div className="max-w-6xl mx-auto relative z-10">
                 <div className="text-center mb-20">
-                    <h2 className="text-4xl md:text-6xl font-black text-blue-950 mb-6 tracking-tight">
-                        Expert Support For <br className="hidden md:block" />
-                        <span className="text-blue-600">Your Home Tech.</span>
+                    <span className="inline-block text-xs font-black uppercase tracking-[0.2em] text-blue-400 mb-4">
+                        Our Services
+                    </span>
+                    <h2 className="text-4xl md:text-6xl font-black text-white mb-6 tracking-tight">
+                        Enterprise-Grade <span className="text-blue-400">Infrastructure</span>
                     </h2>
-                    <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed font-medium">
-                        Whether it's a quick fix, a complex setup, or just needing someone to explain it simply, we're here to help.
+                    <p className="text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed font-medium">
+                        Designed, installed and tested for large homes, garden offices, estates and businesses across Buckinghamshire.
                     </p>
                 </div>
-                
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
-                    {servicesList.map((service, index) => {
+
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    {servicesList.map((service) => {
                         const Icon = service.icon;
                         return (
-                            <div key={index} className="group bg-white p-10 rounded-[3rem] border border-gray-100 shadow-sm hover:shadow-2xl hover:border-blue-100 transition-all duration-500 hover:-translate-y-2 flex flex-col h-full relative overflow-hidden">
-                                {/* Subtle Hover Glow */}
-                                <div className="absolute -top-12 -right-12 w-24 h-24 bg-blue-500/5 rounded-full group-hover:scale-[4] transition-transform duration-700"></div>
-                                
+                            <div key={service.slug} className="group relative bg-slate-900/60 border border-slate-800 rounded-3xl p-9 shadow-xl hover:border-blue-600/40 hover:-translate-y-2 transition-all duration-500 flex flex-col h-full overflow-hidden">
+                                <div className="absolute -top-16 -right-16 w-40 h-40 bg-blue-600/10 rounded-full group-hover:scale-150 transition-transform duration-700"></div>
+
                                 <div className="relative z-10 flex flex-col h-full">
-                                    <div className="bg-gradient-to-br from-blue-50 to-blue-100/50 w-20 h-20 rounded-[1.5rem] flex items-center justify-center text-blue-600 mb-8 group-hover:from-blue-600 group-hover:to-blue-700 group-hover:text-white transition-all duration-500 shadow-inner">
-                                        <Icon size={36} />
+                                    <div className="bg-gradient-to-br from-blue-500 to-blue-700 w-16 h-16 rounded-2xl flex items-center justify-center text-white mb-7 shadow-lg shadow-blue-600/20">
+                                        <Icon size={32} />
                                     </div>
-                                    <h3 className="text-2xl font-black text-blue-950 mb-4 tracking-tight group-hover:text-blue-600 transition-colors">
-                                        <Link href={`/services/${service.slug}`} className="hover:underline">
-                                            {service.title}
-                                        </Link>
+                                    <p className="text-[11px] font-black uppercase tracking-[0.15em] text-blue-400 mb-3">{service.heroPill}</p>
+                                    <h3 className="text-2xl font-black text-white mb-4 tracking-tight leading-snug">
+                                        {service.title}
                                     </h3>
-                                    <p className="text-gray-600 mb-8 leading-relaxed font-medium flex-grow">{service.desc}</p>
-                                    
-                                    <div className="mt-6 pt-6 border-t border-gray-100 flex items-center justify-between">
-                                        <div className="flex flex-wrap gap-2">
-                                            {service.features.map((feat, i) => (
-                                                <span key={i} className="text-[10px] font-black uppercase tracking-[0.1em] text-blue-900/40 bg-blue-50/50 px-3 py-1.5 rounded-lg group-hover:bg-blue-600/5 group-hover:text-blue-600 transition-colors">
-                                                    {feat}
-                                                </span>
-                                            ))}
-                                        </div>
-                                        <Link 
-                                            href={`/services/${service.slug}`} 
-                                            aria-label={`Learn more about our ${service.title} service`}
-                                            className="text-blue-600 hover:text-blue-800 font-bold text-sm flex items-center gap-1 group-hover:translate-x-1 transition-transform"
+                                    <p className="text-slate-400 mb-6 leading-relaxed font-medium flex-grow">{service.intro}</p>
+
+                                    <ul className="space-y-3 mb-8">
+                                        {service.heroBullets.map((b, i) => (
+                                            <li key={i} className="flex items-start gap-3 text-sm text-slate-300 font-medium">
+                                                <ArrowRight size={16} className="text-blue-400 mt-1 flex-shrink-0" />
+                                                {b}
+                                            </li>
+                                        ))}
+                                    </ul>
+
+                                    <div className="mt-2 pt-6 border-t border-slate-800 flex items-center justify-between">
+                                        <Link
+                                            href={`/services/${service.slug}`}
+                                            className="text-blue-400 hover:text-blue-300 font-bold text-sm flex items-center gap-1 group-hover:translate-x-1 transition-transform"
                                         >
-                                            Learn More <ChevronRight size={16} />
+                                            View Service <ChevronRight size={16} />
                                         </Link>
+                                        <span className="text-xs text-slate-500 font-bold">From £1,500</span>
                                     </div>
                                 </div>
                             </div>
