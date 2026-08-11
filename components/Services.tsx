@@ -1,7 +1,22 @@
-import React from 'react';
-import { ChevronRight, ArrowRight } from 'lucide-react';
+﻿import React from 'react';
+import { ChevronRight, ArrowRight, BadgeCheck } from 'lucide-react';
 import Link from 'next/link';
 import { servicesData } from '@/lib/servicesData';
+
+const pricing: Record<string, { from: string; micro: string }> = {
+    'whole-home-wifi': {
+        from: '£1,500',
+        micro: 'Includes enterprise hardware, multi-point Cat6 cabling, and turn-key installation.',
+    },
+    'smart-security': {
+        from: '£1,500',
+        micro: 'Includes enterprise hardware, multi-point Cat6 cabling, and turn-key installation.',
+    },
+    'commercial-cabling': {
+        from: '£2,500',
+        micro: 'Includes certified Cat6/Cat6a cabling, rack installation and full termination.',
+    },
+};
 
 export default function Services() {
     const servicesList = Object.values(servicesData);
@@ -26,9 +41,20 @@ export default function Services() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {servicesList.map((service) => {
                         const Icon = service.icon;
+                        const price = pricing[service.slug];
+                        const showBadge = service.slug === 'smart-security';
                         return (
-                            <div key={service.slug} className="group relative bg-slate-900/60 border border-slate-800 rounded-3xl p-9 shadow-xl hover:border-blue-600/40 hover:-translate-y-2 transition-all duration-500 flex flex-col h-full overflow-hidden">
+                            <div key={service.slug} className="group relative bg-slate-900/80 border border-slate-800 rounded-3xl p-9 shadow-xl hover:border-cyan-500/50 hover:-translate-y-2 transition-all duration-500 flex flex-col h-full overflow-hidden">
                                 <div className="absolute -top-16 -right-16 w-40 h-40 bg-blue-600/10 rounded-full group-hover:scale-150 transition-transform duration-700"></div>
+
+                                {showBadge && (
+                                    <div className="relative z-20 mb-6">
+                                        <span className="inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-cyan-500 to-emerald-500 px-4 py-2 text-[11px] font-black uppercase tracking-wider text-slate-950 shadow-lg shadow-emerald-500/20">
+                                            <BadgeCheck size={14} />
+                                            No Monthly Subscription Fees Forever
+                                        </span>
+                                    </div>
+                                )}
 
                                 <div className="relative z-10 flex flex-col h-full">
                                     <div className="bg-gradient-to-br from-blue-500 to-blue-700 w-16 h-16 rounded-2xl flex items-center justify-center text-white mb-7 shadow-lg shadow-blue-600/20">
@@ -49,14 +75,19 @@ export default function Services() {
                                         ))}
                                     </ul>
 
-                                    <div className="mt-2 pt-6 border-t border-slate-800 flex items-center justify-between">
+                                    <div className="mt-2 pt-6 border-t border-slate-800">
                                         <Link
                                             href={`/services/${service.slug}`}
                                             className="text-blue-400 hover:text-blue-300 font-bold text-sm flex items-center gap-1 group-hover:translate-x-1 transition-transform"
                                         >
                                             View Service <ChevronRight size={16} />
                                         </Link>
-                                        <span className="text-xs text-slate-500 font-bold">From £1,500</span>
+
+                                        <div className="mt-6 pt-5 border-t border-slate-800 flex items-baseline gap-2">
+                                            <span className="text-xs text-slate-500 font-bold uppercase tracking-wider">From</span>
+                                            <span className="text-3xl font-black text-white leading-none">{price.from}</span>
+                                        </div>
+                                        <p className="mt-2 text-xs text-slate-400 font-medium leading-relaxed">{price.micro}</p>
                                     </div>
                                 </div>
                             </div>

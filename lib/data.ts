@@ -1,4 +1,4 @@
-// lib/data.ts
+﻿// lib/data.ts
 // Central business data — rebranded for a high-ticket local infrastructure agency.
 
 export const businessDetails = {
@@ -43,6 +43,10 @@ export const serviceAreas = [
 export const coreTowns = ["Beaconsfield", "Amersham", "Chesham", "Gerrards Cross", "High Wycombe"];
 
 export const faqs = [
+    {
+        question: "Why do your network installations start from £1,500?",
+        answer: "Unlike consumer wireless mesh pods that temporarily patch signals over air, we install permanent, commercial-grade infrastructure. Our starting package includes enterprise hardware (Ubiquiti/TP-Link Omada), hardwired Cat6 cable runs routed through lofts/voids, full system configuration, and a 100% Zero-Dead-Zone Guarantee.",
+    },
     {
         question: "Do you carry out hardwiring, drilling and cabling?",
         answer: "Yes. Structured Cat6/Cat6a cabling, wall/floor drilling, containment and full network installation are our core specialism. Every project is planned, tidy and fully tested before handover.",

@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -9,6 +9,10 @@ import CoverageMap from '@/components/CoverageMap';
 import Testimonials from '@/components/Testimonials';
 import FAQ from '@/components/FAQ';
 import ServiceCTA from '@/components/ServiceCTA';
+import BrandTrustBar from '@/components/BrandTrustBar';
+import ProblemAgitation from '@/components/ProblemAgitation';
+import MobileStickyCTA from '@/components/MobileStickyCTA';
+import MicroTrust from '@/components/MicroTrust';
 import { ArrowRight, Zap, ShieldCheck, Wifi, Gauge, HardHat } from 'lucide-react';
 import Link from 'next/link';
 
@@ -18,7 +22,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
     return (
-        <div className="min-h-screen bg-slate-950 text-slate-100">
+        <div className="min-h-screen bg-slate-950 text-slate-100 pb-28 md:pb-0">
             <Header />
 
             {/* HERO */}
@@ -52,6 +56,12 @@ export default function Home() {
                         </Link>
                     </div>
 
+                    <div className="mt-6">
+                        <MicroTrust />
+                    </div>
+
+                    <BrandTrustBar />
+
                     <div className="mt-16 flex flex-wrap items-center justify-center gap-x-10 gap-y-5 text-slate-400 font-bold text-sm md:text-base uppercase tracking-widest">
                         <span className="flex items-center gap-2.5"><ShieldCheck className="text-emerald-400" size={20} /> Fully Tested &amp; Certified</span>
                         <span className="flex items-center gap-2.5"><Zap className="text-blue-400" size={20} /> Zero Dead Zones</span>
@@ -59,6 +69,9 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+
+            {/* PROBLEM AGITATION */}
+            <ProblemAgitation />
 
             {/*_HOME_REST*/}
             {/* VALUE PROPS */}
@@ -97,6 +110,7 @@ export default function Home() {
             <FAQ />
             <ServiceCTA />
             <Footer />
+            <MobileStickyCTA />
             {/*_HOME_REST_END*/}
         </div>
     );

@@ -1,6 +1,7 @@
-import React from 'react';
+﻿import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
+import MicroTrust from '@/components/MicroTrust';
 
 interface Props {
     title?: string;
@@ -21,6 +22,9 @@ export default function ServiceCTA({ title = "Ready to eliminate dead zones and 
                     >
                         Start My Free Quote Audit <ArrowRight size={22} />
                     </Link>
+                    <div className="mt-6">
+                        <MicroTrust />
+                    </div>
                 </div>
             </div>
         </section>
