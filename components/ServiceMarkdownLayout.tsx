@@ -1,0 +1,259 @@
+﻿import React from 'react';
+import Script from 'next/script';
+import Link from 'next/link';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import ServiceCTA from '@/components/ServiceCTA';
+import { servicesData } from '@/lib/servicesData';
+import { locationsData } from '@/lib/locationsData';
+import { businessDetails } from '@/lib/data';
+import type { ServiceContent, MarkdownSection } from '@/lib/markdown';
+import { Wifi, Cable, Cctv, CheckCircle, ArrowRight, BadgeCheck } from 'lucide-react';
+
+const heroMeta: Record<string, { icon: any; pill: string }> = {
+    'whole-home-wifi': { icon: Wifi, pill: 'Enterprise Wi-Fi · Zero Dead Zones' },
+    'commercial-cabling': { icon: Cable, pill: 'Structured Cabling · Rack Installation' },
+    'smart-security': { icon: Cctv, pill: '4K IP CCTV · No Monthly Fees' },
+};
+
+function extractPrice(value: string): string {
+    const match = /£\s*([\d,]+)/.exec(value);
+    return match ? match[1].replace(/,/g, '') : '1500';
+}
+
+function renderSection(section: MarkdownSection, key: number) {
+    switch (section.kind) {
+        case 'prose':
+            return (
+                <section key={key} className="py-14 px-4 bg-slate-900">
+                    <div className="max-w-4xl mx-auto">
+                        <h2 className="text-3xl md:text-4xl font-black text-white mb-8 tracking-tight">{section.title}</h2>
+                        <div className="markdown-body text-lg text-slate-300 leading-relaxed font-medium" dangerouslySetInnerHTML={{ __html: section.html }} />
+                    </div>
+                </section>
+            );
+        case 'bullets':
+            return (
+                <section key={key} className="py-14 px-4 bg-slate-950">
+                    <div className="max-w-4xl mx-auto">
+                        <h2 className="text-3xl md:text-4xl font-black text-white mb-10 tracking-tight text-center">{section.title}</h2>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+                            {section.items.map((item, i) => (
+                                <div key={i} className="flex items-start gap-3 bg-slate-900/70 border border-slate-800 p-6 rounded-2xl">
+                                    <CheckCircle size={22} className="text-emerald-400 mt-0.5 flex-shrink-0" />
+                                    <span className="text-slate-200 font-medium">{item}</span>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </section>
+            );
+        case 'table':
+            return (
+                <section key={key} className="py-14 px-4 bg-slate-950">
+                    <div className="max-w-5xl mx-auto">
+                        <h2 className="text-3xl md:text-4xl font-black text-white mb-10 tracking-tight text-center">{section.title}</h2>
+                        <div className="overflow-x-auto rounded-2xl border border-slate-800 bg-slate-900/60">
+                            <table className="w-full text-left text-sm">
+                                <thead className="bg-slate-800/90 text-white">
+                                    <tr>
+                                        {section.headers.map((h, i) => (
+                                            <th key={i} className="px-5 py-4 font-black uppercase tracking-wider text-[11px]">{h}</th>
+                                        ))}
+                                    </tr>
+                                </thead>
+                                <tbody className="divide-y divide-slate-800">
+                                    {section.rows.map((row, ri) => (
+                                        <tr key={ri} className="even:bg-slate-900/40">
+                                            {row.map((cell, ci) => (
+                                                <td key={ci} className="px-5 py-4 text-slate-300 font-medium align-top">{cell}</td>
+                                            ))}
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+            );
+        case 'steps':
+            return (
+                <section key={key} className="py-14 px-4 bg-slate-900">
+                    <div className="max-w-4xl mx-auto">
+                        <h2 className="text-3xl md:text-4xl font-black text-white mb-10 tracking-tight text-center">{section.title}</h2>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                            {section.steps.map((step, i) => (
+                                <div key={i} className="flex items-start gap-4 p-6 rounded-2xl border border-slate-700 bg-slate-800/50">
+                                    <span className="w-10 h-10 flex-shrink-0 rounded-xl bg-gradient-to-br from-blue-500 to-blue-700 text-white font-black flex items-center justify-center">{i + 1}</span>
+                                    <p className="text-slate-200 font-bold">{step}</p>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </section>
+            );
+        case 'faq':
+            return (
+                <section key={key} className="py-14 px-4 bg-slate-950">
+                    <div className="max-w-3xl mx-auto">
+                        <h2 className="text-3xl md:text-4xl font-black text-white mb-10 tracking-tight text-center">{section.title}</h2>
+                        <div className="space-y-4">
+                            {section.faqs.map((faq, i) => (
+                                <details key={i} className="group bg-slate-900/70 border border-slate-800 rounded-2xl overflow-hidden">
+                                    <summary className="w-full flex items-center justify-between gap-4 cursor-pointer text-left p-6 hover:bg-slate-800/50 transition-colors list-none [&::-webkit-details-marker]:hidden">
+                                        <span className="font-bold text-white text-lg">{faq.question}</span>
+                                        <span className="text-blue-400 flex-shrink-0 transition-transform duration-300 group-open:rotate-180">
+                                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="m6 9 6 6 6-6" /></svg>
+                                        </span>
+                                    </summary>
+                                    <p className="text-slate-400 leading-relaxed pl-6 pr-6 pb-6 font-medium">{faq.answer}</p>
+                                </details>
+                            ))}
+                        </div>
+                    </div>
+                </section>
+            );
+    }
+}
+
+export default function ServiceMarkdownLayout({ service }: { service: ServiceContent }) {
+    const { frontmatter: fm, heroHighlights, sections } = service;
+    const meta = heroMeta[service.slug] ?? { icon: Wifi, pill: 'Network Infrastructure' };
+    const Icon = meta.icon;
+    const otherServices = Object.values(servicesData).filter((s) => s.slug !== service.slug);
+
+    const faqSection = sections.find((s) => s.kind === 'faq');
+
+    const serviceSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'Service',
+        serviceType: fm.title,
+        provider: {
+            '@type': 'LocalBusiness',
+            name: businessDetails.name,
+            url: businessDetails.domain,
+            telephone: businessDetails.phone,
+            priceRange: businessDetails.priceRange,
+        },
+        areaServed: fm.coveredTowns.map((town) => ({ '@type': 'City', name: town })),
+        description: fm.metaDescription,
+        offers: {
+            '@type': 'Offer',
+            priceSpecification: {
+                '@type': 'PriceSpecification',
+                price: extractPrice(fm.startingPrice),
+                priceCurrency: 'GBP',
+            },
+        },
+    };
+
+    const faqSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: (faqSection && faqSection.kind === 'faq' ? faqSection.faqs : []).map((f) => ({
+            '@type': 'Question',
+            name: f.question,
+            acceptedAnswer: { '@type': 'Answer', text: f.answer },
+        })),
+    };
+
+    return (
+        <div className="min-h-screen bg-slate-950 text-slate-100">
+            <Script id={`service-schema-${service.slug}`} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify([serviceSchema, faqSchema]) }} />
+
+            <Header />
+
+            {/* HERO */}
+            <section className="relative overflow-hidden bg-slate-950 py-20 md:py-28 px-4 border-b border-slate-800">
+                <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-600/10 rounded-full blur-[120px]"></div>
+                <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-blue-600/10 rounded-full blur-[120px]"></div>
+
+                <div className="max-w-4xl mx-auto relative z-10">
+                    <div className="flex justify-center mb-6">
+                        <span className="bg-blue-500/10 text-blue-300 border border-blue-500/20 px-4 py-1.5 rounded-full text-sm font-bold flex items-center gap-2">
+                            <Icon size={16} /> {meta.pill}
+                        </span>
+                    </div>
+                    <h1 className="text-4xl md:text-6xl font-black text-white mb-6 leading-tight tracking-tight text-center">
+                        {fm.title}
+                    </h1>
+                    <p className="text-xl text-slate-400 max-w-3xl mx-auto text-center leading-relaxed font-medium mb-10">
+                        {fm.subtitle}
+                    </p>
+                    <ul className="max-w-2xl mx-auto space-y-3">
+                        {heroHighlights.map((h, i) => (
+                            <li key={i} className="flex items-start gap-3 text-slate-200 font-medium">
+                                <CheckCircle size={20} className="text-emerald-400 mt-0.5 flex-shrink-0" /> {h}
+                            </li>
+                        ))}
+                    </ul>
+                    <div className="flex justify-center mt-10">
+                        <Link href="/quote" className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-500 to-blue-700 text-white px-8 py-4 rounded-2xl font-black text-lg hover:from-blue-600 hover:to-blue-800 transition-all shadow-lg shadow-blue-600/20 hover:scale-[1.02]">
+                            Get a Free Quote Audit <ArrowRight size={20} />
+                        </Link>
+                    </div>
+                </div>
+            </section>
+
+            {/* STARTING PRICE ANCHOR */}
+            <section className="py-14 px-4 bg-slate-900 border-b border-slate-800">
+                <div className="max-w-3xl mx-auto bg-slate-950/60 border border-cyan-500/20 rounded-3xl p-8 md:p-10 text-center">
+                    <span className="inline-flex items-center gap-2 text-cyan-400 text-xs font-black uppercase tracking-widest mb-3">
+                        <BadgeCheck size={16} /> Starting Investment
+                    </span>
+                    <p className="text-4xl md:text-5xl font-black text-white">{fm.startingPrice}</p>
+                    <p className="text-slate-300 text-lg mt-3 max-w-xl mx-auto leading-relaxed font-medium">{fm.priceDetails}</p>
+                    <div className="mt-7">
+                        <Link href="/quote" className="inline-flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-8 py-4 rounded-2xl font-black text-lg hover:from-cyan-600 hover:to-blue-700 transition-all shadow-lg shadow-cyan-600/20 hover:scale-[1.02]">
+                            Request My Property Audit <ArrowRight size={20} />
+                        </Link>
+                    </div>
+                </div>
+            </section>
+
+            {sections.map((section, i) => renderSection(section, i))}
+
+            {/* AREAS */}
+            <section className="py-16 px-4 bg-slate-900 border-y border-slate-800">
+                <div className="max-w-4xl mx-auto">
+                    <h2 className="text-2xl md:text-3xl font-black text-white mb-8 tracking-tight text-center">Available Across Buckinghamshire</h2>
+                    <div className="flex flex-wrap justify-center gap-3">
+                        {fm.coveredTowns.map((town) => {
+                            const slug = town.toLowerCase().replace(/\s+/g, '-');
+                            return locationsData[slug] ? (
+                                <Link key={slug} href={`/locations/${slug}`} className="bg-slate-800 hover:bg-slate-700 border border-slate-700 hover:border-blue-600/50 px-5 py-2.5 rounded-full text-sm font-bold text-white transition-all">
+                                    {town}
+                                </Link>
+                            ) : (
+                                <span key={town} className="bg-slate-800 border border-slate-700 px-5 py-2.5 rounded-full text-sm font-bold text-slate-300">{town}</span>
+                            );
+                        })}
+                    </div>
+                </div>
+            </section>
+
+            {/* OTHER SERVICES */}
+            <section className="py-20 px-4 bg-slate-950">
+                <div className="max-w-4xl mx-auto">
+                    <h3 className="text-2xl font-black text-white mb-10 tracking-tight text-center">Explore More Services</h3>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        {otherServices.map((s) => (
+                            <Link key={s.slug} href={`/services/${s.slug}`} className="group flex gap-5 bg-slate-900/60 border border-slate-800 p-6 rounded-3xl hover:border-blue-600/40 hover:bg-slate-900 transition-all duration-300">
+                                <div className="bg-gradient-to-br from-blue-500 to-blue-700 p-4 rounded-2xl text-white flex-shrink-0 h-14 w-14 flex items-center justify-center">
+                                    <s.icon size={24} />
+                                </div>
+                                <div>
+                                    <h4 className="font-black text-white group-hover:text-blue-300 transition-colors mb-2 text-lg">{s.shortTitle}</h4>
+                                    <p className="text-slate-400 text-sm leading-relaxed font-medium">{s.intro}</p>
+                                </div>
+                            </Link>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            <ServiceCTA />
+            <Footer />
+        </div>
+    );
+}
