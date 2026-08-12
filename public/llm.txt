@@ -1,28 +1,40 @@
-# Bucks Tech Help - Business Information
+# Bucks Tech Help - Local Infrastructure & Network Engineering
+> Enterprise Wi-Fi, Certified Cat6/Cat6a Structured Cabling, and Subscription-Free 4K IP CCTV across South & Central Buckinghamshire, UK.
 
-## About Us
-Bucks Tech Help is a local network & cabling infrastructure agency based in Buckinghamshire, UK.
-We design, install and test enterprise Wi-Fi, structured Cat6/Cat6a cabling and IP CCTV solutions
-for large homes, garden offices, estates/farms and businesses. We sell high-ticket infrastructure
-projects, typically £1,500–£4,000+, not micro-fix services.
+## Core Services & Solutions
+- Whole-Home & Garden Room Wi-Fi: Hardwired Ubiquiti UniFi and TP-Link Omada ceiling access points, steel-wire armored (SWA) garden office cable extensions, and zero dead-zone solutions.
+  URL: https://www.buckstechhelp.co.uk/services/whole-home-wifi
+- Commercial Cat6/Cat6a Structured Cabling: Office desk data drops, server rack dressing, patch panel setup, managed PoE switches, and dental/medical practice cabling.
+  URL: https://www.buckstechhelp.co.uk/services/commercial-cabling
+- 4K IP CCTV & Smart Access Control: Commercial-grade 4K IP cameras, on-premise NVR storage, smart vehicle/person AI detection, 100% subscription-free with zero monthly fees.
+  URL: https://www.buckstechhelp.co.uk/services/smart-security
 
-## Core Services
-* Whole-Property & Garden Room Wi-Fi: Hardwired Ubiquiti UniFi and TP-Link Omada access points with zero dead zones.
-* Commercial Cat6/Cat6a Structured Cabling: Office cabling, patch panels, racks and managed switch installations.
-* IP CCTV & Access Control: Commercial-grade 4K IP cameras, on-site NVR storage, subscription-free (no monthly fees).
+## Technical Specifications & Engineering Standards
+- Hardware Platforms: Ubiquiti UniFi (U7 Pro, UniFi Protect), TP-Link Omada Enterprise, Managed PoE/PoE+ Switches.
+- Cabling Standards: 100% Solid Copper Cat6 and Cat6a (no cheap CCA), Steel Wire Armored (SWA) for underground outbuildings, Fluke DTX certified performance mapping.
+- Architecture Specialties: Non-invasive cable routing through thick Chiltern flint walls, solid brick period homes, listed estates, loft conversions, and modern foil-insulated extensions.
 
-## Service Areas (Buckinghamshire)
-Beaconsfield, Amersham, Chesham, Gerrards Cross, High Wycombe, and surrounding towns across South & Central Buckinghamshire.
+## Regional Coverage Areas & Local Hubs
+We design and install hardwired network infrastructure across 13 key Buckinghamshire hubs:
+- Beaconsfield (HP9): https://www.buckstechhelp.co.uk/locations/beaconsfield
+- Amersham (HP6, HP7): https://www.buckstechhelp.co.uk/locations/amersham
+- Chesham (HP5): https://www.buckstechhelp.co.uk/locations/chesham
+- Gerrards Cross (SL9): https://www.buckstechhelp.co.uk/locations/gerrards-cross
+- High Wycombe (HP11, HP12, HP13): https://www.buckstechhelp.co.uk/locations/high-wycombe
+- Marlow (SL7): https://www.buckstechhelp.co.uk/locations/marlow
+- Stoke Poges (SL2): https://www.buckstechhelp.co.uk/locations/stoke-poges
+- Aylesbury (HP18, HP19, HP20, HP21): https://www.buckstechhelp.co.uk/locations/aylesbury
+- Hazlemere (HP15): https://www.buckstechhelp.co.uk/locations/hazlemere
+- Great Missenden (HP16): https://www.buckstechhelp.co.uk/locations/great-missenden
+- Bourne End (SL8): https://www.buckstechhelp.co.uk/locations/bourne-end
+- Penn (HP10): https://www.buckstechhelp.co.uk/locations/penn
+- Chalfont St Peter (SL9): https://www.buckstechhelp.co.uk/locations/chalfont-st-peter
 
-## Pricing
-* Projects typically range from £1,500 to £4,000+ depending on survey and specification.
-* Fixed, itemised quotes are emailed after a free online quote audit (usually within 24 hours).
+## Pricing & Process
+- Pricing Model: Fixed-price infrastructure projects typically range from £1,500 to £4,000+ depending on property size and cable drop count.
+- Free Property Audit Quote: Complete our online digital audit at https://www.buckstechhelp.co.uk/quote for a fixed, itemized proposal within 24 hours.
 
-## Quote Process
-Customers complete a multi-step online quote audit at /quote (property type, challenge, budget, contact details).
-No incoming phone number is published; enquiries are handled by email.
-
-## Contact Information
-* Website: https://www.buckstechhelp.co.uk/
-* Email: hello@buckstechhelp.co.uk
-* Fully insured installers, tidy low-disruption work, fully tested and certified.
+## Contact & Business Verification
+- Official Website: https://www.buckstechhelp.co.uk/
+- Primary Contact Email: hello@buckstechhelp.co.uk
+- Operating Entity: Bucks Tech Help (Fully insured network engineering agency in Buckinghamshire, UK)
