@@ -99,7 +99,6 @@ export default function LocationPage({ params }: Props) {
         '@type': 'TelecommunicationsContractor',
         name: `Bucks Tech Help - ${town}`,
         url: `${domain}/locations/${location.slug}`,
-        telephone: businessDetails.intlPhone,
         priceRange: '£1500-£5000+',
         areaServed: { '@type': 'AdministrativeArea', name: `${town}, Buckinghamshire, UK` },
         description: fm.metaDescription,

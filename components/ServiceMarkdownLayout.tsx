@@ -141,7 +141,6 @@ export default function ServiceMarkdownLayout({ service }: { service: ServiceCon
             '@type': 'LocalBusiness',
             name: businessDetails.name,
             url: businessDetails.domain,
-            telephone: businessDetails.phone,
             priceRange: businessDetails.priceRange,
         },
         areaServed: coverageTowns.map((name) => ({ '@type': 'City', name })),

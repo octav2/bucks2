@@ -3,10 +3,6 @@
 
 export const businessDetails = {
     name: "Bucks Tech Help",
-    phone: "0734 307 9390",
-    phoneClean: "07343079390",
-    intlPhone: "+447343079390",
-    whatsappLink: "https://wa.me/447343079390",
     email: "hello@buckstechhelp.co.uk",
     domain: "https://www.buckstechhelp.co.uk",
     logo: "https://www.buckstechhelp.co.uk/logo.png",

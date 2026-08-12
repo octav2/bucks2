@@ -115,7 +115,7 @@ export default function Header() {
                     >
                         Get a Quote
                     </Link>
-                    <p className="text-xs text-slate-500 pt-2">{businessDetails.phone} · {businessDetails.email}</p>
+                    <p className="text-xs text-slate-500 pt-2">{businessDetails.email}</p>
                 </div>
             )}
         </header>

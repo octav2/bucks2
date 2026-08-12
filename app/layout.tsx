@@ -31,6 +31,11 @@ export const metadata: Metadata = {
         index: true,
         follow: true,
     },
+    formatDetection: {
+        telephone: false,
+        email: true,
+        address: true,
+    },
 };
 
 export default function RootLayout({

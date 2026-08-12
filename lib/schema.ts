@@ -9,7 +9,6 @@ export function localBusinessSchema(): object {
         name: businessDetails.name,
         image: businessDetails.logo,
         url: businessDetails.domain,
-        telephone: businessDetails.phone,
         priceRange: businessDetails.priceRange,
         description: businessDetails.tagline,
         address: {
@@ -42,7 +41,6 @@ export function organizationSchema(): object {
         logo: businessDetails.logo,
         contactPoint: {
             "@type": "ContactPoint",
-            telephone: businessDetails.intlPhone,
             contactType: "sales",
             areaServed: "GB",
             availableLanguage: "en",
