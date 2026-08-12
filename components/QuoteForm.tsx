@@ -10,9 +10,9 @@ interface Props {
 
 export default function QuoteForm({ locationSlug, townName }: Props) {
 
-const propertyTypes = ["Detached House", "Office", "Farm or Estate", "Commercial Unit"];
+const propertyTypes = ["Detached House", "Office", "Farm or Estate", "Commercial Unit", "Garden Office / Outbuilding"];
 const challenges = ["Wi-Fi Dead Zones", "Garden Room Connection", "Office Cabling", "CCTV"];
-const budgets = ["£1,500 – £2,500", "£2,500 – £5,000", "£5,000+"];
+const budgets = ["£1,500 – £2,500", "£2,500 – £5,000", "£5,000+", "Unsure — need expert recommendation"];
 
 const stepTitles = [
     "What type of property is it?",
@@ -30,8 +30,8 @@ const stepTitles = [
         propertyType: "",
         challenge: "",
         budget: "",
-        name: "",
-        address: "",
+        fullName: "",
+        addressPostcode: townName ?? "",
         email: "",
         phone: "",
         location: locationSlug ?? "",
@@ -43,22 +43,47 @@ const stepTitles = [
         step === 0 ? form.propertyType !== "" :
         step === 1 ? form.challenge !== "" :
         step === 2 ? form.budget !== "" :
-        form.name !== "" && form.address !== "" && form.email !== "";
+        form.fullName !== "" && form.addressPostcode !== "" && form.email !== "";
 
     async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
         e.preventDefault();
         setSubmitting(true);
+
+        const payload = {
+            "Full Name": form.fullName,
+            "Email": form.email,
+            "Phone": form.phone,
+            "Address / Postcode": form.addressPostcode,
+            "Property Type": form.propertyType,
+            "Primary Challenge": form.challenge,
+            "Selected Budget": form.budget,
+            "Floorplan": fileName ?? "",
+            "_subject": `🚨 NEW QUOTE AUDIT: ${form.fullName} (${form.addressPostcode})`,
+            "_replyto": form.email,
+            "_template": "table",
+            "_autoresponse": `Hello ${form.fullName},\n\nThank you for submitting your property audit request for ${form.addressPostcode}.\n\nOur engineering team at Bucks Tech Help is reviewing your requirements and will email your preliminary scope and fixed pricing within 24 hours.\n\nBest regards,\nBucks Tech Help Engineering Team\n[https://www.buckstechhelp.co.uk](https://www.buckstechhelp.co.uk)`
+        };
+
         try {
-            await fetch('/api/quote', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ ...form, floorplan: fileName }),
+            const response = await fetch("https://formsubmit.co/ajax/hello@buckstechhelp.co.uk", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    "Accept": "application/json"
+                },
+                body: JSON.stringify(payload)
             });
-        } catch {
-            // Submission is non-blocking for the user experience.
+
+            if (response.ok) {
+                setSubmitted(true); // Move to "Thank You" confirmation step
+            } else {
+                alert("There was an issue submitting your audit. Please try again or email hello@buckstechhelp.co.uk");
+            }
+        } catch (error) {
+            console.error("FormSubmit Error:", error);
+            alert("Submission error. Please check your network connection.");
         } finally {
             setSubmitting(false);
-            setSubmitted(true);
         }
     }
 
@@ -172,11 +197,11 @@ const stepTitles = [
                             <div className="space-y-5">
                                 <div>
                                     <label className="block text-sm font-bold text-slate-300 mb-2">Full Name *</label>
-                                    <input type="text" value={form.name} onChange={(e) => set('name', e.target.value)} required className="w-full px-5 py-4 rounded-xl bg-slate-800/70 border border-slate-700 focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 outline-none text-white font-medium" placeholder="John Smith" />
+                                    <input type="text" value={form.fullName} onChange={(e) => set('fullName', e.target.value)} required className="w-full px-5 py-4 rounded-xl bg-slate-800/70 border border-slate-700 focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 outline-none text-white font-medium" placeholder="John Smith" />
                                 </div>
                                 <div>
                                     <label className="block text-sm font-bold text-slate-300 mb-2">Address / Postcode *</label>
-                                    <input type="text" value={form.address} onChange={(e) => set('address', e.target.value)} required className="w-full px-5 py-4 rounded-xl bg-slate-800/70 border border-slate-700 focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 outline-none text-white font-medium" placeholder="e.g. Beaconsfield, HP9" />
+                                    <input type="text" value={form.addressPostcode} onChange={(e) => set('addressPostcode', e.target.value)} required className="w-full px-5 py-4 rounded-xl bg-slate-800/70 border border-slate-700 focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 outline-none text-white font-medium" placeholder="e.g. Beaconsfield, HP9" />
                                 </div>
                                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                                     <div>
@@ -192,8 +217,8 @@ const stepTitles = [
                                     <label className="block text-sm font-bold text-slate-300 mb-2">Floorplan / Photos <span className="text-slate-500 font-normal">(optional)</span></label>
                                     <label className="flex flex-col items-center justify-center gap-2 w-full px-5 py-8 rounded-xl border-2 border-dashed border-slate-700 bg-slate-800/40 hover:border-blue-500 cursor-pointer transition-all text-center">
                                         <Upload size={24} className="text-blue-400" />
-                                        <span className="text-sm text-slate-300 font-medium">{fileName ? fileName : "Upload your floorplan or site photos"}</span>
-                                        <span className="text-xs text-slate-500">PNG, JPG or PDF, up to 10MB</span>
+                                        <span className="text-sm text-slate-300 font-medium">{fileName ? fileName : "Upload floorplan, site photos, or rough sketch"}</span>
+                                        <span className="text-xs text-slate-500">(Optional - helps us quote faster) · PNG, JPG or PDF, up to 10MB</span>
                                         <input type="file" accept=".png,.jpg,.jpeg,.pdf" className="hidden" onChange={(e) => setFileName(e.target.files?.[0]?.name ?? null)} />
                                     </label>
                                 </div>
