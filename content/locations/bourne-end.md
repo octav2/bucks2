@@ -18,6 +18,8 @@ Consumer Wi-Fi boosters fail over long garden distances and cannot push through 
 
 We install centralized Power-over-Ethernet (PoE) switches, discrete internal Cat6 cable backhauls, and weather-proof (IP67) outdoor access points that broadcast reliable, high-speed Wi-Fi across patios, lawns, and boat docks.
 
+Bourne End riverside homes benefit from **outdoor wifi for river moorings** and **subscription-free 4k cctv bourne end** with local NVR recording and no recurring fees.
+
 ## Featured Bourne End Case Study
 
 - **Property Type:** 5-Bedroom Riverside Detached Home (Bourne End)
@@ -26,6 +28,12 @@ We install centralized Power-over-Ethernet (PoE) switches, discrete internal Cat
 - **The Result:** 900+ Mbps Wi-Fi coverage on the river deck and 24/7 4K security recording with instant mobile phone access.
 
 ## Frequently Asked Questions for Bourne End
+
+### Can you provide outdoor wifi for river moorings in Bourne End?
+Yes. We install weather-rated (IP67) access points for **outdoor wifi for river moorings**, covering decks, lawns, and boat mooring areas.
+
+### Do you install subscription-free 4k cctv in Bourne End?
+Yes. Our **subscription-free 4k cctv bourne end** systems record 4K IP cameras to a local NVR with zero monthly fees and free mobile access.
 
 ### Do you cover Bourne End, Flackwell Heath, and Wooburn Green?
 Yes. We serve all SL8 postcode areas, including Bourne End, Flackwell Heath, Wooburn Green, Wooburn Moor, and Well End.

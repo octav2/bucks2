@@ -18,6 +18,8 @@ At Bucks Tech Help, we specialize in sympathetic, non-invasive network installat
 
 For rural properties with outbuildings or annexes, we deploy steel-wire armored (SWA) Cat6 lines to ensure full gigabit speeds reach garden offices, workshops, and perimeter security cameras without signal degradation.
 
+Serving HP16, we are your **period cottages network installer** for Chiltern homes and experts in **rural barn conversions ethernet** linking remote outbuildings to the main network.
+
 ## Featured Great Missenden Case Study
 
 - **Property Type:** Brick & Flint Period House + Detached Barn (Great Missenden)
@@ -26,6 +28,12 @@ For rural properties with outbuildings or annexes, we deploy steel-wire armored 
 - **The Result:** Seamless Wi-Fi coverage across the entire cottage and barn with zero speed drop-offs.
 
 ## Frequently Asked Questions for Great Missenden
+
+### Do you install networks in period cottages near Great Missenden?
+Yes. As your local **period cottages network installer**, we use non-invasive routing through cellars and lofts to protect historic finishes.
+
+### Can you run ethernet to rural barn conversions?
+Yes. We specialise in **rural barn conversions ethernet** using steel-wire armored Cat6 buried along boundaries to reach remote outbuildings.
 
 ### Do you cover Great Missenden, Prestwood, and the Kingshills?
 Yes. We cover all of HP16, including Great Missenden, Prestwood, Little Kingshill, Great Kingshill, Little Missenden, South Heath, and Ballinger.
