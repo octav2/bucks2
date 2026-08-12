@@ -1,9 +1,10 @@
-﻿import React from 'react';
-import { Wifi, Mail, ArrowRight } from 'lucide-react';
+import React from 'react';
+import { Mail, ArrowRight } from 'lucide-react';
 import { businessDetails } from '@/lib/data';
 import { servicesData } from '@/lib/servicesData';
 import { getAllLocations } from '@/lib/locations';
 import Link from 'next/link';
+import Logo from '@/components/Logo';
 
 export default function Footer() {
     const serviceList = Object.values(servicesData);
@@ -14,11 +15,8 @@ export default function Footer() {
             <div className="max-w-6xl mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-14">
                     <div className="flex flex-col gap-5">
-                        <Link href="/" className="flex items-center gap-3">
-                            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center text-white">
-                                <Wifi size={22} />
-                            </div>
-                            <span className="text-white text-lg font-black tracking-tight">Bucks Tech Help</span>
+                        <Link href="/" className="inline-flex shrink-0" aria-label="Bucks Tech Help home">
+                            <Logo className="h-11" />
                         </Link>
                         <p className="text-slate-400 leading-relaxed font-medium">
                             Enterprise Wi-Fi, structured cabling and IP CCTV infrastructure for large homes, garden offices and businesses across Buckinghamshire.

@@ -1,9 +1,10 @@
 'use client';
 
 import React from 'react';
-import { Wifi, ArrowRight, ChevronDown, Menu, X } from 'lucide-react';
+import { ArrowRight, ChevronDown, Menu, X } from 'lucide-react';
 import Link from 'next/link';
 import { businessDetails } from '@/lib/data';
+import Logo from '@/components/Logo';
 
 export default function Header() {
     const [open, setOpen] = React.useState(false);
@@ -23,16 +24,8 @@ export default function Header() {
     return (
         <header className="sticky top-0 z-50 bg-slate-950/90 backdrop-blur-md border-b border-slate-800/70">
             <div className="max-w-6xl mx-auto px-4 py-3.5 flex justify-between items-center">
-                <Link href="/" className="flex items-center gap-3 group py-1">
-                    <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center text-white shadow-lg shadow-blue-600/20 group-hover:scale-105 transition-transform">
-                        <Wifi size={22} />
-                    </div>
-                    <div className="leading-tight">
-                        <span className="text-white text-lg font-black tracking-tight">Bucks Tech Help</span>
-                        <span className="block text-[10px] uppercase tracking-[0.18em] text-slate-400 font-bold">
-                            Network &amp; Cabling Infrastructure
-                        </span>
-                    </div>
+                <Link href="/" className="flex items-center py-1 shrink-0" aria-label="Bucks Tech Help home">
+                    <Logo priority />
                 </Link>
 
                 <nav className="hidden lg:flex items-center gap-8 text-sm font-semibold text-slate-300">
