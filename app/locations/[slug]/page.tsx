@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 import Script from 'next/script';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -68,6 +68,23 @@ const caseStudyIcons: Record<string, any> = {
     'Verified Result': CheckCircle2,
 };
 
+// Unique, location-differentiated hero badge titles for each town hub.
+const heroBadgeText: Record<string, string> = {
+    beaconsfield: 'Gated Estate & Period Home Networks',
+    amersham: 'Garden Studio & Period Home Networks',
+    chesham: 'Garden Office & Barn Connectivity',
+    'gerrards-cross': 'High-Spec Home & CCTV Cabling',
+    'high-wycombe': 'Commercial Data & Office Cabling',
+    marlow: 'Riverside Property & Outdoor Wi-Fi',
+    'stoke-poges': 'Semi-Rural Estate Security & Wi-Fi',
+    aylesbury: 'Townhouse & Commercial Data Drops',
+    hazlemere: 'Loft Extension & Home Office Wi-Fi',
+    'great-missenden': 'Chiltern Cottage & Barn Infrastructure',
+    'bourne-end': 'Thameside Home & Security Cabling',
+    penn: 'Country Residence Network Infrastructure',
+    'chalfont-st-peter': 'Village Home & High Street Cabling',
+};
+
 export default function LocationPage({ params }: Props) {
     const location = getLocationBySlug(params.slug);
     if (!location) return notFound();
@@ -113,7 +130,7 @@ export default function LocationPage({ params }: Props) {
                 <div className="max-w-4xl mx-auto relative z-10">
                     <div className="flex justify-center mb-6">
                         <span className="bg-blue-500/10 text-blue-300 border border-blue-500/20 px-4 py-1.5 rounded-full text-sm font-bold flex items-center gap-2">
-                            <MapPin size={16} /> Network &amp; Cabling Installations in {town}
+                            <MapPin size={16} /> {heroBadgeText[location.slug] ?? `Network & Cabling Installations in ${town}`}
                         </span>
                     </div>
                     <h1 className="text-4xl md:text-6xl font-black text-white mb-6 leading-tight tracking-tight text-center">

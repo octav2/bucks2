@@ -1,6 +1,6 @@
-import React from 'react';
+﻿import React from 'react';
 import { Wifi, Mail, ArrowRight } from 'lucide-react';
-import { serviceAreas, businessDetails } from '@/lib/data';
+import { businessDetails } from '@/lib/data';
 import { servicesData } from '@/lib/servicesData';
 import { getAllLocations } from '@/lib/locations';
 import Link from 'next/link';
@@ -12,7 +12,7 @@ export default function Footer() {
     return (
         <footer className="bg-slate-950 text-slate-300 py-16 px-4">
             <div className="max-w-6xl mx-auto">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-14">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-14">
                     <div className="flex flex-col gap-5">
                         <Link href="/" className="flex items-center gap-3">
                             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-blue-700 flex items-center justify-center text-white">
@@ -48,28 +48,15 @@ export default function Footer() {
                     </div>
 
                     <div>
-                        <h4 className="text-white font-bold text-sm uppercase tracking-wider mb-6">Locations</h4>
-                        <ul className="space-y-4 font-medium">
+                        <h4 className="text-white font-bold text-sm uppercase tracking-wider mb-6">Serving South &amp; Central Bucks</h4>
+                        <div className="grid grid-cols-2 gap-2 text-sm">
                             {locationList.map((loc) => (
-                                <li key={loc.slug}>
-                                    <Link href={`/locations/${loc.slug}`} className="hover:text-white transition-colors">
-                                        Network Installations in {loc.name}
-                                    </Link>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-
-                    <div>
-                        <h4 className="text-white font-bold text-sm uppercase tracking-wider mb-6">Coverage</h4>
-                        <p className="text-slate-400 text-sm mb-5 font-medium">Serving South &amp; Central Bucks:</p>
-                        <div className="flex flex-wrap gap-2 text-xs">
-                            {serviceAreas.map((area, i) => (
-                                <span key={i} className="bg-slate-900 hover:bg-slate-800 px-3 py-1.5 rounded-full transition-colors border border-slate-800">
-                                    {area}
-                                </span>
+                                <Link key={loc.slug} href={`/locations/${loc.slug}`} className="bg-slate-900 hover:bg-slate-800 border border-slate-700 hover:border-blue-600/50 text-slate-300 hover:text-white text-center py-2.5 rounded-full transition-all">
+                                    {loc.name}
+                                </Link>
                             ))}
                         </div>
+                        <p className="text-slate-500 text-xs font-medium mt-5">Covering South &amp; Central Bucks including Marlow, Hazlemere, Great Missenden, Bourne End, Penn, Stoke Poges, Chalfont St Peter and Aylesbury villages.</p>
                     </div>
                 </div>
 
