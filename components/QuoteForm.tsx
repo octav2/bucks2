@@ -1,7 +1,14 @@
 'use client';
 
 import React, { useState } from 'react';
-import { ArrowLeft, ArrowRight, CheckCircle2, Upload, Loader2 } from 'lucide-react';
+import { ArrowLeft, ArrowRight, CheckCircle2, Upload, Loader2, MapPin } from 'lucide-react';
+
+interface Props {
+    locationSlug?: string;
+    townName?: string;
+}
+
+export default function QuoteForm({ locationSlug, townName }: Props) {
 
 const propertyTypes = ["Detached House", "Office", "Farm or Estate", "Commercial Unit"];
 const challenges = ["Wi-Fi Dead Zones", "Garden Room Connection", "Office Cabling", "CCTV"];
@@ -11,16 +18,15 @@ const stepTitles = [
     "What type of property is it?",
     "What's your main challenge?",
     "What's your estimated budget?",
-    "Where should we send your scope?",
+        "Where should we send your scope?",
 ];
 
-export default function QuoteForm() {
     const [step, setStep] = useState(0);
     const [submitting, setSubmitting] = useState(false);
     const [submitted, setSubmitted] = useState(false);
     const [fileName, setFileName] = useState<string | null>(null);
 
-    const [form, setForm] = useState({
+        const [form, setForm] = useState({
         propertyType: "",
         challenge: "",
         budget: "",
@@ -28,6 +34,7 @@ export default function QuoteForm() {
         address: "",
         email: "",
         phone: "",
+        location: locationSlug ?? "",
     });
 
     const set = (field: string, value: string) => setForm((f) => ({ ...f, [field]: value }));

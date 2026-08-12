@@ -5,7 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ServiceCTA from '@/components/ServiceCTA';
 import { servicesData } from '@/lib/servicesData';
-import { locationsData } from '@/lib/locationsData';
+import { getAllLocations, type LocationContent } from '@/lib/locations';
 import { businessDetails } from '@/lib/data';
 import type { ServiceContent, MarkdownSection } from '@/lib/markdown';
 import { Wifi, Cable, Cctv, CheckCircle, ArrowRight, BadgeCheck } from 'lucide-react';
@@ -120,7 +120,8 @@ export default function ServiceMarkdownLayout({ service }: { service: ServiceCon
     const { frontmatter: fm, heroHighlights, sections } = service;
     const meta = heroMeta[service.slug] ?? { icon: Wifi, pill: 'Network Infrastructure' };
     const Icon = meta.icon;
-    const otherServices = Object.values(servicesData).filter((s) => s.slug !== service.slug);
+        const otherServices = Object.values(servicesData).filter((s) => s.slug !== service.slug);
+    const locationBySlug = Object.fromEntries(getAllLocations().map((l) => [l.slug, l]));
 
     const faqSection = sections.find((s) => s.kind === 'faq');
 
@@ -220,7 +221,7 @@ export default function ServiceMarkdownLayout({ service }: { service: ServiceCon
                     <div className="flex flex-wrap justify-center gap-3">
                         {fm.coveredTowns.map((town) => {
                             const slug = town.toLowerCase().replace(/\s+/g, '-');
-                            return locationsData[slug] ? (
+                            return locationBySlug[slug] ? (
                                 <Link key={slug} href={`/locations/${slug}`} className="bg-slate-800 hover:bg-slate-700 border border-slate-700 hover:border-blue-600/50 px-5 py-2.5 rounded-full text-sm font-bold text-white transition-all">
                                     {town}
                                 </Link>

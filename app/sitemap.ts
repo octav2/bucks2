@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 import { servicesData } from '@/lib/servicesData';
-import { locationsData } from '@/lib/locationsData';
+import { getAllLocationSlugs } from '@/lib/locations';
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = 'https://www.buckstechhelp.co.uk';
@@ -12,7 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.9,
     }));
 
-    const locations = Object.keys(locationsData).map((slug) => ({
+        const locations = getAllLocationSlugs().map((slug) => ({
         url: `${baseUrl}/locations/${slug}`,
         lastModified: new Date(),
         changeFrequency: 'monthly' as const,

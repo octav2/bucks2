@@ -12,8 +12,9 @@ interface QuotePayload {
     name?: string;
     address?: string;
     email?: string;
-    phone?: string;
+        phone?: string;
     floorplan?: string | null;
+    location?: string;
 }
 
 export async function POST(request: Request) {

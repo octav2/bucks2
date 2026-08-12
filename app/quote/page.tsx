@@ -2,15 +2,31 @@ import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import QuoteForm from '@/components/QuoteForm';
-import { ClipboardCheck, ShieldCheck, Mail } from 'lucide-react';
+import { getLocationBySlug } from '@/lib/locations';
+import { ClipboardCheck, ShieldCheck, Mail, MapPin } from 'lucide-react';
 
-export const metadata: Metadata = {
-    title: 'Get a Free Quote | Wi-Fi, Cabling & CCTV — Bucks Tech Help',
-    description: 'Complete our 2-minute quote audit for enterprise Wi-Fi, Cat6 cabling or 4K IP CCTV in Buckinghamshire. Receive a preliminary scope and fixed price within 24 hours. No call needed.',
-    alternates: { canonical: 'https://www.buckstechhelp.co.uk/quote' },
-};
+const baseUrl = 'https://www.buckstechhelp.co.uk';
 
-export default function QuotePage() {
+export async function generateMetadata({ searchParams }: { searchParams: { location?: string } }): Promise<Metadata> {
+    const location = searchParams?.location ? getLocationBySlug(searchParams.location) : null;
+    if (location) {
+        return {
+            title: `Free Quote Audit — ${location.name} Network Installation | Bucks Tech Help`,
+            description: `Complete our 2-minute quote audit for your ${location.name} property. Enterprise Wi-Fi, Cat6 cabling or 4K IP CCTV. Preliminary scope within 24 hours.`,
+            alternates: { canonical: `${baseUrl}/quote?location=${location.slug}` },
+        };
+    }
+    return {
+        title: 'Get a Free Quote | Wi-Fi, Cabling & CCTV — Bucks Tech Help',
+        description: 'Complete our 2-minute quote audit for enterprise Wi-Fi, Cat6 cabling or 4K IP CCTV in Buckinghamshire. Receive a preliminary scope and fixed price within 24 hours. No call needed.',
+        alternates: { canonical: `${baseUrl}/quote` },
+    };
+}
+
+export default function QuotePage({ searchParams }: { searchParams: { location?: string } }) {
+    const location = searchParams?.location ? getLocationBySlug(searchParams.location) : null;
+    const townName = location?.name || '';
+
     return (
         <div className="min-h-screen bg-slate-950 text-slate-100">
             <Header />
@@ -29,11 +45,18 @@ export default function QuotePage() {
                     <p className="text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed font-medium">
                         Tell us about your property in under 2 minutes and receive a preliminary scope and fixed price by email within 24 hours.
                     </p>
+                    {townName && (
+                        <div className="mt-6 flex justify-center">
+                            <span className="inline-flex items-center gap-2 bg-slate-800 border border-slate-700 px-4 py-2 rounded-full text-sm font-bold text-slate-200">
+                                <MapPin size={16} className="text-blue-400" /> Preparing your {townName} network audit
+                            </span>
+                        </div>
+                    )}
                 </div>
             </section>
 
             <section className="px-4 pb-24">
-                <QuoteForm />
+                <QuoteForm locationSlug={location?.slug} townName={townName} />
             </section>
 
             {/* Trust strip */}

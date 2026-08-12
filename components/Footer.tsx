@@ -2,12 +2,12 @@ import React from 'react';
 import { Wifi, Mail, ArrowRight } from 'lucide-react';
 import { serviceAreas, businessDetails } from '@/lib/data';
 import { servicesData } from '@/lib/servicesData';
-import { locationsData } from '@/lib/locationsData';
+import { getAllLocations } from '@/lib/locations';
 import Link from 'next/link';
 
 export default function Footer() {
     const serviceList = Object.values(servicesData);
-    const locationList = Object.values(locationsData);
+        const locationList = getAllLocations().map((l) => ({ slug: l.slug, name: l.name }));
 
     return (
         <footer className="bg-slate-950 text-slate-300 py-16 px-4">

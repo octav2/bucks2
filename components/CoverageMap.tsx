@@ -2,10 +2,15 @@ import React from 'react';
 import { MapPin, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 import { coreTowns } from '@/lib/data';
-import { locationsData } from '@/lib/locationsData';
+import { getAllLocations } from '@/lib/locations';
 
 export default function CoverageMap() {
-    const featured = coreTowns.map((town) => locationsData[town.toLowerCase().replace(/\s+/g, '-')] ?? { slug: town.toLowerCase().replace(/\s+/g, '-'), name: town });
+        const locationsByName = Object.fromEntries(getAllLocations().map((l) => [l.slug, l]));
+    const featured = coreTowns.map((town) => {
+        const slug = town.toLowerCase().replace(/\s+/g, '-');
+        const loc = locationsByName[slug];
+        return { slug, name: loc?.name ?? town };
+    });
 
     return (
         <section id="coverage" className="py-24 px-4 bg-slate-900 relative overflow-hidden">
