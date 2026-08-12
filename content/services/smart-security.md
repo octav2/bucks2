@@ -1,9 +1,9 @@
 ---
 id: "smart-security"
 title: "Commercial-Grade 4K IP CCTV & Smart Access Control"
-subtitle: "High-definition security infrastructure owned outright with zero monthly subscription fees. Smart AI camera systems, remote smartphone monitoring, and door access control for homes and businesses."
-metaTitle: "4K IP CCTV Installer Buckinghamshire | UniFi Protect Camera Systems Beaconsfield & Amersham"
-metaDescription: "Commercial-grade 4K IP CCTV camera installation in Bucks. No monthly cloud subscription fees. Smart human/vehicle detection and phone app integration."
+subtitle: "No monthly fee CCTV system and 4K IP PoE security camera installation across Buckinghamshire, owned outright. UniFi Protect AI cameras, on-premise NVR storage, and remote smartphone monitoring."
+metaTitle: "4K IP PoE CCTV Installation Buckinghamshire | No Monthly Fee & UniFi Protect AI Cameras"
+metaDescription: "No monthly fee CCTV system and 4K IP PoE security camera installation in Buckinghamshire. UniFi Protect AI cameras with on-premise NVR storage — you own it outright, zero subscriptions."
 startingPrice: "From £1,800"
 priceDetails: "Includes 4K camera hardware, local NVR hard drive storage, Cat6 cabling drops, app setup, and complete installation."
 coveredTowns: ["Beaconsfield", "Amersham", "Gerrards Cross", "Chesham", "High Wycombe", "Marlow"]

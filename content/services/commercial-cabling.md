@@ -1,9 +1,9 @@
 ---
 id: "commercial-cabling"
 title: "Commercial Cat6 / Cat6a Structured Cabling & Rack Installations"
-subtitle: "High-density data cabling, patch panel terminations, network rack dressing, and commercial IT infrastructure for offices, surgeries, and industrial units across Buckinghamshire."
-metaTitle: "Commercial Network Cabling High Wycombe | Cat6 Structured Data Cabler Buckinghamshire"
-metaDescription: "Certified Cat6 and Cat6a structured cabling installers in Bucks. Patch panels, server rack dressing, VoIP lines, and office network infrastructure."
+subtitle: "High-density Cat6 / Cat6a structured cabling, 24-port keystone patch panel setup, server rack dressing, and commercial IT infrastructure for offices, dental surgeries, and industrial units across Buckinghamshire."
+metaTitle: "Cat6 & Cat6a Structured Cabling Buckinghamshire | Patch Panel & Server Rack Dressing"
+metaDescription: "Certified Cat6 / Cat6a structured cabling with 24-port keystone patch panel setup and server rack dressing in Buckinghamshire. Fluke certified performance mapping for offices and dental surgery data cabling."
 startingPrice: "From £2,000"
 priceDetails: "Dependent on total cable drop count, floor layout, containment requirements, and patch rack specifications."
 coveredTowns: ["High Wycombe", "Chesham", "Amersham", "Beaconsfield", "Gerrards Cross", "Aylesbury"]

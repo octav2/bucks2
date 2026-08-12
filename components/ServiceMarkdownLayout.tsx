@@ -1,5 +1,4 @@
-﻿import React from 'react';
-import Script from 'next/script';
+import React from 'react';
 import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -123,6 +122,15 @@ export default function ServiceMarkdownLayout({ service }: { service: ServiceCon
         const otherServices = Object.values(servicesData).filter((s) => s.slug !== service.slug);
     const locationBySlug = Object.fromEntries(getAllLocations().map((l) => [l.slug, l]));
 
+    const coverageSlugs = [
+        'beaconsfield', 'amersham', 'chesham', 'gerrards-cross', 'high-wycombe', 'marlow',
+        'hazlemere', 'great-missenden', 'bourne-end', 'penn', 'stoke-poges', 'chalfont-st-peter', 'aylesbury',
+    ];
+    const coverageTowns = coverageSlugs
+        .map((slug) => locationBySlug[slug])
+        .filter((l): l is LocationContent => Boolean(l))
+        .map((l) => l.name);
+
     const faqSection = sections.find((s) => s.kind === 'faq');
 
     const serviceSchema = {
@@ -136,7 +144,7 @@ export default function ServiceMarkdownLayout({ service }: { service: ServiceCon
             telephone: businessDetails.phone,
             priceRange: businessDetails.priceRange,
         },
-        areaServed: fm.coveredTowns.map((town) => ({ '@type': 'City', name: town })),
+        areaServed: coverageTowns.map((name) => ({ '@type': 'City', name })),
         description: fm.metaDescription,
         offers: {
             '@type': 'Offer',
@@ -160,7 +168,10 @@ export default function ServiceMarkdownLayout({ service }: { service: ServiceCon
 
     return (
         <div className="min-h-screen bg-slate-950 text-slate-100">
-            <Script id={`service-schema-${service.slug}`} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify([serviceSchema, faqSchema]) }} />
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify([serviceSchema, faqSchema]) }}
+            />
 
             <Header />
 
@@ -217,16 +228,16 @@ export default function ServiceMarkdownLayout({ service }: { service: ServiceCon
             {/* AREAS */}
             <section className="py-16 px-4 bg-slate-900 border-y border-slate-800">
                 <div className="max-w-4xl mx-auto">
-                    <h2 className="text-2xl md:text-3xl font-black text-white mb-8 tracking-tight text-center">Available Across Buckinghamshire</h2>
-                    <div className="flex flex-wrap justify-center gap-3">
-                        {fm.coveredTowns.map((town) => {
-                            const slug = town.toLowerCase().replace(/\s+/g, '-');
-                            return locationBySlug[slug] ? (
-                                <Link key={slug} href={`/locations/${slug}`} className="bg-slate-800 hover:bg-slate-700 border border-slate-700 hover:border-blue-600/50 px-5 py-2.5 rounded-full text-sm font-bold text-white transition-all">
-                                    {town}
+                    <h2 className="text-2xl md:text-3xl font-black text-white mb-4 tracking-tight text-center">Available Across Buckinghamshire</h2>
+                    <p className="text-slate-400 text-center font-medium mb-8">Enterprise infrastructure installed across all 13 Buckinghamshire location hubs.</p>
+                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                        {coverageSlugs.map((slug) => {
+                            const loc = locationBySlug[slug];
+                            if (!loc) return null;
+                            return (
+                                <Link key={slug} href={`/locations/${slug}`} className="flex items-center justify-center px-4 py-3 rounded-full bg-slate-800 hover:bg-slate-700 border border-slate-700 hover:border-blue-600/50 text-sm font-bold text-white text-center transition-all h-full">
+                                    {loc.name}
                                 </Link>
-                            ) : (
-                                <span key={town} className="bg-slate-800 border border-slate-700 px-5 py-2.5 rounded-full text-sm font-bold text-slate-300">{town}</span>
                             );
                         })}
                     </div>
