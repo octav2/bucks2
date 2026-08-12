@@ -97,7 +97,7 @@ export const servicesData: Record<string, ServiceData> = {
             "Cabling, termination & rack installation",
             "Certification, labelling & as-built documentation",
         ],
-        engagement: "Commercial structured cabling projects typically range from £2,500 to £5,000+, dependent on drop count, distance and site survey.",
+        engagement: "Commercial Cat6/Cat6a structured cabling projects typically start from £2,000, with larger rollouts dependent on drop count, distance and site survey.",
     },
 
     "smart-security": {
@@ -136,7 +136,7 @@ export const servicesData: Record<string, ServiceData> = {
             "Wired installation & system configuration",
             "Remote-view setup & end-user training",
         ],
-        engagement: "IP CCTV and access-control projects typically range from £2,500 to £5,000+, dependent on camera count, storage and site survey.",
+        engagement: "Commercial-grade 4K IP CCTV and access-control projects typically start from £1,800, with larger estates dependent on camera count, storage and site survey.",
     },
 };
 

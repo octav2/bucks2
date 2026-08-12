@@ -1,4 +1,4 @@
-﻿// lib/data.ts
+// lib/data.ts
 // Central business data — rebranded for a high-ticket local infrastructure agency.
 
 export const businessDetails = {
@@ -37,6 +37,7 @@ export const serviceAreas = [
     "Penn",
     "Stoke Poges",
     "Chalfont St Peter",
+    "Aylesbury",
 ];
 
 // Core towns featured on the homepage coverage map / location hubs.
@@ -44,31 +45,19 @@ export const coreTowns = ["Beaconsfield", "Amersham", "Chesham", "Gerrards Cross
 
 export const faqs = [
     {
-        question: "Why do your network installations start from £1,500?",
-        answer: "Unlike consumer wireless mesh pods that temporarily patch signals over air, we install permanent, commercial-grade infrastructure. Our starting package includes enterprise hardware (Ubiquiti/TP-Link Omada), hardwired Cat6 cable runs routed through lofts/voids, full system configuration, and a 100% Zero-Dead-Zone Guarantee.",
+        question: "How much does a hardwired enterprise network installation cost in Buckinghamshire?",
+        answer: "Our complete enterprise installations start from £1,500 for whole-home Wi-Fi systems, £2,000 for Cat6 structured cabling, and £1,800 for 4K IP CCTV. Every project includes a digital site audit, commercial-grade hardware, and fixed transparent pricing.",
     },
     {
-        question: "Do you carry out hardwiring, drilling and cabling?",
-        answer: "Yes. Structured Cat6/Cat6a cabling, wall/floor drilling, containment and full network installation are our core specialism. Every project is planned, tidy and fully tested before handover.",
+        question: "Can you connect internet to a garden office or outbuilding?",
+        answer: "Yes. We specialize in garden office internet setup across Buckinghamshire using steel-wire armored (SWA) Cat6 Ethernet cabling. This provides un-throttled Gigabit speeds directly from your main router switch to your workspace.",
     },
     {
-        question: "What is the difference between Cat6 and Cat6a cabling?",
-        answer: "Cat6 supports Gigabit to 10-Gigabit over shorter runs, while Cat6a is screened to deliver 10-Gigabit reliably at full distance with better resistance to interference. We design your cabling to the correct category for the network you need today and the one you'll want tomorrow.",
+        question: "Do your 4K IP CCTV systems require a monthly cloud subscription?",
+        answer: "No. All our commercial-grade CCTV installations feature onboard local storage on a secure Network Video Recorder (NVR). You get 24/7 continuous 4K recording and remote smartphone access with zero recurring monthly fees.",
     },
     {
-        question: "Why use Ubiquiti UniFi or TP-Link Omada instead of a standard router?",
-        answer: "Consumer 'all-in-one' routers can't reliably blanket a large home or garden office. We deploy hardwired access points from UniFi or Omada so every room gets consistent, high-capacity coverage with no dead zones and no signal drop-offs.",
-    },
-    {
-        question: "Do your CCTV systems require monthly subscription fees?",
-        answer: "No. Our 4K IP CCTV and access-control solutions are owned outright. Footage is stored on your own NVR or on-site storage, with a secure, subscription-free remote viewing app. No recurring costs, no cloud lock-in.",
-    },
-    {
-        question: "What budget should I expect for an installation?",
-        answer: "Whole-property Wi-Fi and garden room projects typically start around £1,500. Commercial structured cabling and full IP CCTV installations are commonly between £2,500 and £5,000+, depending on scale, survey and specification.",
-    },
-    {
-        question: "How does the survey and quoting process work?",
-        answer: "You complete our online quote audit, we review your property layout, then email a preliminary scope and fixed price within 24 hours. If required, we arrange a site survey before final installation.",
+        question: "Why are hardwired Ubiquiti UniFi access points better than wireless mesh boosters?",
+        answer: "Plug-in mesh boosters repeat signals over the air, losing up to 80% of their speed through thick brick walls or modern foil insulation. As certified Ubiquiti UniFi installers, we run dedicated Cat6 cable backhauls to ceiling access points, guaranteeing full broadband speeds in every room.",
     },
 ];

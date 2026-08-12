@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import { ChevronRight, ArrowRight, BadgeCheck } from 'lucide-react';
 import Link from 'next/link';
 import { servicesData } from '@/lib/servicesData';
@@ -9,11 +9,11 @@ const pricing: Record<string, { from: string; micro: string }> = {
         micro: 'Includes enterprise hardware, multi-point Cat6 cabling, and turn-key installation.',
     },
     'smart-security': {
-        from: '£1,500',
-        micro: 'Includes enterprise hardware, multi-point Cat6 cabling, and turn-key installation.',
+        from: '£1,800',
+        micro: 'Includes commercial 4K IP cameras, on-site NVR storage and remote access setup.',
     },
     'commercial-cabling': {
-        from: '£2,500',
+        from: '£2,000',
         micro: 'Includes certified Cat6/Cat6a cabling, rack installation and full termination.',
     },
 };

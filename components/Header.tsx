@@ -1,17 +1,22 @@
 'use client';
 
 import React from 'react';
-import { Wifi, ArrowRight, Menu, X } from 'lucide-react';
+import { Wifi, ArrowRight, ChevronDown, Menu, X } from 'lucide-react';
 import Link from 'next/link';
 import { businessDetails } from '@/lib/data';
 
 export default function Header() {
     const [open, setOpen] = React.useState(false);
 
+    const serviceLinks = [
+        { label: 'Whole-Home & Garden Room Wi-Fi', href: '/services/whole-home-wifi' },
+        { label: 'Commercial Cat6/Cat6a Cabling', href: '/services/commercial-cabling' },
+        { label: '4K IP CCTV & Smart Access Control', href: '/services/smart-security' },
+    ];
+
     const navLinks = [
-        { label: 'Services', href: '/#services' },
-        { label: 'Locations', href: '/locations/beaconsfield' },
         { label: 'Coverage', href: '/#coverage' },
+        { label: 'About Us', href: '/about' },
         { label: 'FAQ', href: '/#faq' },
     ];
 
@@ -31,6 +36,25 @@ export default function Header() {
                 </Link>
 
                 <nav className="hidden lg:flex items-center gap-8 text-sm font-semibold text-slate-300">
+                    <div className="relative group">
+                        <Link href="/#services" className="inline-flex items-center gap-1.5 hover:text-white transition-colors">
+                            Services
+                            <ChevronDown size={16} className="group-hover:rotate-180 transition-transform" />
+                        </Link>
+                        <div className="absolute left-0 top-full pt-3 opacity-0 invisible translate-y-1 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 z-50">
+                            <div className="w-72 rounded-2xl border border-slate-800 bg-slate-900 shadow-2xl shadow-black/50 p-2">
+                                {serviceLinks.map((s) => (
+                                    <Link
+                                        key={s.href}
+                                        href={s.href}
+                                        className="block rounded-xl px-4 py-3 text-slate-300 hover:text-white hover:bg-slate-800/70 transition-colors font-medium"
+                                    >
+                                        {s.label}
+                                    </Link>
+                                ))}
+                            </div>
+                        </div>
+                    </div>
                     {navLinks.map((link) => (
                         <Link key={link.label} href={link.href} className="hover:text-white transition-colors">
                             {link.label}
@@ -59,6 +83,19 @@ export default function Header() {
             {/* Mobile menu */}
             {open && (
                 <div className="lg:hidden bg-slate-950 border-t border-slate-800/70 px-6 py-6 space-y-4">
+                    <div>
+                        <p className="text-xs font-black uppercase tracking-[0.18em] text-slate-500 mb-2">Services</p>
+                        {serviceLinks.map((s) => (
+                            <Link
+                                key={s.href}
+                                href={s.href}
+                                onClick={() => setOpen(false)}
+                                className="block text-slate-200 font-semibold text-base hover:text-white py-1.5"
+                            >
+                                {s.label}
+                            </Link>
+                        ))}
+                    </div>
                     {navLinks.map((link) => (
                         <Link
                             key={link.label}

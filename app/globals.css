@@ -7,6 +7,10 @@
         scroll-behavior: smooth;
     }
 
+    section[id] {
+        scroll-margin-top: 6rem;
+    }
+
     body {
         @apply antialiased bg-slate-950 text-slate-100;
     }

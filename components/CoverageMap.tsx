@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, ArrowRight } from 'lucide-react';
+import { MapPin } from 'lucide-react';
 import Link from 'next/link';
 import { coreTowns } from '@/lib/data';
 import { getAllLocations } from '@/lib/locations';
@@ -11,6 +11,16 @@ export default function CoverageMap() {
         const loc = locationsByName[slug];
         return { slug, name: loc?.name ?? town };
     });
+
+    const coverageSlugs = [
+        'beaconsfield', 'amersham', 'chesham', 'gerrards-cross', 'high-wycombe',
+        'marlow', 'hazlemere', 'great-missenden', 'bourne-end', 'penn',
+        'stoke-poges', 'chalfont-st-peter', 'aylesbury',
+    ];
+    const coveragePills = coverageSlugs.map((slug) => ({
+        slug,
+        name: locationsByName[slug]?.name ?? slug,
+    }));
 
     return (
         <section id="coverage" className="py-24 px-4 bg-slate-900 relative overflow-hidden">
@@ -25,20 +35,19 @@ export default function CoverageMap() {
                         <p className="text-slate-400 text-lg leading-relaxed mb-8 font-medium">
                             We design and install enterprise Wi-Fi, structured cabling and IP CCTV across the affluent towns of South &amp; Central Buckinghamshire — from Beaconsfield to High Wycombe.
                         </p>
-                        <div className="grid grid-cols-2 gap-3 mb-8">
-                            {coreTowns.map((town, i) => (
+                        <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-8">
+                            {coveragePills.map((loc) => (
                                 <Link
-                                    key={i}
-                                    href={`/locations/${town.toLowerCase().replace(/\s+/g, '-')}`}
-                                    className="flex items-center gap-2 py-3 px-4 rounded-xl bg-slate-800/70 border border-slate-700 hover:border-blue-600/50 hover:bg-slate-800 transition-all group"
+                                    key={loc.slug}
+                                    href={`/locations/${loc.slug}`}
+                                    className="flex items-center gap-2 py-3 px-4 rounded-full bg-slate-800/70 border border-slate-700 hover:border-blue-600/50 hover:bg-slate-800 transition-all group"
                                 >
-                                    <MapPin size={16} className="text-blue-400 flex-shrink-0" />
-                                    <span className="text-sm font-bold text-white">{town}</span>
-                                    <ArrowRight size={14} className="ml-auto text-slate-500 group-hover:text-blue-400 transition-colors" />
+                                    <MapPin size={15} className="text-blue-400 flex-shrink-0" />
+                                    <span className="text-sm font-bold text-white leading-tight">{loc.name}</span>
                                 </Link>
                             ))}
                         </div>
-                        <p className="text-sm text-slate-500 font-medium">Also covering Marlow, Hazlemere, Great Missenden, Bourne End, Penn, Stoke Poges &amp; the Chalfonts.</p>
+                        <p className="text-sm text-slate-500 font-medium">Tap any location for local coverage, case studies and typical installs across South &amp; Central Buckinghamshire — from the Chalfonts to High Wycombe and Aylesbury.</p>
                     </div>
 
                     {/* Stylised coverage visual */}
