@@ -17,7 +17,6 @@ export default function Header() {
 
     const navLinks = [
         { label: 'Coverage', href: '/#coverage' },
-        { label: 'About Us', href: '/about' },
         { label: 'FAQ', href: '/#faq' },
     ];
 
@@ -25,10 +24,13 @@ export default function Header() {
         <header className="sticky top-0 z-50 bg-slate-950/90 backdrop-blur-md border-b border-slate-800/70">
             <div className="max-w-6xl mx-auto px-4 py-3.5 flex justify-between items-center">
                 <Link href="/" className="flex items-center py-1 shrink-0" aria-label="Bucks Tech Help home">
-                    <Logo priority />
+                    <Logo className="h-12" priority />
                 </Link>
 
                 <nav className="hidden lg:flex items-center gap-8 text-sm font-semibold text-slate-300">
+                    <Link href="/about" className="hover:text-white transition-colors">
+                        About Us
+                    </Link>
                     <div className="relative group">
                         <Link href="/#services" className="inline-flex items-center gap-1.5 hover:text-white transition-colors">
                             Services
@@ -76,6 +78,13 @@ export default function Header() {
             {/* Mobile menu */}
             {open && (
                 <div className="lg:hidden bg-slate-950 border-t border-slate-800/70 px-6 py-6 space-y-4">
+                    <Link
+                        href="/about"
+                        onClick={() => setOpen(false)}
+                        className="block text-slate-200 font-semibold text-lg hover:text-white"
+                    >
+                        About Us
+                    </Link>
                     <div>
                         <p className="text-xs font-black uppercase tracking-[0.18em] text-slate-500 mb-2">Services</p>
                         {serviceLinks.map((s) => (

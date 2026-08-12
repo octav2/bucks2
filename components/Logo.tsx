@@ -8,7 +8,7 @@ interface LogoProps {
     priority?: boolean;
 }
 
-export default function Logo({ className = 'h-10', priority = false }: LogoProps) {
+export default function Logo({ className = 'h-12', priority = false }: LogoProps) {
     return (
         <span className="inline-flex items-center shrink-0 leading-none">
             <Image

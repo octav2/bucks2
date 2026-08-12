@@ -16,7 +16,7 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-14">
                     <div className="flex flex-col gap-5">
                         <Link href="/" className="inline-flex shrink-0" aria-label="Bucks Tech Help home">
-                            <Logo className="h-11" />
+                            <Logo className="h-12" />
                         </Link>
                         <p className="text-slate-400 leading-relaxed font-medium">
                             Enterprise Wi-Fi, structured cabling and IP CCTV infrastructure for large homes, garden offices and businesses across Buckinghamshire.
