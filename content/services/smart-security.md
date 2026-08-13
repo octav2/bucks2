@@ -1,71 +1,72 @@
 ---
 id: "smart-security"
-title: "Commercial-Grade 4K IP CCTV & Smart Access Control"
-subtitle: "No monthly fee CCTV system and 4K IP PoE security camera installation across Buckinghamshire, owned outright. UniFi Protect AI cameras, on-premise NVR storage, and remote smartphone monitoring."
-metaTitle: "4K IP CCTV & Smart Security"
-metaDescription: "No monthly fee CCTV system and 4K IP PoE security camera installation in Buckinghamshire. UniFi Protect AI cameras with on-premise NVR storage — you own it outright, zero subscriptions."
+title: "Subscription-Free 4K Property Perimeter Security & Smart Access"
+subtitle: "Hardwired Ubiquiti UniFi Protect 4K AI optical systems and video access control engineered for residential estates and high-value properties across Buckinghamshire."
+metaTitle: "Subscription-Free 4K Property Security & Access Control"
+metaDescription: "Hardwired Ubiquiti UniFi Protect 4K AI security systems and smart video access control for homes and estates across Buckinghamshire. Zero monthly subscription fees."
 startingPrice: "From £1,800"
-priceDetails: "Includes 4K camera hardware, local NVR hard drive storage, Cat6 cabling drops, app setup, and complete installation."
+priceDetails: "Includes comprehensive property security audit, hardwired PoE Cat6a cable deployment, Ubiquiti Protect NVR storage setup, 4K AI optical camera installation, and smartphone app setup."
+pricingTitle: "Turnkey Perimeter Security Packages"
 coveredTowns: ["Beaconsfield", "Amersham", "Gerrards Cross", "Chesham", "High Wycombe", "Marlow"]
 ---
 
 ## Hero Highlights
-- Commercial 4K Ultra-HD night-vision IP security cameras
-- Zero monthly cloud subscription fees forever (100% local NVR storage)
-- Smart AI human, vehicle, and license plate detection alerts
-- Hardwired Power-over-Ethernet (PoE) connections for 100% reliability
+- 100% Subscription-Free local 4K storage—zero monthly cloud fees
+- Ubiquiti Protect AI detection (human, vehicle, and license plate tracking)
+- Single mobile app for your entire property (Wi-Fi, CCTV, and door entry)
+- Discrete external Cat6a PoE wiring with weather-sealed junction enclosures
 
-## Protect Your Property with Commercial 4K CCTV — Without Subscription Lock-In
+## Subscription-Free 4K Property Perimeter Security & Smart Access
 
-Many homeowners and local business owners rely on cheap wireless battery cameras (such as Ring, Nest, or Blink). However, battery cameras frequently suffer from missed motion recordings due to sleep modes, weak Wi-Fi signal drops, poor night vision clarity, and frustrating monthly subscription fees (£100–£400/year) just to view past video footage.
+Many homeowners across Beaconsfield, Amersham, and Gerrards Cross rely on cheap wireless battery cameras that fall into a monthly cloud subscription trap, suffer from batteries dying and lagging video, and deliver low resolution with motion blur. These consumer boxes miss key moments when it matters most, and the fees never end.
 
-At Bucks Tech Help, we deploy hardwired commercial-grade IP (Internet Protocol) CCTV systems powered by local NVR (Network Video Recorder) drives. By connecting every 4K camera back to a central switch via a single Power-over-Ethernet (PoE) Cat6 cable, your cameras record 24/7 in crystal-clear ultra-high definition without relying on battery changes or choking your home Wi-Fi.
+At Bucks Tech Help, we deploy hardwired Ubiquiti UniFi Protect architecture. Every UniFi 4K AI optical camera connects back to an on-premise UniFi Protect NVR over a single discrete Cat6a PoE run terminated in a weather-sealed junction enclosure — delivering pin-sharp 4K optical precision and uninterrupted gigabit reliability without relying on batteries or choking your home Wi-Fi.
 
-Featuring advanced AI onboard processing, our security camera systems distinguish between humans, vehicles, and passing animals—sending instant, accurate alerts to your smartphone only when genuine activity occurs on your driveway, perimeter, or store front. Best of all: you own the system and storage 100% outright, with zero monthly cloud fees.
+Featuring UniFi's onboard AI detection, our systems distinguish between humans, vehicles, and license plates — sending instant, accurate alerts to your smartphone through the same single app that controls your Wi-Fi, CCTV, and door entry. Best of all: you own the system and storage 100% outright, with zero monthly cloud fees.
 
 ## Hardware Specs
 
 | Category | Hardware Model | Description |
 | :--- | :--- | :--- |
-| **IP Security Cameras** | Ubiquiti UniFi Protect / Hikvision 4K PoE Turret Cameras | Vandal-resistant 4K (8MP) resolution cameras with infrared night vision, wide dynamic range (WDR), and optical zoom options. |
-| **Video Recording (NVR)** | Dedicated Network Video Recorder & Surveillance Drives | Local NVR fitted with 2TB to 8TB surveillance-grade hard drives (Western Digital Purple) storing 30+ days of continuous 24/7 footage. |
-| **Power & Data Connection** | Direct PoE Cat6 Cable Backhaul | Single Ethernet cable per camera delivering camera power and high-bitrate video stream directly back to the secure recorder. |
-| **Access & Mobile Integration** | Encrypted Mobile App & Smart TV Feed | View live feeds and playback footage globally via iOS/Android apps or stream cameras directly onto living room Smart TVs. |
+| **Video Storage Console** | Ubiquiti UniFi Protect NVR / Cloud Key+ | Subscription-free local Network Video Recorder storing 30+ days of continuous 4K footage directly on your property — no cloud, no monthly fees. |
+| **IP Optical Cameras** | Ubiquiti UniFi G5 / UniFi AI 4K & 2K PoE | Weather-rated PoE optical cameras with 4K/2K resolution, infrared night vision, wide dynamic range, and onboard UniFi AI. |
+| **Video Access Control** | UniFi Doorbell Pro & UniFi Intercom | Smart video doorbell and intercom access control integrated into the same Protect app for visitor verification and door release. |
+| **Power & Data Connection** | Hardwired Cat6a PoE, Weather-Sealed Enclosures | A single Cat6a PoE cable per device delivers power and high-bitrate video through discrete, weather-sealed junction enclosures. |
 
-## Consumer Battery Cameras vs Commercial IP CCTV
+## Consumer Battery Cameras vs. Ubiquiti UniFi Protect 4K Architecture
 
-| Feature | Consumer Battery Cameras (Ring/Nest) | Commercial IP CCTV Infrastructure |
+| Feature | Consumer Battery Cameras (Ring, Arlo, Blink) | Hardwired Ubiquiti UniFi Protect Architecture |
 | :--- | :--- | :--- |
-| **Monthly Subscription Fees** | £100 – £400+ per year forever (Cloud tax) | £0 Monthly Fees Forever (100% Local NVR Storage) |
-| **Video Recording Quality** | Compressed 1080p, motion-only recording | True 4K Ultra-HD 24/7 Continuous Recording |
-| **Power & Connection** | Batteries require recharging; drops offline | Hardwired Power-over-Ethernet (PoE) - 100% Uptime |
-| **Smart Motion Detection** | False alerts triggered by wind, rain, and bugs | AI Human, Vehicle & License Plate Filtering |
+| **Storage & Fees** | Monthly cloud subscription trap (£100–£400+/yr) | 100% Free local NVR storage — owned outright |
+| **Power & Reliability** | Batteries die & video lags | Hardwired uninterrupted PoE gigabit speed |
+| **Recording Quality** | Low resolution / motion blur | Pin-sharp 4K optical precision & AI recognition |
+| **Smart Detection** | False alerts from wind, rain & bugs | UniFi AI human, vehicle & license plate recognition |
 
 ## What's Included
-- Property security risk audit & camera lens field-of-view planning
-- Commercial 4K Ultra-HD IP turret/dome camera mounting
-- Dedicated Cat6 exterior/loft cable drops per camera location
-- Network Video Recorder (NVR) installation with 30-day continuous storage
-- AI human and vehicle motion zone sensitivity configuration
-- Smartphone app setup (iOS/Android) for remote viewing globally
-- Living room Smart TV / wall-monitor HDMI camera display integration
+- Property security audit & camera lens field-of-view planning
+- Ubiquiti UniFi G5 / AI 4K & 2K PoE optical camera mounting
+- Discrete external Cat6a PoE cable deployment with weather-sealed enclosures
+- UniFi Protect NVR local storage setup for continuous recording
+- UniFi AI human, vehicle & license plate detection configuration
+- Smartphone app setup for single-app control of Wi-Fi, CCTV & door entry
+- UniFi Doorbell Pro & video intercom smart access control integration
 
 ## Our Process
-1. **Perimeter Security Audit:** Submit your property layout online. We mark optimal camera angles to eliminate blind spots.
-2. **Fixed Security Proposal:** You receive an all-inclusive quote covering cameras, NVR storage capacity, cabling, and labor.
-3. **Professional Cabling & Mounting:** Engineers run hidden camera cables through lofts/voids and mount vandal-resistant 4K cameras.
-4. **App Setup & System Onboarding:** We configure your phone app, set up motion alerts, and show you how to review footage instantly.
+1. **Perimeter Security Audit:** Submit your property layout online. We mark optimal UniFi camera angles to eliminate blind spots.
+2. **Fixed Security Proposal:** You receive an all-inclusive quote covering UniFi Protect cameras, NVR storage capacity, cabling, and labor.
+3. **Professional Cabling & Mounting:** Engineers run hidden Cat6a PoE cabling through lofts/voids and mount weather-sealed UniFi 4K cameras.
+4. **Single-App Setup & Onboarding:** We configure your UniFi Protect app, set up AI motion alerts, and show you how to review footage instantly.
 
 ## Frequently Asked Questions
 
-### Why are hardwired IP cameras better than Ring or Nest wireless cameras?
-Hardwired PoE cameras do not rely on batteries or wireless signals. They record continuously 24/7 in true 4K resolution directly to a local hard drive in your home/office. Wireless cameras only record short clips when triggered, often miss key moments, and require ongoing monthly subscription fees.
+### Why are hardwired UniFi Protect cameras better than consumer battery cameras?
+Hardwired UniFi Protect PoE cameras do not rely on batteries or wireless signals. They record continuously 24/7 in true 4K resolution directly to a local UniFi Protect NVR hard drive on your property. Consumer battery cameras only record short clips when triggered, often miss key moments, and require ongoing monthly cloud subscription fees.
 
 ### Can I view my security cameras on my phone when I am away from home?
-Yes. You get free encrypted access to your camera feeds via an intuitive app on iOS and Android. You can view live video, playback past events, receive motion alerts, and download video clips directly to your phone.
+Yes. You get free encrypted access to your camera feeds through the single UniFi Protect app on iOS and Android. You can view live video, playback past events, receive AI motion alerts, and download video clips directly to your phone.
 
 ### What happens if my internet connection goes down?
-Your CCTV system continues recording 24/7 without interruption because the cameras are hardwired directly to the local NVR recorder inside your property. Internet is only required when you want to view live feeds remotely on your mobile phone.
+Your UniFi Protect system continues recording 24/7 without interruption because the cameras are hardwired directly to the on-premise UniFi Protect NVR inside your property. Internet is only required when you want to view live feeds remotely on your mobile phone.
 
 ### How many days of video footage are stored on the recorder?
-Our standard surveillance hard drives store between 14 to 30 days of continuous 24/7 footage across 4 to 8 cameras. Once the drive fills up, it automatically overwrites the oldest footage.
+Our UniFi Protect NVR storage holds between 14 to 30 days of continuous 24/7 4K footage across 4 to 8 cameras. Once the drive fills up, it automatically overwrites the oldest footage — all stored locally with zero monthly cloud fees.
