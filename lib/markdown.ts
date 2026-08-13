@@ -18,6 +18,7 @@ export interface ServiceFrontmatter {
     metaDescription: string;
     startingPrice: string;
     priceDetails: string;
+    pricingTitle?: string;
     coveredTowns: string[];
 }
 

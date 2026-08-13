@@ -210,7 +210,7 @@ export default function ServiceMarkdownLayout({ service }: { service: ServiceCon
             <section className="py-14 px-4 bg-slate-900 border-b border-slate-800">
                 <div className="max-w-3xl mx-auto bg-slate-950/60 border border-cyan-500/20 rounded-3xl p-8 md:p-10 text-center">
                     <span className="inline-flex items-center gap-2 text-cyan-400 text-xs font-black uppercase tracking-widest mb-3">
-                        <BadgeCheck size={16} /> Starting Investment
+                        <BadgeCheck size={16} /> {fm.pricingTitle || 'Starting Investment'}
                     </span>
                     <p className="text-4xl md:text-5xl font-black text-white">{fm.startingPrice}</p>
                     <p className="text-slate-300 text-lg mt-3 max-w-xl mx-auto leading-relaxed font-medium">{fm.priceDetails}</p>
