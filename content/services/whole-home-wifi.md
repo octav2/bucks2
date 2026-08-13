@@ -2,7 +2,7 @@
 id: "whole-home-wifi"
 title: "Enterprise Whole-Home Connectivity Architecture"
 subtitle: "Hardwired Ubiquiti UniFi Wi-Fi 7 backbones engineered for luxury estates, period properties, and garden offices across Buckinghamshire."
-metaTitle: "Ubiquiti UniFi Wi-Fi 7 Installers"
+metaTitle: "Ubiquiti Wi-Fi 7 Architecture & Installation"
 metaDescription: "Enterprise whole-home connectivity architecture across Buckinghamshire using hardwired Ubiquiti UniFi Wi-Fi 7. Dedicated Cat6a backbone with zero visible cabling for luxury estates, period properties, and garden offices."
 startingPrice: "From £1,500"
 priceDetails: "Includes comprehensive site audit, hardwired Cat6a infrastructure, Ubiquiti Wi-Fi 7 deployment, zero-latency testing, and lifetime app handover."
@@ -34,7 +34,7 @@ Whether you require high-speed internet routed out to a detached garden room or 
 | **Network Cabling** | Solid-Copper Cat6a | Low-smoke zero-halogen (LSZH) Cat6a backbone routed discretely through floorboard and loft voids for guaranteed full-gigabit performance. |
 | **Network Management** | UniFi Cloud / Unified App | 100% subscription-free unified app management - set up guest Wi-Fi, IoT VLANs, and device isolation from a single dashboard. |
 
-## Why Consumer Mesh Boosters Fail in Buckinghamshire Properties
+## Enterprise Architecture vs. Consumer Mesh Systems
 
 | Feature | Consumer Mesh Boosters (Eero, Orbi, Google) | Hardwired Ubiquiti UniFi Architecture |
 | :--- | :--- | :--- |
