@@ -24,14 +24,15 @@ const domain = 'https://www.buckstechhelp.co.uk';
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const location = getLocationBySlug(params.slug);
     if (!location) return {};
+    const town = location.name;
     const url = `${domain}/locations/${location.slug}`;
     return {
-        title: location.frontmatter.metaTitle,
-        description: location.frontmatter.metaDescription,
+        title: `Wi-Fi Installation & Ubiquiti Architecture in ${town} | Bucks Tech Help`,
+        description: `Hardwired Ubiquiti UniFi Wi-Fi 7, Cat6a cabling, and 4K CCTV architecture in ${town}. Engineered for period homes, luxury estates, and commercial premises.`,
         alternates: { canonical: url },
         openGraph: {
-            title: location.frontmatter.metaTitle,
-            description: location.frontmatter.metaDescription,
+            title: `Enterprise Property Connectivity Architecture in ${town}`,
+            description: `Hardwired Ubiquiti UniFi Wi-Fi 7, Cat6a cabling, and 4K CCTV architecture in ${town}. Engineered for period homes, luxury estates, and commercial premises.`,
             type: 'website',
             locale: 'en_GB',
             url,
@@ -51,14 +52,15 @@ interface ServiceCard {
     icon: any;
     title: string;
     description: string;
+    price: string;
     href: string;
     cta: string;
 }
 
 const localServiceCards: ServiceCard[] = [
-    { icon: Wifi, title: 'Whole-Home & Garden Room Wi-Fi', description: 'Hardwired enterprise Wi-Fi with zero dead zones across every floor, patio and garden building.', href: '/services/whole-home-wifi', cta: 'Explore Wi-Fi' },
-    { icon: Cable, title: 'Commercial Cat6/Cat6a Structured Cabling', description: 'Certified structured cabling, patch panels and rack installations for homes, offices and estates.', href: '/services/commercial-cabling', cta: 'Explore Cabling' },
-    { icon: Cctv, title: '4K IP CCTV & Smart Access Control', description: 'Owned-outright, subscription-free 4K IP CCTV and smart access control installed on your wired network.', href: '/services/smart-security', cta: 'Explore Security' },
+    { icon: Wifi, title: 'Enterprise Whole-Home Wi-Fi 7 Architecture', description: 'Hardwired Ubiquiti UniFi Wi-Fi 7 backbones engineered to eliminate dead zones across period homes, luxury estates, and garden offices in Buckinghamshire.', price: 'From Â£1,500', href: '/services/whole-home-wifi', cta: 'Explore Wi-Fi' },
+    { icon: Cable, title: 'High-Density Data Infrastructure & Rack Architecture', description: 'Cat6a structured cabling, patch panels, and rack installations for demanding homes, offices, and estates.', price: 'From Â£2,000', href: '/services/commercial-cabling', cta: 'Explore Cabling' },
+    { icon: Cctv, title: 'Subscription-Free 4K Property Security', description: 'Owned-outright 4K IP CCTV and smart access control installed on your wired Ubiquiti UniFi backbone.', price: 'From Â£1,800', href: '/services/smart-security', cta: 'Explore Security' },
 ];
 
 const caseStudyIcons: Record<string, any> = {
@@ -89,7 +91,6 @@ export default function LocationPage({ params }: Props) {
     const location = getLocationBySlug(params.slug);
     if (!location) return notFound();
 
-    const { frontmatter: fm } = location;
     const town = location.name;
     const allLocations = getAllLocationSlugs().map(getLocationBySlug).filter((l): l is LocationContent => l !== null);
 
@@ -98,10 +99,11 @@ export default function LocationPage({ params }: Props) {
         '@type': 'LocalBusiness',
         name: `Bucks Tech Help - ${town}`,
         url: `${domain}/locations/${location.slug}`,
-        priceRange: '£1500-£5000',
+        priceRange: 'Â£1500-Â£5000',
         areaServed: `${town}, Buckinghamshire`,
         provider: 'Bucks Tech Help',
-        description: fm.metaDescription,
+        description: `Hardwired Ubiquiti UniFi Wi-Fi 7, Cat6a cabling, and 4K CCTV architecture in ${town}. Engineered for period homes, luxury estates, and commercial premises.`,
+        serviceType: 'Enterprise Property Connectivity Architecture',
     };
 
     const faqSchema = {
@@ -133,10 +135,10 @@ export default function LocationPage({ params }: Props) {
                         </span>
                     </div>
                     <h1 className="text-4xl md:text-6xl font-black text-white mb-6 leading-tight tracking-tight text-center">
-                        {fm.heroHeadline}
+                        Enterprise Property Connectivity Architecture in {town}
                     </h1>
                     <p className="text-xl text-slate-400 max-w-3xl mx-auto text-center leading-relaxed font-medium mb-10">
-                        {fm.heroSubtitle}
+                        Looking for hardwired Wi-Fi installation, Cat6a network cabling, or 4K CCTV in {town}? We engineer enterprise-grade Ubiquiti UniFi backbones built to eliminate dead zones across period homes, luxury estates, and garden offices in {town}.
                     </p>
                     <div className="max-w-2xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-3">
                         {heroHighlights.map((h, i) => (
@@ -169,6 +171,7 @@ export default function LocationPage({ params }: Props) {
                                     </div>
                                     <h3 className="text-xl font-black text-white mb-3">{s.title}</h3>
                                     <p className="text-sm text-slate-400 font-medium leading-relaxed mb-6 flex-1">{s.description}</p>
+                                    <p className="text-lg font-bold text-blue-400 mb-2">{s.price}</p>
                                     <Link href={s.href} className="inline-flex items-center gap-2 text-blue-400 font-bold hover:text-blue-300 transition-colors">
                                         {s.cta} in {town} <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                                     </Link>
