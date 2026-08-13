@@ -8,6 +8,12 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
     metadataBase: new URL('https://www.buckstechhelp.co.uk'),
+    alternates: {
+        // Site-wide default canonical. Every route overrides this value with its
+        // own self-referencing canonical (home, about, quote, services, locations,
+        // cookie-policy, privacy, terms), so this acts only as a safe fallback.
+        canonical: '/',
+    },
     title: {
         default: 'Bucks Tech Help | Network & Cabling Specialists',
         template: '%s | Bucks Tech Help',
@@ -29,6 +35,13 @@ export const metadata: Metadata = {
         type: 'website',
         url: 'https://www.buckstechhelp.co.uk',
         siteName: 'Bucks Tech Help',
+        images: ['/og-image.png'],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Bucks Tech Help | Network & Cabling Specialists',
+        description: 'Hardwired Wi-Fi, structured cabling and IP CCTV infrastructure across Buckinghamshire.',
+        images: ['/og-image.png'],
     },
     robots: {
         index: true,
