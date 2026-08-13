@@ -16,10 +16,28 @@ interface Props {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const service = getServiceBySlug(params.slug);
     if (!service) return {};
+    const metaTitle = service.frontmatter.metaTitle;
+    const metaDescription = service.frontmatter.metaDescription;
+    const url = `https://www.buckstechhelp.co.uk/services/${service.slug}`;
     return {
-        title: service.frontmatter.metaTitle,
-        description: service.frontmatter.metaDescription,
-        alternates: { canonical: `https://www.buckstechhelp.co.uk/services/${service.slug}` },
+        title: metaTitle,
+        description: metaDescription,
+        alternates: { canonical: url },
+        openGraph: {
+            title: `${metaTitle} | Bucks Tech Help`,
+            description: metaDescription,
+            url,
+            siteName: 'Bucks Tech Help',
+            locale: 'en_GB',
+            type: 'website',
+            images: ['/og-image.png'],
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: `${metaTitle} | Bucks Tech Help`,
+            description: metaDescription,
+            images: ['/og-image.png'],
+        },
     };
 }
 

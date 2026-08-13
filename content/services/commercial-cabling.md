@@ -1,27 +1,28 @@
 ---
 id: "commercial-cabling"
-title: "Commercial Cat6 / Cat6a Structured Cabling & Rack Installations"
-subtitle: "High-density Cat6 / Cat6a structured cabling, 24-port keystone patch panel setup, server rack dressing, and commercial IT infrastructure for offices, dental surgeries, and industrial units across Buckinghamshire."
-metaTitle: "Cat6 & Data Cabling Installers"
-metaDescription: "Certified Cat6 / Cat6a structured cabling with 24-port keystone patch panel setup and server rack dressing in Buckinghamshire. Fluke certified performance mapping for offices and dental surgery data cabling."
+title: "High-Density Data Infrastructure & Enterprise Rack Architecture"
+subtitle: "Certified Cat6a backbones, patch panel engineering, and rack architecture built for commercial offices, industrial units, and multi-tenant premises across Buckinghamshire."
+metaTitle: "High-Density Data Infrastructure & Rack Architecture"
+metaDescription: "Certified Cat6a structured cabling, server rack architecture, and high-density network backbones for commercial premises, office parks, and estates across Buckinghamshire."
 startingPrice: "From £2,000"
-priceDetails: "Dependent on total cable drop count, floor layout, containment requirements, and patch rack specifications."
+priceDetails: "Includes full physical site survey, certified Cat6a cable deployment, patch panel termination, server rack assembly, and Fluke channel performance testing."
+pricingTitle: "Commercial Infrastructure Packages"
 coveredTowns: ["High Wycombe", "Chesham", "Amersham", "Beaconsfield", "Gerrards Cross", "Aylesbury"]
 ---
 
 ## Hero Highlights
-- Certified solid-copper Cat6 & Cat6a structured cabling runs
-- Network rack building, cable dressing & patch panel terminations
-- VoIP phone line, IP CCTV, and desktop outlet installation
-- 10-Gigabit high-bandwidth infrastructure with Fluke test certification
+- Fluke-certified Cat6/Cat6a high-speed copper infrastructure
+- Custom wall-mounted and floor-standing data cabinet rack builds
+- Engineered for zero-latency VoIP, high-density PoE security, and multi-gigabit routing
+- Clean, color-coded patch management with zero messy overhead wiring
 
-## Reliable Commercial Office Networks Built on Certified Structured Cabling
+## High-Density Data Infrastructure & Enterprise Rack Architecture
 
-In modern commercial environments across High Wycombe, Chesham, and Buckinghamshire, an unreliable Wi-Fi connection or messy tangle of unlabelled cables in a server cupboard leads to lost productivity, dropped VoIP calls, and costly IT downtime. High-performance office networks require certified copper cabling infrastructure designed to support gigabit and 10-gigabit data throughput.
+In modern commercial environments across High Wycombe, Chesham, and Buckinghamshire, an unreliable network or a messy tangle of unlabelled cables in a server cupboard leads to lost productivity, dropped VoIP calls, and costly IT downtime. High-density enterprise data infrastructure demands certified copper cabling engineered for gigabit and 10-gigabit throughput, zero-latency VoIP, and high-density Power-over-Ethernet (PoE) security.
 
-Bucks Tech Help designs and deploys structured Cat6 and Cat6a cabling systems for local businesses, law firms, dental practices, estate agencies, and commercial units. From pulling discrete cable drops to desk points and wall-mounted wireless access points, to installing 19-inch wall/floor server racks, patch panels, and managed network switches, we ensure your IT infrastructure is organized, scalable, and easy to maintain.
+Bucks Tech Help designs and deploys certified Cat6 and Cat6a structured cabling for law firms, dental practices, estate agencies, industrial units, and multi-tenant commercial premises across the county. From discrete cable drops to desk points and ceiling access points, to custom 19-inch wall-mounted and floor-standing data cabinets, patch panel termination, and managed network switches, we ensure your physical infrastructure is color-coded, organized, scalable, and easy to maintain.
 
-We handle the entire physical deployment—including plastic/metal mini-trunking, dado trunking, cable tray containment, clear cable labelling, and Fluke testing. We offer out-of-hours weekend installations so your business suffers zero operational downtime during normal working hours.
+We handle the entire physical deployment — including plastic/metal mini-trunking, dado trunking, cable tray containment, clear cable labelling, and Fluke channel performance testing. We offer out-of-hours weekend installations so your business suffers zero operational downtime during normal working hours.
 
 ## Hardware Specs
 
@@ -32,14 +33,14 @@ We handle the entire physical deployment—including plastic/metal mini-trunking
 | **Server Racks & Cabinets** | 6U to 42U Data Racks & Cable Management Rings | Lockable wall-mounted or floor-standing server enclosures complete with brush plates, PDU power bars, and neat cable dressing. |
 | **Network Switching** | Managed Layer 2/3 Power-over-Ethernet Switches | High-throughput managed switches powering IP phones, desktop machines, and ceiling access points over a single Ethernet cable. |
 
-## Enterprise Quality vs Consumer Patch Work
+## Enterprise Infrastructure vs. Uncertified Trade Cabling
 
-| Feature | DIY / Uncertified Setup | Certified Structured Infrastructure |
+| Feature | Uncertified Trade Cabling | Bucks Tech Help: Certified Enterprise Infrastructure |
 | :--- | :--- | :--- |
-| **Cable Quality** | Cheap Copper Clad Aluminium (CCA) - High failure rate | 100% Solid Bare Copper LSZH Certified Cat6/Cat6a |
-| **Rack & Cable Dressing** | Tangled cable 'spaghetti' in storage cupboards | Neat, color-coded, Velcro-bound patch panel architecture |
-| **Testing & Documentation** | Basic visual check with unlabelled ports | Comprehensive continuity & Fluke bandwidth test certification |
-| **Business Downtime** | Disrupts office hours during installation | Out-of-hours & weekend installation options available |
+| **Cable Quality & Termination** | Loose cables, poor terminations, unlabelled patch panels | Fluke-certified Cat6/Cat6a channels with color-coded, labelled termination |
+| **Speed & Latency** | Speed bottlenecks, no performance guarantee | 10Gbps-ready, zero-latency VoIP & multi-gigabit routing |
+| **Rack & Patch Management** | Messy cable 'spaghetti' in storage cupboards | Structured rack architecture with clean patch management and zero overhead wiring |
+| **Testing & Documentation** | Zero testing documentation | Full channel certification data & cable-map documentation |
 
 ## What's Included
 - Commercial site survey & floorplan cable containment planning
