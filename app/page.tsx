@@ -47,7 +47,7 @@ const enterpriseSchema = {
             url: 'https://www.buckstechhelp.co.uk',
             logo: 'https://www.buckstechhelp.co.uk/icon.png',
             image: 'https://www.buckstechhelp.co.uk/icon.png',
-            telephone: '+447000000000',
+            telephone: '07343079390',
             priceRange: '£1500 - £5000+',
             address: {
                 '@type': 'PostalAddress',
