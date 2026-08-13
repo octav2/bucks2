@@ -9,17 +9,15 @@ const baseUrl = 'https://www.buckstechhelp.co.uk';
 
 export async function generateMetadata({ searchParams }: { searchParams: { location?: string } }): Promise<Metadata> {
     const location = searchParams?.location ? getLocationBySlug(searchParams.location) : null;
-    if (location) {
-        return {
-            title: `Free Quote Audit — ${location.name} Network Installation | Bucks Tech Help`,
-            description: `Complete our 2-minute quote audit for your ${location.name} property. Enterprise Wi-Fi, Cat6 cabling or 4K IP CCTV. Preliminary scope within 24 hours.`,
-            alternates: { canonical: `${baseUrl}/quote?location=${location.slug}` },
-        };
-    }
     return {
-        title: 'Get a Free Quote | Wi-Fi, Cabling & CCTV — Bucks Tech Help',
-        description: 'Complete our 2-minute quote audit for enterprise Wi-Fi, Cat6 cabling or 4K IP CCTV in Buckinghamshire. Receive a preliminary scope and fixed price within 24 hours. No call needed.',
-        alternates: { canonical: `${baseUrl}/quote` },
+        // Static, concise title regardless of the ?location= search parameter so
+        // long town names (e.g. Chalfont St Peter, Great Missenden) never inflate
+        // the final rendered <title> tag. The root layout template appends the brand.
+        title: 'Request a Property Network Audit',
+        description: location
+            ? `Complete our 2-minute quote audit for your ${location.name} property. Enterprise Wi-Fi, Cat6 cabling or 4K IP CCTV. Preliminary scope within 24 hours.`
+            : 'Complete our 2-minute quote audit for enterprise Wi-Fi, Cat6 cabling or 4K IP CCTV in Buckinghamshire. Receive a preliminary scope and fixed price within 24 hours. No call needed.',
+        alternates: { canonical: location ? `${baseUrl}/quote?location=${location.slug}` : `${baseUrl}/quote` },
     };
 }
 

@@ -12,7 +12,7 @@ import {
 const baseUrl = 'https://www.buckstechhelp.co.uk';
 
 export const metadata: Metadata = {
-    title: 'About Us | Buckinghamshire Network & Cabling Infrastructure Specialists | Bucks Tech Help',
+    title: 'About Our Infrastructure Team',
     description: 'Bucks Tech Help are certified network & cabling infrastructure specialists in Buckinghamshire. Hardwired Ubiquiti UniFi Wi-Fi, Fluke-verified Cat6 structured cabling and subscription-free 4K IP CCTV for period homes, garden offices and businesses across South & Central Bucks.',
     alternates: { canonical: `${baseUrl}/about` },
     openGraph: {

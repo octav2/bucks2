@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import LegalLayout from '@/components/LegalLayout';
 
 export const metadata: Metadata = {
-    title: 'Cookie Policy | Bucks Tech Help',
+    title: 'Cookie Policy',
     description: 'Cookie Policy for Bucks Tech Help. How we use essential cookies and session storage for the /quote enquiry form and analytics on buckstechhelp.co.uk.',
     alternates: { canonical: '/cookie-policy' },
 };

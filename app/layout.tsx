@@ -8,7 +8,10 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
     metadataBase: new URL('https://www.buckstechhelp.co.uk'),
-    title: 'Bucks Tech Help | Enterprise Wi-Fi, Cat6 Cabling & IP CCTV Installer Buckinghamshire',
+    title: {
+        default: 'Bucks Tech Help | Network & Cabling Specialists',
+        template: '%s | Bucks Tech Help',
+    },
     description: 'Ubiquiti UniFi & TP-Link Omada installer in Buckinghamshire. Hardwired whole-home & garden office Wi-Fi, Cat6 structured cabling and subscription-free 4K IP CCTV for large homes and businesses across Beaconsfield, Amersham, Chesham & High Wycombe.',
     keywords: [
         'Ubiquiti UniFi installer Buckinghamshire',

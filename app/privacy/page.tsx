@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import LegalLayout from '@/components/LegalLayout';
 
 export const metadata: Metadata = {
-    title: 'Privacy Policy | Bucks Tech Help',
+    title: 'Privacy Policy',
     description: 'Privacy Policy for Bucks Tech Help — enterprise network cabling, whole-home Wi-Fi and 4K IP CCTV installations across Buckinghamshire. How we collect, use and protect your data.',
     alternates: { canonical: '/privacy' },
 };

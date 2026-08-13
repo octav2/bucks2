@@ -2,7 +2,7 @@
 id: "smart-security"
 title: "Commercial-Grade 4K IP CCTV & Smart Access Control"
 subtitle: "No monthly fee CCTV system and 4K IP PoE security camera installation across Buckinghamshire, owned outright. UniFi Protect AI cameras, on-premise NVR storage, and remote smartphone monitoring."
-metaTitle: "4K IP PoE CCTV Installation Buckinghamshire | No Monthly Fee & UniFi Protect AI Cameras"
+metaTitle: "4K IP CCTV & Smart Security"
 metaDescription: "No monthly fee CCTV system and 4K IP PoE security camera installation in Buckinghamshire. UniFi Protect AI cameras with on-premise NVR storage — you own it outright, zero subscriptions."
 startingPrice: "From £1,800"
 priceDetails: "Includes 4K camera hardware, local NVR hard drive storage, Cat6 cabling drops, app setup, and complete installation."

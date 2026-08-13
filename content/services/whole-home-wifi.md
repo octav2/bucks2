@@ -2,7 +2,7 @@
 id: "whole-home-wifi"
 title: "Whole-Property & Garden Room Wi-Fi"
 subtitle: "High-performance enterprise Wi-Fi installation across Buckinghamshire. Ubiquiti UniFi U7 Pro & TP-Link Omada hardwired backhaul, zero dead zones, and complete garden office internet setup for large properties and outbuildings."
-metaTitle: "Ubiquiti UniFi U7 Pro & TP-Link Omada Wi-Fi Installer Buckinghamshire | Garden Office Internet Setup"
+metaTitle: "Ubiquiti UniFi Wi-Fi Installers"
 metaDescription: "Garden office internet setup & whole-home Wi-Fi across Bucks using Ubiquiti UniFi U7 Pro and TP-Link Omada. Hardwired backhaul with steel-wire armored (SWA) Cat6 cabling for zero dead zones."
 startingPrice: "From £1,500"
 priceDetails: "Includes complete site audit, enterprise hardware, multi-point Cat6 cable drops, and professional turn-key installation."

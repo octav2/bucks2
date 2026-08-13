@@ -2,7 +2,7 @@
 id: "commercial-cabling"
 title: "Commercial Cat6 / Cat6a Structured Cabling & Rack Installations"
 subtitle: "High-density Cat6 / Cat6a structured cabling, 24-port keystone patch panel setup, server rack dressing, and commercial IT infrastructure for offices, dental surgeries, and industrial units across Buckinghamshire."
-metaTitle: "Cat6 & Cat6a Structured Cabling Buckinghamshire | Patch Panel & Server Rack Dressing"
+metaTitle: "Cat6 & Data Cabling Installers"
 metaDescription: "Certified Cat6 / Cat6a structured cabling with 24-port keystone patch panel setup and server rack dressing in Buckinghamshire. Fluke certified performance mapping for offices and dental surgery data cabling."
 startingPrice: "From £2,000"
 priceDetails: "Dependent on total cable drop count, floor layout, containment requirements, and patch rack specifications."
