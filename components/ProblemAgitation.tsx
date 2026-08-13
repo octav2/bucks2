@@ -3,16 +3,16 @@ import { X, Check, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 
 const pains = [
-    'Disconnections during critical Zoom calls in the home office',
+    'Up to 50% speed loss through internal brick, Chiltern flint & underfloor heating',
     'Dead zones in garden rooms, lofts, or patio areas',
     'Buffer wheels on 4K Smart TVs',
-    'Wireless mesh extenders that crash with 30+ smart home devices',
+    'Consumer mesh pods (Eero, Orbi, Google) that crash with 30+ smart home devices',
 ];
 
 const solutions = [
-    'Dedicated Cat6 gigabit backhaul to every key room',
-    'Seamless roaming across the main property & outbuildings',
-    'Discrete, ceiling-mounted enterprise Access Points',
+    'Hardwired Ubiquiti UniFi Cat6a backbones to every key room',
+    'Unthrottled gigabit speeds across the main property & garden offices',
+    'Seamless roaming via ceiling-mounted UniFi access points',
     '100% Zero-Dead-Zone Guarantee',
 ];
 
@@ -24,11 +24,13 @@ export default function ProblemAgitation() {
                 <div className="text-center mb-14">
                     <span className="inline-block text-xs font-black uppercase tracking-[0.2em] text-cyan-400 mb-4">Sound Familiar?</span>
                     <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight">
-                        Tired of Wi-Fi That Drops When You{" "}
-                        <span className="text-cyan-400">Leave the Kitchen?</span>
+                        Why Consumer Wireless Boosters &amp; Mesh Pods{" "}
+                        <span className="text-cyan-400">Fail in Buckinghamshire</span>
                     </h2>
                     <p className="text-slate-400 text-lg max-w-2xl mx-auto mt-5 font-medium">
-                        If any of this sounds like your network, the problem isn&apos;t your router &mdash; it&apos;s the missing infrastructure.
+                        Consumer mesh pods (Eero, Orbi, Google) lose up to 50% of their bandwidth with every internal
+                        brick, Chiltern flint, or underfloor-heating run they cross. Hardwired Ubiquiti UniFi Cat6a
+                        backbones deliver unthrottled gigabit speeds to every room and garden office.
                     </p>
                 </div>
 

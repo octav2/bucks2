@@ -17,12 +17,80 @@ import { ArrowRight, Zap, ShieldCheck, Wifi, Gauge, HardHat } from 'lucide-react
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+    title: { absolute: 'Enterprise Property Connectivity Architecture | Bucks Tech Help' },
+    description: 'Hardwired Ubiquiti UniFi Wi-Fi 7, Cat6a structured cabling, and subscription-free 4K CCTV engineered for luxury estates, period homes, and commercial premises across Buckinghamshire.',
     alternates: { canonical: '/' },
+    openGraph: {
+        title: 'Enterprise Property Connectivity Architecture across Buckinghamshire',
+        description: 'Hardwired Ubiquiti UniFi Wi-Fi 7, Cat6a structured cabling, and subscription-free 4K CCTV engineered for luxury estates, period homes, and commercial premises across Buckinghamshire.',
+        url: 'https://www.buckstechhelp.co.uk/',
+        siteName: 'Bucks Tech Help',
+        locale: 'en_GB',
+        type: 'website',
+        images: ['/og-image.png'],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Enterprise Property Connectivity Architecture across Buckinghamshire',
+        description: 'Hardwired Ubiquiti UniFi Wi-Fi 7, Cat6a structured cabling, and subscription-free 4K CCTV engineered for luxury estates, period homes, and commercial premises across Buckinghamshire.',
+        images: ['/og-image.png'],
+    },
+};
+
+const enterpriseSchema = {
+    '@context': 'https://schema.org',
+    '@graph': [
+        {
+            '@type': 'HomeAndConstructionBusiness',
+            '@id': 'https://www.buckstechhelp.co.uk/#organization',
+            name: 'Bucks Tech Help',
+            url: 'https://www.buckstechhelp.co.uk',
+            logo: 'https://www.buckstechhelp.co.uk/icon.png',
+            image: 'https://www.buckstechhelp.co.uk/icon.png',
+            telephone: '+447000000000',
+            priceRange: '£1500 - £5000+',
+            address: {
+                '@type': 'PostalAddress',
+                addressRegion: 'Buckinghamshire',
+                addressCountry: 'GB',
+            },
+            areaServed: [
+                'Beaconsfield', 'Amersham', 'Gerrards Cross', 'Chesham', 'High Wycombe', 'Marlow', 'Aylesbury',
+            ],
+        },
+        {
+            '@type': 'Service',
+            name: 'Enterprise Whole-Home Connectivity Architecture',
+            provider: { '@id': 'https://www.buckstechhelp.co.uk/#organization' },
+            serviceType: 'Wi-Fi Installation & Structured Cabling',
+            brand: { '@type': 'Brand', name: 'Ubiquiti UniFi' },
+            offers: { '@type': 'Offer', price: '1500.00', priceCurrency: 'GBP' },
+        },
+        {
+            '@type': 'Service',
+            name: 'High-Density Data Infrastructure & Enterprise Rack Architecture',
+            provider: { '@id': 'https://www.buckstechhelp.co.uk/#organization' },
+            serviceType: 'Commercial Network Cabling & Server Racks',
+            offers: { '@type': 'Offer', price: '2000.00', priceCurrency: 'GBP' },
+        },
+        {
+            '@type': 'Service',
+            name: 'Subscription-Free 4K Property Perimeter Security & Smart Access',
+            provider: { '@id': 'https://www.buckstechhelp.co.uk/#organization' },
+            serviceType: '4K CCTV & Video Access Control',
+            brand: { '@type': 'Brand', name: 'Ubiquiti Protect' },
+            offers: { '@type': 'Offer', price: '1800.00', priceCurrency: 'GBP' },
+        },
+    ],
 };
 
 export default function Home() {
     return (
         <div className="min-h-screen bg-slate-950 text-slate-100 pb-28 md:pb-0">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(enterpriseSchema) }}
+            />
             <Header />
 
             {/* HERO */}
@@ -33,19 +101,18 @@ export default function Home() {
 
                 <div className="max-w-5xl mx-auto text-center relative z-10">
                     <div className="inline-flex items-center gap-2 bg-blue-500/10 text-blue-300 border border-blue-500/20 px-5 py-2 rounded-full text-sm font-bold mb-10">
-                        <Wifi size={16} /> Network &amp; Cabling Infrastructure · Buckinghamshire
+                        <Wifi size={16} /> Enterprise Connectivity Architecture · Buckinghamshire
                     </div>
 
                     <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-white mb-8 leading-[1.08] tracking-tight text-balance">
-                        Seamless Gigabit Wi-Fi &amp; Structured Network Cabling for{" "}
-                        <span className="text-blue-400">Large Homes, Garden Offices &amp; Businesses</span>{" "}
-                        across Buckinghamshire.
+                        Enterprise Property Connectivity{" "}
+                        <span className="text-blue-400">Architecture Across Buckinghamshire</span>
                     </h1>
 
-                    <p className="text-xl md:text-2xl text-slate-400 mb-14 leading-relaxed max-w-3xl mx-auto font-medium">
-                        Hardwired Ubiquiti UniFi &amp; TP-Link Omada networks, Cat6 structured cabling and
-                        subscription-free 4K IP CCTV — designed, installed and tested with zero dead zones.
-                    </p>
+                    <h2 className="text-xl md:text-2xl text-slate-400 mb-14 leading-relaxed max-w-3xl mx-auto font-medium">
+                        Hardwired Ubiquiti UniFi Wi-Fi 7 backbones, certified Cat6a data cabling, and
+                        subscription-free 4K CCTV engineered for luxury estates, period homes, and commercial premises.
+                    </h2>
 
                     <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
                         <Link href="/quote" className="w-full sm:w-auto bg-gradient-to-r from-blue-500 to-blue-700 text-white px-12 py-6 rounded-2xl font-black text-xl hover:from-blue-600 hover:to-blue-800 transition-all hover:scale-[1.03] active:scale-95 shadow-2xl shadow-blue-600/30 flex items-center justify-center gap-3">

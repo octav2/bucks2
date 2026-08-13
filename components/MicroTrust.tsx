@@ -5,9 +5,9 @@ interface Props {
 }
 
 const trustItems = [
-    { icon: '🔒', label: '100% Zero-Dead-Zone Guarantee' },
-    { icon: '⚡', label: '1-2 Day Installation' },
-    { icon: '🛡️', label: '£2M Public Liability Insured' },
+    { icon: '🔧', label: 'Ubiquiti UniFi Specialists' },
+    { icon: '📜', label: 'Fluke Certified Cabling' },
+    { icon: '🔒', label: '100% Subscription-Free Hardware' },
 ];
 
 export default function MicroTrust({ compact = false }: Props) {

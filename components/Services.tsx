@@ -6,15 +6,30 @@ import { servicesData } from '@/lib/servicesData';
 const pricing: Record<string, { from: string; micro: string }> = {
     'whole-home-wifi': {
         from: '£1,500',
-        micro: 'Includes enterprise hardware, multi-point Cat6 cabling, and turn-key installation.',
+        micro: 'Includes enterprise Ubiquiti UniFi Wi-Fi 7 hardware, hardwired Cat6a backhaul, and unified app handover.',
     },
     'smart-security': {
         from: '£1,800',
-        micro: 'Includes commercial 4K IP cameras, on-site NVR storage and remote access setup.',
+        micro: 'Includes Ubiquiti Protect NVR storage, 4K AI optical cameras, and single-app setup.',
     },
     'commercial-cabling': {
         from: '£2,000',
-        micro: 'Includes certified Cat6/Cat6a cabling, rack installation and full termination.',
+        micro: 'Includes certified Cat6a cabling, rack assembly, and Fluke channel performance testing.',
+    },
+};
+
+const cardCopy: Record<string, { title: string; subtext: string }> = {
+    'whole-home-wifi': {
+        title: 'Enterprise Whole-Home Wi-Fi 7 Architecture',
+        subtext: 'Hardwired Cat6a backbones & zero-dead-zone Ubiquiti Wi-Fi 7 for period properties and garden offices.',
+    },
+    'commercial-cabling': {
+        title: 'High-Density Data Infrastructure & Enterprise Rack Architecture',
+        subtext: 'Certified Cat6a cabling, 19-inch data cabinet builds, and zero-downtime commercial network backbones.',
+    },
+    'smart-security': {
+        title: 'Subscription-Free 4K Property Perimeter Security & Smart Access',
+        subtext: 'Hardwired Ubiquiti Protect 4K AI optical cameras, on-premise NVR storage, zero monthly cloud fees.',
     },
 };
 
@@ -42,6 +57,7 @@ export default function Services() {
                     {servicesList.map((service) => {
                         const Icon = service.icon;
                         const price = pricing[service.slug];
+                        const copy = cardCopy[service.slug];
                         const showBadge = service.slug === 'smart-security';
                         return (
                             <div key={service.slug} className="group relative bg-slate-900/80 border border-slate-800 rounded-3xl p-9 shadow-xl hover:border-cyan-500/50 hover:-translate-y-2 transition-all duration-500 flex flex-col h-full overflow-hidden">
@@ -62,9 +78,9 @@ export default function Services() {
                                     </div>
                                     <p className="text-[11px] font-black uppercase tracking-[0.15em] text-blue-400 mb-3">{service.heroPill}</p>
                                     <h3 className="text-2xl font-black text-white mb-4 tracking-tight leading-snug">
-                                        {service.title}
+                                        {copy?.title || service.title}
                                     </h3>
-                                    <p className="text-slate-400 mb-6 leading-relaxed font-medium flex-grow">{service.intro}</p>
+                                    <p className="text-slate-400 mb-6 leading-relaxed font-medium flex-grow">{copy?.subtext || service.intro}</p>
 
                                     <ul className="space-y-3 mb-8">
                                         {service.heroBullets.map((b, i) => (
