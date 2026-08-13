@@ -3,9 +3,9 @@ id: "hazlemere"
 slug: "hazlemere"
 townName: "Hazlemere"
 postcode: "HP15"
-metaTitle: "Wi-Fi & Network Cable Installer Hazlemere HP15 | Bucks Tech Help"
+metaTitle: "Network Cabling & Wi-Fi Installer Hazlemere | Bucks Tech Help"
 metaDescription: "Professional enterprise Wi-Fi installation, Cat6 home office cabling, and 4K IP CCTV in Hazlemere, Holmer Green, and Tylers Green. Free site audit."
-heroHeadline: "Enterprise Wi-Fi & Network Cabling in Hazlemere"
+heroHeadline: "Certified Cat6 Cabling & Enterprise Wi-Fi in Hazlemere"
 heroSubtitle: "From extended family homes to dedicated home offices across Hazlemere, Holmer Green, and Tylers Green, we install hardwired UniFi and Cat6 infrastructure for zero-dead-zone Gigabit speeds."
 nearbyVillages: ["Holmer Green", "Tylers Green", "Penn", "Cryers Hill", "Widmer End", "High Wycombe Borders"]
 ---

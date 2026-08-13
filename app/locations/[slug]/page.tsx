@@ -92,15 +92,15 @@ export default function LocationPage({ params }: Props) {
     const { frontmatter: fm } = location;
     const town = location.name;
     const allLocations = getAllLocationSlugs().map(getLocationBySlug).filter((l): l is LocationContent => l !== null);
-    const otherLocations = allLocations.filter((l) => l.slug !== location.slug);
 
     const schema = {
         '@context': 'https://schema.org',
-        '@type': 'TelecommunicationsContractor',
+        '@type': 'LocalBusiness',
         name: `Bucks Tech Help - ${town}`,
         url: `${domain}/locations/${location.slug}`,
-        priceRange: '£1500-£5000+',
-        areaServed: { '@type': 'AdministrativeArea', name: `${town}, Buckinghamshire, UK` },
+        priceRange: '£1500-£5000',
+        areaServed: `${town}, Buckinghamshire`,
+        provider: 'Bucks Tech Help',
         description: fm.metaDescription,
     };
 
@@ -240,9 +240,9 @@ export default function LocationPage({ params }: Props) {
             {/* SECTION 5: NEARBY AREAS WE COVER */}
             <section className="py-16 px-4 bg-slate-900 border-y border-slate-800">
                 <div className="max-w-4xl mx-auto">
-                    <h2 className="text-2xl md:text-3xl font-black text-white mb-8 tracking-tight text-center">Nearby Areas We Cover</h2>
+                    <h2 className="text-2xl md:text-3xl font-black text-white mb-8 tracking-tight text-center">All Buckinghamshire Locations We Cover</h2>
                     <div className="flex flex-wrap justify-center gap-3">
-                        {otherLocations.map((l) => (
+                        {allLocations.map((l) => (
                             <Link key={l.slug} href={`/locations/${l.slug}`} className="bg-slate-800 hover:bg-slate-700 border border-slate-700 hover:border-blue-600/50 px-5 py-2.5 rounded-full text-sm font-bold text-white transition-all">
                                 {l.name}
                             </Link>

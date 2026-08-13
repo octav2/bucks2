@@ -3,9 +3,9 @@ id: "stoke-poges"
 slug: "stoke-poges"
 townName: "Stoke Poges"
 postcode: "SL2"
-metaTitle: "Wi-Fi & Network Cable Installer Stoke Poges SL2 | Bucks Tech Help"
+metaTitle: "Network Cabling & Wi-Fi Installer Stoke Poges | Bucks Tech Help"
 metaDescription: "Enterprise Wi-Fi installation, Cat6 cabling, and 4K IP CCTV for large homes and semi-rural estates in Stoke Poges, Fulmer, and Wexham."
-heroHeadline: "Enterprise Wi-Fi & Smart Infrastructure in Stoke Poges"
+heroHeadline: "Certified Cat6 Cabling & Enterprise Wi-Fi in Stoke Poges"
 heroSubtitle: "Expansive semi-rural properties and gated estates in Stoke Poges demand robust network cabling. We install enterprise Ubiquiti UniFi networks and subscription-free 4K security systems."
 nearbyVillages: ["Fulmer", "Farnham Common", "Wexham", "Gerrards Cross", "Slough Borders"]
 ---

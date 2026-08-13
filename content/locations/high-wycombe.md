@@ -3,9 +3,9 @@ id: "high-wycombe"
 slug: "high-wycombe"
 townName: "High Wycombe"
 postcode: "HP11, HP12, HP13"
-metaTitle: "Commercial Network Cabling High Wycombe HP11 HP12 | Bucks Tech Help"
+metaTitle: "Network Cabling & Wi-Fi Installer High Wycombe | Bucks Tech Help"
 metaDescription: "Certified Cat6 structured cabling, enterprise Wi-Fi, and 4K IP CCTV for offices, industrial units, and large homes across High Wycombe and Hazlemere."
-heroHeadline: "Enterprise Wi-Fi & Commercial Office Cabling in High Wycombe"
+heroHeadline: "Certified Cat6 Cabling & Enterprise Wi-Fi in High Wycombe"
 heroSubtitle: "For homes and businesses across High Wycombe, Hazlemere, and Downley, we design and install professional networks: hardwired UniFi Wi-Fi, structured Cat6 office cabling, and commercial-grade, subscription-free 4K CCTV."
 nearbyVillages: ["Hazlemere", "Tylers Green", "Downley", "Flackwell Heath", "Loudwater", "Wooburn Green"]
 ---
@@ -16,7 +16,7 @@ High Wycombe (HP11, HP12, HP13) is one of Buckinghamshire's largest commercial a
 
 Commercial premises across High Wycombe frequently struggle with messy, unlabelled server cupboards, tangled patch panels, and slow wireless coverage that drops during high-bandwidth operations. Meanwhile, residential properties face signal dead zones across multi-level layouts and modern extensions.
 
-Bucks Tech Help delivers complete, certified network installations across High Wycombe. For commercial clients, we install certified Cat6/Cat6a structured cabling drops, patch panel terminations, 19-inch data rack dressing, and subscription-free 4K IP CCTV security systems. For residential clients, we install ceiling-mounted enterprise access points to eliminate dead zones permanently.
+Bucks Tech Help delivers complete, certified network installations across High Wycombe. For commercial clients we deliver end-to-end B2B Cat6/Cat6a rack installations—certified structured cabling drops, patch panel terminations, and 19-inch data rack dressing—alongside subscription-free 4K IP CCTV security systems. For residential clients, we install ceiling-mounted enterprise access points to eliminate dead zones permanently.
 
 We deliver end-to-end **commercial network cabling high wycombe**, expert **patch panel setup**, and tailored network fit-outs for **dental surgeries** across the HP11, HP12, and HP13 postcodes.
 

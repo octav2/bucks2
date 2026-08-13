@@ -3,9 +3,9 @@ id: "penn"
 slug: "penn"
 townName: "Penn"
 postcode: "HP10"
-metaTitle: "Enterprise Wi-Fi & Network Cabling Penn HP10 | Bucks Tech Help"
+metaTitle: "Network Cabling & Wi-Fi Installer Penn | Bucks Tech Help"
 metaDescription: "High-performance Ubiquiti UniFi Wi-Fi, Cat6 network cabling, and 4K CCTV for large homes and gated estates in Penn, Penn Street, and Knotty Green."
-heroHeadline: "Enterprise Wi-Fi & Smart Security Cabling in Penn"
+heroHeadline: "Certified Cat6 Cabling & Enterprise Wi-Fi in Penn"
 heroSubtitle: "Large period homes, gated properties, and outbuildings in Penn and Knotty Green demand commercial-grade network cabling. We install hardwired UniFi networks and 4K CCTV."
 nearbyVillages: ["Knotty Green", "Penn Street", "Winchmore Hill", "Hazlemere Borders", "Beaconsfield Borders"]
 ---

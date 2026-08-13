@@ -3,9 +3,9 @@ id: "chalfont-st-peter"
 slug: "chalfont-st-peter"
 townName: "Chalfont St Peter"
 postcode: "SL9"
-metaTitle: "Network Cabling & Wi-Fi Installer Chalfont St Peter SL9 | Bucks Tech Help"
+metaTitle: "Network Cabling & Wi-Fi Installer Chalfont St Peter | Bucks Tech Help"
 metaDescription: "Enterprise Wi-Fi installation, Cat6 structured cabling, and 4K IP CCTV for homes and businesses in Chalfont St Peter, Chalfont St Giles, and Little Chalfont."
-heroHeadline: "Enterprise Wi-Fi & Network Cabling in Chalfont St Peter"
+heroHeadline: "Certified Cat6 Cabling & Enterprise Wi-Fi in Chalfont St Peter"
 heroSubtitle: "From expansive family homes to commercial shops in Chalfont St Peter and Chalfont St Giles, we design and install hardwired UniFi Wi-Fi, Cat6 cabling, and smart security systems."
 nearbyVillages: ["Chalfont St Giles", "Little Chalfont", "Gerrards Cross", "Seer Green", "Jordans"]
 ---

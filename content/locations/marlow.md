@@ -3,9 +3,9 @@ id: "marlow"
 slug: "marlow"
 townName: "Marlow"
 postcode: "SL7"
-metaTitle: "Network Cabling & Enterprise Wi-Fi Installer Marlow SL7 | Bucks Tech Help"
+metaTitle: "Network Cabling & Wi-Fi Installer Marlow | Bucks Tech Help"
 metaDescription: "High-performance enterprise Wi-Fi, Cat6 structured cabling, and 4K IP security systems for riverside homes, townhouses, and businesses in Marlow."
-heroHeadline: "Enterprise Wi-Fi & Commercial Network Infrastructure in Marlow"
+heroHeadline: "Certified Cat6 Cabling & Enterprise Wi-Fi in Marlow"
 heroSubtitle: "From riverside properties along the Thames to boutique commercial venues on Marlow High Street, we deliver hardwired enterprise networks, fast Wi-Fi, and 4K CCTV systems."
 nearbyVillages: ["Bisham", "Little Marlow", "Medmenham", "Bourne End", "Frieth", "Lane End"]
 ---
@@ -14,7 +14,7 @@ nearbyVillages: ["Bisham", "Little Marlow", "Medmenham", "Bourne End", "Frieth",
 
 Marlow (SL7) is home to prestigious riverside properties, multi-storey townhouses, and thriving retail and hospitality businesses. Multi-level townhouses in Marlow often suffer from Wi-Fi signal decay across upper floors, while large detached properties require extended coverage across outdoor entertaining areas, patios, and moorings.
 
-Bucks Tech Help designs custom network solutions for Marlow properties. We replace unreliable consumer mesh setups with commercial-grade Ubiquiti UniFi access points, hardwired backhaul cabling, and outdoor-rated weatherproof access points that broadcast high-speed Wi-Fi across gardens and riverfront patios.
+Bucks Tech Help designs custom network solutions for Marlow properties. We replace unreliable consumer mesh setups with commercial-grade Ubiquiti UniFi access points, hardwired backhaul cabling, and outdoor-rated PoE access points that broadcast high-speed Wi-Fi across gardens and riverfront patios. For river property outbuildings, boathouses, and mooring chalets, we cable out with steel-wire armored (SWA) Cat6 so every structure shares your full Gigabit connection from the central PoE switch.
 
 For Marlow businesses, we supply structured Cat6 cabling, network rack dressing, and subscription-free 4K IP CCTV systems that keep commercial premises secure without recurring software fees.
 

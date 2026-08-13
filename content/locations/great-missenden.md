@@ -3,9 +3,9 @@ id: "great-missenden"
 slug: "great-missenden"
 townName: "Great Missenden"
 postcode: "HP16"
-metaTitle: "Network Cabling & Wi-Fi Installer Great Missenden HP16 | Bucks Tech Help"
+metaTitle: "Network Cabling & Wi-Fi Installer Great Missenden | Bucks Tech Help"
 metaDescription: "Enterprise Wi-Fi, garden room cabling, and subscription-free 4K IP CCTV for period homes and rural estates in Great Missenden, Little Kingshill, and Prestwood."
-heroHeadline: "Enterprise Wi-Fi & Network Infrastructure in Great Missenden"
+heroHeadline: "Certified Cat6 Cabling & Enterprise Wi-Fi in Great Missenden"
 heroSubtitle: "Eliminate dead zones in Great Missenden period cottages, converted barns, and rural estates. Hardwired Ubiquiti UniFi access points and Cat6 cabling engineered across HP16."
 nearbyVillages: ["Prestwood", "Little Missenden", "Little Kingshill", "Great Kingshill", "South Heath", "Ballinger"]
 ---

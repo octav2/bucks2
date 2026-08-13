@@ -3,9 +3,9 @@ id: "gerrards-cross"
 slug: "gerrards-cross"
 townName: "Gerrards Cross"
 postcode: "SL9"
-metaTitle: "Network Cabling & Wi-Fi Installer Gerrards Cross SL9 | Bucks Tech Help"
+metaTitle: "Network Cabling & Wi-Fi Installer Gerrards Cross | Bucks Tech Help"
 metaDescription: "Enterprise Ubiquiti UniFi Wi-Fi, Cat6 structured cabling, and subscription-free 4K IP CCTV for luxury homes and gated estates in Gerrards Cross and Chalfont St Peter."
-heroHeadline: "Enterprise Wi-Fi & Smart Security Cabling in Gerrards Cross"
+heroHeadline: "Certified Cat6 Cabling & Enterprise Wi-Fi in Gerrards Cross"
 heroSubtitle: "Luxury residences, gated estates, and expansive outbuildings in Gerrards Cross require hardwired commercial infrastructure. We design ultra-reliable Ubiquiti UniFi networks and subscription-free 4K CCTV."
 nearbyVillages: ["Chalfont St Peter", "Chalfont St Giles", "Fulmer", "Hedgerley", "Stoke Poges", "Denham"]
 ---
@@ -14,7 +14,7 @@ nearbyVillages: ["Chalfont St Peter", "Chalfont St Giles", "Fulmer", "Hedgerley"
 
 Gerrards Cross (SL9) is renowned for its expansive luxury properties, private estates, and gated residences along roads such as The Drive and Camp Road. These high-value properties frequently span over 5,000 sq ft, often featuring detached annexes, swimming pool houses, and secure perimeter gates. Standard consumer routers and plug-in mesh extenders are completely ineffective in properties of this scale.
 
-Bucks Tech Help specializes in high-ticket infrastructure for luxury Gerrards Cross homes. We design discreet, high-capacity network backbones using solid-copper Cat6 cabling, rack-mounted Power-over-Ethernet (PoE) switches, and flush ceiling-mounted Ubiquiti UniFi Wi-Fi 6/7 Access Points.
+Bucks Tech Help specializes in high-ticket infrastructure for luxury Gerrards Cross homes and large detached estates. We design discreet, high-capacity network backbones using solid-copper Cat6 cabling, rack-mounted Power-over-Ethernet (PoE) switches, and multi-access-point Ubiquiti UniFi Wi-Fi 6/7 deployments that roam seamlessly across 6,000+ sq ft properties, annexes, and pool houses.
 
 We also integrate subscription-free commercial 4K IP CCTV cameras across property perimeters and entrance gates. Every camera records 24/7 to a local secure Network Video Recorder (NVR) inside the home, giving homeowners instant 4K smartphone app viewing with £0 recurring monthly fees.
 

@@ -3,9 +3,9 @@ id: "bourne-end"
 slug: "bourne-end"
 townName: "Bourne End"
 postcode: "SL8"
-metaTitle: "Network Cabling & Wi-Fi Installer Bourne End SL8 | Bucks Tech Help"
+metaTitle: "Network Cabling & Wi-Fi Installer Bourne End | Bucks Tech Help"
 metaDescription: "Enterprise Wi-Fi installation, garden office network cabling, and 4K IP CCTV for riverside properties and homes in Bourne End, Flackwell Heath, and Wooburn Green."
-heroHeadline: "Enterprise Wi-Fi & Smart Infrastructure in Bourne End"
+heroHeadline: "Certified Cat6 Cabling & Enterprise Wi-Fi in Bourne End"
 heroSubtitle: "From riverside homes along the Thames to properties in Flackwell Heath and Wooburn Green, we install hardwired UniFi Wi-Fi, Cat6 cabling, and subscription-free 4K CCTV."
 nearbyVillages: ["Flackwell Heath", "Wooburn Green", "Wooburn Moor", "Well End", "Cookham Borders", "Marlow Borders"]
 ---
@@ -16,7 +16,7 @@ Bourne End (SL8) is defined by its prime riverside position along the Thames, sp
 
 Consumer Wi-Fi boosters fail over long garden distances and cannot push through concrete floor slabs between multi-storey living areas. Bucks Tech Help designs turn-key network solutions tailored to Bourne End properties. 
 
-We install centralized Power-over-Ethernet (PoE) switches, discrete internal Cat6 cable backhauls, and weather-proof (IP67) outdoor access points that broadcast reliable, high-speed Wi-Fi across patios, lawns, and boat docks.
+We install centralized Power-over-Ethernet (PoE) switches, discrete internal Cat6 cable backhauls, and weather-proof (IP67) outdoor PoE access points that broadcast reliable, high-speed Wi-Fi across patios, lawns, and boat docks. River property outbuildings and mooring chalets are linked back with buried steel-wire armored (SWA) Cat6 so every structure shares your full Gigabit connection.
 
 Bourne End riverside homes benefit from **outdoor wifi for river moorings** and **subscription-free 4k cctv bourne end** with local NVR recording and no recurring fees.
 

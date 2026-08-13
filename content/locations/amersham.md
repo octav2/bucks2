@@ -3,20 +3,20 @@ id: "amersham"
 slug: "amersham"
 townName: "Amersham"
 postcode: "HP6, HP7"
-metaTitle: "Network Cabling & Wi-Fi Installer Amersham HP6 HP7 | Bucks Tech Help"
+metaTitle: "Network Cabling & Wi-Fi Installer Amersham | Bucks Tech Help"
 metaDescription: "Enterprise Ubiquiti UniFi Wi-Fi, garden office network cabling, and 4K IP CCTV for period homes and businesses in Amersham, Chesham Bois, and Little Chalfont."
-heroHeadline: "Garden Office & Whole-Home Networks in Amersham"
+heroHeadline: "Certified Cat6 Cabling & Enterprise Wi-Fi in Amersham"
 heroSubtitle: "From garden offices in Amersham on the Hill to multi-room period homes in Amersham Old Town and Chesham Bois, we connect properties that standard Wi-Fi fails. Hardwired UniFi and Omada infrastructure engineered across HP6 & HP7."
 nearbyVillages: ["Amersham Old Town", "Chesham Bois", "Little Chalfont", "Coleshill", "Hyde Heath", "Penn Street"]
 ---
 
 ## Local Knowledge & Property Infrastructure in Amersham
 
-Amersham presents a unique split in property architecture. Amersham Old Town features historic Grade II listed timber-framed and brick period properties with 18-inch solid masonry walls. Meanwhile, Amersham on the Hill, Chesham Bois, and Hyde Heath feature spacious detached family homes with modern rear extensions, loft conversions, and dedicated garden offices.
+Amersham presents a unique split in property architecture. Amersham Old Town features historic Grade II listed timber-framed and brick period properties with thick Chiltern flint walls and 18-inch solid masonry, which block Wi-Fi between rooms. Meanwhile, Amersham on the Hill, Chesham Bois, and Hyde Heath feature spacious detached family homes with modern rear extensions, loft conversions, and self-contained garden studio extensions.
 
 Both property styles severely throttle standard ISP routers and plug-in wireless extenders. Thick historic brick walls block wireless signals entirely, while modern foil-backed cavity insulation reflects Wi-Fi, causing constant video call dropouts in garden studios and top-floor bedrooms.
 
-Bucks Tech Help provides sympathetically engineered structured cabling and enterprise Wi-Fi across Amersham. We run discrete, solid-copper Cat6 lines through loft spaces, floor voids, or sub-floor channels directly back to a central Power-over-Ethernet (PoE) switch. Every ceiling-mounted Access Point receives a direct 1,000Mbps wired backhaul connection for zero dead zones.
+Bucks Tech Help provides sympathetically engineered structured cabling and enterprise Wi-Fi across Amersham. Our period-property cable concealment runs discrete, solid-copper Cat6 lines through loft spaces, floor voids, cellar conduits, or behind skirtings—leaving historic plaster untouched—directly back to a central Power-over-Ethernet (PoE) switch. Every ceiling-mounted Access Point receives a direct 1,000Mbps wired backhaul connection for zero dead zones.
 
 Bucks Tech Help serves Amersham residents as a certified **ubiquiti unifi installer amersham**, a reliable **garden office internet connection** specialist, your trusted **data cabler near me amersham**, and a provider of **commercial smart security systems amersham** with subscription-free 4K recording.
 
