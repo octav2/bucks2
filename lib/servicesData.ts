@@ -23,7 +23,7 @@ export const servicesData: Record<string, ServiceData> = {
     "whole-home-wifi": {
         slug: "whole-home-wifi",
         title: "Enterprise Whole-Home Connectivity Architecture",
-        shortTitle: "Whole-Home Wi-Fi",
+        shortTitle: "Enterprise Wi-Fi 7 Architecture",
         metaTitle: "Ubiquiti UniFi Wi-Fi 7 Installer Buckinghamshire | Whole-Home Wi-Fi",
         metaDesc: "Ubiquiti UniFi Wi-Fi 7 installer in Buckinghamshire. Enterprise whole-home connectivity architecture with hardwired Cat6a backbone and zero visible cabling for estates, period properties and garden offices.",
         icon: Wifi,
@@ -64,7 +64,7 @@ export const servicesData: Record<string, ServiceData> = {
     "commercial-cabling": {
         slug: "commercial-cabling",
         title: "High-Density Data Infrastructure & Enterprise Rack Architecture",
-        shortTitle: "Data Infrastructure & Racks",
+        shortTitle: "Cat6a Data Infrastructure",
         metaTitle: "High-Density Data Infrastructure & Rack Architecture Buckinghamshire | Commercial Data Cabling",
         metaDesc: "Certified Cat6a structured cabling, custom server rack builds and high-density network backbones for commercial premises, office parks and estates across Buckinghamshire.",
         icon: Cable,
@@ -103,7 +103,7 @@ export const servicesData: Record<string, ServiceData> = {
     "smart-security": {
         slug: "smart-security",
         title: "Subscription-Free 4K Property Perimeter Security & Smart Access",
-        shortTitle: "UniFi Protect & Access",
+        shortTitle: "4K Ubiquiti Security & Access",
         metaTitle: "Subscription-Free UniFi Protect 4K Security Buckinghamshire | No Monthly Fees Access Control",
         metaDesc: "Hardwired Ubiquiti UniFi Protect 4K AI security systems and smart video access control for homes and estates across Buckinghamshire. Zero monthly subscription fees.",
         icon: Cctv,

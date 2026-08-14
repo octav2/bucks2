@@ -39,7 +39,7 @@ export default function Footer() {
                             ))}
                             <li>
                                 <Link href="/quote" className="inline-flex items-center gap-1 text-blue-400 hover:text-blue-300 transition-colors">
-                                    Get a Quote <ArrowRight size={14} />
+                                    Request Property Audit <ArrowRight size={14} />
                                 </Link>
                             </li>
                         </ul>
