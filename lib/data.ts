@@ -34,6 +34,11 @@ export const serviceAreas = [
     "Stoke Poges",
     "Chalfont St Peter",
     "Aylesbury",
+    "Chalfont St Giles",
+    "Wendover",
+    "Princes Risborough",
+    "Berkhamsted",
+    "Tring",
 ];
 
 // Core towns featured on the homepage coverage map / location hubs.

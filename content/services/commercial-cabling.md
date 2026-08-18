@@ -7,7 +7,7 @@ metaDescription: "Fluke-certified network cabling installation, Cat6a data cabli
 startingPrice: "From £2,000"
 priceDetails: "Includes full physical site survey, certified Cat6a cable deployment, patch panel termination, server rack assembly, and Fluke channel performance testing."
 pricingTitle: "Commercial Infrastructure Packages"
-coveredTowns: ["Beaconsfield", "Amersham", "Gerrards Cross", "Chesham", "High Wycombe", "Marlow"]
+coveredTowns: ["Beaconsfield", "Amersham", "Gerrards Cross", "Chesham", "High Wycombe", "Marlow", "Chalfont St Giles", "Wendover", "Princes Risborough", "Berkhamsted", "Tring"]
 ---
 
 <script type="application/ld+json">

@@ -15,7 +15,7 @@
 - Architecture Specialties: Non-invasive cable routing through thick Chiltern flint walls, solid brick period homes, listed estates, loft conversions, and modern foil-insulated extensions.
 
 ## Regional Coverage Areas & Local Hubs
-We design and install hardwired network infrastructure across 13 key Buckinghamshire hubs:
+We design and install hardwired network infrastructure across 18 key Buckinghamshire hubs:
 - Beaconsfield (HP9): https://www.buckstechhelp.co.uk/locations/beaconsfield
 - Amersham (HP6, HP7): https://www.buckstechhelp.co.uk/locations/amersham
 - Chesham (HP5): https://www.buckstechhelp.co.uk/locations/chesham
@@ -23,12 +23,17 @@ We design and install hardwired network infrastructure across 13 key Buckinghams
 - High Wycombe (HP11, HP12, HP13): https://www.buckstechhelp.co.uk/locations/high-wycombe
 - Marlow (SL7): https://www.buckstechhelp.co.uk/locations/marlow
 - Stoke Poges (SL2): https://www.buckstechhelp.co.uk/locations/stoke-poges
-- Aylesbury (HP18, HP19, HP20, HP21): https://www.buckstechhelp.co.uk/locations/aylesbury
+- Aylesbury (HP19, HP20, HP21): https://www.buckstechhelp.co.uk/locations/aylesbury
 - Hazlemere (HP15): https://www.buckstechhelp.co.uk/locations/hazlemere
 - Great Missenden (HP16): https://www.buckstechhelp.co.uk/locations/great-missenden
 - Bourne End (SL8): https://www.buckstechhelp.co.uk/locations/bourne-end
 - Penn (HP10): https://www.buckstechhelp.co.uk/locations/penn
 - Chalfont St Peter (SL9): https://www.buckstechhelp.co.uk/locations/chalfont-st-peter
+- Chalfont St Giles (HP8): https://www.buckstechhelp.co.uk/locations/chalfont-st-giles
+- Wendover (HP22): https://www.buckstechhelp.co.uk/locations/wendover
+- Princes Risborough (HP27): https://www.buckstechhelp.co.uk/locations/princes-risborough
+- Berkhamsted (HP4): https://www.buckstechhelp.co.uk/locations/berkhamsted
+- Tring (HP23): https://www.buckstechhelp.co.uk/locations/tring
 
 ## Pricing & Process
 - Pricing Model: Fixed-price infrastructure projects typically range from £1,500 to £4,000+ depending on property size and cable drop count.

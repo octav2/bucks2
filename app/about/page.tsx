@@ -86,17 +86,17 @@ const clientGroups = [
     {
         icon: Home,
         title: 'Period Homes & Listed Estates',
-        towns: ['Beaconsfield', 'Amersham Old Town', 'Great Missenden', 'Penn'],
+        towns: ['Beaconsfield', 'Amersham Old Town', 'Great Missenden', 'Penn', 'Chalfont St Giles', 'Berkhamsted'],
     },
     {
         icon: TreePine,
         title: 'Garden Offices & Outbuildings',
-        towns: ['Remote workers in Chesham', 'Hazlemere', 'Gerrards Cross', 'Bourne End'],
+        towns: ['Remote workers in Chesham', 'Hazlemere', 'Gerrards Cross', 'Bourne End', 'Wendover', 'Tring'],
     },
     {
         icon: Building2,
         title: 'Commercial Offices & Medical Surgeries',
-        towns: ['High Wycombe', 'Aylesbury', 'Marlow', 'Stoke Poges', 'Chalfont St Peter'],
+        towns: ['High Wycombe', 'Aylesbury', 'Marlow', 'Stoke Poges', 'Chalfont St Peter', 'Princes Risborough'],
     },
 ];
 
@@ -127,7 +127,7 @@ const aboutSchema = {
         telephone: '07343079390',
         email: 'hello@buckstechhelp.co.uk',
         description: 'Certified network & cabling infrastructure specialists in Buckinghamshire. Hardwired Ubiquiti UniFi Wi-Fi, Cat6 structured cabling and subscription-free 4K IP CCTV.',
-        areaServed: ['Beaconsfield', 'Amersham', 'Chesham', 'Gerrards Cross', 'High Wycombe', 'Marlow', 'Aylesbury'],
+        areaServed: ['Beaconsfield', 'Amersham', 'Chesham', 'Gerrards Cross', 'High Wycombe', 'Marlow', 'Aylesbury', 'Chalfont St Giles', 'Wendover', 'Princes Risborough', 'Berkhamsted', 'Tring'],
     },
 };
 

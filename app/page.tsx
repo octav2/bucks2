@@ -65,6 +65,7 @@ const enterpriseSchema = {
             },
             areaServed: [
                 'Beaconsfield', 'Amersham', 'Gerrards Cross', 'Chesham', 'High Wycombe', 'Marlow', 'Aylesbury',
+                'Chalfont St Giles', 'Wendover', 'Princes Risborough', 'Berkhamsted', 'Tring',
             ],
         },
         {

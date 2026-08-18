@@ -7,7 +7,7 @@ metaDescription: "Hardwired 4K CCTV installation, IP security cameras, and smart
 startingPrice: "From £1,800"
 priceDetails: "Includes comprehensive property security audit, hardwired PoE Cat6a cable deployment, Ubiquiti Protect NVR storage setup, 4K AI optical camera installation, and smartphone app setup."
 pricingTitle: "Turnkey Perimeter Security Packages"
-coveredTowns: ["Beaconsfield", "Amersham", "Gerrards Cross", "Chesham", "High Wycombe", "Marlow"]
+coveredTowns: ["Beaconsfield", "Amersham", "Gerrards Cross", "Chesham", "High Wycombe", "Marlow", "Chalfont St Giles", "Wendover", "Princes Risborough", "Berkhamsted", "Tring"]
 ---
 
 <script type="application/ld+json">

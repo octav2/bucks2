@@ -7,7 +7,7 @@ metaDescription: "Professional Wi-Fi installation services, Ubiquiti Wi-Fi 7 set
 startingPrice: "From £1,500"
 priceDetails: "Includes comprehensive site audit, hardwired Cat6a infrastructure, Ubiquiti Wi-Fi 7 deployment, zero-latency testing, and lifetime app handover."
 pricingTitle: "Turnkey Architecture Projects"
-coveredTowns: ["Beaconsfield", "Amersham", "Gerrards Cross", "Chesham", "High Wycombe", "Marlow"]
+coveredTowns: ["Beaconsfield", "Amersham", "Gerrards Cross", "Chesham", "High Wycombe", "Marlow", "Chalfont St Giles", "Wendover", "Princes Risborough", "Berkhamsted", "Tring"]
 ---
 
 <script type="application/ld+json">

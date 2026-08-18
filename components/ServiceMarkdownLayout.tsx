@@ -125,6 +125,7 @@ export default function ServiceMarkdownLayout({ service }: { service: ServiceCon
     const coverageSlugs = [
         'beaconsfield', 'amersham', 'chesham', 'gerrards-cross', 'high-wycombe', 'marlow',
         'hazlemere', 'great-missenden', 'bourne-end', 'penn', 'stoke-poges', 'chalfont-st-peter', 'aylesbury',
+        'chalfont-st-giles', 'wendover', 'princes-risborough', 'berkhamsted', 'tring',
     ];
     const coverageTowns = coverageSlugs
         .map((slug) => locationBySlug[slug])

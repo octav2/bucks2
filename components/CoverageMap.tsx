@@ -16,6 +16,7 @@ export default function CoverageMap() {
         'beaconsfield', 'amersham', 'chesham', 'gerrards-cross', 'high-wycombe',
         'marlow', 'hazlemere', 'great-missenden', 'bourne-end', 'penn',
         'stoke-poges', 'chalfont-st-peter', 'aylesbury',
+        'chalfont-st-giles', 'wendover', 'princes-risborough', 'berkhamsted', 'tring',
     ];
     const coveragePills = coverageSlugs.map((slug) => ({
         slug,

@@ -26,7 +26,7 @@ const PROTOCOL = 'https';
 const DEFAULT_PATHS: string[] = [
     '/',
     '/about',
-    // 13 local town hub pages
+    // 18 local town hub pages
     '/locations/amersham',
     '/locations/aylesbury',
     '/locations/beaconsfield',
@@ -40,6 +40,11 @@ const DEFAULT_PATHS: string[] = [
     '/locations/marlow',
     '/locations/penn',
     '/locations/stoke-poges',
+    '/locations/chalfont-st-giles',
+    '/locations/wendover',
+    '/locations/princes-risborough',
+    '/locations/berkhamsted',
+    '/locations/tring',
     // 3 core service pages
     '/services/whole-home-wifi',
     '/services/commercial-cabling',
