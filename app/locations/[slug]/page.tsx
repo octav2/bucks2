@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const town = location.name;
     const url = `${domain}/locations/${location.slug}`;
     return {
-        title: `Wi-Fi Installation & Ubiquiti Architecture in ${town} | Bucks Tech Help`,
+        title: { absolute: `Wi-Fi Installation & Ubiquiti Architecture in ${town} | Bucks Tech Help` },
         description: `Hardwired Ubiquiti UniFi Wi-Fi 7, Cat6a cabling, and 4K CCTV architecture in ${town}. Engineered for period homes, luxury estates, and commercial premises.`,
         alternates: { canonical: url },
         openGraph: {

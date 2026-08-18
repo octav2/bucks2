@@ -3,6 +3,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import MobileStickyCTA from '@/components/MobileStickyCTA';
 import AboutFAQ from '@/components/AboutFAQ';
+import { getPageBySlug } from '@/lib/pages';
+import { businessDetails } from '@/lib/data';
 import Link from 'next/link';
 import {
     Wifi, Cable, Cctv, ShieldCheck, HardHat, FileCheck, Landmark, Video,
@@ -11,18 +13,24 @@ import {
 
 const baseUrl = 'https://www.buckstechhelp.co.uk';
 
-export const metadata: Metadata = {
-    title: 'About Our Infrastructure Team',
-    description: 'Bucks Tech Help are certified network & cabling infrastructure specialists in Buckinghamshire. Hardwired Ubiquiti UniFi Wi-Fi, Fluke-verified Cat6 structured cabling and subscription-free 4K IP CCTV for period homes, garden offices and businesses across South & Central Bucks.',
-    alternates: { canonical: `${baseUrl}/about` },
-    openGraph: {
-        title: 'About Us | Bucks Tech Help',
-        description: 'Certified network & cabling infrastructure specialists in Buckinghamshire.',
-        url: `${baseUrl}/about`,
-        locale: 'en_GB',
-        type: 'website',
-    },
-};
+export async function generateMetadata(): Promise<Metadata> {
+    const page = getPageBySlug('about');
+    const fm = page?.frontmatter;
+    const title = fm?.metaTitle ?? 'About Us | Network Engineers & Tech Specialists | Bucks Tech Help';
+    const description = fm?.metaDescription ?? 'Learn about Bucks Tech Help: Certified network cabling contractors, enterprise Wi-Fi engineers, and 4K CCTV specialists serving Buckinghamshire.';
+    return {
+        title: { absolute: title },
+        description,
+        alternates: { canonical: `${baseUrl}/about` },
+        openGraph: {
+            title,
+            description,
+            url: `${baseUrl}/about`,
+            locale: 'en_GB',
+            type: 'website',
+        },
+    };
+}
 
 const pillars = [
     {
@@ -116,6 +124,8 @@ const aboutSchema = {
         '@type': 'Organization',
         name: 'Bucks Tech Help',
         url: baseUrl,
+        telephone: '07343079390',
+        email: 'hello@buckstechhelp.co.uk',
         description: 'Certified network & cabling infrastructure specialists in Buckinghamshire. Hardwired Ubiquiti UniFi Wi-Fi, Cat6 structured cabling and subscription-free 4K IP CCTV.',
         areaServed: ['Beaconsfield', 'Amersham', 'Chesham', 'Gerrards Cross', 'High Wycombe', 'Marlow', 'Aylesbury'],
     },
@@ -154,9 +164,9 @@ export default function AboutPage() {
                         Buckinghamshire&apos;s Network &amp; Cabling <span className="text-blue-400">Infrastructure Specialists</span>
                     </h1>
                     <p className="text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed font-medium">
-                        We design, install and certify enterprise-grade network infrastructure that standard IT generalists and consumer ISPs
-                        cannot match — hardwired Ubiquiti UniFi Wi-Fi, certified Cat6 structured cabling, and subscription-free 4K IP CCTV
-                        across South &amp; Central Buckinghamshire.
+                        We are Buckinghamshire&apos;s trusted network cabling contractors, enterprise Wi-Fi engineers, and 4K CCTV installation
+                        specialists — designing, installing and certifying hardwired Ubiquiti UniFi Wi-Fi 7, certified Cat6 structured cabling,
+                        and subscription-free 4K IP CCTV for homes, estates, garden offices, and businesses across South Buckinghamshire.
                     </p>
                 </div>
             </section>

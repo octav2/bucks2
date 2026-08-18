@@ -20,11 +20,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const metaDescription = service.frontmatter.metaDescription;
     const url = `https://www.buckstechhelp.co.uk/services/${service.slug}`;
     return {
-        title: metaTitle,
+        title: { absolute: metaTitle },
         description: metaDescription,
         alternates: { canonical: url },
         openGraph: {
-            title: `${metaTitle} | Bucks Tech Help`,
+            title: metaTitle,
             description: metaDescription,
             url,
             siteName: 'Bucks Tech Help',
@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         },
         twitter: {
             card: 'summary_large_image',
-            title: `${metaTitle} | Bucks Tech Help`,
+            title: metaTitle,
             description: metaDescription,
             images: ['/og-image.png'],
         },

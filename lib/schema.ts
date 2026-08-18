@@ -9,6 +9,8 @@ export function localBusinessSchema(): object {
         name: businessDetails.name,
         image: businessDetails.logo,
         url: businessDetails.domain,
+        telephone: '07343079390',
+        email: businessDetails.email,
         priceRange: businessDetails.priceRange,
         description: businessDetails.tagline,
         address: {

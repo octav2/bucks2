@@ -13,29 +13,37 @@ import BrandTrustBar from '@/components/BrandTrustBar';
 import ProblemAgitation from '@/components/ProblemAgitation';
 import MobileStickyCTA from '@/components/MobileStickyCTA';
 import MicroTrust from '@/components/MicroTrust';
+import { getPageBySlug } from '@/lib/pages';
+import { businessDetails } from '@/lib/data';
 import { ArrowRight, Zap, ShieldCheck, Wifi, Gauge, HardHat } from 'lucide-react';
 import Link from 'next/link';
 
-export const metadata: Metadata = {
-    title: { absolute: 'Enterprise Property Connectivity Architecture | Bucks Tech Help' },
-    description: 'Hardwired Ubiquiti UniFi Wi-Fi 7, Cat6a structured cabling, and subscription-free 4K CCTV engineered for luxury estates, period homes, and commercial premises across Buckinghamshire.',
-    alternates: { canonical: '/' },
-    openGraph: {
-        title: 'Enterprise Property Connectivity Architecture across Buckinghamshire',
-        description: 'Hardwired Ubiquiti UniFi Wi-Fi 7, Cat6a structured cabling, and subscription-free 4K CCTV engineered for luxury estates, period homes, and commercial premises across Buckinghamshire.',
-        url: 'https://www.buckstechhelp.co.uk/',
-        siteName: 'Bucks Tech Help',
-        locale: 'en_GB',
-        type: 'website',
-        images: ['/og-image.png'],
-    },
-    twitter: {
-        card: 'summary_large_image',
-        title: 'Enterprise Property Connectivity Architecture across Buckinghamshire',
-        description: 'Hardwired Ubiquiti UniFi Wi-Fi 7, Cat6a structured cabling, and subscription-free 4K CCTV engineered for luxury estates, period homes, and commercial premises across Buckinghamshire.',
-        images: ['/og-image.png'],
-    },
-};
+export async function generateMetadata(): Promise<Metadata> {
+    const page = getPageBySlug('index');
+    const fm = page?.frontmatter;
+    const title = fm?.metaTitle ?? 'Network Installation, Enterprise Wi-Fi & 4K CCTV | Bucks Tech Help';
+    const description = fm?.metaDescription ?? 'Professional network installation services, Cat6a data cabling, whole-home Wi-Fi 7, and subscription-free 4K CCTV security systems across Buckinghamshire.';
+    return {
+        title: { absolute: title },
+        description,
+        alternates: { canonical: '/' },
+        openGraph: {
+            title,
+            description,
+            url: `${businessDetails.domain}/`,
+            siteName: businessDetails.name,
+            locale: 'en_GB',
+            type: 'website',
+            images: ['/og-image.png'],
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title,
+            description,
+            images: ['/og-image.png'],
+        },
+    };
+}
 
 const enterpriseSchema = {
     '@context': 'https://schema.org',
@@ -48,6 +56,7 @@ const enterpriseSchema = {
             logo: 'https://www.buckstechhelp.co.uk/icon.png',
             image: 'https://www.buckstechhelp.co.uk/icon.png',
             telephone: '07343079390',
+            email: businessDetails.email,
             priceRange: '£1500 - £5000+',
             address: {
                 '@type': 'PostalAddress',
@@ -110,8 +119,8 @@ export default function Home() {
                     </h1>
 
                     <h2 className="text-xl md:text-2xl text-slate-400 mb-14 leading-relaxed max-w-3xl mx-auto font-medium">
-                        Hardwired Ubiquiti UniFi Wi-Fi 7 backbones, certified Cat6a data cabling, and
-                        subscription-free 4K CCTV engineered for luxury estates, period homes, and commercial premises.
+                        Certified network cabling contractors, enterprise Ubiquiti Wi-Fi 7 installation, and
+                        subscription-free 4K CCTV security across Beaconsfield, Amersham, High Wycombe, and South Buckinghamshire.
                     </h2>
 
                     <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
