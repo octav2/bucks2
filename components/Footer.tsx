@@ -1,19 +1,21 @@
 import React from 'react';
 import { Mail, ArrowRight } from 'lucide-react';
-import { businessDetails } from '@/lib/data';
-import { servicesData } from '@/lib/servicesData';
-import { getAllLocations } from '@/lib/locations';
+import { businessDetails, serviceAreas } from '@/lib/data';
 import Link from 'next/link';
 import Logo from '@/components/Logo';
 
 export default function Footer() {
-    const serviceList = Object.values(servicesData);
-        const locationList = getAllLocations().map((l) => ({ slug: l.slug, name: l.name }));
+    // Fixed service display names + their canonical routes
+    const footerServices = [
+        { label: 'Whole-Home & Garden Room Wi-Fi', href: '/services/whole-home-wifi' },
+        { label: 'Commercial Cat6/Cat6a Cabling', href: '/services/commercial-cabling' },
+        { label: '4K IP CCTV & Smart Access Control', href: '/services/smart-security' },
+    ];
 
     return (
         <footer className="bg-slate-950 text-slate-300 py-16 px-4">
             <div className="max-w-6xl mx-auto">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-14">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1fr_1fr_1.3fr] gap-12 mb-14">
                     <div className="flex flex-col gap-5">
                         <Link href="/" className="inline-flex shrink-0" aria-label="Bucks Tech Help home">
                             <Logo className="h-12" />
@@ -30,10 +32,10 @@ export default function Footer() {
                     <div>
                         <h4 className="text-white font-bold text-sm uppercase tracking-wider mb-6">Services</h4>
                         <ul className="space-y-4 font-medium">
-                            {serviceList.map((service) => (
-                                <li key={service.slug}>
-                                    <Link href={`/services/${service.slug}`} className="hover:text-white transition-colors">
-                                        {service.shortTitle}
+                            {footerServices.map((s) => (
+                                <li key={s.href}>
+                                    <Link href={s.href} className="hover:text-white transition-colors">
+                                        {s.label}
                                     </Link>
                                 </li>
                             ))}
@@ -47,12 +49,15 @@ export default function Footer() {
 
                     <div>
                         <h4 className="text-white font-bold text-sm uppercase tracking-wider mb-6">Serving South & Central Bucks</h4>
-                        <div className="grid grid-cols-3 gap-2 text-sm">
-                            {locationList.map((loc) => (
-                                <Link key={loc.slug} href={`/locations/${loc.slug}`} className="bg-slate-900 hover:bg-slate-800 border border-slate-700 hover:border-blue-600/50 text-slate-300 hover:text-white text-center py-2.5 rounded-full transition-all">
-                                    {loc.name}
-                                </Link>
-                            ))}
+                        <div className="grid grid-cols-3 gap-3 text-xs overflow-hidden">
+                            {serviceAreas.map((town) => {
+                                const townSlug = town.toLowerCase().replace(/\s+/g, '-');
+                                return (
+                                    <Link key={town} href={`/locations/${townSlug}`} className="bg-slate-900 hover:bg-slate-800 border border-slate-700 hover:border-blue-600/50 text-slate-300 hover:text-white text-center rounded-full py-2.5 whitespace-nowrap overflow-hidden text-ellipsis transition-all">
+                                        {town}
+                                    </Link>
+                                );
+                            })}
                         </div>
                         <p className="text-slate-500 text-xs font-medium mt-5">Covering South & Central Bucks.</p>
                     </div>
