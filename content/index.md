@@ -1,7 +1,7 @@
----
+﻿---
 id: "index"
 title: "Bucks Tech Help | Network Installation, Whole Home Wi-Fi & 4K CCTV Buckinghamshire"
-subtitle: "Fluke-certified network cabling contractors, enterprise Ubiquiti Wi-Fi 7 installation, and subscription-free 4K CCTV security across Beaconsfield, Amersham, High Wycombe, and South Buckinghamshire."
+subtitle: "Fluke-certified Cat6a network cabling contractors, Ubiquiti Wi-Fi 7 installation, and subscription-free 4K CCTV security systems across Beaconsfield, Amersham, High Wycombe, and South Buckinghamshire."
 metaTitle: "Network Installation, Enterprise Wi-Fi & 4K CCTV | Bucks Tech Help"
 metaDescription: "Professional network installation services, Cat6a data cabling, whole-home Wi-Fi 7, and subscription-free 4K CCTV security systems across Buckinghamshire."
 coveredTowns: ["Beaconsfield", "Amersham", "Gerrards Cross", "Chesham", "High Wycombe", "Marlow", "Chalfont St Giles", "Wendover", "Princes Risborough", "Berkhamsted", "Tring"]
@@ -36,7 +36,7 @@ coveredTowns: ["Beaconsfield", "Amersham", "Gerrards Cross", "Chesham", "High Wy
     "Chesham", "High Wycombe",
     "Marlow"
   ],
-  "priceRange": "££",
+  "priceRange": "Â£Â£",
   "description": "Certified network cabling contractors, enterprise Ubiquiti Wi-Fi 7 installations, and subscription-free 4K CCTV security systems across Buckinghamshire."
 }
 </script>
@@ -71,7 +71,7 @@ Bucks Tech Help designs, builds, and maintains high-performance physical IT infr
 
 - **Hardwired Performance Backbones:** Every Wi-Fi access point and 4K optical camera is backed by a solid-copper Cat6a cable run to guarantee unthrottled gigabit speeds.
 - **100% Subscription-Free Storage:** Keep complete ownership of your property security data. Continuous 24/7 4K video recording stored locally on on-premise NVR consoles.
-- **Discrete & Clean Installation:** We specialize in hiding network cabling inside floorboards, lofts, external walls, and color-matched trunking—leaving zero visual clutter.
+- **Discrete & Clean Installation:** We specialize in hiding network cabling inside floorboards, lofts, external walls, and color-matched trunkingâ€”leaving zero visual clutter.
 - **Single-App Ecosystem:** Control your wireless network, security camera feeds, and smart door access control from one unified mobile app.
 
 ---

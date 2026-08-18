@@ -19,7 +19,7 @@ export default function Footer() {
                             <Logo className="h-12" />
                         </Link>
                         <p className="text-slate-400 leading-relaxed font-medium">
-                            Enterprise Wi-Fi, structured cabling and IP CCTV infrastructure for large homes, garden offices and businesses across Buckinghamshire.
+                            Certified network cabling contractors, enterprise Wi-Fi 7 installation, and subscription-free 4K CCTV security systems across Buckinghamshire.
                         </p>
                         <div className="flex items-center gap-3 text-sm text-slate-400 font-medium">
                             <Mail size={16} className="text-blue-400" />
@@ -46,15 +46,15 @@ export default function Footer() {
                     </div>
 
                     <div>
-                        <h4 className="text-white font-bold text-sm uppercase tracking-wider mb-6">Serving South &amp; Central Bucks</h4>
-                        <div className="grid grid-cols-2 gap-2 text-sm">
+                        <h4 className="text-white font-bold text-sm uppercase tracking-wider mb-6">Serving South & Central Bucks</h4>
+                        <div className="grid grid-cols-3 gap-2 text-sm">
                             {locationList.map((loc) => (
                                 <Link key={loc.slug} href={`/locations/${loc.slug}`} className="bg-slate-900 hover:bg-slate-800 border border-slate-700 hover:border-blue-600/50 text-slate-300 hover:text-white text-center py-2.5 rounded-full transition-all">
                                     {loc.name}
                                 </Link>
                             ))}
                         </div>
-                        <p className="text-slate-500 text-xs font-medium mt-5">Covering South &amp; Central Bucks including Marlow, Hazlemere, Great Missenden, Bourne End, Penn, Stoke Poges, Chalfont St Peter and Aylesbury villages.</p>
+                        <p className="text-slate-500 text-xs font-medium mt-5">Covering South & Central Bucks.</p>
                     </div>
                 </div>
 
@@ -70,4 +70,3 @@ export default function Footer() {
         </footer>
     );
 }
-
