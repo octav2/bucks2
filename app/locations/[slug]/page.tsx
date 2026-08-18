@@ -1,5 +1,4 @@
-﻿import type { Metadata } from 'next';
-import Script from 'next/script';
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import Header from '@/components/Header';
@@ -32,13 +31,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         title: { absolute: title },
         description,
         alternates: { canonical: url },
-        openGraph: {
+                openGraph: {
             title,
             description,
             type: 'website',
             locale: 'en_GB',
             url,
             siteName: businessDetails.name,
+            images: ['/og-image.png'],
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title,
+            description,
+            images: ['/og-image.png'],
         },
     };
 }
@@ -60,9 +66,9 @@ interface ServiceCard {
 }
 
 const localServiceCards: ServiceCard[] = [
-    { icon: Wifi, title: 'Enterprise Whole-Home Wi-Fi 7 Architecture', description: 'Hardwired Ubiquiti UniFi Wi-Fi 7 backbones engineered to eliminate dead zones across period homes, luxury estates, and garden offices in Buckinghamshire.', price: 'From £1,500', href: '/services/whole-home-wifi', cta: 'Explore Wi-Fi' },
-    { icon: Cable, title: 'High-Density Data Infrastructure & Rack Architecture', description: 'Cat6a structured cabling, patch panels, and rack installations for demanding homes, offices, and estates.', price: 'From £2,000', href: '/services/commercial-cabling', cta: 'Explore Cabling' },
-    { icon: Cctv, title: 'Subscription-Free 4K Property Security', description: 'Owned-outright 4K IP CCTV and smart access control installed on your wired Ubiquiti UniFi backbone.', price: 'From £1,800', href: '/services/smart-security', cta: 'Explore Security' },
+    { icon: Wifi, title: 'Enterprise Whole-Home Wi-Fi 7 Architecture', description: 'Hardwired Ubiquiti UniFi Wi-Fi 7 backbones engineered to eliminate dead zones across period homes, luxury estates, and garden offices in Buckinghamshire.', price: 'From �1,500', href: '/services/whole-home-wifi', cta: 'Explore Wi-Fi' },
+    { icon: Cable, title: 'High-Density Data Infrastructure & Rack Architecture', description: 'Cat6a structured cabling, patch panels, and rack installations for demanding homes, offices, and estates.', price: 'From �2,000', href: '/services/commercial-cabling', cta: 'Explore Cabling' },
+    { icon: Cctv, title: 'Subscription-Free 4K Property Security', description: 'Owned-outright 4K IP CCTV and smart access control installed on your wired Ubiquiti UniFi backbone.', price: 'From �1,800', href: '/services/smart-security', cta: 'Explore Security' },
 ];
 
 const caseStudyIcons: Record<string, any> = {
@@ -101,7 +107,7 @@ export default function LocationPage({ params }: Props) {
         '@type': 'LocalBusiness',
         name: `Bucks Tech Help - ${town}`,
         url: `${domain}/locations/${location.slug}`,
-        priceRange: '£1500-£5000',
+        priceRange: '�1500-�5000',
         areaServed: `${town}, Buckinghamshire`,
         provider: 'Bucks Tech Help',
         description: `Hardwired Ubiquiti UniFi Wi-Fi 7, Cat6a cabling, and 4K CCTV architecture in ${town}. Engineered for period homes, luxury estates, and commercial premises.`,
@@ -132,8 +138,11 @@ export default function LocationPage({ params }: Props) {
     const quoteHref = `/quote?location=${location.slug}`;
 
         return (
-        <div className="min-h-screen bg-slate-950 text-slate-100">
-            <Script id={`location-schema-${location.slug}`} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify([schema, serviceSchema, faqSchema]) }} />
+                        <div className="min-h-screen bg-slate-950 text-slate-100">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify([schema, serviceSchema, faqSchema]) }}
+            />
 
             <Header />
 
@@ -288,5 +297,6 @@ export default function LocationPage({ params }: Props) {
         </div>
     );
 }
+
 
 

@@ -22,12 +22,19 @@ export async function generateMetadata(): Promise<Metadata> {
         title: { absolute: title },
         description,
         alternates: { canonical: `${baseUrl}/about` },
-        openGraph: {
+                openGraph: {
             title,
             description,
             url: `${baseUrl}/about`,
             locale: 'en_GB',
             type: 'website',
+            images: ['/og-image.png'],
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title,
+            description,
+            images: ['/og-image.png'],
         },
     };
 }

@@ -2,8 +2,8 @@
 id: "about"
 title: "Certified Network Cabling & Enterprise Wi-Fi Engineers in Buckinghamshire"
 subtitle: "Buckinghamshire's trusted network installation contractors, whole-home Wi-Fi engineers, and subscription-free 4K IP CCTV specialists."
-metaTitle: "About Us | Network Engineers & Tech Specialists | Bucks Tech Help"
-metaDescription: "Learn about Bucks Tech Help: Certified network cabling contractors, enterprise Wi-Fi engineers, and 4K CCTV specialists serving Buckinghamshire."
+metaTitle: "About Us | Network Installation & Data Cabling Engineers in Buckinghamshire | Bucks Tech Help"
+metaDescription: "Learn about Bucks Tech Help: certified network installation & data cabling contractors, enterprise Wi-Fi 7 engineers, and subscription-free 4K CCTV specialists serving Buckinghamshire."
 coveredTowns: ["Beaconsfield", "Amersham", "Gerrards Cross", "Chesham", "High Wycombe", "Marlow", "Chalfont St Giles", "Wendover", "Princes Risborough", "Berkhamsted", "Tring"]
 ---
 

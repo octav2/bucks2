@@ -2,8 +2,8 @@
 id: "index"
 title: "Bucks Tech Help | Network Installation, Whole Home Wi-Fi & 4K CCTV Buckinghamshire"
 subtitle: "Fluke-certified Cat6a network cabling contractors, Ubiquiti Wi-Fi 7 installation, and subscription-free 4K CCTV security systems across Beaconsfield, Amersham, High Wycombe, and South Buckinghamshire."
-metaTitle: "Network Installation, Enterprise Wi-Fi & 4K CCTV | Bucks Tech Help"
-metaDescription: "Professional network installation services, Cat6a data cabling, whole-home Wi-Fi 7, and subscription-free 4K CCTV security systems across Buckinghamshire."
+metaTitle: "Network Installation & Data Cabling, Wi-Fi 7 & 4K CCTV | Bucks Tech Help"
+metaDescription: "Professional network installation services, Cat6a data cabling, whole-home Wi-Fi 7, and subscription-free 4K CCTV security systems across Beaconsfield, Amersham, High Wycombe and Buckinghamshire."
 coveredTowns: ["Beaconsfield", "Amersham", "Gerrards Cross", "Chesham", "High Wycombe", "Marlow", "Chalfont St Giles", "Wendover", "Princes Risborough", "Berkhamsted", "Tring"]
 ---
 

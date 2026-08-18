@@ -14,7 +14,7 @@ import ProblemAgitation from '@/components/ProblemAgitation';
 import MobileStickyCTA from '@/components/MobileStickyCTA';
 import MicroTrust from '@/components/MicroTrust';
 import { getPageBySlug } from '@/lib/pages';
-import { businessDetails } from '@/lib/data';
+import { businessDetails, faqs } from '@/lib/data';
 import { ArrowRight, Zap, ShieldCheck, Wifi, Gauge, HardHat } from 'lucide-react';
 import Link from 'next/link';
 
@@ -94,12 +94,22 @@ const enterpriseSchema = {
     ],
 };
 
+    const faqSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faqs.map((faq: { question: string; answer: string }) => ({
+            '@type': 'Question',
+            name: faq.question,
+            acceptedAnswer: { '@type': 'Answer', text: faq.answer },
+        })),
+    };
+
 export default function Home() {
     return (
         <div className="min-h-screen bg-slate-950 text-slate-100 pb-28 md:pb-0">
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(enterpriseSchema) }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify([enterpriseSchema, faqSchema]) }}
             />
             <Header />
 
