@@ -73,12 +73,6 @@ Whether you require high-speed internet routed out to a detached garden office, 
 - **Outdoor Wi-Fi Access Points:** Weatherproof outdoor wireless access points for garden coverage, patios, and outdoor venues.
 - **Smart Home (IoT) VLAN Setup:** Network segmentation separating smart TVs, cameras, and IoT devices onto isolated, secure subnets.
 
-## Local Area Coverage
-Our Wi-Fi installers serve key locations across South Buckinghamshire:
-- **Beaconsfield & Gerrards Cross:** Multi-story detached residences, gated estates, and garden offices.
-- **Amersham & Chesham:** Chiltern brick & flint properties, converted barns, and period cottages.
-- **High Wycombe & Marlow:** Commercial office complexes, retail centers, and riverside homes.
-
 ## Our Installation Process
 1. **Online Property Audit:** Submit your layout or floorplan online. We calculate UniFi access point placement using digital RF heatmap modeling.
 2. **Fixed Proposal & Scope:** You receive an all-inclusive fixed quotation detailing hardware specs, cable routes, and installation timelines.

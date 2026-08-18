@@ -71,12 +71,6 @@ Featuring onboard AI detection, our IP CCTV systems distinguish between humans, 
 - **Integrated Security Systems:** Unified property security combining CCTV cameras, motion sensors, and door entry into a single platform.
 - **NVR Storage Upgrades:** Local hard drive expansion providing up to 90 days of continuous 24/7 high-bitrate video archive.
 
-## Local Area Coverage
-Our CCTV installers provide security solutions across Buckinghamshire:
-- **Beaconsfield & Gerrards Cross:** Private residential estates, detached properties, and gated entrances.
-- **Amersham & Chesham:** Townhouses, period conversions, and local commercial premises.
-- **High Wycombe & Marlow:** Commercial office parks, industrial units, and riverside estates.
-
 ## Our Installation Process
 1. **Perimeter Security Audit:** Submit your property layout online. We mark optimal IP camera angles to eliminate blind spots.
 2. **Fixed Security Proposal:** You receive an all-inclusive quote covering 4K cameras, NVR storage capacity, cabling, and labor.

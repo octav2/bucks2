@@ -72,13 +72,6 @@ We also integrate hardwired backbones for our [4K Commercial CCTV Installation S
 - **PoE Switch & Managed Network Setup:** Deployment of Layer 2/3 Power-over-Ethernet switches for IP cameras, VoIP phones, and access points.
 - **Server Room Cable Tidying & Re-Dressing:** Cable tracing, audit, and re-wiring services to transform chaotic server cupboards into clean, labelled setups.
 
-## Local Commercial Service Areas
-We provide dedicated network cabling installation services across South Buckinghamshire, including:
-- **High Wycombe:** Office parks, industrial units, and commercial centers.
-- **Beaconsfield & Gerrards Cross:** Professional service firms, estate offices, and retail premises.
-- **Amersham & Chesham:** Business hubs, medical facilities, and multi-tenant buildings.
-- **Marlow:** Tech hubs, commercial offices, and light industrial units.
-
 ## Our Installation Process
 1. **Commercial Site Survey:** We evaluate your floor plan, desk drop requirements, ceiling containment, and network rack location.
 2. **Fixed Itemized Scope:** You receive an itemized quote detailing drop counts, patch panel specs, and labor costs.
