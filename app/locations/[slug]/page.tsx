@@ -44,10 +44,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 const heroHighlights = [
-    'Hardwired Enterprise Wi-Fi',
-    'Cat6 / Cat6a Cabling',
-    'Subscription-Free 4K CCTV',
-    'Projects From £1,500',
+    'Whole-Home Wi-Fi 7 Setup',
+    'Cat6 / Cat6a Data Cabling',
+    '4K CCTV Security Cameras',
+    'Garden Office Ethernet Links',
 ];
 
 interface ServiceCard {
@@ -148,10 +148,10 @@ export default function LocationPage({ params }: Props) {
                         </span>
                     </div>
                     <h1 className="text-4xl md:text-6xl font-black text-white mb-6 leading-tight tracking-tight text-center">
-                        Enterprise Property Connectivity Architecture in {town}
+                        {location.frontmatter.heroHeadline ?? `Network Installation, Enterprise Wi-Fi & 4K CCTV in ${town}`}
                     </h1>
                     <p className="text-xl text-slate-400 max-w-3xl mx-auto text-center leading-relaxed font-medium mb-10">
-                        Looking for hardwired Wi-Fi installation, Cat6a network cabling, or 4K CCTV in {town}? We engineer enterprise-grade Ubiquiti UniFi backbones built to eliminate dead zones across period homes, luxury estates, and garden offices in {town}.
+                        {location.frontmatter.heroSubtitle ?? `Fluke-certified Cat6a network cabling contractors, whole-home Wi-Fi 7 installation, and local 4K CCTV security camera installers across ${town}.`}
                     </p>
                     <div className="max-w-2xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-3">
                         {heroHighlights.map((h, i) => (

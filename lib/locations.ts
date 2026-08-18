@@ -38,6 +38,7 @@ export interface LocationContent {
     name: string;
     postcode: string;
     localKnowledgeHtml: string;
+    engineersHtml: string;
     caseStudy: CaseStudyItem[];
     faqs: LocalFaq[];
 }
@@ -127,14 +128,18 @@ export function getLocationBySlug(slug: string): LocationContent | null {
     }
 
     let localKnowledgeHtml = '';
+    let engineersHtml = '';
     let caseStudy: CaseStudyItem[] = [];
     let faqs: LocalFaq[] = [];
 
     for (const bucket of buckets) {
         const key = titleKey(bucket.title);
-        if (key.includes('local knowledge')) {
+        if (key.includes('local knowledge') || key.includes('network installation')) {
             const paraNodes = bucket.nodes.filter((n: any) => n.type === 'paragraph');
             localKnowledgeHtml = paraNodes.map((n: any) => renderNodeHtml(content, n)).join('');
+        } else if (key.includes('local network engineers') || key.includes('cctv installers')) {
+            const paraNodes = bucket.nodes.filter((n: any) => n.type === 'paragraph');
+            engineersHtml = paraNodes.map((n: any) => renderNodeHtml(content, n)).join('');
         } else if (key.includes('case study')) {
             caseStudy = extractCaseStudy(bucket.nodes);
         } else if (key.includes('frequently asked') || key === 'faq') {
@@ -151,6 +156,7 @@ export function getLocationBySlug(slug: string): LocationContent | null {
             .join(' '),
         postcode: frontmatter.postcode || '',
         localKnowledgeHtml,
+        engineersHtml,
         caseStudy,
         faqs,
     };
