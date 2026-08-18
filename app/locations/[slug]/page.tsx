@@ -26,13 +26,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     if (!location) return {};
     const town = location.name;
     const url = `${domain}/locations/${location.slug}`;
+    const title = location.frontmatter.metaTitle ?? `Wi-Fi Installation & Ubiquiti Architecture in ${town} | Bucks Tech Help`;
+    const description = location.frontmatter.metaDescription ?? `Hardwired Ubiquiti UniFi Wi-Fi 7, Cat6a cabling, and 4K CCTV architecture in ${town}. Engineered for period homes, luxury estates, and commercial premises.`;
     return {
-        title: { absolute: `Wi-Fi Installation & Ubiquiti Architecture in ${town} | Bucks Tech Help` },
-        description: `Hardwired Ubiquiti UniFi Wi-Fi 7, Cat6a cabling, and 4K CCTV architecture in ${town}. Engineered for period homes, luxury estates, and commercial premises.`,
+        title: { absolute: title },
+        description,
         alternates: { canonical: url },
         openGraph: {
-            title: `Enterprise Property Connectivity Architecture in ${town}`,
-            description: `Hardwired Ubiquiti UniFi Wi-Fi 7, Cat6a cabling, and 4K CCTV architecture in ${town}. Engineered for period homes, luxury estates, and commercial premises.`,
+            title,
+            description,
             type: 'website',
             locale: 'en_GB',
             url,
@@ -106,6 +108,17 @@ export default function LocationPage({ params }: Props) {
         serviceType: 'Enterprise Property Connectivity Architecture',
     };
 
+    const serviceSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'Service',
+        name: `Cat6 Cabling, Wi-Fi 7 & 4K CCTV Installation in ${town}`,
+        serviceType: 'Network Cabling, Wi-Fi 7 & 4K CCTV Installation',
+        provider: { '@type': 'LocalBusiness', name: 'Bucks Tech Help' },
+        areaServed: [town],
+        url: `${domain}/locations/${location.slug}`,
+        description: `Certified cat 6 cabling installation, whole home wifi setup and 4K IP CCTV installation in ${town}, Buckinghamshire.`,
+    };
+
     const faqSchema = {
         '@context': 'https://schema.org',
         '@type': 'FAQPage',
@@ -120,7 +133,7 @@ export default function LocationPage({ params }: Props) {
 
         return (
         <div className="min-h-screen bg-slate-950 text-slate-100">
-            <Script id={`location-schema-${location.slug}`} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify([schema, faqSchema]) }} />
+            <Script id={`location-schema-${location.slug}`} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify([schema, serviceSchema, faqSchema]) }} />
 
             <Header />
 
