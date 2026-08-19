@@ -26,13 +26,14 @@ nearbyVillages: ["Chesham Bois", "Ashley Green", "Lye Green", "Bellingdon", "Cha
 
 ## Local Knowledge & Property Infrastructure in Chesham
 
-Chesham (HP5) is home to classic Chiltern brick-and-flint cottages, thick-walled period homes, and converted barns whose solid masonry blocks wireless signals between rooms. From Chesham town centre to Chesham Bois, Ashley Green, and Chartridge, standard routers and mesh boosters repeatedly fail against solid flint walls and listed-building construction.
+Chesham (HP5) has more listed and flint-walled buildings than most surrounding towns, which creates a specific problem: standard installers either can't get signal through the walls, or solve it by drilling in ways that aren't allowed on a listed structure. From Chesham town centre out to Chesham Bois, Ashley Green, and Chartridge, the fix has to work around the building, not against it.
 
-Our certified **cat 6 cabling installation** runs solid-copper Cat6 sympathetically through lofts, voids, and behind skirtings, supported by precise **ethernet port installation** to desks, TVs, and ceiling access points, a tidy **data rack patch panel setup** in a central cupboard, and **armoured cat6 cables** for any run to a barn conversion or outbuilding — the backbone of our [Cat6a Network Cabling Installation](/services/commercial-cabling).
+Solid flint walls and listed status mean visible trunking or drilled walls usually aren't an option in Chesham. Our cat 6 cabling installation is routed sympathetically through existing lofts, floor voids, and behind skirting boards, so there's no impact on the building's historic fabric. Ethernet port installation at each desk or access point still gets full testing and documentation, and a data rack patch panel setup fits into an existing cupboard rather than requiring new joinery. For barn conversions like those on Georges Hill, armoured cat6 cables carry the connection outdoors without needing planning-sensitive external fixtures.
 
-On top of the structured cabling we deliver **wifi 7 router installation** with Ubiquiti UniFi, a **whole home wifi setup** engineered for zero dead zones, a dedicated **garden office ethernet link** for remote working, and **outdoor wifi extension** for gardens and patios — results you can rely on from our [Enterprise Whole-Home Wi-Fi Installation](/services/whole-home-wifi).
+Once the cabling is in place, a wifi 7 router installation using Ubiquiti UniFi turns it into full coverage — a whole home wifi setup engineered specifically to work around flint walls rather than through them. Detached barn offices around Chesham get a dedicated garden office ethernet link, and gardens or patios get outdoor wifi extension without a single visible cable outside.
 
-For security we provide **4k ip cctv installation** as your local **hikvision cctv specialist**, deploy **poe camera system** solutions recording to an on-premise NVR with zero monthly fees, and integrate **door access control** for outbuildings and gateways — all through [Subscription-Free 4K CCTV Systems](/services/smart-security).
+Listed-building rules apply to CCTV cameras too — many owners assume that means sticking with battery cameras mounted with adhesive pads. It doesn't. Our 4k ip cctv installation uses discreet, hardwired Ubiquiti UniFi Protect cameras rather than a brand like Hikvision or a battery-powered system, so you get a permanent poe camera system with zero monthly fees and no visible cabling outside. Door access control can be added for outbuildings and gateways on the same system.
+
 
 ## Featured Chesham Case Study
 
@@ -43,17 +44,17 @@ For security we provide **4k ip cctv installation** as your local **hikvision cc
 
 ## Frequently Asked Questions for Chesham
 
-### Do you provide certified cat 6 cabling installation in Chesham?
-Yes. We provide certified **cat 6 cabling installation** in Chesham, complete with **ethernet port installation**, **data rack patch panel setup**, full testing, and documentation.
+### Does a listed building in Chesham restrict how you install network cabling?
+Listed status generally restricts visible drilling or external fixtures — not the cabling itself. We route cat 6 cabling installation through lofts, voids, and behind skirtings, so there's no impact on the historic fabric of the building.
 
-### Can you set up a whole home wifi setup and wifi 7 router installation in a Chesham period home?
-Absolutely. We install **wifi 7 router installation** using Ubiquiti UniFi and engineer a **whole home wifi setup** around solid flint walls, plus a **garden office ethernet link** and **outdoor wifi extension** where needed.
+### Can you get rid of Wi-Fi dead zones in a flint-walled Chesham cottage?
+Yes — this is one of the most common jobs we do in Chesham. A hardwired whole home wifi setup with Ubiquiti UniFi Wi-Fi 7 solves it permanently, rather than relying on a booster to repeatedly fight through solid flint.
 
-### Are you a hikvision cctv specialist in Chesham?
-Yes. As a local **hikvision cctv specialist** we design **4k ip cctv installation**, build **poe camera system** solutions with free local storage, and add **door access control** for full security.
+### Is CCTV installation possible on a listed property or barn conversion?
+Yes. We use hardwired Ubiquiti UniFi Protect cameras rather than adhesive battery units or brands like Hikvision, with discreet mounting suited to listed and barn-conversion properties.
 
-### Do you cover Chesham Bois and Ashley Green?
-Yes. We cover all of HP5, including Chesham Bois, Ashley Green, Lye Green, Bellingdon, Chartridge, and Latimer.
+### What villages around Chesham do you cover?
+All of HP5 — Chesham Bois, Ashley Green, Lye Green, Bellingdon, Chartridge, and Latimer.
 
-### How much does network installation cost in Chesham?
-Wireless projects start from £1,500, Cat6 structured cabling from £2,000, and 4K IP CCTV from £1,800 — all fixed and itemized after a free Chesham site audit.
+### How much does a typical Chesham installation cost?
+Wi-Fi projects start from £1,500, Cat6 structured cabling from £2,000, and 4K CCTV from £1,800 — itemized and fixed after a free on-site audit.
