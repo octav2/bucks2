@@ -26,13 +26,13 @@ nearbyVillages: ["Amersham Old Town", "Chesham Bois", "Little Chalfont", "Colesh
 
 ## Local Knowledge & Property Infrastructure in Amersham
 
-Amersham (HP6, HP7) is home to classic Chiltern brick-and-flint cottages, thick-walled period homes, and converted barns whose solid masonry blocks wireless signals between rooms. Standard ISP routers and plug-in boosters that repeat degraded signal over the air simply cannot cope, which is why homes and businesses across Amersham Old Town, Chesham Bois, Little Chalfont, and Hyde Heath choose a professionally engineered, hardwired network.
+Amersham (HP6, HP7) splits into two very different networking challenges: the thick brick-and-flint cottages of Amersham Old Town, and the converted barns and outbuildings scattered around Chesham Bois and Little Chalfont. Both defeat a standard router in different ways — one through solid masonry, the other through sheer distance to a detached building.
 
-Our certified **cat 6 cabling installation** runs solid-copper Cat6 to every room, supported by precise **ethernet port installation** to desks, TVs, and ceiling access points, a tidy **data rack patch panel setup** in a central cupboard, and **armoured cat6 cables** for any run to an outbuilding, garage, or barn conversion — the backbone of our [Cat6a Network Cabling Installation](/services/commercial-cabling).
+Cellars are the quiet problem in Amersham's period townhouses. They're the obvious place to hide a router or run cabling — but a router boosting signal up through solid floors rarely reaches the top storey. Our **whole home wifi setup** solves this properly: a **wifi 7 router installation** using Ubiquiti UniFi, backed by hardwired Cat6a rather than relying on a booster to punch through joists and brick. For the barns and garden studios common around Little Chalfont, a dedicated **garden office ethernet link** and **outdoor wifi extension** bring full-speed coverage out to the building itself, not a weakened repeat of the main signal — part of our [Enterprise Whole-Home Wi-Fi Installation](/services/whole-home-wifi).
 
-On top of the structured cabling we deliver **wifi 7 router installation** with Ubiquiti UniFi, a **whole home wifi setup** engineered for zero dead zones, a dedicated **garden office ethernet link** for remote working, and **outdoor wifi extension** for patios and driveways — results you can rely on from our [Enterprise Whole-Home Wi-Fi Installation](/services/whole-home-wifi).
+Because Amersham's period homes often have cellars, our **cat 6 cabling installation** typically starts there — using the cellar as a central distribution point rather than running cable through visible skirting on every floor. From this hub, we install **ethernet port installation** to desks, TVs, and access points, with a **data rack patch panel setup** built into a hallway or under-stair cupboard. For any outbuilding, garage, or barn conversion, **armoured cat6 cables** are trenched or ducted so the connection survives outdoor conditions without ever needing a repeater — the backbone of our [Cat6a Network Cabling Installation](/services/commercial-cabling).
 
-For peace of mind we provide **4k ip cctv installation** as your local **hikvision cctv specialist**, deploy **poe camera system** solutions recording to an on-premise NVR with zero monthly fees, and integrate **door access control** for gates and outbuildings — all through [Subscription-Free 4K CCTV Systems](/services/smart-security).
+If you've been comparing consumer options like Ring, Arlo, or brand-name systems like Hikvision, the core trade-off is the same: battery life and monthly cloud fees. Our **4k ip cctv installation** avoids both — a hardwired **poe camera system** running on Ubiquiti UniFi Protect, recording to a local NVR with zero subscription. For outbuildings and gated driveways, we add **door access control** on the same app, so a Chesham Bois barn conversion gets the same security coverage as the main house — through our [Subscription-Free 4K CCTV Systems](/services/smart-security).
 
 ## Featured Amersham Case Study
 
@@ -43,17 +43,17 @@ For peace of mind we provide **4k ip cctv installation** as your local **hikvisi
 
 ## Frequently Asked Questions for Amersham
 
-### Do you provide certified cat 6 cabling installation in Amersham?
-Yes. We provide certified **cat 6 cabling installation** in Amersham, complete with **ethernet port installation**, **data rack patch panel setup**, full testing, and cable documentation on every project across HP6 and HP7.
+### How does Cat6 cabling installation work in a period home with a cellar?
+We use the cellar as a central hub for our **cat 6 cabling installation**, running cable up through existing voids rather than surface-mounting trunking on visible walls. Every outlet gets full **ethernet port installation** and testing before handover.
 
-### Can you set up a whole home wifi setup and wifi 7 router installation in Amersham?
-Absolutely. We install **wifi 7 router installation** using Ubiquiti UniFi and engineer a **whole home wifi setup** with zero dead zones, plus a **garden office ethernet link** and **outdoor wifi extension** where needed.
+### Will a barn conversion or garden studio near Little Chalfont get full-speed Wi-Fi?
+Yes. We run a hardwired **garden office ethernet link** to the building itself rather than relying on a repeater, so a **whole home wifi setup** covers the studio at the same speed as the main house.
 
-### Are you a hikvision cctv specialist in Amersham?
-Yes. As a local **hikvision cctv specialist** we design **4k ip cctv installation**, build **poe camera system** solutions that store locally with no monthly fees, and add **door access control** for full security.
+### I've seen Hikvision cameras recommended online — what would you actually install?
+We install Ubiquiti UniFi Protect rather than Hikvision. It gives the same 4K image quality and AI detection, but hardwired via PoE with local NVR storage — no batteries, no monthly cloud fees.
 
-### Do you cover Amersham Old Town, Chesham Bois, and Little Chalfont?
-Yes. We cover all of HP6 and HP7, including Amersham Old Town, Chesham Bois, Little Chalfont, Coleshill, Hyde Heath, and Penn Street.
+### What areas around Amersham do you cover?
+All of HP6 and HP7 — Amersham Old Town, Chesham Bois, Little Chalfont, Coleshill, Hyde Heath, and Penn Street.
 
-### How much does network installation cost in Amersham?
-Wireless projects start from £1,500, Cat6 structured cabling from £2,000, and 4K IP CCTV from £1,800 — all fixed and itemized after a free Amersham site audit.
+### What's the typical cost for a network installation in Amersham?
+Wireless installations start from £1,500, structured Cat6/Cat6a cabling from £2,000, and 4K CCTV from £1,800 — confirmed as a fixed price after a free site audit.
