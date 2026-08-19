@@ -20,16 +20,16 @@ const pricing: Record<string, { from: string; micro: string }> = {
 
 const cardCopy: Record<string, { title: string; subtext: string }> = {
     'whole-home-wifi': {
-        title: 'Enterprise Whole-Home Wi-Fi 7 Architecture',
-        subtext: 'Hardwired Cat6a backbones and zero-dead-zone Ubiquiti Wi-Fi 7 engineered specifically for period properties, luxury estates, and detached garden offices across Buckinghamshire. We eliminate wireless dead zones permanently without relying on weak consumer mesh extenders or ongoing monthly subscription fees.',
+        title: 'Enterprise Whole-Home Wi-Fi 7 Installation',
+        subtext: 'Hardwired Cat6a backbones and zero-dead-zone Ubiquiti Wi-Fi 7 installation, engineered specifically for period properties, luxury estates, and detached garden offices across Buckinghamshire. We eliminate wireless dead zones permanently without relying on weak consumer mesh extenders or ongoing monthly subscription fees.',
     },
     'commercial-cabling': {
-        title: 'High-Density Data Infrastructure & Enterprise Rack Architecture',
-        subtext: 'Certified Cat6a structured copper cabling, 19-inch data cabinet rack builds, and multi-gigabit network backbones for commercial offices, law firms, and multi-tenant premises. Designed for zero-latency VoIP, high-density PoE security, and clean, Fluke-tested patch panel management.',
+        title: 'Enterprise Network Cabling Installation & Data Rack Architecture',
+        subtext: 'Certified Cat6a network cabling installation, 19-inch data cabinet rack builds, and multi-gigabit network backbones for commercial offices, law firms, and multi-tenant premises. Designed for zero-latency VoIP, high-density PoE security, and clean, Fluke-tested patch panel management.',
     },
     'smart-security': {
-        title: 'Subscription-Free 4K Property Perimeter Security & Smart Access',
-        subtext: 'On-premise Ubiquiti Protect 4K AI optical camera installation and integrated smart video access control for luxury homes and commercial grounds. Record continuous 24/7 high-bitrate video directly to local NVR storage with zero monthly cloud storage subscription fees.',
+        title: 'Subscription-Free 4K CCTV Installation & Perimeter Security',
+        subtext: 'On-premise Ubiquiti Protect 4K CCTV installation and integrated smart video access control for luxury homes and commercial grounds. Record continuous 24/7 high-bitrate video directly to local NVR storage with zero monthly cloud storage subscription fees.',
     },
 };
 

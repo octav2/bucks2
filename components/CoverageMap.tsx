@@ -27,6 +27,9 @@ export default function CoverageMap() {
         <section id="coverage" className="py-24 px-4 bg-slate-900 relative overflow-hidden">
             <div className="absolute top-0 left-0 w-96 h-96 bg-blue-600/10 rounded-full blur-[120px] pointer-events-none"></div>
             <div className="max-w-6xl mx-auto relative z-10">
+                <p className="text-center text-white text-xl md:text-2xl font-bold mb-14 max-w-3xl mx-auto leading-relaxed">
+                    Searching for CCTV installation near me or Wi-Fi installation near me? We install hardwired enterprise systems across every town in South &amp; Central Buckinghamshire.
+                </p>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
                     <div>
                         <span className="inline-block text-xs font-black uppercase tracking-[0.2em] text-blue-400 mb-4">Coverage</span>

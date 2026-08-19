@@ -75,7 +75,7 @@ export const servicesData: Record<string, ServiceData> = {
             "commercial network installation High Wycombe",
             "Fluke certified cabling",
         ],
-        heroPill: "Data Infrastructure · Rack Architecture",
+        heroPill: "Structured Cabling · Rack Installation",
         heroBullets: [
             "Fluke-certified Cat6/Cat6a infrastructure",
             "Custom wall-mounted & floor-standing rack builds",
@@ -114,7 +114,7 @@ export const servicesData: Record<string, ServiceData> = {
             "subscription-free security system",
             "video access control installer",
         ],
-        heroPill: "UniFi Protect · No Monthly Fees",
+        heroPill: "4K IP CCTV · No Monthly Fees",
         heroBullets: [
             "100% subscription-free local 4K storage",
             "UniFi AI human, vehicle & plate recognition",
