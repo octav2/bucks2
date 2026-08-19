@@ -65,7 +65,7 @@ We also integrate hardwired backbones for our [4K Commercial CCTV Installation S
 | **Testing & Documentation** | Zero testing documentation | Full channel certification data & cable-map documentation |
 
 ## Commercial Data Cabling Services We Offer
-- **Cat6 & Cat6a Ethernet Cable Installation:** High-speed copper cable drops routed cleanly to desk modules and wireless access point locations.
+- **Cat6 & Cat6a Ethernet Cable Installation:** High-speed copper cable drops routed cleanly to desk modules and wireless access points. Whether you need a single ethernet installation for a new office or a full network cable installation across multiple floors, every run is Fluke-tested and certified.
 - **Data Cabinet & Network Rack Installation:** Wall-mount and floor-standing 19-inch server enclosure assembly, cable dressing, and PDU installation.
 - **Patch Panel Wiring & Termination:** T568A / T568B punch-down wiring for 24-port and 48-port RJ45 patch panels with matching wall outlets.
 - **Trunking & Cable Containment:** Installation of dado trunking, plastic mini-trunking, floor boxes, and overhead cable tray containment.

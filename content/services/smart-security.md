@@ -46,6 +46,8 @@ At Bucks Tech Help, we deliver professional CCTV installation using hardwired Ub
 
 Featuring onboard AI detection, our IP CCTV systems distinguish between humans, vehicles, and license plates — sending instant, accurate alerts to your smartphone through the same single app that controls your [Enterprise Whole-Home Wi-Fi System](/services/whole-home-wifi) and smart door access control. Best of all: you own the system and storage 100% outright, with zero monthly cloud fees.
 
+If you're searching for CCTV installation near me, Bucks Tech Help provides hardwired, subscription-free 4K systems across Beaconsfield, Amersham, High Wycombe, and every South & Central Bucks town in between — usually with a site visit scheduled within days of your enquiry.
+
 ## Security Hardware Specs
 
 | Category | Hardware Model | Description |
@@ -93,3 +95,6 @@ Yes. We install smart door access control systems, video doorbells, and commerci
 
 ### How many days of video footage are stored on the NVR recorder?
 Our standard NVR storage configurations hold between 14 to 30 days of continuous 24/7 4K footage across 4 to 8 cameras. Once the drive reaches capacity, it automatically overwrites the oldest footage — all stored locally with zero monthly cloud fees.
+
+### Do you provide CCTV installation near me, or only in specific towns?
+We install hardwired 4K CCTV systems throughout South & Central Buckinghamshire, covering all 13 location hubs listed below — from Beaconsfield and Gerrards Cross to High Wycombe and Aylesbury. Enter your postcode in the quote audit to confirm coverage and scheduling.
