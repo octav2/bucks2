@@ -26,13 +26,13 @@ nearbyVillages: ["Northchurch", "Potten End", "Wigginton", "Ashley Green", "Litt
 
 ## Local Knowledge & Property Infrastructure in Berkhamsted
 
-Berkhamsted (HP4) is a popular commuter hub of townhouses, outbuildings, and garden home offices that depend on reliable Wi-Fi and hardwired Ethernet every single day. Alongside the historic castle town, the villages of Northchurch, Potten End, and Wigginton spread across the Chilterns well beyond the reach of a single router, demanding structured cabling rather than wireless repetition.
+Berkhamsted's period high-street buildings and canal-side properties often have thick original brickwork and protected frontages, which rules out visible cable runs. Our **cat 6 cabling installation** is routed through lofts and internal voids rather than along external walls, with a discreet **data rack patch panel setup** and **ethernet port installation** at each desk or TV point. For the canal-side homes with detached boat stores or garden studios, **armoured cat6 cables** extend the network outdoors. Once cabling is in, a **wifi 7 router installation** delivers a true **whole home wifi setup**, and a hardwired **4k ip cctv installation** protects the property without visible boxes on a listed frontage.
 
 Our certified **cat 6 cabling installation** runs solid-copper Cat6 to every room, supported by precise **ethernet port installation** to desks, TVs, and ceiling access points, a tidy **data rack patch panel setup** in a central cupboard, and **armoured cat6 cables** for any run to an outbuilding or garden office — the backbone of our [Cat6a Network Cabling Installation](/services/commercial-cabling).
 
 On top of the structured cabling we deliver **wifi 7 router installation** with Ubiquiti UniFi, a **whole home wifi setup** engineered for zero dead zones, a dedicated **garden office ethernet link** for remote working, and **outdoor wifi extension** for patios and gardens — results you can rely on from our [Enterprise Whole-Home Wi-Fi Installation](/services/whole-home-wifi).
 
-For security we provide **4k ip cctv installation** as your local **hikvision cctv specialist**, deploy **poe camera system** solutions recording to an on-premise NVR with zero monthly fees, and integrate **door access control** for outbuildings and gateways — all through [Subscription-Free 4K CCTV Systems](/services/smart-security).
+For security our **4k ip cctv installation** uses hardwired Ubiquiti UniFi Protect instead of a brand like Hikvision or a battery-powered system — a **poe camera system** for outbuildings and gateways, recording to an on-premise NVR with zero monthly fees, plus **door access control** — all through our [Subscription-Free 4K CCTV Systems](/services/smart-security).
 
 ## Featured Berkhamsted Case Study
 
@@ -49,8 +49,8 @@ Yes. We provide certified **cat 6 cabling installation** in Berkhamsted, complet
 ### Can you set up a whole home wifi setup and wifi 7 router installation in Berkhamsted?
 Absolutely. We install **wifi 7 router installation** using Ubiquiti UniFi and engineer a **whole home wifi setup** with zero dead zones, plus a **garden office ethernet link** and **outdoor wifi extension** where needed.
 
-### Are you a hikvision cctv specialist in Berkhamsted?
-Yes. As a local **hikvision cctv specialist** we design **4k ip cctv installation**, build **poe camera system** solutions with free local storage, and add **door access control** for full security.
+### How does your CCTV compare to Hikvision or battery cameras?
+We install hardwired Ubiquiti UniFi Protect — no batteries, no monthly fees, and discreet mounting suited to period frontages.
 
 ### Do you cover Northchurch and Potten End?
 Yes. We cover all of HP4, including Northchurch, Potten End, Wigginton, Ashley Green, and Little Gaddesden.
