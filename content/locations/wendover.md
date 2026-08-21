@@ -3,11 +3,11 @@ id: "location-wendover"
 slug: "wendover"
 townName: "Wendover"
 postcode: "HP22"
-title: "Cat6 Cabling & Wi-Fi 7 Installation in Wendover"
-subtitle: "Certified cat 6 cabling installation, whole home wifi setup, and 4K IP CCTV installation in Wendover, HP22. Commuter & Chiltern homes. Free site audit."
-metaTitle: "Cat6 Cabling & Wi-Fi 7 Installation in Wendover | Bucks Tech Help"
-metaDescription: "Cat 6 cabling installation, wifi 7 router installation, and 4K IP CCTV installation in Wendover, Halton & Weston Turville. Chiltern commuter hub specialists."
-heroHeadline: "Certified Cat6 Cabling & Enterprise Wi-Fi in Wendover"
+title: "Canal-Side & Commuter Wi-Fi, Cabling & CCTV in Wendover"
+subtitle: "Certified cat 6 cabling installation, whole home wifi setup, and 4K IP CCTV installation for canal-side cottages and commuter homes in Wendover, HP22. Free site audit."
+metaTitle: "Canal-Side & Commuter Wi-Fi in Wendover | Bucks Tech Help"
+metaDescription: "Cat 6 cabling installation, wifi 7 router installation, and 4K IP CCTV installation for canal-side cottages and period homes in Wendover, Halton & Weston Turville. Remote-working ready."
+heroHeadline: "Canal-Side & Commuter Networks: Wi-Fi, Cabling & CCTV in Wendover"
 heroSubtitle: "Wendover (HP22) is a popular commuter hub of townhouses, outbuildings, and garden home offices that depend on reliable Wi-Fi and hardwired Ethernet every single day."
 nearbyVillages: ["Halton", "Weston Turville", "Ellesborough", "Stoke Mandeville", "Dinton", "Aston Clinton"]
 ---
@@ -26,13 +26,13 @@ nearbyVillages: ["Halton", "Weston Turville", "Ellesborough", "Stoke Mandeville"
 
 ## Local Knowledge & Property Infrastructure in Wendover
 
-Wendover (HP22) is a popular commuter hub of townhouses, outbuildings, and garden home offices that depend on reliable Wi-Fi and hardwired Ethernet every single day. Alongside the busy high street, the surrounding villages of Halton, Weston Turville, and Ellesborough spread well beyond the reach of a single router, demanding structured cabling rather than wireless repetition.
+Wendover's canal-side cottages and commuter-friendly homes often need reliable Wi-Fi for remote working alongside period-property cabling challenges. Our **cat 6 cabling installation**, run through lofts and voids rather than visible trunking, supports both **ethernet port installation** for home offices and a **data rack patch panel setup** for anyone running a small business from home. On top, a **whole home wifi setup** via **wifi 7 router installation** removes dead zones for video calls, and a **garden office ethernet link** covers any converted outbuilding used as a home office. Hardwired **4k ip cctv installation** completes the setup for canal-side or street-facing properties.
 
 Our certified **cat 6 cabling installation** runs solid-copper Cat6 to every room, supported by precise **ethernet port installation** to desks, TVs, and ceiling access points, a tidy **data rack patch panel setup** in a central cupboard, and **armoured cat6 cables** for any run to an outbuilding or garden office — the backbone of our [Cat6a Network Cabling Installation](/services/commercial-cabling).
 
 On top of the structured cabling we deliver **wifi 7 router installation** with Ubiquiti UniFi, a **whole home wifi setup** engineered for zero dead zones, a dedicated **garden office ethernet link** for remote working, and **outdoor wifi extension** for patios and gardens — results you can rely on from our [Enterprise Whole-Home Wi-Fi Installation](/services/whole-home-wifi).
 
-For security we provide **4k ip cctv installation** as your local **hikvision cctv specialist**, deploy **poe camera system** solutions recording to an on-premise NVR with zero monthly fees, and integrate **door access control** for outbuildings and gateways — all through [Subscription-Free 4K CCTV Systems](/services/smart-security).
+For security our **4k ip cctv installation** uses hardwired Ubiquiti UniFi Protect instead of a brand like Hikvision or a battery-powered system — a **poe camera system** for canal-side and street-facing properties, recording to an on-premise NVR with zero monthly fees, plus **door access control** — all through our [Subscription-Free 4K CCTV Systems](/services/smart-security).
 
 ## Featured Wendover Case Study
 
@@ -43,17 +43,17 @@ For security we provide **4k ip cctv installation** as your local **hikvision cc
 
 ## Frequently Asked Questions for Wendover
 
-### Do you provide certified cat 6 cabling installation in Wendover?
-Yes. We provide certified **cat 6 cabling installation** in Wendover, complete with **ethernet port installation**, **data rack patch panel setup**, full testing, and documentation.
+### Can you set up reliable Wi-Fi for remote working in a period Wendover cottage?
+Yes — a hardwired **whole home wifi setup** eliminates the dropped calls common with mesh boosters in period homes.
 
-### Can you set up a whole home wifi setup and wifi 7 router installation in Wendover?
-Absolutely. We install **wifi 7 router installation** using Ubiquiti UniFi and engineer a **whole home wifi setup** with zero dead zones, plus a **garden office ethernet link** and **outdoor wifi extension** where needed.
+### Do you cover garden offices used for remote work?
+Yes, with a dedicated **garden office ethernet link** for full-speed, stable connectivity.
 
-### Are you a hikvision cctv specialist in Wendover?
-Yes. As a local **hikvision cctv specialist** we design **4k ip cctv installation**, build **poe camera system** solutions with free local storage, and add **door access control** for full security.
+### What CCTV do you install compared to Hikvision for a canal-side property?
+Hardwired Ubiquiti UniFi Protect — weatherproofed, no monthly fees, no battery maintenance.
 
-### Do you cover Halton and Weston Turville?
-Yes. We cover all of HP22, including Halton, Weston Turville, Ellesborough, Stoke Mandeville, Dinton, and Aston Clinton.
+### What areas near Wendover do you cover?
+All of HP22, including Halton and Weston Turville.
 
-### How much does network installation cost in Wendover?
-Wireless projects start from £1,500, Cat6 structured cabling from £2,000, and 4K IP CCTV from £1,800 — all fixed and itemized after a free Wendover site audit.
+### What's the typical cost?
+Wi-Fi from £1,500, cabling from £2,000, CCTV from £1,800.
