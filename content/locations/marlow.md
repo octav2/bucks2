@@ -3,11 +3,11 @@ id: "location-marlow"
 slug: "marlow"
 townName: "Marlow"
 postcode: "SL7"
-title: "Cat6 Cabling & Wi-Fi 7 Installation in Marlow"
-subtitle: "Certified cat 6 cabling installation, whole home wifi setup, and 4K IP CCTV installation for riverside homes and townhouses in Marlow. Free site audit."
-metaTitle: "Cat6 Cabling & Wi-Fi 7 Installation in Marlow | Bucks Tech Help"
-metaDescription: "Cat 6 cabling installation, wifi 7 router installation, and 4K IP CCTV installation in Marlow, Bisham & Little Marlow. Riverside & commuter homes."
-heroHeadline: "Certified Cat6 Cabling & Enterprise Wi-Fi in Marlow"
+title: "Riverside Home & High Street Wi-Fi, Cabling & CCTV in Marlow"
+subtitle: "Certified cat 6 cabling installation, whole home wifi setup, and 4K IP CCTV installation for riverside homes and high street businesses in Marlow. Free site audit."
+metaTitle: "Riverside Home & Business Wi-Fi in Marlow | Bucks Tech Help"
+metaDescription: "Cat 6 cabling installation, wifi 7 router installation, and 4K IP CCTV installation for riverside homes and boutique high street businesses in Marlow, Marlow Bottom & Little Marlow."
+heroHeadline: "Riverside & High Street Networks: Wi-Fi, Cabling & CCTV in Marlow"
 heroSubtitle: "Marlow (SL7) is a popular commuter hub of townhouses, period terraces, outbuildings, and garden home offices that depend on reliable Wi-Fi and hardwired Ethernet every single day."
 nearbyVillages: ["Bisham", "Little Marlow", "Medmenham", "Bourne End", "Frieth", "Lane End"]
 ---
@@ -26,13 +26,13 @@ nearbyVillages: ["Bisham", "Little Marlow", "Medmenham", "Bourne End", "Frieth",
 
 ## Local Knowledge & Property Infrastructure in Marlow
 
-Marlow (SL7) is a popular commuter hub of townhouses, period terraces, outbuildings, and garden home offices that depend on reliable Wi-Fi and hardwired Ethernet every single day. From riverside properties along the Thames to the hillside homes of Bisham, Little Marlow, and Medmenham, spotty wireless and slow boosters simply do not meet modern working demands.
+Marlow combines riverside residential properties with a busy boutique high street — meaning we install everything from home Wi-Fi to small commercial systems for shops and restaurants. For businesses, our **4k ip cctv installation** with a hardwired **poe camera system** protects premises and stock without a monthly subscription, and **door access control** suits back-of-house or stock room security. For riverside homes, a **whole home wifi setup** built on **wifi 7 router installation** covers multi-storey properties and garden rooms overlooking the water. Behind both is a certified **cat 6 cabling installation**, with **data rack patch panel setup** sized appropriately for a home office or a small retail unit.
 
 Our certified **cat 6 cabling installation** runs solid-copper Cat6 to every room, supported by precise **ethernet port installation** to desks, TVs, and ceiling access points, a tidy **data rack patch panel setup** in a central cupboard, and **armoured cat6 cables** for any run to an outbuilding or garden room — the backbone of our [Cat6a Network Cabling Installation](/services/commercial-cabling).
 
 On top of the structured cabling we deliver **wifi 7 router installation** with Ubiquiti UniFi, a **whole home wifi setup** engineered for zero dead zones, a dedicated **garden office ethernet link** for remote working, and **outdoor wifi extension** for patios, balconies, and riverside terraces — results you can rely on from our [Enterprise Whole-Home Wi-Fi Installation](/services/whole-home-wifi).
 
-For security we provide **4k ip cctv installation** as your local **hikvision cctv specialist**, deploy **poe camera system** solutions recording to an on-premise NVR with zero monthly fees, and integrate **door access control** for outbuildings and gateways — all through [Subscription-Free 4K CCTV Systems](/services/smart-security).
+For security our **4k ip cctv installation** uses hardwired Ubiquiti UniFi Protect instead of a brand like Hikvision or a battery-powered system — a **poe camera system** for shops, restaurants, and riverside homes, recording to an on-premise NVR with zero monthly fees, plus **door access control** for back-of-house and stock rooms — all through our [Subscription-Free 4K CCTV Systems](/services/smart-security).
 
 ## Featured Marlow Case Study
 
@@ -43,17 +43,17 @@ For security we provide **4k ip cctv installation** as your local **hikvision cc
 
 ## Frequently Asked Questions for Marlow
 
-### Do you provide certified cat 6 cabling installation in Marlow?
-Yes. We provide certified **cat 6 cabling installation** in Marlow, complete with **ethernet port installation**, **data rack patch panel setup**, full testing, and documentation.
+### Do you install CCTV for shops and restaurants on Marlow high street?
+Yes — hardwired PoE cameras and access control suited to retail and hospitality premises.
 
-### Can you set up a whole home wifi setup and wifi 7 router installation in Marlow?
-Absolutely. We install **wifi 7 router installation** using Ubiquiti UniFi and engineer a **whole home wifi setup** with zero dead zones, plus a **garden office ethernet link** and **outdoor wifi extension** where needed.
+### Can you cover a riverside home with a garden room overlooking the water?
+Yes, using a **garden office ethernet link** so the garden room gets full-speed coverage.
 
-### Are you a hikvision cctv specialist in Marlow?
-Yes. As a local **hikvision cctv specialist** we design **4k ip cctv installation**, build **poe camera system** solutions with free local storage, and add **door access control** for full security.
+### What's better for a boutique business — Hikvision or Ubiquiti UniFi?
+We install Ubiquiti UniFi Protect — no monthly fees, and one app if you're also handling Wi-Fi and access control.
 
-### Do you cover Bisham and Little Marlow?
-Yes. We cover all of SL7, including Bisham, Little Marlow, Medmenham, Frieth, Lane End, and the Bourne End borders.
+### What areas near Marlow do you cover?
+All of SL7, including Marlow Bottom and Little Marlow.
 
-### How much does network installation cost in Marlow?
-Wireless projects start from £1,500, Cat6 structured cabling from £2,000, and 4K IP CCTV from £1,800 — all fixed and itemized after a free Marlow site audit.
+### What's the typical cost?
+Wi-Fi from £1,500, cabling from £2,000, CCTV from £1,800.
