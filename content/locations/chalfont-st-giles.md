@@ -26,13 +26,13 @@ nearbyVillages: ["Chalfont St Peter", "Little Chalfont", "Jordans", "Seer Green"
 
 ## Local Knowledge & Property Infrastructure in Chalfont St Giles
 
-Chalfont St Giles (HP8) is home to classic Chiltern brick-and-flint cottages, thick-walled period homes, and converted barns whose solid masonry blocks wireless signals between rooms. From the historic village core to Jordans, Seer Green, and the hamlets towards Chenies, standard routers and mesh boosters routinely fail against flint walls and listed-building construction.
+Chalfont St Giles' thatched cottages and rural detached homes present a specific challenge: thick, uneven old walls that make cabling routes unpredictable, and thatched roofs that rule out any external roof-mounted equipment. Our **cat 6 cabling installation** is planned around the specific structure of each cottage, with **ethernet port installation** placed where it's actually usable rather than where it's easiest to run. A **data rack patch panel setup** fits discreetly into an existing cupboard. On top, a **whole home wifi setup** via **wifi 7 router installation** eliminates dead zones in low-ceilinged rooms, and a hardwired **4k ip cctv installation** avoids any need for roof or thatch-mounted cameras.
 
 Our certified **cat 6 cabling installation** runs solid-copper Cat6 sympathetically through lofts, voids, and behind skirtings, supported by precise **ethernet port installation** to desks, TVs, and ceiling access points, a tidy **data rack patch panel setup** in a central cupboard, and **armoured cat6 cables** for any run to a barn conversion or outbuilding — the backbone of our [Cat6a Network Cabling Installation](/services/commercial-cabling).
 
 On top of the structured cabling we deliver **wifi 7 router installation** with Ubiquiti UniFi, a **whole home wifi setup** engineered for zero dead zones, a dedicated **garden office ethernet link** for remote working, and **outdoor wifi extension** for gardens and patios — results you can rely on from our [Enterprise Whole-Home Wi-Fi Installation](/services/whole-home-wifi).
 
-For security we provide **4k ip cctv installation** as your local **hikvision cctv specialist**, deploy **poe camera system** solutions recording to an on-premise NVR with zero monthly fees, and integrate **door access control** for outbuildings and gateways — all through [Subscription-Free 4K CCTV Systems](/services/smart-security).
+For security our **4k ip cctv installation** uses hardwired Ubiquiti UniFi Protect instead of a brand like Hikvision or a battery-powered system — a **poe camera system** for outbuildings and gateways, recording to an on-premise NVR with zero monthly fees, plus **door access control** — all through our [Subscription-Free 4K CCTV Systems](/services/smart-security).
 
 ## Featured Chalfont St Giles Case Study
 
@@ -43,17 +43,17 @@ For security we provide **4k ip cctv installation** as your local **hikvision cc
 
 ## Frequently Asked Questions for Chalfont St Giles
 
-### Do you provide certified cat 6 cabling installation in Chalfont St Giles?
-Yes. We provide certified **cat 6 cabling installation** in Chalfont St Giles, complete with **ethernet port installation**, **data rack patch panel setup**, full testing, and documentation.
+### Can you install cabling in a thatched cottage without roof access?
+Yes — all cabling runs through internal voids and floors; we never need to mount anything on or near the thatch.
 
-### Can you set up a whole home wifi setup and wifi 7 router installation in a Chalfont St Giles period home?
-Absolutely. We install **wifi 7 router installation** using Ubiquiti UniFi and engineer a **whole home wifi setup** around solid flint walls, plus a **garden office ethernet link** and **outdoor wifi extension** where needed.
+### Do old, uneven walls cause problems for Wi-Fi coverage?
+They're exactly why we use hardwired access points rather than mesh — a **wifi 7 router installation** removes the guesswork.
 
-### Are you a hikvision cctv specialist in Chalfont St Giles?
-Yes. As a local **hikvision cctv specialist** we design **4k ip cctv installation**, build **poe camera system** solutions with free local storage, and add **door access control** for full security.
+### What CCTV works for a thatched property, since roof mounting isn't possible?
+Hardwired Ubiquiti UniFi Protect cameras mounted at eave or wall height — no roof fixtures needed.
 
-### Do you cover Jordans and Seer Green?
-Yes. We cover all of HP8, including Jordans, Seer Green, Little Chalfont, Chenies, and the Chalfont St Peter borders.
+### What villages near Chalfont St Giles do you cover?
+All of HP8, including Jordans and Seer Green.
 
-### How much does network installation cost in Chalfont St Giles?
-Wireless projects start from £1,500, Cat6 structured cabling from £2,000, and 4K IP CCTV from £1,800 — all fixed and itemized after a free Chalfont St Giles site audit.
+### What does installation typically cost?
+From £1,500 (Wi-Fi), £2,000 (cabling), £1,800 (CCTV).
