@@ -15,6 +15,21 @@ const heroMeta: Record<string, { icon: any; pill: string }> = {
     'smart-security': { icon: Cctv, pill: '4K IP CCTV · No Monthly Fees' },
 };
 
+// Enriched per-service Service schema config. Extend per slug as each service template is defined.
+const serviceSchemaConfig: Record<string, { serviceType: string; catalogName: string; items: string[] }> = {
+    'whole-home-wifi': {
+        serviceType: 'Whole Home Wi-Fi & Enterprise Network Installation',
+        catalogName: 'Wi-Fi & Network Solutions',
+        items: [
+            'Whole Home Wi-Fi Installation',
+            'Commercial Wi-Fi Solutions',
+            'Outdoor Wi-Fi Access Points',
+            'Garden Office Internet Links',
+            'Smart Home IoT VLAN Setup',
+        ],
+    },
+};
+
 function extractPrice(value: string): string {
     const match = /£\s*([\d,]+)/.exec(value);
     return match ? match[1].replace(/,/g, '') : '1500';
@@ -134,27 +149,66 @@ export default function ServiceMarkdownLayout({ service }: { service: ServiceCon
 
     const faqSection = sections.find((s) => s.kind === 'faq');
 
-    const serviceSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Service',
-        serviceType: fm.title,
-        provider: {
-            '@type': 'LocalBusiness',
-            name: businessDetails.name,
-            url: businessDetails.domain,
-            priceRange: businessDetails.priceRange,
-        },
-        areaServed: coverageTowns.map((name) => ({ '@type': 'City', name })),
-        description: fm.metaDescription,
-        offers: {
-            '@type': 'Offer',
-            priceSpecification: {
-                '@type': 'PriceSpecification',
-                price: extractPrice(fm.startingPrice),
-                priceCurrency: 'GBP',
+    const serviceSchemaConfigForSlug = serviceSchemaConfig[service.slug];
+    const serviceSchema = serviceSchemaConfigForSlug
+        ? {
+            '@context': 'https://schema.org',
+            '@type': 'Service',
+            serviceType: serviceSchemaConfigForSlug.serviceType,
+            name: fm.title,
+            description: fm.metaDescription,
+            provider: {
+                '@type': 'LocalBusiness',
+                name: businessDetails.name,
+                email: businessDetails.email,
+                url: businessDetails.domain,
+                areaServed: coverageTowns.map((name) => ({ '@type': 'City', name })),
             },
-        },
-    };
+            areaServed: {
+                '@type': 'AdministrativeArea',
+                name: 'Buckinghamshire, UK',
+            },
+            offers: {
+                '@type': 'Offer',
+                priceCurrency: 'GBP',
+                price: extractPrice(fm.startingPrice),
+                priceSpecification: {
+                    '@type': 'PriceSpecification',
+                    minPrice: extractPrice(fm.startingPrice),
+                    priceCurrency: 'GBP',
+                },
+                description: fm.priceDetails,
+            },
+            hasOfferCatalog: {
+                '@type': 'OfferCatalog',
+                name: serviceSchemaConfigForSlug.catalogName,
+                itemListElement: serviceSchemaConfigForSlug.items.map((name) => ({
+                    '@type': 'Offer',
+                    itemOffered: { '@type': 'Service', name },
+                })),
+            },
+        }
+        : {
+            '@context': 'https://schema.org',
+            '@type': 'Service',
+            serviceType: fm.title,
+            provider: {
+                '@type': 'LocalBusiness',
+                name: businessDetails.name,
+                url: businessDetails.domain,
+                priceRange: businessDetails.priceRange,
+            },
+            areaServed: coverageTowns.map((name) => ({ '@type': 'City', name })),
+            description: fm.metaDescription,
+            offers: {
+                '@type': 'Offer',
+                priceSpecification: {
+                    '@type': 'PriceSpecification',
+                    price: extractPrice(fm.startingPrice),
+                    priceCurrency: 'GBP',
+                },
+            },
+        };
 
     const faqSchema = {
         '@context': 'https://schema.org',
