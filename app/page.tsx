@@ -1,4 +1,4 @@
-﻿import type { Metadata } from 'next';
+import type { Metadata } from 'next';
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -129,6 +129,7 @@ export default function Home() {
             />
             <Header />
 
+            <main id="main-content">
             {/* HERO */}
             <section className="relative overflow-hidden bg-slate-950 py-24 md:py-32 px-4">
                 <div className="absolute top-0 right-0 -translate-y-1/3 translate-x-1/4 w-[600px] h-[600px] bg-blue-600/20 rounded-full blur-[120px]"></div>
@@ -145,10 +146,10 @@ export default function Home() {
                         <span className="text-blue-400">Architecture Across Buckinghamshire</span>
                     </h1>
 
-                    <h2 className="text-xl md:text-2xl text-slate-400 mb-14 leading-relaxed max-w-3xl mx-auto font-medium">
+                    <p className="text-xl md:text-2xl text-slate-400 mb-14 leading-relaxed max-w-3xl mx-auto font-medium">
                         Certified network cabling contractors, enterprise Ubiquiti Wi-Fi 7 installation, and
                         subscription-free 4K CCTV security across Beaconsfield, Amersham, High Wycombe, and South Buckinghamshire.
-                    </h2>
+                    </p>
 
                     <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
                         <Link href="/quote" className="w-full sm:w-auto bg-gradient-to-r from-blue-500 to-blue-700 text-white px-12 py-6 rounded-2xl font-black text-xl hover:from-blue-600 hover:to-blue-800 transition-all hover:scale-[1.03] active:scale-95 shadow-2xl shadow-blue-600/30 flex items-center justify-center gap-3">
@@ -212,6 +213,7 @@ export default function Home() {
             <Testimonials />
             <FAQ />
             <ServiceCTA />
+            </main>
             <Footer />
             <MobileStickyCTA />
             {/*_HOME_REST_END*/}

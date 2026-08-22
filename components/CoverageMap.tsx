@@ -48,7 +48,7 @@ export default function CoverageMap() {
                                 </Link>
                             ))}
                         </div>
-                        <p className="text-sm text-slate-500 font-medium">Tap any location for local coverage, case studies and typical installs across South &amp; Central Buckinghamshire — from the Chalfonts to High Wycombe and Aylesbury.</p>
+                        <p className="text-sm text-slate-400 font-medium">Tap any location for local coverage, case studies and typical installs across South &amp; Central Buckinghamshire — from the Chalfonts to High Wycombe and Aylesbury.</p>
                     </div>
 
                     {/* Stylised coverage visual */}
@@ -78,7 +78,7 @@ export default function CoverageMap() {
                                 </div>
                             ))}
                             <div className="absolute inset-0 flex items-center justify-center">
-                                <span className="text-slate-600 font-black uppercase tracking-[0.3em] text-sm">Buckinghamshire</span>
+                                <span className="text-slate-500 font-black uppercase tracking-[0.3em] text-sm">Buckinghamshire</span>
                             </div>
                         </div>
                     </div>

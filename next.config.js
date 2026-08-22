@@ -1,5 +1,29 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  async headers() {
+    return [
+      {
+        // Apply security headers to all routes
+        source: '/(.*)',
+        headers: [
+          // Prevent clickjacking — addresses the "No frame control policy found" warning
+          { key: 'X-Frame-Options', value: 'DENY' },
+          // Prevent MIME-type sniffing
+          { key: 'X-Content-Type-Options', value: 'nosniff' },
+          // Safe referrer policy
+          { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+          // Disable sensitive permissions
+          { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=(), interest-cohort=()' },
+          // HSTS with includeSubDomains and preload — addresses the Medium warnings
+          { key: 'Strict-Transport-Security', value: 'max-age=63072000; includeSubDomains; preload' },
+          // Cross-Origin Opener Policy — addresses the "No COOP header found" warning
+          { key: 'Cross-Origin-Opener-Policy', value: 'same-origin-allow-popups' },
+          // Cross-Origin Resource Policy
+          { key: 'Cross-Origin-Resource-Policy', value: 'same-site' },
+        ],
+      },
+    ];
+  },
   async redirects() {
     return [
       // Legacy top-level town routes -> /locations/[slug]

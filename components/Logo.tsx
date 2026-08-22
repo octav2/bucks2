@@ -17,6 +17,7 @@ export default function Logo({ className = 'h-12', priority = false }: LogoProps
                 width={1600}
                 height={331}
                 priority={priority}
+                sizes="(max-width: 640px) 180px, 350px"
                 className={`${className} w-auto`}
             />
         </span>

@@ -100,7 +100,7 @@ export default function Services() {
                                         </Link>
 
                                         <div className="mt-6 pt-5 border-t border-slate-800 flex items-baseline gap-2">
-                                            <span className="text-xs text-slate-500 font-bold uppercase tracking-wider">From</span>
+                                            <span className="text-xs text-slate-400 font-bold uppercase tracking-wider">From</span>
                                             <span className="text-3xl font-black text-white leading-none">{price.from}</span>
                                         </div>
                                         <p className="mt-2 text-xs text-slate-400 font-medium leading-relaxed">{price.micro}</p>

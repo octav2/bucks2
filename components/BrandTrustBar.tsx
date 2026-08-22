@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 
 const brands = ['Ubiquiti UniFi', 'UniFi Protect', 'UniFi Wi-Fi 7', 'UniFi Access'];
 
@@ -12,7 +12,7 @@ export default function BrandTrustBar() {
                 <div className="flex flex-wrap items-center justify-center gap-x-2.5 gap-y-1 text-sm font-bold text-slate-200">
                     {brands.map((brand, i) => (
                         <span key={brand} className="inline-flex items-center gap-2.5">
-                            {i > 0 && <span className="text-slate-600">|</span>}
+                            {i > 0 && <span className="text-slate-500" aria-hidden="true">|</span>}
                             {brand}
                         </span>
                     ))}

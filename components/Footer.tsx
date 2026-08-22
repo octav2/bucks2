@@ -17,7 +17,7 @@ export default function Footer() {
             <div className="max-w-6xl mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1fr_1fr_1.3fr] gap-12 mb-14">
                     <div className="flex flex-col gap-5">
-                        <Link href="/" className="inline-flex shrink-0" aria-label="Bucks Tech Help home">
+                        <Link href="/" className="inline-flex shrink-0" aria-label="Bucks Tech Help — back to homepage">
                             <Logo className="h-12" />
                         </Link>
                         <p className="text-slate-400 leading-relaxed font-medium">
@@ -59,11 +59,11 @@ export default function Footer() {
                                 );
                             })}
                         </div>
-                        <p className="text-slate-500 text-xs font-medium mt-5">Covering South & Central Bucks.</p>
+                        <p className="text-slate-400 text-xs font-medium mt-5">Covering South & Central Bucks.</p>
                     </div>
                 </div>
 
-                <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-slate-500 font-medium">
+                <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-slate-400 font-medium">
                     <p>&copy; {new Date().getFullYear()} {businessDetails.name}. All rights reserved.</p>
                     <div className="flex gap-6">
                         <Link href="/privacy" className="hover:text-white">Privacy Policy</Link>
