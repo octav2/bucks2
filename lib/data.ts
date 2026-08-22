@@ -44,6 +44,15 @@ export const serviceAreas = [
 // Core towns featured on the homepage coverage map / location hubs.
 export const coreTowns = ["Beaconsfield", "Amersham", "Chesham", "Gerrards Cross", "High Wycombe"];
 
+// Google Business Profile listing (numeric CID used by Google Maps).
+// KEEP IN SYNC with your Google Business Profile — this is the profile ID.
+export const googleBusinessProfile = {
+    cid: "4290901885882210205",
+    name: "Bucks Tech Help",
+    // Standard Google Maps lookup URL keyed on the CID.
+    url: "https://www.google.com/maps?cid=4290901885882210205",
+};
+
 export const faqs = [
     {
         question: "How much does a hardwired enterprise network installation cost in Buckinghamshire?",

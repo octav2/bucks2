@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function CookiePolicy() {
     return (
-        <LegalLayout title="Cookie Policy">
+        <LegalLayout title="Cookie Policy" path="/cookie-policy">
             <p className="text-sm text-slate-500 font-medium">Last updated: {new Date().toLocaleDateString()}</p>
 
             <div>

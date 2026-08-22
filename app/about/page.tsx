@@ -4,7 +4,7 @@ import Footer from '@/components/Footer';
 import MobileStickyCTA from '@/components/MobileStickyCTA';
 import AboutFAQ from '@/components/AboutFAQ';
 import { getPageBySlug } from '@/lib/pages';
-import { businessDetails } from '@/lib/data';
+import { businessDetails, googleBusinessProfile } from '@/lib/data';
 import Link from 'next/link';
 import {
     Wifi, Cable, Cctv, ShieldCheck, HardHat, FileCheck, Landmark, Video,
@@ -135,6 +135,7 @@ const aboutSchema = {
         email: 'hello@buckstechhelp.co.uk',
         description: 'Certified network & cabling infrastructure specialists in Buckinghamshire. Hardwired Ubiquiti UniFi Wi-Fi, Cat6 structured cabling and subscription-free 4K IP CCTV.',
         areaServed: ['Beaconsfield', 'Amersham', 'Chesham', 'Gerrards Cross', 'High Wycombe', 'Marlow', 'Aylesbury', 'Chalfont St Giles', 'Wendover', 'Princes Risborough', 'Berkhamsted', 'Tring'],
+        sameAs: [googleBusinessProfile.url],
     },
 };
 
@@ -151,12 +152,29 @@ const faqSchema = {
     })),
 };
 
+const aboutWebPageSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: 'About Bucks Tech Help',
+    url: `${baseUrl}/about`,
+    isPartOf: { '@type': 'WebSite', '@id': baseUrl },
+};
+
+const aboutBreadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: baseUrl },
+        { '@type': 'ListItem', position: 2, name: 'About', item: `${baseUrl}/about` },
+    ],
+};
+
 export default function AboutPage() {
     return (
         <div className="min-h-screen bg-slate-950 text-slate-100 pb-28 md:pb-0">
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify([aboutSchema, faqSchema]) }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify([aboutSchema, faqSchema, aboutWebPageSchema, aboutBreadcrumbSchema]) }}
             />
             <Header />
 <section className="relative overflow-hidden bg-slate-950 py-24 md:py-32 px-4">

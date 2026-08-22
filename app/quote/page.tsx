@@ -7,6 +7,23 @@ import { ClipboardCheck, ShieldCheck, Mail, MapPin } from 'lucide-react';
 
 const baseUrl = 'https://www.buckstechhelp.co.uk';
 
+const quoteWebPageSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: 'Request a Property Network Audit',
+    url: `${baseUrl}/quote`,
+    isPartOf: { '@type': 'WebSite', '@id': baseUrl },
+};
+
+const quoteBreadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: baseUrl },
+        { '@type': 'ListItem', position: 2, name: 'Request a Quote', item: `${baseUrl}/quote` },
+    ],
+};
+
 export async function generateMetadata({ searchParams }: { searchParams: { location?: string } }): Promise<Metadata> {
     const location = searchParams?.location ? getLocationBySlug(searchParams.location) : null;
     return {
@@ -27,6 +44,10 @@ export default function QuotePage({ searchParams }: { searchParams: { location?:
 
     return (
         <div className="min-h-screen bg-slate-950 text-slate-100">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify([quoteWebPageSchema, quoteBreadcrumbSchema]) }}
+            />
             <Header />
 
             <section className="relative overflow-hidden bg-slate-950 py-20 md:py-28 px-4">

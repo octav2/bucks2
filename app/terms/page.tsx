@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function TermsOfService() {
     return (
-        <LegalLayout title="Terms of Service">
+        <LegalLayout title="Terms of Service" path="/terms">
             <p className="text-sm text-slate-500 font-medium">Last updated: {new Date().toLocaleDateString()}</p>
 
             <div>

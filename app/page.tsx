@@ -14,7 +14,7 @@ import ProblemAgitation from '@/components/ProblemAgitation';
 import MobileStickyCTA from '@/components/MobileStickyCTA';
 import MicroTrust from '@/components/MicroTrust';
 import { getPageBySlug } from '@/lib/pages';
-import { businessDetails, faqs } from '@/lib/data';
+import { businessDetails, faqs, googleBusinessProfile } from '@/lib/data';
 import { ArrowRight, Zap, ShieldCheck, Wifi, Gauge, HardHat } from 'lucide-react';
 import Link from 'next/link';
 
@@ -67,6 +67,8 @@ const enterpriseSchema = {
                 'Beaconsfield', 'Amersham', 'Gerrards Cross', 'Chesham', 'High Wycombe', 'Marlow', 'Aylesbury',
                 'Chalfont St Giles', 'Wendover', 'Princes Risborough', 'Berkhamsted', 'Tring',
             ],
+            sameAs: [googleBusinessProfile.url],
+            hasMap: googleBusinessProfile.url,
         },
         {
             '@type': 'Service',
@@ -94,6 +96,20 @@ const enterpriseSchema = {
     ],
 };
 
+const homeWebPageSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: 'Bucks Tech Help | Network & Cabling Specialists',
+    url: businessDetails.domain,
+    isPartOf: { '@type': 'WebSite', '@id': businessDetails.domain },
+};
+
+const homeBreadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: businessDetails.domain }],
+};
+
     const faqSchema = {
         '@context': 'https://schema.org',
         '@type': 'FAQPage',
@@ -109,7 +125,7 @@ export default function Home() {
         <div className="min-h-screen bg-slate-950 text-slate-100 pb-28 md:pb-0">
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify([enterpriseSchema, faqSchema]) }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify([enterpriseSchema, faqSchema, homeWebPageSchema, homeBreadcrumbSchema]) }}
             />
             <Header />
 

@@ -153,13 +153,31 @@ export default function LocationPage({ params }: Props) {
         })),
     };
 
+    const locationWebPageSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        name: `${town} | Network Installation & Structured Cabling`,
+        url: `${domain}/locations/${location.slug}`,
+        isPartOf: { '@type': 'WebSite', '@id': domain },
+    };
+
+    const locationBreadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+            { '@type': 'ListItem', position: 1, name: 'Home', item: domain },
+            { '@type': 'ListItem', position: 2, name: 'Locations', item: `${domain}/coverage` },
+            { '@type': 'ListItem', position: 3, name: town, item: `${domain}/locations/${location.slug}` },
+        ],
+    };
+
     const quoteHref = `/quote?location=${location.slug}`;
 
         return (
                         <div className="min-h-screen bg-slate-950 text-slate-100">
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify([schema, serviceSchema, faqSchema]) }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify([schema, serviceSchema, faqSchema, locationWebPageSchema, locationBreadcrumbSchema]) }}
             />
 
             <Header />

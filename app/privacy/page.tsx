@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function PrivacyPolicy() {
     return (
-        <LegalLayout title="Privacy Policy">
+        <LegalLayout title="Privacy Policy" path="/privacy">
             <p className="text-sm text-slate-500 font-medium">Last updated: {new Date().toLocaleDateString()}</p>
 
             <div>
