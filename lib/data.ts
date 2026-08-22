@@ -47,10 +47,10 @@ export const coreTowns = ["Beaconsfield", "Amersham", "Chesham", "Gerrards Cross
 // Google Business Profile listing (numeric CID used by Google Maps).
 // KEEP IN SYNC with your Google Business Profile — this is the profile ID.
 export const googleBusinessProfile = {
-    cid: "4290901885882210205",
+    cid: "4290901885882219405",
     name: "Bucks Tech Help",
     // Standard Google Maps lookup URL keyed on the CID.
-    url: "https://www.google.com/maps?cid=4290901885882210205",
+    url: "https://www.google.com/maps?cid=4290901885882219405",
 };
 
 export const faqs = [
