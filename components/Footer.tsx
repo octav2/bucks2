@@ -30,7 +30,7 @@ export default function Footer() {
                     </div>
 
                     <div>
-                        <h4 className="text-white font-bold text-sm uppercase tracking-wider mb-6">Services</h4>
+                        <h2 className="text-white font-bold text-sm uppercase tracking-wider mb-6">Services</h2>
                         <ul className="space-y-4 font-medium">
                             {footerServices.map((s) => (
                                 <li key={s.href}>
@@ -48,7 +48,7 @@ export default function Footer() {
                     </div>
 
                     <div>
-                        <h4 className="text-white font-bold text-sm uppercase tracking-wider mb-6">Serving South & Central Bucks</h4>
+                        <h2 className="text-white font-bold text-sm uppercase tracking-wider mb-6">Serving South & Central Bucks</h2>
                         <div className="grid grid-cols-3 gap-3 text-xs overflow-hidden">
                             {serviceAreas.map((town) => {
                                 const townSlug = town.toLowerCase().replace(/\s+/g, '-');

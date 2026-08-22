@@ -63,14 +63,13 @@ export default function RootLayout({
         <html lang="en" className="scroll-smooth">
             <head>
                 <link rel="alternate" type="text/plain" href="/llm.txt" />
-                {/* Single consolidated GA4 + Ads tag — afterInteractive fires after
-                    hydration so it never blocks FCP/LCP */}
+                {/* Single consolidated GA4 + Ads tag — lazyOnload waits until idle to minimize TBT */}
                 <Script
                     id="gtag-init"
-                    strategy="afterInteractive"
+                    strategy="lazyOnload"
                     src="https://www.googletagmanager.com/gtag/js?id=G-YKTBYJCCLC"
                 />
-                <Script id="gtag-config" strategy="afterInteractive">
+                <Script id="gtag-config" strategy="lazyOnload">
                     {`
                         window.dataLayer = window.dataLayer || [];
                         function gtag(){dataLayer.push(arguments);}
