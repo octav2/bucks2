@@ -107,7 +107,7 @@ export default function LocationPage({ params }: Props) {
         '@type': 'LocalBusiness',
         name: `Bucks Tech Help - ${town}`,
         url: `${domain}/locations/${location.slug}`,
-        priceRange: '�1500-�5000',
+        priceRange: '£1500-£5000',
         areaServed: `${town}, Buckinghamshire`,
         provider: 'Bucks Tech Help',
         description: `Hardwired Ubiquiti UniFi Wi-Fi 7, Cat6a cabling, and 4K CCTV architecture in ${town}. Engineered for period homes, luxury estates, and commercial premises.`,
@@ -119,10 +119,28 @@ export default function LocationPage({ params }: Props) {
         '@type': 'Service',
         name: `Cat6 Cabling, Wi-Fi 7 & 4K CCTV Installation in ${town}`,
         serviceType: 'Network Cabling, Wi-Fi 7 & 4K CCTV Installation',
-        provider: { '@type': 'LocalBusiness', name: 'Bucks Tech Help' },
-        areaServed: [town],
+        provider: {
+            '@type': 'LocalBusiness',
+            name: 'Bucks Tech Help',
+            email: businessDetails.email,
+            url: domain,
+        },
+        areaServed: {
+            '@type': 'AdministrativeArea',
+            name: 'Buckinghamshire, UK',
+        },
         url: `${domain}/locations/${location.slug}`,
         description: `Certified cat 6 cabling installation, whole home wifi setup and 4K IP CCTV installation in ${town}, Buckinghamshire.`,
+        offers: {
+            '@type': 'Offer',
+            priceCurrency: 'GBP',
+            price: '1500',
+            priceSpecification: {
+                '@type': 'PriceSpecification',
+                minPrice: '1500',
+                priceCurrency: 'GBP',
+            },
+        },
     };
 
     const faqSchema = {

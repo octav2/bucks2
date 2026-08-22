@@ -28,6 +28,29 @@ const serviceSchemaConfig: Record<string, { serviceType: string; catalogName: st
             'Smart Home IoT VLAN Setup',
         ],
     },
+    'commercial-cabling': {
+        serviceType: 'Structured Network Cabling & Data Rack Installation',
+        catalogName: 'Commercial Data Cabling Services',
+        items: [
+            'Cat6 & Cat6a Ethernet Cable Installation',
+            'Data Cabinet & Network Rack Installation',
+            'Patch Panel Wiring & Termination',
+            'Trunking & Cable Containment',
+            'PoE Switch & Managed Network Setup',
+            'Server Room Cable Tidying & Re-Dressing',
+        ],
+    },
+    'smart-security': {
+        serviceType: '4K CCTV Installation & Smart Access Control',
+        catalogName: 'Security & Access Control Solutions',
+        items: [
+            'Commercial CCTV Installation',
+            'Smart Door Access Control Systems',
+            'Outdoor Security Cameras',
+            'Integrated Security Systems',
+            'NVR Storage Upgrades',
+        ],
+    },
 };
 
 function extractPrice(value: string): string {

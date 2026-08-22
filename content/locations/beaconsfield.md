@@ -12,18 +12,6 @@ heroSubtitle: "Beaconsfield (HP9) is known for luxury gated estates, multi-store
 nearbyVillages: ["Old Town", "Holtspur", "Seer Green", "Forty Green", "Penn", "Stoke Poges"]
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Cat6 Cabling, Wi-Fi 7 & 4K CCTV Installation in Beaconsfield",
-  "serviceType": "Network Cabling, Wi-Fi 7 & 4K CCTV Installation",
-  "provider": { "@type": "LocalBusiness", "name": "Bucks Tech Help", "telephone": "07343079390" },
-  "areaServed": ["Beaconsfield"],
-  "description": "Certified cat 6 cabling installation, whole home wifi setup, and 4K IP CCTV installation in Beaconsfield, Buckinghamshire."
-}
-</script>
-
 ## Local Knowledge & Property Infrastructure in Beaconsfield
 
 Beaconsfield (HP9) is known for luxury gated estates, multi-storey detached residences, and high-density residential networks, where a single weak router leaves whole floors and wings offline. From the period homes of Beaconsfield Old Town to the modern builds of Holtspur and Seer Green, consistent gigabit coverage depends on real structured cabling, not wireless repetition.

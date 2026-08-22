@@ -12,18 +12,6 @@ heroSubtitle: "Chalfont St Peter (SL9) is a popular commuter hub of townhouses, 
 nearbyVillages: ["Chalfont St Giles", "Little Chalfont", "Gerrards Cross", "Seer Green", "Jordans"]
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Cat6 Cabling, Wi-Fi 7 & 4K CCTV Installation in Chalfont St Peter",
-  "serviceType": "Network Cabling, Wi-Fi 7 & 4K CCTV Installation",
-  "provider": { "@type": "LocalBusiness", "name": "Bucks Tech Help", "telephone": "07343079390" },
-  "areaServed": ["Chalfont St Peter"],
-  "description": "Certified cat 6 cabling installation, whole home wifi setup, and 4K IP CCTV installation in Chalfont St Peter, Buckinghamshire."
-}
-</script>
-
 ## Local Knowledge & Property Infrastructure in Chalfont St Peter
 
 Chalfont St Peter has grown into a mix of older cottages near the high street and newer estate housing further out — meaning we handle both retrofit cabling and new-build Wi-Fi optimisation in the same village. For security, a **4k ip cctv installation** using a hardwired **poe camera system** suits both property types equally well, avoiding the reliability issues of battery cameras in either older or newer homes. A **whole home wifi setup** with **wifi 7 router installation** removes dead zones regardless of build type, and our **cat 6 cabling installation** — complete with **data rack patch panel setup** and **ethernet port installation** — gives a lasting backbone rather than a patchwork of extenders.

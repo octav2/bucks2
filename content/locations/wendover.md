@@ -12,18 +12,6 @@ heroSubtitle: "Wendover (HP22) is a popular commuter hub of townhouses, outbuild
 nearbyVillages: ["Halton", "Weston Turville", "Ellesborough", "Stoke Mandeville", "Dinton", "Aston Clinton"]
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Cat6 Cabling, Wi-Fi 7 & 4K CCTV Installation in Wendover",
-  "serviceType": "Network Cabling, Wi-Fi 7 & 4K CCTV Installation",
-  "provider": { "@type": "LocalBusiness", "name": "Bucks Tech Help", "telephone": "07343079390" },
-  "areaServed": ["Wendover"],
-  "description": "Certified cat 6 cabling installation, whole home wifi setup, and 4K IP CCTV installation in Wendover, Buckinghamshire."
-}
-</script>
-
 ## Local Knowledge & Property Infrastructure in Wendover
 
 Wendover's canal-side cottages and commuter-friendly homes often need reliable Wi-Fi for remote working alongside period-property cabling challenges. Our **cat 6 cabling installation**, run through lofts and voids rather than visible trunking, supports both **ethernet port installation** for home offices and a **data rack patch panel setup** for anyone running a small business from home. On top, a **whole home wifi setup** via **wifi 7 router installation** removes dead zones for video calls, and a **garden office ethernet link** covers any converted outbuilding used as a home office. Hardwired **4k ip cctv installation** completes the setup for canal-side or street-facing properties.

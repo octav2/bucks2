@@ -12,18 +12,6 @@ heroSubtitle: "Great Missenden (HP16) is home to classic Chiltern brick-and-flin
 nearbyVillages: ["Prestwood", "Little Missenden", "Little Kingshill", "Great Kingshill", "South Heath", "Ballinger"]
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Cat6 Cabling, Wi-Fi 7 & 4K CCTV Installation in Great Missenden",
-  "serviceType": "Network Cabling, Wi-Fi 7 & 4K CCTV Installation",
-  "provider": { "@type": "LocalBusiness", "name": "Bucks Tech Help", "telephone": "07343079390" },
-  "areaServed": ["Great Missenden"],
-  "description": "Certified cat 6 cabling installation, whole home wifi setup, and 4K IP CCTV installation in Great Missenden, Buckinghamshire."
-}
-</script>
-
 ## Local Knowledge & Property Infrastructure in Great Missenden
 
 Great Missenden's rural setting means many properties sit at the end of long driveways or backed onto woodland, with detached garden studios a common feature. Our **cat 6 cabling installation** runs discreetly through lofts and behind skirtings, with **armoured cat6 cables** extending out to any studio or outbuilding — the reliable backbone for a proper **whole home wifi setup**. A **wifi 7 router installation** then removes dead zones across the main house, while a **garden office ethernet link** and **outdoor wifi extension** cover studios and gardens. For security, a hardwired **4k ip cctv installation** using a **poe camera system** covers rural driveways, without relying on battery cameras that struggle in exposed, rural locations.

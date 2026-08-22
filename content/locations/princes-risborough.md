@@ -12,18 +12,6 @@ heroSubtitle: "Princes Risborough (HP27) is a growing commercial hub of office p
 nearbyVillages: ["Monks Risborough", "Whiteleaf", "Longwick", "Horsenden", "Saunderton", "Cadsden"]
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Cat6 Cabling, Wi-Fi 7 & 4K CCTV Installation in Princes Risborough",
-  "serviceType": "Network Cabling, Wi-Fi 7 & 4K CCTV Installation",
-  "provider": { "@type": "LocalBusiness", "name": "Bucks Tech Help", "telephone": "07343079390" },
-  "areaServed": ["Princes Risborough"],
-  "description": "Commercial cat 6 cabling installation, whole home wifi setup, and 4K IP CCTV installation in Princes Risborough, Buckinghamshire."
-}
-</script>
-
 ## Local Knowledge & Property Infrastructure in Princes Risborough
 
 Princes Risborough's position at the foot of the Chilterns means a real mix of older market-town properties and newer housing on the outskirts — each needing a slightly different cabling approach. Our **cat 6 cabling installation** adapts to both: sympathetic routing through voids in older buildings, and straightforward wall/floor runs in newer homes, always finished with proper **ethernet port installation** and a **data rack patch panel setup**. On top, a **whole home wifi setup** via **wifi 7 router installation** removes dead zones regardless of build type, and a hardwired **4k ip cctv installation** protects the property with a **poe camera system** that never needs battery changes.

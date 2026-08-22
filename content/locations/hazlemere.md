@@ -12,18 +12,6 @@ heroSubtitle: "Hazlemere (HP15) is a popular commuter hub of townhouses, outbuil
 nearbyVillages: ["Holmer Green", "Tylers Green", "Penn", "Cryers Hill", "Widmer End", "High Wycombe Borders"]
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Cat6 Cabling, Wi-Fi 7 & 4K CCTV Installation in Hazlemere",
-  "serviceType": "Network Cabling, Wi-Fi 7 & 4K CCTV Installation",
-  "provider": { "@type": "LocalBusiness", "name": "Bucks Tech Help", "telephone": "07343079390" },
-  "areaServed": ["Hazlemere"],
-  "description": "Certified cat 6 cabling installation, whole home wifi setup, and 4K IP CCTV installation in Hazlemere, Buckinghamshire."
-}
-</script>
-
 ## Local Knowledge & Property Infrastructure in Hazlemere
 
 Unlike many Chiltern villages, Hazlemere is largely modern estate housing — which brings a different problem: stud walls, foil-backed insulation, and multiple smart devices competing for bandwidth. A **whole home wifi setup** using **wifi 7 router installation** is engineered to handle 300+ connected devices without the crashes common on consumer mesh pods in a busy family home. Behind it, a certified **cat 6 cabling installation** with **ethernet port installation** at TVs, desks, and consoles gives a stable backbone instead of relying purely on wireless. For security, a hardwired **4k ip cctv installation** covers estate driveways and side access without a monthly subscription.

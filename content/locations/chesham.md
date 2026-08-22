@@ -12,18 +12,6 @@ heroSubtitle: "Chesham (HP5) is home to classic Chiltern brick-and-flint cottage
 nearbyVillages: ["Chesham Bois", "Ashley Green", "Lye Green", "Bellingdon", "Chartridge", "Latimer"]
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Cat6 Cabling, Wi-Fi 7 & 4K CCTV Installation in Chesham",
-  "serviceType": "Network Cabling, Wi-Fi 7 & 4K CCTV Installation",
-  "provider": { "@type": "LocalBusiness", "name": "Bucks Tech Help", "telephone": "07343079390" },
-  "areaServed": ["Chesham"],
-  "description": "Certified cat 6 cabling installation, whole home wifi setup, and 4K IP CCTV installation in Chesham, Buckinghamshire."
-}
-</script>
-
 ## Local Knowledge & Property Infrastructure in Chesham
 
 Chesham (HP5) has more listed and flint-walled buildings than most surrounding towns, which creates a specific problem: standard installers either can't get signal through the walls, or solve it by drilling in ways that aren't allowed on a listed structure. From Chesham town centre out to Chesham Bois, Ashley Green, and Chartridge, the fix has to work around the building, not against it.
@@ -33,7 +21,6 @@ Solid flint walls and listed status mean visible trunking or drilled walls usual
 Once the cabling is in place, a wifi 7 router installation using Ubiquiti UniFi turns it into full coverage — a whole home wifi setup engineered specifically to work around flint walls rather than through them. Detached barn offices around Chesham get a dedicated garden office ethernet link, and gardens or patios get outdoor wifi extension without a single visible cable outside.
 
 Listed-building rules apply to CCTV cameras too — many owners assume that means sticking with battery cameras mounted with adhesive pads. It doesn't. Our 4k ip cctv installation uses discreet, hardwired Ubiquiti UniFi Protect cameras rather than a brand like Hikvision or a battery-powered system, so you get a permanent poe camera system with zero monthly fees and no visible cabling outside. Door access control can be added for outbuildings and gateways on the same system.
-
 
 ## Featured Chesham Case Study
 

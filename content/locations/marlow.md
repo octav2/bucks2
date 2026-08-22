@@ -12,18 +12,6 @@ heroSubtitle: "Marlow (SL7) is a popular commuter hub of townhouses, period terr
 nearbyVillages: ["Bisham", "Little Marlow", "Medmenham", "Bourne End", "Frieth", "Lane End"]
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Cat6 Cabling, Wi-Fi 7 & 4K CCTV Installation in Marlow",
-  "serviceType": "Network Cabling, Wi-Fi 7 & 4K CCTV Installation",
-  "provider": { "@type": "LocalBusiness", "name": "Bucks Tech Help", "telephone": "07343079390" },
-  "areaServed": ["Marlow"],
-  "description": "Certified cat 6 cabling installation, whole home wifi setup, and 4K IP CCTV installation in Marlow, Buckinghamshire."
-}
-</script>
-
 ## Local Knowledge & Property Infrastructure in Marlow
 
 Marlow combines riverside residential properties with a busy boutique high street — meaning we install everything from home Wi-Fi to small commercial systems for shops and restaurants. For businesses, our **4k ip cctv installation** with a hardwired **poe camera system** protects premises and stock without a monthly subscription, and **door access control** suits back-of-house or stock room security. For riverside homes, a **whole home wifi setup** built on **wifi 7 router installation** covers multi-storey properties and garden rooms overlooking the water. Behind both is a certified **cat 6 cabling installation**, with **data rack patch panel setup** sized appropriately for a home office or a small retail unit.

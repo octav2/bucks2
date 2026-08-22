@@ -12,18 +12,6 @@ heroSubtitle: "Penn (HP10) is known for luxury gated estates, multi-storey detac
 nearbyVillages: ["Knotty Green", "Penn Street", "Winchmore Hill", "Hazlemere Borders", "Beaconsfield Borders"]
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Cat6 Cabling, Wi-Fi 7 & 4K CCTV Installation in Penn",
-  "serviceType": "Network Cabling, Wi-Fi 7 & 4K CCTV Installation",
-  "provider": { "@type": "LocalBusiness", "name": "Bucks Tech Help", "telephone": "07343079390" },
-  "areaServed": ["Penn"],
-  "description": "Certified cat 6 cabling installation, whole home wifi setup, and 4K IP CCTV installation in Penn, Buckinghamshire."
-}
-</script>
-
 ## Local Knowledge & Property Infrastructure in Penn
 
 Penn's larger rural plots often mean the router is nowhere near the rooms or outbuildings that actually need coverage. A **wifi 7 router installation** delivering a genuine **whole home wifi setup** solves this with hardwired backhaul rather than hoping a signal carries across a large plot. **Outdoor wifi extension** covers gardens and driveways, while a **garden office ethernet link** reaches any detached studio. Underneath sits a certified **cat 6 cabling installation**, using **armoured cat6 cables** for outdoor runs and a tidy **data rack patch panel setup** indoors. For security, a hardwired **4k ip cctv installation** covers long driveways more reliably than battery cameras exposed to weather year-round.

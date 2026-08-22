@@ -12,18 +12,6 @@ heroSubtitle: "High Wycombe (HP11–HP13) is a major commercial centre of office
 nearbyVillages: ["Hazlemere", "Tylers Green", "Downley", "Flackwell Heath", "Loudwater", "Wooburn Green"]
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Cat6 Cabling, Wi-Fi 7 & 4K CCTV Installation in High Wycombe",
-  "serviceType": "Network Cabling, Wi-Fi 7 & 4K CCTV Installation",
-  "provider": { "@type": "LocalBusiness", "name": "Bucks Tech Help", "telephone": "07343079390" },
-  "areaServed": ["High Wycombe"],
-  "description": "Commercial cat 6 cabling installation, whole home wifi setup, and 4K IP CCTV installation in High Wycombe, Buckinghamshire."
-}
-</script>
-
 ## Local Knowledge & Property Infrastructure in High Wycombe
 
 As the largest commercial centre in the area, High Wycombe has a different profile from the surrounding villages — offices, retail units, and industrial premises needing reliable structured cabling rather than just residential Wi-Fi. Our **cat 6 cabling installation** for commercial premises includes a full **data rack patch panel setup**, **ethernet port installation** to every desk, and multi-gigabit backbones for VoIP-heavy businesses like dental practices and law firms. For premises needing security, a hardwired **4k ip cctv installation** with **door access control** protects retail and office entrances without ongoing fees. Residential properties across High Wycombe get the same **whole home wifi setup** and **wifi 7 router installation** as our village clients.

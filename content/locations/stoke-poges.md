@@ -12,18 +12,6 @@ heroSubtitle: "Stoke Poges (SL2) is known for luxury gated estates and semi-rura
 nearbyVillages: ["Fulmer", "Farnham Common", "Wexham", "Gerrards Cross", "Slough Borders"]
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Cat6 Cabling, Wi-Fi 7 & 4K CCTV Installation in Stoke Poges",
-  "serviceType": "Network Cabling, Wi-Fi 7 & 4K CCTV Installation",
-  "provider": { "@type": "LocalBusiness", "name": "Bucks Tech Help", "telephone": "07343079390" },
-  "areaServed": ["Stoke Poges"],
-  "description": "Certified cat 6 cabling installation, whole home wifi setup, and 4K IP CCTV installation in Stoke Poges, Buckinghamshire."
-}
-</script>
-
 ## Local Knowledge & Property Infrastructure in Stoke Poges
 
 Stoke Poges' larger estate properties, several near golf and country club grounds, need security and connectivity to match the scale of the property. Our **4k ip cctv installation** — a hardwired **poe camera system** with **door access control** — covers extensive grounds and multiple entrances without relying on Wi-Fi-dependent battery cameras. For connectivity, a **whole home wifi setup** built on **wifi 7 router installation** covers every wing and outbuilding, with a **garden office ethernet link** for detached studios. All of it runs on a certified **cat 6 cabling installation** with a properly built **data rack patch panel setup**, not a tangle of extenders and boosters.

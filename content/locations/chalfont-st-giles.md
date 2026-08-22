@@ -12,18 +12,6 @@ heroSubtitle: "Chalfont St Giles (HP8) is home to classic Chiltern brick-and-fli
 nearbyVillages: ["Chalfont St Peter", "Little Chalfont", "Jordans", "Seer Green", "Chenies"]
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Cat6 Cabling, Wi-Fi 7 & 4K CCTV Installation in Chalfont St Giles",
-  "serviceType": "Network Cabling, Wi-Fi 7 & 4K CCTV Installation",
-  "provider": { "@type": "LocalBusiness", "name": "Bucks Tech Help", "telephone": "07343079390" },
-  "areaServed": ["Chalfont St Giles"],
-  "description": "Certified cat 6 cabling installation, whole home wifi setup, and 4K IP CCTV installation in Chalfont St Giles, Buckinghamshire."
-}
-</script>
-
 ## Local Knowledge & Property Infrastructure in Chalfont St Giles
 
 Chalfont St Giles' thatched cottages and rural detached homes present a specific challenge: thick, uneven old walls that make cabling routes unpredictable, and thatched roofs that rule out any external roof-mounted equipment. Our **cat 6 cabling installation** is planned around the specific structure of each cottage, with **ethernet port installation** placed where it's actually usable rather than where it's easiest to run. A **data rack patch panel setup** fits discreetly into an existing cupboard. On top, a **whole home wifi setup** via **wifi 7 router installation** eliminates dead zones in low-ceilinged rooms, and a hardwired **4k ip cctv installation** avoids any need for roof or thatch-mounted cameras.

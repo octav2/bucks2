@@ -12,18 +12,6 @@ heroSubtitle: "Berkhamsted (HP4) is a popular commuter hub of townhouses, outbui
 nearbyVillages: ["Northchurch", "Potten End", "Wigginton", "Ashley Green", "Little Gaddesden"]
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Cat6 Cabling, Wi-Fi 7 & 4K CCTV Installation in Berkhamsted",
-  "serviceType": "Network Cabling, Wi-Fi 7 & 4K CCTV Installation",
-  "provider": { "@type": "LocalBusiness", "name": "Bucks Tech Help", "telephone": "07343079390" },
-  "areaServed": ["Berkhamsted"],
-  "description": "Certified cat 6 cabling installation, whole home wifi setup, and 4K IP CCTV installation in Berkhamsted, Buckinghamshire."
-}
-</script>
-
 ## Local Knowledge & Property Infrastructure in Berkhamsted
 
 Berkhamsted's period high-street buildings and canal-side properties often have thick original brickwork and protected frontages, which rules out visible cable runs. Our **cat 6 cabling installation** is routed through lofts and internal voids rather than along external walls, with a discreet **data rack patch panel setup** and **ethernet port installation** at each desk or TV point. For the canal-side homes with detached boat stores or garden studios, **armoured cat6 cables** extend the network outdoors. Once cabling is in, a **wifi 7 router installation** delivers a true **whole home wifi setup**, and a hardwired **4k ip cctv installation** protects the property without visible boxes on a listed frontage.

@@ -12,18 +12,6 @@ heroSubtitle: "Gerrards Cross (SL9) is known for luxury gated estates, multi-sto
 nearbyVillages: ["Chalfont St Peter", "Chalfont St Giles", "Fulmer", "Hedgerley", "Stoke Poges", "Denham"]
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Cat6 Cabling, Wi-Fi 7 & 4K CCTV Installation in Gerrards Cross",
-  "serviceType": "Network Cabling, Wi-Fi 7 & 4K CCTV Installation",
-  "provider": { "@type": "LocalBusiness", "name": "Bucks Tech Help", "telephone": "07343079390" },
-  "areaServed": ["Gerrards Cross"],
-  "description": "Certified cat 6 cabling installation, whole home wifi setup, and 4K IP CCTV installation in Gerrards Cross, Buckinghamshire."
-}
-</script>
-
 ## Local Knowledge & Property Infrastructure in Gerrards Cross
 
 Gerrards Cross is known for gated, detached estates set back from the road — properties where a single router at the front of the house has no chance of reaching a garden room or gated entrance at the far end of the plot. A **whole home wifi setup** built on a proper **wifi 7 router installation** solves the distance problem with hardwired backhaul rather than relying on signal travelling further than it should. A dedicated **garden office ethernet link** covers detached garden rooms, and our **4k ip cctv installation** — a hardwired **poe camera system** with **door access control** — secures gated entrances without relying on Wi-Fi signal reaching the gate at all. All of this runs on a certified **cat6 cabling installation** back to a central **data rack patch panel setup**.

@@ -12,18 +12,6 @@ heroSubtitle: "Aylesbury (HP19–HP21) is a major commercial centre of office pa
 nearbyVillages: ["Berryfields", "Fairford Leys", "Watermead", "Aston Clinton", "Bierton", "Stoke Mandeville"]
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Cat6 Cabling, Wi-Fi 7 & 4K CCTV Installation in Aylesbury",
-  "serviceType": "Network Cabling, Wi-Fi 7 & 4K CCTV Installation",
-  "provider": { "@type": "LocalBusiness", "name": "Bucks Tech Help", "telephone": "07343079390" },
-  "areaServed": ["Aylesbury"],
-  "description": "Commercial cat 6 cabling installation, whole home wifi setup, and 4K IP CCTV installation in Aylesbury, Buckinghamshire."
-}
-</script>
-
 ## Local Knowledge & Property Infrastructure in Aylesbury
 
 As the county town, Aylesbury mixes commercial office parks with new-build housing estates and a smaller stock of older properties — each with different networking needs. For homes, our **whole home wifi setup** uses a **wifi 7 router installation** to cover multi-room new-builds without dead zones near stairwells or garages. For businesses around the town centre and retail parks, we provide **cat 6 cabling installation** with a proper **data rack patch panel setup** for offices needing reliable VoIP and POS systems. Security-wise, our **4k ip cctv installation** — a hardwired **poe camera system** with **door access control** — suits both retail units and family homes without any monthly fees.

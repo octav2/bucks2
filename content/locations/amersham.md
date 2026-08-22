@@ -12,18 +12,6 @@ heroSubtitle: "Amersham (HP6, HP7) features classic Chiltern brick-and-flint cot
 nearbyVillages: ["Amersham Old Town", "Chesham Bois", "Little Chalfont", "Coleshill", "Hyde Heath", "Penn Street"]
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Cat6 Cabling, Wi-Fi 7 & 4K CCTV Installation in Amersham",
-  "serviceType": "Network Cabling, Wi-Fi 7 & 4K CCTV Installation",
-  "provider": { "@type": "LocalBusiness", "name": "Bucks Tech Help", "telephone": "07343079390" },
-  "areaServed": ["Amersham"],
-  "description": "Certified cat 6 cabling installation, whole home wifi setup, and 4K IP CCTV installation in Amersham, Buckinghamshire."
-}
-</script>
-
 ## Local Knowledge & Property Infrastructure in Amersham
 
 Amersham (HP6, HP7) splits into two very different networking challenges: the thick brick-and-flint cottages of Amersham Old Town, and the converted barns and outbuildings scattered around Chesham Bois and Little Chalfont. Both defeat a standard router in different ways — one through solid masonry, the other through sheer distance to a detached building.

@@ -12,18 +12,6 @@ heroSubtitle: "Bourne End (SL8) is a popular commuter hub of townhouses, outbuil
 nearbyVillages: ["Flackwell Heath", "Wooburn Green", "Wooburn Moor", "Well End", "Cookham Borders", "Marlow Borders"]
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Cat6 Cabling, Wi-Fi 7 & 4K CCTV Installation in Bourne End",
-  "serviceType": "Network Cabling, Wi-Fi 7 & 4K CCTV Installation",
-  "provider": { "@type": "LocalBusiness", "name": "Bucks Tech Help", "telephone": "07343079390" },
-  "areaServed": ["Bourne End"],
-  "description": "Certified cat 6 cabling installation, whole home wifi setup, and 4K IP CCTV installation in Bourne End, Buckinghamshire."
-}
-</script>
-
 ## Local Knowledge & Property Infrastructure in Bourne End
 
 Bourne End's riverside homes often span larger plots with detached boathouses or garden annexes set back from the main house — too far for a booster to reach reliably. A **wifi 7 router installation** paired with hardwired backhaul gives a proper **whole home wifi setup** across the full plot, while a dedicated **garden office ethernet link** and **outdoor wifi extension** cover boathouses and riverside terraces. Behind this sits a **cat 6 cabling installation** with **armoured cat6 cables** for any outdoor run, plus **ethernet port installation** throughout the main house. For security, our **4k ip cctv installation** covers riverside access points with a weatherproof **poe camera system**.

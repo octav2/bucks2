@@ -12,18 +12,6 @@ heroSubtitle: "Tring (HP23) is a popular commuter hub of townhouses, outbuilding
 nearbyVillages: ["Long Marston", "Aldbury", "Wilstone", "Wigginton", "Marsworth", "Drayton Beauchamp"]
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Cat6 Cabling, Wi-Fi 7 & 4K CCTV Installation in Tring",
-  "serviceType": "Network Cabling, Wi-Fi 7 & 4K CCTV Installation",
-  "provider": { "@type": "LocalBusiness", "name": "Bucks Tech Help", "telephone": "07343079390" },
-  "areaServed": ["Tring"],
-  "description": "Certified cat 6 cabling installation, whole home wifi setup, and 4K IP CCTV installation in Tring, Buckinghamshire."
-}
-</script>
-
 ## Local Knowledge & Property Infrastructure in Tring
 
 Tring's historic high street sits close to open countryside, meaning both period-property cabling challenges in town and rural connectivity needs just outside it. Our **whole home wifi setup**, delivered through a **wifi 7 router installation**, handles both — dense signal coverage for town-centre period homes and **outdoor wifi extension** for properties backing onto open fields. Behind this, a certified **cat 6 cabling installation** with **ethernet port installation** and a **data rack patch panel setup** gives a lasting backbone. For security, hardwired **4k ip cctv installation** using a **poe camera system** suits both terraced high-street homes and detached rural properties on the town's edge.
