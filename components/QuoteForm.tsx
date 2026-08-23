@@ -34,6 +34,7 @@ const stepTitles = [
         addressPostcode: townName ?? "",
         email: "",
         phone: "",
+        message: "",
         location: locationSlug ?? "",
     });
 
@@ -53,6 +54,7 @@ const stepTitles = [
             "Full Name": form.fullName,
             "Email": form.email,
             "Phone": form.phone,
+            "Message": form.message,
             "Address / Postcode": form.addressPostcode,
             "Property Type": form.propertyType,
             "Primary Challenge": form.challenge,
@@ -212,6 +214,16 @@ const stepTitles = [
                                         <label className="block text-sm font-bold text-slate-300 mb-2">Phone</label>
                                         <input type="tel" value={form.phone} onChange={(e) => set('phone', e.target.value)} className="w-full px-5 py-4 rounded-xl bg-slate-800/70 border border-slate-700 focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 outline-none text-white font-medium" placeholder="07XXX XXXXXX" />
                                     </div>
+                                </div>
+                                <div>
+                                    <label className="block text-sm font-bold text-slate-300 mb-2">Tell us a bit about what you're looking to achieve <span className="text-slate-500 font-normal">(optional)</span></label>
+                                    <textarea
+                                        value={form.message}
+                                        onChange={(e) => set('message', e.target.value)}
+                                        rows={4}
+                                        className="w-full px-5 py-4 rounded-xl bg-slate-800/70 border border-slate-700 focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 outline-none text-white font-medium resize-y"
+                                        placeholder="Looking to cover the front drive and back garden with 24/7 recording, or need help fixing a dead zone in the master bedroom..."
+                                    />
                                 </div>
                                 <div>
                                     <label className="block text-sm font-bold text-slate-300 mb-2">Floorplan / Photos <span className="text-slate-500 font-normal">(optional)</span></label>
