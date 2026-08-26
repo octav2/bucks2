@@ -24,6 +24,7 @@ export interface FaqItem {
 export type LocationServiceSection =
     | { kind: 'prose'; title: string; html: string }
     | { kind: 'bullets'; title: string; items: string[] }
+    | { kind: 'links'; title: string; links: { label: string; href: string }[] }
     | { kind: 'faq'; title: string; faqs: FaqItem[] };
 
 export interface LocationServiceContent {
@@ -162,6 +163,21 @@ export function getLocationService(town: string, service: string): LocationServi
             const items = listNodes.flatMap((list: any) =>
                 (list.children ?? []).map((item: any) => nodeToString(item).trim())
             );
+
+            // A list of nothing but plain markdown links renders as pill boxes.
+            const linkRe = /^\[([^\]]+)\]\(([^)\s]+)\)$/;
+            if (items.length > 0 && items.every((item) => linkRe.test(item))) {
+                sections.push({
+                    kind: 'links',
+                    title,
+                    links: items.map((item) => {
+                        const m = linkRe.exec(item)!;
+                        return { label: m[1], href: m[2] };
+                    }),
+                });
+                continue;
+            }
+
             sections.push({ kind: 'bullets', title, items });
             continue;
         }
