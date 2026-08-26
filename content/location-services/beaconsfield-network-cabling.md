@@ -97,7 +97,7 @@ Viewed as a cabling project, the value is in the backbone rather than the Wi-Fi 
 We provide network cabling around Beaconsfield and nearby South Buckinghamshire locations including:
 
 - [Gerrards Cross](/locations/gerrards-cross)
-- [Amersham](/locations/amersham)
+- [Amersham](/locations/amersham/network-cabling)
 
 <!-- INTERNAL-LINK UPGRADE:
 When the dedicated Tier-1 cabling pages are published, replace the two hub links above with:

@@ -34,7 +34,7 @@ Chesham properties range from closely spaced Victorian terraces near the centre 
 
 Bucks Tech Help installs **hardwired 4K IP CCTV** using the UniFi Protect ecosystem. Cameras are connected over Ethernet and recorded to a local NVR, so the core recording system does not depend on a paid cloud-storage subscription.
 
-[Explore our smart security service](/services/smart-security) or [view the Chesham services hub](/locations/chesham).
+[Explore our smart security service](/services/smart-security) or [view the Chesham services](/locations/chesham).
 
 ## 4K CCTV Without the Monthly Subscription
 
@@ -96,8 +96,8 @@ Although that project is not in Chesham, the underlying problem is relevant to l
 
 We install CCTV and smart security systems across Chesham and HP5, with nearby coverage including:
 
-- [Amersham](/locations/amersham) — use the existing town hub until `/locations/amersham/cctv-installation` is live.
-- [Great Missenden](/locations/great-missenden) — use the existing town hub until `/locations/great-missenden/cctv-installation` is live.
+- [Amersham](/locations/amersham/cctv-installation)
+- [Great Missenden](/locations/great-missenden/cctv-installation)
 
 We also cover Chesham Bois, Ashley Green, Chartridge, Lye Green, Bellingdon and Latimer.
 
@@ -126,13 +126,6 @@ Yes. Compatible UniFi door-entry, intercom and access-control hardware can be in
 
 Yes. Bucks Tech Help can scope hardwired IP CCTV and supporting network infrastructure for suitable Chesham offices, shops and other small commercial premises as well as residential properties.
 
-## Book a Free CCTV Survey in Chesham
-
-If you need cameras around a Chesham home, driveway, garden building or small business premises, start by identifying the approaches and access points that actually need coverage. Bucks Tech Help can then scope the camera positions, cable routes, NVR and any compatible access-control requirements as one system.
-
-**[Start your free quote audit](/get-a-quote)**
-
-You can also [explore Bucks Tech Help's smart security service](/services/smart-security).
 
 <script type="application/ld+json">
 {

@@ -36,7 +36,7 @@ Bucks Tech Help installs **hardwired Ubiquiti UniFi networks** across SL7, using
 
 For homeowners searching for **home network installation**, **whole home Wi-Fi**, **home Wi-Fi specialists near me** or a local **Ubiquiti installer near me**, the objective is a stable property-wide network that can cover indoor and outdoor spaces without becoming dependent on a chain of boosters.
 
-[Explore our whole-home Wi-Fi service](/services/whole-home-wifi) or [view the Marlow services hub](/locations/marlow).
+[Explore our whole-home Wi-Fi service](/services/whole-home-wifi) or [view the Marlow services](/locations/marlow).
 
 ## Why Marlow Homes Need Hardwired Wi-Fi, Not Extenders
 
@@ -110,8 +110,8 @@ From a Wi-Fi perspective, this is a strong local example of designing around ver
 
 We install whole-home Wi-Fi across Marlow and SL7, with nearby coverage including:
 
-- [High Wycombe](/locations/high-wycombe) — use the existing town hub until `/locations/high-wycombe/wifi-installation` is live.
-- [Bourne End](/locations/bourne-end) — use the existing town hub until `/locations/bourne-end/wifi-installation` is live.
+- [High Wycombe](/locations/high-wycombe/wifi-installation)
+- [Bourne End](/locations/bourne-end/wifi-installation)
 
 <!-- INTERNAL-LINK UPGRADE:
 When the dedicated Wi-Fi pages are live, replace the town-hub links above with:
@@ -138,13 +138,6 @@ Yes. Where a suitable cable route is practical, a dedicated hardwired network co
 
 Yes. Bucks Tech Help can design hardwired UniFi Wi-Fi for suitable Marlow restaurants, shops, offices and hospitality premises as well as residential properties.
 
-## Book a Free Wi-Fi Survey in Marlow
-
-If your Marlow property has weak upper floors, unreliable patio coverage or an outbuilding that drops off the network, the next step is to map the property and decide where the network needs to be delivered indoors and outside.
-
-**[Start your free quote audit](/get-a-quote)**
-
-You can also [explore Bucks Tech Help's whole-home Wi-Fi service](/services/whole-home-wifi).
 
 <script type="application/ld+json">
 {

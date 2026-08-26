@@ -3,9 +3,13 @@
 // Source markdown lives in content/location-services/ and follows the
 // "ANTIGRAVITY PAGE BRIEF" format: an HTML comment brief, an SEO HEAD block,
 // the page body in Markdown, and a JSON-LD <script> block at the end.
-import { readFileSync } from 'fs';
+import { readFileSync, readdirSync } from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
+
+const SERVICES = ['wifi-installation', 'network-cabling', 'cctv-installation'];
+const SERVICE_RE = /^(.+)-(wifi-installation|network-cabling|cctv-installation)\.md$/;
+
 import { remark } from 'remark';
 import remarkHtml from 'remark-html';
 import remarkGfm from 'remark-gfm';
@@ -42,15 +46,12 @@ export interface LocationServiceContent {
 }
 
 
-/** Registry of published location-service pages: [town, service, fileBase]. */
-const PAGES: [string, string, string][] = [
-    ['beaconsfield', 'wifi-installation', 'beaconsfield-wifi-installation'],
-    ['beaconsfield', 'network-cabling', 'beaconsfield-network-cabling'],
-    ['beaconsfield', 'cctv-installation', 'beaconsfield-cctv-installation'],
-];
-
+/** Auto-discover published location-service pages from the content folder. */
 export function getAllLocationServiceSlugs(): { slug: string; town: string; service: string }[] {
-    return PAGES.map(([town, service]) => ({ slug: `${town}/${service}`, town, service }));
+    return readdirSync(CONTENT_DIR)
+        .map((file) => SERVICE_RE.exec(file))
+        .filter((m): m is RegExpExecArray => m !== null)
+        .map((m) => ({ slug: `${m[1]}/${m[2]}`, town: m[1], service: m[2] }));
 }
 
 function extractTag(content: string, tag: string): string {
@@ -74,13 +75,11 @@ function renderNodeHtml(source: string, node: any): string {
 }
 
 export function getLocationService(town: string, service: string): LocationServiceContent | null {
-    const entry = PAGES.find(([t, s]) => t === town && s === service);
-    if (!entry) return null;
-    const [, , fileBase] = entry;
+    if (!SERVICES.includes(service)) return null;
 
     let raw: string;
     try {
-        raw = readFileSync(path.join(CONTENT_DIR, `${fileBase}.md`), 'utf8');
+        raw = readFileSync(path.join(CONTENT_DIR, `${town}-${service}.md`), 'utf8');
     } catch {
         return null;
     }

@@ -34,7 +34,7 @@ CCTV coverage in Amersham needs to fit the property rather than a generic camera
 
 Bucks Tech Help installs **hardwired 4K IP CCTV** using the UniFi Protect ecosystem, with recordings stored locally on an on-site NVR. That gives homeowners control of their footage without making a monthly cloud-storage subscription part of the core recording setup.
 
-[Explore our smart security service](/services/smart-security) or [view the Amersham services hub](/locations/amersham).
+[Explore our smart security service](/services/smart-security) or [view the Amersham services](/locations/amersham).
 
 ## 4K CCTV Without the Monthly Subscription
 
@@ -96,8 +96,8 @@ The relevance to Amersham is straightforward: when cameras need to cover several
 
 We install CCTV and smart security systems across Amersham, HP6 and HP7, with nearby coverage including:
 
-- [Chesham](/locations/chesham) — use the existing town hub until `/locations/chesham/cctv-installation` is live.
-- [Beaconsfield](/locations/beaconsfield) — use the existing town hub until `/locations/beaconsfield/cctv-installation` is live.
+- [Chesham](/locations/chesham/cctv-installation)
+- [Beaconsfield](/locations/beaconsfield/cctv-installation)
 
 We also cover Amersham Old Town, Amersham-on-the-Hill, Chesham Bois, Little Chalfont, Hyde Heath and Coleshill.
 
@@ -126,13 +126,6 @@ Yes. Compatible UniFi door-entry, intercom and access-control hardware can be in
 
 Yes. Bucks Tech Help can scope hardwired IP CCTV and supporting network infrastructure for suitable Amersham offices, clinics, shops and other small commercial premises as well as residential properties.
 
-## Book a Free CCTV Survey in Amersham
-
-If you need cameras for an Amersham home, driveway, garden building or small commercial premises, start by identifying the approaches and access points that actually need coverage. Bucks Tech Help can then scope the camera positions, wired routes, NVR and any compatible access-control requirements as one system.
-
-**[Start your free quote audit](/get-a-quote)**
-
-You can also [explore Bucks Tech Help's smart security service](/services/smart-security).
 
 <script type="application/ld+json">
 {

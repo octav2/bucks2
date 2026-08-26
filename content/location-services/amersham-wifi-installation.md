@@ -36,7 +36,7 @@ Bucks Tech Help designs **hardwired Ubiquiti UniFi networks** around the propert
 
 For homeowners looking for **home network installation**, **whole home Wi-Fi**, **home Wi-Fi specialists near me** or a local **Ubiquiti installer near me**, the objective is a network that works as one system across the house rather than a collection of wireless workarounds.
 
-[Explore our whole-home Wi-Fi service](/services/whole-home-wifi) or [view the Amersham services hub](/locations/amersham).
+[Explore our whole-home Wi-Fi service](/services/whole-home-wifi) or [view the Amersham services](/locations/amersham).
 
 ## Why Amersham Homes Need Hardwired Wi-Fi, Not Extenders
 
@@ -102,8 +102,8 @@ From an Amersham perspective, the relevance is the design principle rather than 
 
 We install whole-home Wi-Fi across Amersham, HP6 and HP7, with nearby coverage including:
 
-- [Chesham](/locations/chesham) — use the existing town hub until `/locations/chesham/wifi-installation` is live.
-- [Beaconsfield](/locations/beaconsfield) — use the existing town hub until `/locations/beaconsfield/wifi-installation` is live.
+- [Chesham](/locations/chesham/wifi-installation)
+- [Beaconsfield](/locations/beaconsfield/wifi-installation)
 
 We also cover Amersham Old Town, Amersham-on-the-Hill, Chesham Bois, Little Chalfont, Hyde Heath and Coleshill.
 
@@ -132,13 +132,6 @@ Yes. Where a cable route is practical, a dedicated hardwired connection can be r
 
 Access arrangements are confirmed before installation. The person authorising the work should be available when cable routes, equipment positions and any property-specific access requirements are agreed.
 
-## Book a Free Wi-Fi Survey in Amersham
-
-If your Amersham property has weak rooms, unreliable upstairs coverage or a garden office that drops off the network, the next step is to map the building and decide where the network needs to be delivered.
-
-**[Start your free quote audit](/get-a-quote)**
-
-You can also [explore Bucks Tech Help's whole-home Wi-Fi service](/services/whole-home-wifi).
 
 <script type="application/ld+json">
 {

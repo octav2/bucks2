@@ -34,7 +34,7 @@ Structured cabling in Marlow often has to solve two very different types of proj
 
 Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across SL7, with planned routes, patch panels, PoE switching and testing built into the finished network.
 
-[Explore our structured cabling service](/services/commercial-cabling) or [view the Marlow services hub](/locations/marlow).
+[Explore our structured cabling service](/services/commercial-cabling) or [view the Marlow services](/locations/marlow).
 
 ## Structured Cabling for Marlow Homes & Businesses
 
@@ -125,8 +125,8 @@ Viewed from the cabling side, the important part is the route architecture: the 
 
 We provide network cabling across Marlow and SL7, with nearby coverage including:
 
-- [High Wycombe](/locations/high-wycombe) — use the existing town hub until `/locations/high-wycombe/network-cabling` is live.
-- [Bourne End](/locations/bourne-end) — use the existing town hub until `/locations/bourne-end/network-cabling` is live.
+- [High Wycombe](/locations/high-wycombe/network-cabling)
+- [Bourne End](/locations/bourne-end/network-cabling)
 
 <!-- INTERNAL-LINK UPGRADE:
 When the dedicated cabling pages are live, replace the town-hub links above with:
@@ -155,13 +155,6 @@ Cat6 and Cat6a are both structured Ethernet cabling standards. Cat6a is commonly
 
 Yes. Bucks Tech Help states that installed network runs are tested, labelled and documented, with Fluke testing and certification used for structured cabling work where specified.
 
-## Book a Free Cabling Survey in Marlow
-
-Whether the project is a multi-storey townhouse, a riverside property, an outdoor network extension or a Marlow business premises, the first step is to define the endpoints, routes and equipment the network needs to support.
-
-**[Start your free quote audit](/get-a-quote)**
-
-You can also [explore Bucks Tech Help's structured cabling service](/services/commercial-cabling).
 
 <script type="application/ld+json">
 {

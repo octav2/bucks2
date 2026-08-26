@@ -5,6 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import MicroTrust from '@/components/MicroTrust';
 import { getAllLocationSlugs, getLocationBySlug, type LocationContent } from '@/lib/locations';
+import { getAllLocationServiceSlugs } from '@/lib/locationServices';
 import { businessDetails } from '@/lib/data';
 import { Wifi, Cable, Cctv, CheckCircle2, ArrowRight, MapPin, Home, HelpCircle, Briefcase } from 'lucide-react';
 
@@ -70,17 +71,21 @@ const localServiceCards: ServiceCard[] = [
     { icon: Cable, title: 'High-Density Data Infrastructure & Rack Architecture', description: 'Cat6a structured cabling, patch panels, and rack installations for demanding homes, offices, and estates.', price: 'From £2,000', href: '/services/commercial-cabling', cta: 'Explore Cabling' },
     { icon: Cctv, title: 'Subscription-Free 4K Property Security', description: 'Owned-outright 4K IP CCTV and smart access control installed on your wired Ubiquiti UniFi backbone.', price: 'From £1,800', href: '/services/smart-security', cta: 'Explore Security' },
 ];
-// Dedicated local service pages per town hub. When a town has its own
-// /locations/[town]/[service] pages live, list them here in the same order as
-// localServiceCards (Wi-Fi, Cabling, Security) so the hub links to them
-// instead of the generic service pages.
-const townLocalServiceHrefs: Record<string, string[]> = {
-    beaconsfield: [
-        '/locations/beaconsfield/wifi-installation',
-        '/locations/beaconsfield/network-cabling',
-        '/locations/beaconsfield/cctv-installation',
-    ],
-};
+// Dedicated local service pages per town hub, auto-discovered from
+// content/location-services/. When a town has its own
+// /locations/[town]/[service] pages, the hub links to them instead of the
+// generic service pages. Order matches localServiceCards: Wi-Fi, Cabling,
+// Security.
+const SERVICE_ORDER = ['wifi-installation', 'network-cabling', 'cctv-installation'];
+const townLocalServiceHrefs: Record<string, string[]> = (() => {
+    const map: Record<string, string[]> = {};
+    for (const { slug, town, service } of getAllLocationServiceSlugs()) {
+        const idx = SERVICE_ORDER.indexOf(service);
+        if (idx === -1) continue;
+        (map[town] ??= [])[idx] = `/locations/${slug}`;
+    }
+    return map;
+})();
 
 
 const caseStudyIcons: Record<string, any> = {

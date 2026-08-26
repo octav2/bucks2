@@ -34,7 +34,7 @@ Structured cabling in Amersham has to work in very different buildings. A period
 
 Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across HP6 and HP7, with testing, labelling and documented handover built into the finished network.
 
-[Explore our structured cabling service](/services/commercial-cabling) or [view the Amersham services hub](/locations/amersham).
+[Explore our structured cabling service](/services/commercial-cabling) or [view the Amersham services](/locations/amersham).
 
 ## Structured Cabling for Amersham Homes & Businesses
 
@@ -106,8 +106,8 @@ This is a useful Amersham-specific cabling example because the improvement came 
 
 We provide network cabling across Amersham, HP6 and HP7, with nearby coverage including:
 
-- [Chesham](/locations/chesham) — use the existing town hub until `/locations/chesham/network-cabling` is live.
-- [Beaconsfield](/locations/beaconsfield) — use the existing town hub until `/locations/beaconsfield/network-cabling` is live.
+- [Chesham](/locations/chesham/network-cabling)
+- [Beaconsfield](/locations/beaconsfield/network-cabling)
 
 We also cover Amersham Old Town, Amersham-on-the-Hill, Chesham Bois, Little Chalfont, Hyde Heath and Coleshill.
 
@@ -138,13 +138,6 @@ Cat6 and Cat6a are both structured Ethernet cabling standards. Cat6a is commonly
 
 Yes. Bucks Tech Help states that network drops are tested and verified using commercial Fluke cable analysers, with cabling labelled and documented before handover.
 
-## Book a Free Cabling Survey in Amersham
-
-Whether you need a discreet network backbone through an Amersham home or a labelled rack and data-cabling build for a local business, the first step is to understand the endpoints, routes and equipment the network needs to support.
-
-**[Start your free quote audit](/get-a-quote)**
-
-You can also [explore Bucks Tech Help's structured cabling service](/services/commercial-cabling).
 
 <script type="application/ld+json">
 {

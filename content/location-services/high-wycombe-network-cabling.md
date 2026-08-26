@@ -37,7 +37,7 @@ The residential side matters too. Multi-level homes, extensions and garden offic
 
 Bucks Tech Help installs structured cabling, patch panels and data cabinets with testing, labelling and documented handover built into the finished network.
 
-[Explore our structured cabling service](/services/commercial-cabling) or [view the High Wycombe services hub](/locations/high-wycombe).
+[Explore our structured cabling service](/services/commercial-cabling) or [view the High Wycombe services](/locations/high-wycombe).
 
 ## Structured Cabling for High Wycombe Businesses and Homes
 
@@ -127,8 +127,8 @@ From a cabling perspective, the strongest part of the example is the move from a
 
 We provide network cabling across High Wycombe and nearby locations including:
 
-- [Marlow](/locations/marlow) — use the existing town hub until `/locations/marlow/network-cabling` is live.
-- [Hazlemere](/locations/hazlemere) — use the existing town hub until `/locations/hazlemere/network-cabling` is live.
+- [Marlow](/locations/marlow/network-cabling)
+- [Hazlemere](/locations/hazlemere/network-cabling)
 
 The current High Wycombe hub also references local coverage around Cressex, Wycombe Marsh, Downley, Sands and Booker.
 
@@ -159,13 +159,6 @@ Cat6 and Cat6a are both structured Ethernet cabling standards. Cat6a is commonly
 
 Yes. Bucks Tech Help states that installed network runs are tested, labelled and documented, with Fluke testing and certification used for structured cabling work where specified.
 
-## Book a Free Cabling Survey in High Wycombe
-
-Whether you are replacing an unmanageable rack, adding new office data points or building a wired backbone for a High Wycombe home, the first step is to define the endpoints, routes and equipment the network needs to support.
-
-**[Start your free quote audit](/get-a-quote)**
-
-You can also [explore Bucks Tech Help's structured cabling service](/services/commercial-cabling).
 
 <script type="application/ld+json">
 {

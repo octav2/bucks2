@@ -37,7 +37,7 @@ Bucks Tech Help installs **hardwired Ubiquiti UniFi networks** that distribute W
 
 For customers searching for **home network installation**, **whole home Wi-Fi**, **home Wi-Fi specialists near me** or a local **Ubiquiti installer near me**, the focus is on building a stable network backbone rather than adding more wireless repeaters.
 
-[Explore our whole-home Wi-Fi service](/services/whole-home-wifi) or [view the High Wycombe services hub](/locations/high-wycombe).
+[Explore our whole-home Wi-Fi service](/services/whole-home-wifi) or [view the High Wycombe services](/locations/high-wycombe).
 
 ## Why High Wycombe Homes and Offices Need Hardwired Wi-Fi
 
@@ -103,8 +103,8 @@ As part of the published solution, the network was reorganised and two UniFi Wi-
 
 We install hardwired Wi-Fi across High Wycombe and nearby locations including:
 
-- [Marlow](/locations/marlow) — use the existing town hub until `/locations/marlow/wifi-installation` is live.
-- [Hazlemere](/locations/hazlemere) — use the existing town hub until `/locations/hazlemere/wifi-installation` is live.
+- [Marlow](/locations/marlow/wifi-installation)
+- [Hazlemere](/locations/hazlemere/wifi-installation)
 
 The current High Wycombe hub also references local coverage around Cressex, Wycombe Marsh, Downley, Sands and Booker.
 
@@ -133,13 +133,6 @@ Yes. A hardwired design can place access points on the floors or zones that need
 
 Yes. Where a cable route is practical, a dedicated hardwired connection can extend the main network to a garden office or studio, where its own access point, switch or wired outlets can then be installed.
 
-## Book a Free Wi-Fi Survey in High Wycombe
-
-Whether the problem is weak upstairs coverage at home or unreliable staff Wi-Fi in a commercial unit, the next step is to map the building and work out where the network actually needs to be delivered.
-
-**[Start your free quote audit](/get-a-quote)**
-
-You can also [explore Bucks Tech Help's whole-home Wi-Fi service](/services/whole-home-wifi).
 
 <script type="application/ld+json">
 {

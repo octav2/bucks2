@@ -34,7 +34,7 @@ Network cabling in Chesham needs to work across very different property types. V
 
 Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across HP5, with planned routes, clear terminations and testing before handover.
 
-[Explore our structured cabling service](/services/commercial-cabling) or [view the Chesham services hub](/locations/chesham).
+[Explore our structured cabling service](/services/commercial-cabling) or [view the Chesham services](/locations/chesham).
 
 ## Structured Cabling for Chesham Homes & Businesses
 
@@ -105,8 +105,8 @@ For a Chesham business considering structured cabling, the useful lesson is the 
 
 We provide network cabling across Chesham and HP5, with nearby coverage including:
 
-- [Amersham](/locations/amersham) — use the existing town hub until `/locations/amersham/network-cabling` is live.
-- [Great Missenden](/locations/great-missenden) — use the existing town hub until `/locations/great-missenden/network-cabling` is live.
+- [Amersham](/locations/amersham/network-cabling)
+- [Great Missenden](/locations/great-missenden/network-cabling)
 
 We also cover Chesham Bois, Ashley Green, Chartridge, Lye Green, Bellingdon and Latimer.
 
@@ -137,13 +137,6 @@ Cat6 and Cat6a are both structured Ethernet cabling standards. Cat6a is commonly
 
 Yes. Bucks Tech Help states that network drops are tested and verified using commercial Fluke cable analysers, with cabling labelled and documented before handover.
 
-## Book a Free Cabling Survey in Chesham
-
-Whether the job is a discreet wired backbone through a Victorian home, a permanent connection to a garden office or a labelled rack for a local business, the first step is to understand the endpoints, routes and equipment the network needs to support.
-
-**[Start your free quote audit](/get-a-quote)**
-
-You can also [explore Bucks Tech Help's structured cabling service](/services/commercial-cabling).
 
 <script type="application/ld+json">
 {

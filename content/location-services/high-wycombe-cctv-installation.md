@@ -35,7 +35,7 @@ High Wycombe needs CCTV for a broader mix of sites than a purely residential mar
 
 Bucks Tech Help installs **hardwired 4K IP CCTV** using the UniFi Protect ecosystem, with Ethernet and PoE carrying camera data and power back to a local NVR. The core recording setup is stored on-site rather than tied to a required monthly cloud-storage subscription.
 
-[Explore our smart security service](/services/smart-security) or [view the High Wycombe services hub](/locations/high-wycombe).
+[Explore our smart security service](/services/smart-security) or [view the High Wycombe services](/locations/high-wycombe).
 
 ## 4K CCTV Without the Monthly Subscription
 
@@ -107,8 +107,8 @@ Although that project is not in High Wycombe, the infrastructure principle appli
 
 We install CCTV and smart security systems across High Wycombe and nearby locations including:
 
-- [Marlow](/locations/marlow) — use the existing town hub until `/locations/marlow/cctv-installation` is live.
-- [Hazlemere](/locations/hazlemere) — use the existing town hub until `/locations/hazlemere/cctv-installation` is live.
+- [Marlow](/locations/marlow/cctv-installation)
+- [Hazlemere](/locations/hazlemere/cctv-installation)
 
 The current High Wycombe hub also references local coverage around Cressex, Wycombe Marsh, Downley, Sands and Booker.
 
@@ -137,13 +137,6 @@ Yes. High Wycombe has a strong commercial and industrial base, and Bucks Tech He
 
 Yes. Compatible UniFi door-entry, intercom and access-control hardware can be integrated with a suitable UniFi Protect and network setup, depending on the entrance and cabling requirements.
 
-## Book a Free CCTV Survey in High Wycombe
-
-Whether you need cameras around a High Wycombe home, office, storage facility or commercial unit, start by identifying the approaches and access points that actually need coverage. Bucks Tech Help can then scope camera positions, cable routes, NVR storage and any compatible access-control requirements as one system.
-
-**[Start your free quote audit](/get-a-quote)**
-
-You can also [explore Bucks Tech Help's smart security service](/services/smart-security).
 
 <script type="application/ld+json">
 {

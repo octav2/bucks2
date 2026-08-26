@@ -87,7 +87,7 @@ Bucks Tech Help's current site features a **Gerrards Cross country-estate securi
 We install CCTV and smart security systems in Beaconsfield and nearby locations including:
 
 - [Gerrards Cross](/locations/gerrards-cross)
-- [Amersham](/locations/amersham)
+- [Amersham](/locations/amersham/cctv-installation)
 
 <!-- INTERNAL-LINK UPGRADE:
 When the dedicated Tier-1 CCTV pages are published, replace the two hub links above with:

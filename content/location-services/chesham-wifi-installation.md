@@ -36,7 +36,7 @@ Bucks Tech Help designs **hardwired Ubiquiti UniFi networks** for homes across H
 
 For homeowners searching for **home network installation**, **whole home Wi-Fi**, **home Wi-Fi specialists near me** or a local **Ubiquiti installer near me**, the goal is a stable network backbone that works across the property rather than a collection of plug-in fixes.
 
-[Explore our whole-home Wi-Fi service](/services/whole-home-wifi) or [view the Chesham services hub](/locations/chesham).
+[Explore our whole-home Wi-Fi service](/services/whole-home-wifi) or [view the Chesham services](/locations/chesham).
 
 ## Why Chesham Homes Need Hardwired Wi-Fi, Not Extenders
 
@@ -100,8 +100,8 @@ The value of that project from a Wi-Fi perspective is straightforward: the garde
 
 We install whole-home Wi-Fi across Chesham and HP5, with nearby coverage including:
 
-- [Amersham](/locations/amersham) — use the existing town hub until `/locations/amersham/wifi-installation` is live.
-- [Great Missenden](/locations/great-missenden) — use the existing town hub until `/locations/great-missenden/wifi-installation` is live.
+- [Amersham](/locations/amersham/wifi-installation)
+- [Great Missenden](/locations/great-missenden/wifi-installation)
 
 We also cover Chesham Bois, Ashley Green, Chartridge, Lye Green, Bellingdon and Latimer.
 
@@ -130,13 +130,6 @@ Yes. Where a cable route is practical, a dedicated hardwired connection can be i
 
 Access arrangements are confirmed before installation. The person authorising the work should be available when cable routes, equipment positions and any property-specific access requirements are agreed.
 
-## Book a Free Wi-Fi Survey in Chesham
-
-If your Chesham property has weak rooms, unreliable loft coverage or a garden office that drops off the network, the next step is to map the building and decide where the network actually needs to be delivered.
-
-**[Start your free quote audit](/get-a-quote)**
-
-You can also [explore Bucks Tech Help's whole-home Wi-Fi service](/services/whole-home-wifi).
 
 <script type="application/ld+json">
 {
