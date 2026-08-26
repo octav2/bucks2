@@ -34,7 +34,7 @@ export async function generateMetadata({ searchParams }: { searchParams: { locat
         description: location
             ? `Complete our 2-minute quote audit for your ${location.name} property. Enterprise Wi-Fi, Cat6 cabling or 4K IP CCTV. Preliminary scope within 24 hours.`
             : 'Complete our 2-minute quote audit for enterprise Wi-Fi, Cat6 cabling or 4K IP CCTV in Buckinghamshire. Receive a preliminary scope and fixed price within 24 hours. No call needed.',
-        alternates: { canonical: location ? `${baseUrl}/quote?location=${location.slug}` : `${baseUrl}/quote` },
+        alternates: { canonical: `${baseUrl}/quote` },
     };
 }
 
