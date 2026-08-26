@@ -54,6 +54,21 @@
     .markdown-body p {
         @apply mb-5;
     }
+    .markdown-body a {
+        @apply text-blue-400 font-semibold underline decoration-blue-500/40 underline-offset-4 hover:text-blue-300 transition-colors;
+    }
+    .markdown-body ul {
+        @apply list-disc pl-6 mb-5 space-y-2;
+    }
+    .markdown-body ol {
+        @apply list-decimal pl-6 mb-5 space-y-2;
+    }
+    .markdown-body li {
+        @apply text-slate-300;
+    }
+    .markdown-body h3 {
+        @apply text-xl md:text-2xl font-black text-white mt-8 mb-4 tracking-tight;
+    }
 .markdown-table {
         @apply w-full text-left border-collapse;
     }
