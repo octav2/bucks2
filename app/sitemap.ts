@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import { servicesData } from '@/lib/servicesData';
 import { getAllLocationSlugs } from '@/lib/locations';
+import { getAllLocationServiceSlugs } from '@/lib/locationServices';
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = 'https://www.buckstechhelp.co.uk';
@@ -13,6 +14,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }));
 
         const locations = getAllLocationSlugs().map((slug) => ({
+        url: `${baseUrl}/locations/${slug}`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly' as const,
+        priority: 0.8,
+    }));
+
+    const locationServices = getAllLocationServiceSlugs().map(({ slug }) => ({
         url: `${baseUrl}/locations/${slug}`,
         lastModified: new Date(),
         changeFrequency: 'monthly' as const,
@@ -40,6 +48,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         },
         ...services,
         ...locations,
+        ...locationServices,
     ];
 }
 

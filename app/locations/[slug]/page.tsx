@@ -70,6 +70,18 @@ const localServiceCards: ServiceCard[] = [
     { icon: Cable, title: 'High-Density Data Infrastructure & Rack Architecture', description: 'Cat6a structured cabling, patch panels, and rack installations for demanding homes, offices, and estates.', price: 'From £2,000', href: '/services/commercial-cabling', cta: 'Explore Cabling' },
     { icon: Cctv, title: 'Subscription-Free 4K Property Security', description: 'Owned-outright 4K IP CCTV and smart access control installed on your wired Ubiquiti UniFi backbone.', price: 'From £1,800', href: '/services/smart-security', cta: 'Explore Security' },
 ];
+// Dedicated local service pages per town hub. When a town has its own
+// /locations/[town]/[service] pages live, list them here in the same order as
+// localServiceCards (Wi-Fi, Cabling, Security) so the hub links to them
+// instead of the generic service pages.
+const townLocalServiceHrefs: Record<string, string[]> = {
+    beaconsfield: [
+        '/locations/beaconsfield/wifi-installation',
+        '/locations/beaconsfield/network-cabling',
+        '/locations/beaconsfield/cctv-installation',
+    ],
+};
+
 
 const caseStudyIcons: Record<string, any> = {
     'Property Type': Home,
@@ -220,8 +232,9 @@ export default function LocationPage({ params }: Props) {
                     <h2 className="text-3xl md:text-4xl font-black text-white mb-4 tracking-tight text-center">Services Available in {town}</h2>
                     <p className="text-slate-400 text-lg text-center max-w-2xl mx-auto mb-12 font-medium">Professional network infrastructure for {town} homes, garden offices and businesses.</p>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                        {localServiceCards.map((s) => {
+                        {localServiceCards.map((s, i) => {
                             const Icon = s.icon;
+                            const href = townLocalServiceHrefs[location.slug]?.[i] ?? s.href;
                             return (
                                 <div key={s.href} className="group bg-slate-800/60 border border-slate-700 p-7 rounded-3xl hover:border-blue-600/40 hover:-translate-y-1 transition-all duration-300 flex flex-col">
                                     <div className="bg-gradient-to-br from-blue-500 to-blue-700 w-14 h-14 rounded-2xl flex items-center justify-center text-white mb-5">
@@ -230,7 +243,7 @@ export default function LocationPage({ params }: Props) {
                                     <h3 className="text-xl font-black text-white mb-3">{s.title}</h3>
                                     <p className="text-sm text-slate-400 font-medium leading-relaxed mb-6 flex-1">{s.description}</p>
                                     <p className="text-lg font-bold text-blue-400 mb-2">{s.price}</p>
-                                    <Link href={s.href} className="inline-flex items-center gap-2 text-blue-400 font-bold hover:text-blue-300 transition-colors">
+                                    <Link href={href} className="inline-flex items-center gap-2 text-blue-400 font-bold hover:text-blue-300 transition-colors">
                                         {s.cta} in {town} <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                                     </Link>
                                 </div>

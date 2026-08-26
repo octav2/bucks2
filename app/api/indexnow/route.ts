@@ -49,6 +49,10 @@ const DEFAULT_PATHS: string[] = [
     '/services/whole-home-wifi',
     '/services/commercial-cabling',
     '/services/smart-security',
+    // Dedicated local service pages (/locations/[town]/[service])
+    '/locations/beaconsfield/wifi-installation',
+    '/locations/beaconsfield/network-cabling',
+    '/locations/beaconsfield/cctv-installation',
 ];
 
 function toAbsoluteUrl(url: string): string | null {
