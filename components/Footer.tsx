@@ -44,6 +44,11 @@ export default function Footer() {
                                     Request Property Audit <ArrowRight size={14} />
                                 </Link>
                             </li>
+                            <li className="pt-2">
+                                <Link href="/contact" className="hover:text-white transition-colors">
+                                    Contact Us
+                                </Link>
+                            </li>
                         </ul>
                     </div>
 
