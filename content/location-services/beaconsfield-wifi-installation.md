@@ -87,7 +87,7 @@ From a Wi-Fi perspective, the important detail is placement: instead of expectin
 
 We install whole-home Wi-Fi across Beaconsfield and nearby South Buckinghamshire locations, including:
 
-- [Gerrards Cross](/locations/gerrards-cross)
+- [Gerrards Cross](/locations/gerrards-cross/wifi-installation)
 - [Amersham](/locations/amersham/wifi-installation)
 
 <!-- INTERNAL-LINK UPGRADE:

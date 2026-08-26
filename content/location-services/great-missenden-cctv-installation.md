@@ -102,7 +102,7 @@ Although that project is not in Great Missenden, the infrastructure problem is p
 We install CCTV and smart security systems across Great Missenden and HP16, with nearby coverage including:
 
 - [Amersham](/locations/amersham/cctv-installation)
-- [Wendover](/locations/wendover)
+- [Wendover](/locations/wendover/cctv-installation)
 
 <!-- INTERNAL-LINK UPGRADE:
 When the dedicated CCTV pages are live, replace the town-hub links above with:

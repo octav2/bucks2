@@ -101,7 +101,7 @@ The relevance to Great Missenden is the outbuilding principle: when a garden off
 We install whole-home Wi-Fi across Great Missenden and HP16, with nearby coverage including:
 
 - [Amersham](/locations/amersham/wifi-installation)
-- [Wendover](/locations/wendover)
+- [Wendover](/locations/wendover/wifi-installation)
 
 <!-- INTERNAL-LINK UPGRADE:
 When the dedicated Wi-Fi pages are live, replace the town-hub links above with:

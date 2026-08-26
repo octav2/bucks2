@@ -111,7 +111,7 @@ The published solution included an underground armoured Cat6 link to the annex a
 
 We provide network cabling across Stoke Poges and SL2, with nearby coverage including:
 
-- [Gerrards Cross](/locations/gerrards-cross)
+- [Gerrards Cross](/locations/gerrards-cross/network-cabling)
 - [Beaconsfield](/locations/beaconsfield/network-cabling)
 
 The current Stoke Poges hub also references Fulmer, Farnham Common and Wexham.

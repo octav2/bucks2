@@ -107,8 +107,8 @@ Although that project is not in Chalfont St Peter, the infrastructure principle 
 
 We install CCTV and smart security systems across Chalfont St Peter and SL9, with nearby coverage including:
 
-- [Gerrards Cross](/locations/gerrards-cross)
-- [Chalfont St Giles](/locations/chalfont-st-giles)
+- [Gerrards Cross](/locations/gerrards-cross/cctv-installation)
+- [Chalfont St Giles](/locations/chalfont-st-giles/cctv-installation)
 
 The current Chalfont St Peter hub also references Little Chalfont, Jordans and Seer Green.
 

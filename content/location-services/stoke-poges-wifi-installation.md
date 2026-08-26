@@ -110,7 +110,7 @@ The published solution included four indoor UniFi Wi-Fi 6 access points and an u
 
 We install whole-home Wi-Fi across Stoke Poges and SL2, with nearby coverage including:
 
-- [Gerrards Cross](/locations/gerrards-cross)
+- [Gerrards Cross](/locations/gerrards-cross/wifi-installation)
 - [Beaconsfield](/locations/beaconsfield/wifi-installation)
 
 The current Stoke Poges hub also references Fulmer, Farnham Common and Wexham.

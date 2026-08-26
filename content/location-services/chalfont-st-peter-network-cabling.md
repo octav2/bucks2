@@ -124,8 +124,8 @@ The published solution used a central PoE switch, three internal Cat6 drops and 
 
 We provide network cabling across Chalfont St Peter and SL9, with nearby coverage including:
 
-- [Gerrards Cross](/locations/gerrards-cross)
-- [Chalfont St Giles](/locations/chalfont-st-giles)
+- [Gerrards Cross](/locations/gerrards-cross/network-cabling)
+- [Chalfont St Giles](/locations/chalfont-st-giles/network-cabling)
 
 The current Chalfont St Peter hub also references Little Chalfont, Jordans and Seer Green.
 

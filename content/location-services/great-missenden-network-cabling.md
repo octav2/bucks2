@@ -116,7 +116,7 @@ From a cabling perspective, the relevance to Great Missenden is the way the phys
 We provide network cabling across Great Missenden and HP16, with nearby coverage including:
 
 - [Amersham](/locations/amersham/network-cabling)
-- [Wendover](/locations/wendover)
+- [Wendover](/locations/wendover/network-cabling)
 
 <!-- INTERNAL-LINK UPGRADE:
 When the dedicated cabling pages are live, replace the town-hub links above with:

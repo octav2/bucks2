@@ -102,7 +102,7 @@ The published solution included a 4K IP CCTV system covering the gated driveway.
 
 We install CCTV and smart security systems across Stoke Poges and SL2, with nearby coverage including:
 
-- [Gerrards Cross](/locations/gerrards-cross)
+- [Gerrards Cross](/locations/gerrards-cross/cctv-installation)
 - [Beaconsfield](/locations/beaconsfield/cctv-installation)
 
 The current Stoke Poges hub also references Fulmer, Farnham Common and Wexham.

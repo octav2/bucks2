@@ -103,8 +103,8 @@ The published solution used a central PoE switch, three internal Cat6 drops to c
 
 We install whole-home Wi-Fi across Chalfont St Peter and SL9, with nearby coverage including:
 
-- [Gerrards Cross](/locations/gerrards-cross)
-- [Chalfont St Giles](/locations/chalfont-st-giles)
+- [Gerrards Cross](/locations/gerrards-cross/wifi-installation)
+- [Chalfont St Giles](/locations/chalfont-st-giles/wifi-installation)
 
 The current Chalfont St Peter hub also references Little Chalfont, Jordans and Seer Green.
 
