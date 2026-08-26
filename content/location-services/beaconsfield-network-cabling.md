@@ -33,7 +33,7 @@ Beaconsfield needs structured cabling for two quite different reasons. In larger
 
 Bucks Tech Help installs **Cat6 and Cat6a structured cabling** for both settings, with planned routes, labelled terminations and testing before handover.
 
-[Explore our structured cabling service](/services/commercial-cabling) or [view the Beaconsfield services hub](/locations/beaconsfield).
+[Explore our structured cabling service](/services/commercial-cabling) or [view the Beaconsfield services](/locations/beaconsfield).
 
 ## Structured Cabling for Beaconsfield Homes & Businesses
 
@@ -125,14 +125,6 @@ Cat6 and Cat6a are both structured Ethernet cabling standards. Cat6a is commonly
 ### Do you test and certify the cabling?
 
 Yes. Bucks Tech Help states that installed network runs are tested and documented, with Fluke certification used for structured cabling work where specified.
-
-## Book a Free Cabling Survey in Beaconsfield
-
-Whether the job is a handful of carefully placed home network points or a complete office cabinet and patch-panel build, the first step is to understand the routes, endpoints and equipment the network needs to support.
-
-**[Start your free quote audit](/get-a-quote)**
-
-You can also [explore Bucks Tech Help's structured cabling service](/services/commercial-cabling).
 
 <script type="application/ld+json">
 {

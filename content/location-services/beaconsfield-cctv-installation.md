@@ -33,7 +33,7 @@ Beaconsfield has a mixture of period homes, larger detached properties and busy 
 
 Bucks Tech Help installs **hardwired 4K IP CCTV** using the UniFi Protect ecosystem, with footage stored locally on a network video recorder rather than locked behind a monthly cloud-storage subscription.
 
-[Explore our smart security service](/services/smart-security) or [view the Beaconsfield services hub](/locations/beaconsfield).
+[Explore our smart security service](/services/smart-security) or [view the Beaconsfield services](/locations/beaconsfield).
 
 ## 4K CCTV Without the Monthly Subscription
 
@@ -113,14 +113,6 @@ Yes. UniFi door-entry and video-intercom options can be integrated with a compat
 ### Do you install commercial security systems in Beaconsfield?
 
 Yes. Beaconsfield has a genuine town-centre retail and office market, so Bucks Tech Help can scope hardwired IP CCTV and related network infrastructure for suitable commercial premises as well as homes.
-
-## Book a Free CCTV Survey in Beaconsfield
-
-If you want cameras around a Beaconsfield home, driveway, outbuilding, office or retail premises, start by mapping the areas that actually need coverage. Bucks Tech Help can then scope the camera positions, wired routes, NVR and any access-control requirements as one system.
-
-**[Start your free quote audit](/get-a-quote)**
-
-You can also [explore Bucks Tech Help's smart security service](/services/smart-security).
 
 <script type="application/ld+json">
 {

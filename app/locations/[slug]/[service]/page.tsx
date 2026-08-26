@@ -30,11 +30,16 @@ const SERVICE_META: Record<string, { icon: any; pill: string }> = {
 };
 
 function renderSection(section: LocationServiceSection, key: number) {
+    const onDark = key % 2 === 1;
+    const bandBg = onDark ? 'bg-slate-950' : 'bg-slate-900';
+    const bandBorder = onDark ? '' : 'border-y border-slate-800';
+
     switch (section.kind) {
         case 'prose':
             return (
-                <section key={key} className="py-14 px-4 bg-slate-900">
+                <section key={key} className={`py-16 px-4 ${bandBg} ${bandBorder}`}>
                     <div className="max-w-4xl mx-auto">
+                        <span className="block w-16 h-1.5 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full mb-5"></span>
                         <h2 className="text-3xl md:text-4xl font-black text-white mb-8 tracking-tight">{section.title}</h2>
                         <div className="markdown-body text-lg text-slate-300 leading-relaxed font-medium" dangerouslySetInnerHTML={{ __html: section.html }} />
                     </div>
@@ -42,14 +47,15 @@ function renderSection(section: LocationServiceSection, key: number) {
             );
         case 'bullets':
             return (
-                <section key={key} className="py-14 px-4 bg-slate-950">
+                <section key={key} className={`py-16 px-4 ${bandBg} ${bandBorder}`}>
                     <div className="max-w-4xl mx-auto">
+                        <span className="flex justify-center"><span className="block w-16 h-1.5 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full mb-8"></span></span>
                         <h2 className="text-3xl md:text-4xl font-black text-white mb-10 tracking-tight text-center">{section.title}</h2>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                             {section.items.map((item, i) => (
-                                <div key={i} className="flex items-start gap-3 bg-slate-900/70 border border-slate-800 p-6 rounded-2xl">
+                                <div key={i} className="group flex items-start gap-3 bg-slate-900/70 border border-slate-800 hover:border-blue-600/40 p-6 rounded-2xl transition-colors duration-300">
                                     <CheckCircle size={22} className="text-emerald-400 mt-0.5 flex-shrink-0" />
-                                    <span className="text-slate-200 font-medium">{item}</span>
+                                    <span className="text-slate-200 font-medium group-hover:text-white transition-colors">{item}</span>
                                 </div>
                             ))}
                         </div>

@@ -33,7 +33,7 @@ Beaconsfield homes are rarely one-size-fits-all from a networking point of view.
 
 For homeowners searching for **home network installation**, **whole home Wi-Fi** or a local **Ubiquiti installer near me**, the aim is simple: remove weak spots and build a network that stays stable as the property, devices and broadband connection evolve.
 
-[Explore our whole-home Wi-Fi service](/services/whole-home-wifi) or [view the Beaconsfield services hub](/locations/beaconsfield).
+[Explore our whole-home Wi-Fi service](/services/whole-home-wifi) or [view the Beaconsfield services](/locations/beaconsfield).
 
 ## Why Beaconsfield Homes Need Hardwired Wi-Fi, Not Extenders
 
@@ -114,14 +114,6 @@ Yes. Where practical, we use a dedicated hardwired connection from the main netw
 ### Do I need to be home for the installation?
 
 An adult with access to the property should normally be available at the start of the job so cable routes, equipment positions and access can be confirmed. The exact arrangements can be agreed when the installation is booked.
-
-## Book a Free Wi-Fi Survey in Beaconsfield
-
-If your HP9 property has unreliable rooms, a weak garden-office connection or a mesh system that never quite solved the problem, the next step is to map the property and work out where the network should actually be delivered.
-
-**[Start your free quote audit](/get-a-quote)**
-
-You can also [explore Bucks Tech Help's whole-home Wi-Fi service](/services/whole-home-wifi).
 
 <script type="application/ld+json">
 {
