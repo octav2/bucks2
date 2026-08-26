@@ -20,7 +20,7 @@ import {
 const baseUrl = 'https://www.buckstechhelp.co.uk';
 
 export const metadata: Metadata = {
-    title: 'Trade Partners | Network Cabling Sub-Contractors | Bucks Tech Help',
+    title: { absolute: 'Trade Partners | Network Cabling Sub-Contractors | Bucks Tech Help' },
     description: 'Become a Bucks Tech Help trade partner. Specialist data cabling, enterprise Wi-Fi and 4K CCTV sub-contracting for electricians, builders and garden room companies across Buckinghamshire.',
     alternates: { canonical: `${baseUrl}/trade-partners` },
     openGraph: {

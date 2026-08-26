@@ -16,7 +16,7 @@ const contactWebPageSchema = {
 };
 
 export const metadata: Metadata = {
-    title: 'Contact Us | Bucks Tech Help',
+    title: { absolute: 'Contact Us | Bucks Tech Help' },
     description: 'Get in touch with Bucks Tech Help for enterprise Wi-Fi, Cat6 cabling, and 4K IP CCTV installations in Buckinghamshire.',
     alternates: { canonical: `${baseUrl}/contact` },
 };
