@@ -24,7 +24,7 @@ export interface FaqItem {
 export type LocationServiceSection =
     | { kind: 'prose'; title: string; html: string }
     | { kind: 'bullets'; title: string; items: string[] }
-    | { kind: 'links'; title: string; links: { label: string; href: string }[] }
+    | { kind: 'links'; title: string; blurb?: string; links: { label: string; href: string }[] }
     | { kind: 'faq'; title: string; faqs: FaqItem[] };
 
 export interface LocationServiceContent {
@@ -164,12 +164,21 @@ export function getLocationService(town: string, service: string): LocationServi
                 (list.children ?? []).map((item: any) => nodeToString(item).trim())
             );
 
-            // A list of nothing but plain markdown links renders as pill boxes.
+            // A list of nothing but plain markdown links (optionally preceded by
+            // a single intro paragraph) renders as pill boxes.
             const linkRe = /^\[([^\]]+)\]\(([^)\s]+)\)$/;
-            if (items.length > 0 && items.every((item) => linkRe.test(item))) {
+            const paraNodes = bucket.nodes.filter((n: any) => n.type === 'paragraph');
+            if (
+                items.length > 0 &&
+                items.every((item) => linkRe.test(item)) &&
+                bucket.nodes.every((n: any) => n.type === 'list' || n.type === 'paragraph') &&
+                paraNodes.length <= 1
+            ) {
+                const blurb = paraNodes.length === 1 ? nodeToString(paraNodes[0]).trim() : undefined;
                 sections.push({
                     kind: 'links',
                     title,
+                    blurb,
                     links: items.map((item) => {
                         const m = linkRe.exec(item)!;
                         return { label: m[1], href: m[2] };

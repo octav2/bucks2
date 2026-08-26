@@ -68,7 +68,7 @@ function renderSection(section: LocationServiceSection, key: number) {
                     <div className="max-w-4xl mx-auto text-center">
                         <span className="flex justify-center"><span className="block w-16 h-1.5 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full mb-8"></span></span>
                         <h2 className="text-3xl md:text-4xl font-black text-white mb-6 tracking-tight">{section.title}</h2>
-                        <p className="text-slate-400 text-lg mb-10 font-medium">We also cover nearby South Buckinghamshire locations:</p>
+                        <p className="text-slate-400 text-lg mb-10 font-medium">{section.blurb ?? 'We also cover nearby South Buckinghamshire locations:'}</p>
                         <div className="flex flex-wrap justify-center gap-3">
                             {section.links.map((link, i) => (
                                 <Link key={i} href={link.href} className="bg-slate-800 hover:bg-slate-700 border border-slate-700 hover:border-blue-600/50 px-6 py-3 rounded-full text-base font-bold text-white transition-all hover:scale-[1.03]">
