@@ -46,6 +46,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
             changeFrequency: 'monthly' as const,
             priority: 0.9,
         },
+        {
+            url: `${baseUrl}/trade-partners`,
+            lastModified: new Date(),
+            changeFrequency: 'monthly' as const,
+            priority: 0.9,
+        },
+        {
+            url: `${baseUrl}/contact`,
+            lastModified: new Date(),
+            changeFrequency: 'monthly' as const,
+            priority: 0.9,
+        },
         ...services,
         ...locations,
         ...locationServices,

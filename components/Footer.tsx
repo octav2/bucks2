@@ -49,6 +49,11 @@ export default function Footer() {
                                     Contact Us <ArrowRight size={14} />
                                 </Link>
                             </li>
+                            <li>
+                                <Link href="/trade-partners" className="hover:text-white transition-colors">
+                                    Trade Partners
+                                </Link>
+                            </li>
                         </ul>
                     </div>
 
