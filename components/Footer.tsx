@@ -44,9 +44,9 @@ export default function Footer() {
                                     Request Property Audit <ArrowRight size={14} />
                                 </Link>
                             </li>
-                            <li className="pt-2">
-                                <Link href="/contact" className="hover:text-white transition-colors">
-                                    Contact Us
+                            <li>
+                                <Link href="/contact" className="inline-flex items-center gap-1 text-blue-400 hover:text-blue-300 transition-colors">
+                                    Contact Us <ArrowRight size={14} />
                                 </Link>
                             </li>
                         </ul>

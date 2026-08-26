@@ -4,6 +4,7 @@
 export const businessDetails = {
     name: "Bucks Tech Help",
     email: "hello@buckstechhelp.co.uk",
+    phone: "07343079390",
     domain: "https://www.buckstechhelp.co.uk",
     logo: "https://www.buckstechhelp.co.uk/logo.png",
     tagline: "Enterprise Wi-Fi, Structured Cabling & IP CCTV Infrastructure across Buckinghamshire",
