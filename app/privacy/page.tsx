@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import LegalLayout from '@/components/LegalLayout';
+import EmailLink from '@/components/EmailLink';
 
 export const metadata: Metadata = {
     title: 'Privacy Policy',
@@ -51,9 +52,7 @@ export default function PrivacyPolicy() {
                     questions about this privacy policy or how we handle your data, please contact our data controller at:
                 </p>
                 <p>
-                    <a href="mailto:hello@buckstechhelp.co.uk" className="text-cyan-400 hover:text-cyan-300 font-semibold">
-                        hello@buckstechhelp.co.uk
-                    </a>
+                    <EmailLink className="text-cyan-400 hover:text-cyan-300 font-semibold" />
                 </p>
             </div>
 

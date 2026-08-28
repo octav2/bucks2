@@ -46,7 +46,7 @@ export default function Services() {
                         Our Services
                     </span>
                     <h2 className="text-4xl md:text-6xl font-black text-white mb-6 tracking-tight">
-                        Enterprise-Grade <span className="text-blue-400">Infrastructure</span>
+                        Enterprise-Grade <span className="text-blue-400">Wi-Fi, Cabling &amp; CCTV</span>
                     </h2>
                     <p className="text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed font-medium">
                         Designed, installed and tested for large homes, garden offices, estates and businesses across Buckinghamshire.

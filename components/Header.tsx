@@ -4,6 +4,7 @@ import React from 'react';
 import { ArrowRight, ChevronDown, Menu, X } from 'lucide-react';
 import Link from 'next/link';
 import { businessDetails } from '@/lib/data';
+import EmailLink from '@/components/EmailLink';
 import Logo from '@/components/Logo';
 
 export default function Header() {
@@ -115,7 +116,7 @@ export default function Header() {
                     >
                         Get a Quote
                     </Link>
-                    <p className="text-xs text-slate-500 pt-2">{businessDetails.email}</p>
+                    <p className="text-xs text-slate-500 pt-2"><EmailLink className="hover:text-white" /></p>
                 </div>
             )}
         </header>

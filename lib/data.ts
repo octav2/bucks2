@@ -71,4 +71,12 @@ export const faqs = [
         question: "Why are hardwired Ubiquiti UniFi access points better than wireless mesh boosters?",
         answer: "Plug-in mesh boosters repeat signals over the air, losing up to 80% of their speed through thick brick walls or modern foil insulation. As certified Ubiquiti UniFi installers, we run dedicated Cat6 cable backhauls to ceiling access points, guaranteeing full broadband speeds in every room.",
     },
+    {
+        question: "Do you certify your network cabling installations?",
+        answer: "Yes. Every structured cabling project is Fluke-certified and documented end-to-end. We test every drop against Cat6/Cat6a standards and hand over a full testing report, labelled patch panel and tidy, low-disruption containment.",
+    },
+    {
+        question: "Can Wi-Fi, cabling and CCTV be installed in one project?",
+        answer: "Absolutely. We design single-vendor Ubiquiti ecosystems that combine hardwired Wi-Fi, structured Cat6a cabling and PoE 4K CCTV with smart access control, all managed from one app — with zero monthly subscription fees.",
+    },
 ];

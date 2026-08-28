@@ -12,7 +12,7 @@ export default function FAQ() {
             <div className="max-w-3xl mx-auto">
                 <div className="text-center mb-14">
                     <span className="inline-block text-xs font-black uppercase tracking-[0.2em] text-blue-400 mb-4">FAQ</span>
-                    <h2 className="text-3xl md:text-5xl font-black text-white mb-4 tracking-tight">Common Questions</h2>
+                    <h2 className="text-3xl md:text-5xl font-black text-white mb-4 tracking-tight">Wi-Fi, Cabling &amp; CCTV FAQs</h2>
                     <p className="text-slate-400 text-lg">Everything you need to know about our infrastructure work.</p>
                 </div>
                 <div className="space-y-4">

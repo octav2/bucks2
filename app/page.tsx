@@ -21,8 +21,8 @@ import Link from 'next/link';
 export async function generateMetadata(): Promise<Metadata> {
     const page = getPageBySlug('index');
     const fm = page?.frontmatter;
-    const title = fm?.metaTitle ?? 'Network Installation, Enterprise Wi-Fi & 4K CCTV | Bucks Tech Help';
-    const description = fm?.metaDescription ?? 'Professional network installation services, Cat6a data cabling, whole-home Wi-Fi 7, and subscription-free 4K CCTV security systems across Buckinghamshire.';
+    const title = fm?.metaTitle ?? 'Data Cabling, Wi-Fi & CCTV Installers | Bucks Tech Help';
+    const description = fm?.metaDescription ?? 'Certified Cat6a data cabling, whole-home Wi-Fi 7 and subscription-free 4K CCTV installation across Beaconsfield, Amersham & Buckinghamshire.';
     return {
         title: { absolute: title },
         description,
@@ -183,7 +183,7 @@ export default function Home() {
                 <div className="max-w-6xl mx-auto">
                     <div className="text-center mb-14">
                         <span className="inline-block text-xs font-black uppercase tracking-[0.2em] text-blue-400 mb-4">Why Bucks Tech Help</span>
-                        <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight">Infrastructure That Performs Like an Enterprise Network</h2>
+                        <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight">Data Cabling &amp; Ubiquiti Wi-Fi Solutions</h2>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         {[

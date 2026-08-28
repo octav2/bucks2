@@ -4,6 +4,7 @@ import Footer from '@/components/Footer';
 import ContactForm from '@/components/ContactForm';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import { businessDetails } from '@/lib/data';
+import EmailLink from '@/components/EmailLink';
 
 const baseUrl = 'https://www.buckstechhelp.co.uk';
 
@@ -55,9 +56,7 @@ export default function ContactPage() {
                                     </div>
                                     <div>
                                         <p className="text-sm text-slate-400 font-bold mb-1">Email</p>
-                                        <a href={`mailto:${businessDetails.email}`} className="text-white hover:text-blue-400 transition-colors font-medium">
-                                            {businessDetails.email}
-                                        </a>
+                                        <EmailLink className="text-white hover:text-blue-400 transition-colors font-medium" />
                                     </div>
                                 </div>
                                 

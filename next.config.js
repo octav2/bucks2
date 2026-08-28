@@ -40,6 +40,8 @@ const nextConfig = {
       { source: '/penn', destination: '/locations/penn', permanent: true },
       { source: '/stoke-poges', destination: '/locations/stoke-poges', permanent: true },
       { source: '/chalfont-st-peter', destination: '/locations/chalfont-st-peter', permanent: true },
+      // Serve the GEO llms.txt file (canonical location used by AI crawlers)
+      { source: '/llms.txt', destination: '/llm.txt', permanent: true },
       // Obsolete legacy service routes -> core offerings
       { source: '/services/computer-laptop-support', destination: '/services/commercial-cabling', permanent: true },
       { source: '/services/tech-support', destination: '/services/whole-home-wifi', permanent: true },

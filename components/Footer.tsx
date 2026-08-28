@@ -1,8 +1,9 @@
 import React from 'react';
-import { Mail, ArrowRight } from 'lucide-react';
+import { Mail, ArrowRight, Phone, MapPin } from 'lucide-react';
 import { businessDetails, serviceAreas } from '@/lib/data';
 import Link from 'next/link';
 import Logo from '@/components/Logo';
+import EmailLink from '@/components/EmailLink';
 
 export default function Footer() {
     // Fixed service display names + their canonical routes
@@ -23,14 +24,26 @@ export default function Footer() {
                         <p className="text-slate-400 leading-relaxed font-medium">
                             Certified network cabling contractors, enterprise Wi-Fi 7 installation, and subscription-free 4K CCTV security systems across Buckinghamshire.
                         </p>
-                        <div className="flex items-center gap-3 text-sm text-slate-400 font-medium">
-                            <Mail size={16} className="text-blue-400" />
-                            <a href={`mailto:${businessDetails.email}`} className="hover:text-white">{businessDetails.email}</a>
+                        <div className="text-slate-400 text-sm font-medium space-y-3">
+                            <div className="flex items-center gap-3">
+                                <Phone size={16} className="text-blue-400" />
+                                <a href={`tel:+44${businessDetails.phone.slice(1)}`} className="hover:text-white">
+                                    +44 {businessDetails.phone.slice(1, 5)} {businessDetails.phone.slice(5)}
+                                </a>
+                            </div>
+                            <div className="flex items-center gap-3">
+                                <Mail size={16} className="text-blue-400" />
+                                <EmailLink className="hover:text-white" />
+                            </div>
+                            <div className="flex items-start gap-3">
+                                <MapPin size={16} className="text-blue-400 mt-0.5" />
+                                <span>High Wycombe, Buckinghamshire, UK</span>
+                            </div>
                         </div>
                     </div>
 
                     <div>
-                        <h2 className="text-white font-bold text-sm uppercase tracking-wider mb-6">Services</h2>
+                        <h3 className="text-white font-bold text-sm uppercase tracking-wider mb-6">Services</h3>
                         <ul className="space-y-4 font-medium">
                             {footerServices.map((s) => (
                                 <li key={s.href}>
@@ -58,7 +71,7 @@ export default function Footer() {
                     </div>
 
                     <div>
-                        <h2 className="text-white font-bold text-sm uppercase tracking-wider mb-6">Serving South & Central Bucks</h2>
+                        <h3 className="text-white font-bold text-sm uppercase tracking-wider mb-6">Serving South & Central Bucks</h3>
                         <div className="grid grid-cols-3 gap-3 text-xs overflow-hidden">
                             {serviceAreas.map((town) => {
                                 const townSlug = town.toLowerCase().replace(/\s+/g, '-');
