@@ -22,7 +22,6 @@ export interface BlogFrontmatter {
     excerpt: string;
     metaTitle: string;
     metaDescription: string;
-    published: string;
 }
 
 export interface BlogPost {
@@ -42,7 +41,7 @@ export function getAllBlogPosts(): BlogPost[] {
     return getAllBlogSlugs()
         .map((slug) => getBlogPostBySlug(slug))
         .filter((post): post is BlogPost => post !== null)
-        .sort((a, b) => (a.frontmatter.published < b.frontmatter.published ? 1 : -1));
+        .sort((a, b) => a.frontmatter.title.localeCompare(b.frontmatter.title));
 }
 
 export function getBlogPostBySlug(slug: string): BlogPost | null {
@@ -82,14 +81,6 @@ export function getBlogPostBySlug(slug: string): BlogPost | null {
     const html = markdownProcessor.processSync(body).toString();
 
     return { slug, frontmatter, jsonLd, html };
-}
-
-// {published: "YYYY-MM-DD"} -> "29 August 2026"
-export function formatBlogDate(iso: string): string {
-    if (!iso) return '';
-    const d = new Date(`${iso}T00:00:00`);
-    if (Number.isNaN(d.getTime())) return iso;
-    return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
 }
 
 // Rough reading time from rendered HTML text.

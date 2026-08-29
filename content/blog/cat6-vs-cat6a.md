@@ -4,7 +4,6 @@ title: "Cat6 vs Cat6a: Which Ethernet Cable Do You Actually Need?"
 excerpt: "The honest version from network installers: what actually changes between Cat6 and Cat6a, where the difference matters, and where Cat6 is genuinely enough."
 metaTitle: "Cat6 vs Cat6a: Which Ethernet Cable Do You Need? | Bucks Tech Help"
 metaDescription: "Cat6 vs Cat6a explained by a network installer: real speed, distance and cost differences, plus when Cat6 is enough and when Cat6a is worth it."
-published: "2026-08-29"
 ---
 
 <!--
@@ -203,7 +202,6 @@ The category is usually printed directly on the cable jacket. Look for text read
       "headline": "Cat6 vs Cat6a: Which Ethernet Cable Do You Actually Need?",
       "description": "Cat6 vs Cat6a explained by a network installer: real speed, distance and cost differences, plus when Cat6 is enough and when Cat6a is worth it.",
       "url": "https://www.buckstechhelp.co.uk/guides/cat6-vs-cat6a",
-      "datePublished": "2026-08-29",
       "author": { "@id": "https://www.buckstechhelp.co.uk/#organization" },
       "publisher": { "@id": "https://www.buckstechhelp.co.uk/#organization" },
       "mainEntityOfPage": "https://www.buckstechhelp.co.uk/guides/cat6-vs-cat6a",

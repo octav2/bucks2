@@ -3,8 +3,8 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ServiceCTA from '@/components/ServiceCTA';
-import { Calendar, Clock, ArrowRight } from 'lucide-react';
-import { estimateReadMinutes, formatBlogDate, type BlogPost } from '@/lib/blog';
+import { Clock, ArrowRight } from 'lucide-react';
+import { estimateReadMinutes, type BlogPost } from '@/lib/blog';
 
 interface Props {
     post: BlogPost;
@@ -43,11 +43,6 @@ export default function BlogPostLayout({ post, related }: Props) {
                             <p className="mt-5 text-lg text-slate-400 max-w-2xl mx-auto leading-relaxed font-medium">{fm.excerpt}</p>
                         )}
                         <div className="mt-6 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-slate-400 font-medium">
-                            {fm.published && (
-                                <span className="inline-flex items-center gap-2">
-                                    <Calendar size={16} className="text-blue-400" /> {formatBlogDate(fm.published)}
-                                </span>
-                            )}
                             <span className="inline-flex items-center gap-2">
                                 <Clock size={16} className="text-blue-400" /> {readTime} min read
                             </span>
@@ -77,9 +72,6 @@ export default function BlogPostLayout({ post, related }: Props) {
                                         href={`/guides/${p.slug}`}
                                         className="group flex flex-col gap-3 bg-slate-900/60 border border-slate-800 p-6 rounded-3xl hover:border-blue-600/40 hover:bg-slate-900 transition-all duration-300"
                                     >
-                                        <span className="text-xs font-black uppercase tracking-[0.18em] text-blue-400">
-                                            {formatBlogDate(p.frontmatter.published)}
-                                        </span>
                                         <h3 className="font-black text-white group-hover:text-blue-300 transition-colors text-xl">
                                             {p.frontmatter.title}
                                         </h3>

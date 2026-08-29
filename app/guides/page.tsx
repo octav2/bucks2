@@ -2,10 +2,10 @@ import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ServiceCTA from '@/components/ServiceCTA';
-import { getAllBlogPosts, formatBlogDate } from '@/lib/blog';
+import { getAllBlogPosts } from '@/lib/blog';
 import { businessDetails } from '@/lib/data';
 import Link from 'next/link';
-import { ArrowRight, BookOpen } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 const baseUrl = businessDetails.domain;
 
@@ -75,10 +75,6 @@ export default function GuidesPage() {
                                         href={`/guides/${p.slug}`}
                                         className="group flex flex-col gap-3 bg-slate-950/70 border border-slate-800 p-7 rounded-3xl hover:border-blue-600/40 hover:bg-slate-900 transition-all duration-300"
                                     >
-                                        <div className="flex items-center gap-2 text-xs font-black uppercase tracking-[0.18em] text-blue-400">
-                                            <BookOpen size={15} />
-                                            <span>{formatBlogDate(p.frontmatter.published)}</span>
-                                        </div>
                                         <h2 className="font-black text-white group-hover:text-blue-300 transition-colors text-xl md:text-2xl leading-snug">
                                             {p.frontmatter.title}
                                         </h2>

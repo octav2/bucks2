@@ -17,7 +17,7 @@ interface Props {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const post = getBlogPostBySlug(params.slug);
     if (!post) return {};
-    const { metaTitle, metaDescription, published } = post.frontmatter;
+    const { metaTitle, metaDescription } = post.frontmatter;
     const url = `${businessDetails.domain}/guides/${post.slug}`;
     return {
         title: { absolute: metaTitle },
@@ -30,7 +30,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             siteName: businessDetails.name,
             locale: 'en_GB',
             type: 'article',
-            publishedTime: published,
             images: ['/og-image.png'],
         },
         twitter: {
