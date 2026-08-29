@@ -31,3 +31,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# reference / source materials (not part of the deployed site)
+/Blog/
+/remove-ai-words.md

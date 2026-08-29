@@ -67,6 +67,11 @@ export default function Footer() {
                                     Trade Partners
                                 </Link>
                             </li>
+                            <li>
+                                <Link href="/guides" className="hover:text-white transition-colors">
+                                    Guides
+                                </Link>
+                            </li>
                         </ul>
                     </div>
 

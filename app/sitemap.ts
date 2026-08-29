@@ -2,6 +2,7 @@ import { MetadataRoute } from 'next';
 import { servicesData } from '@/lib/servicesData';
 import { getAllLocationSlugs } from '@/lib/locations';
 import { getAllLocationServiceSlugs } from '@/lib/locationServices';
+import { getAllBlogSlugs } from '@/lib/blog';
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = 'https://www.buckstechhelp.co.uk';
@@ -25,6 +26,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: new Date(),
         changeFrequency: 'monthly' as const,
         priority: 0.8,
+    }));
+
+    const guides = getAllBlogSlugs().map((slug) => ({
+        url: `${baseUrl}/guides/${slug}`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly' as const,
+        priority: 0.7,
     }));
 
     return [
@@ -58,9 +66,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
             changeFrequency: 'monthly' as const,
             priority: 0.9,
         },
+        {
+            url: `${baseUrl}/guides`,
+            lastModified: new Date(),
+            changeFrequency: 'weekly' as const,
+            priority: 0.8,
+        },
         ...services,
         ...locations,
         ...locationServices,
+        ...guides,
     ];
 }
 

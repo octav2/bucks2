@@ -18,6 +18,7 @@ export default function Header() {
 
     const navLinks = [
         { label: 'Coverage', href: '/#coverage' },
+        { label: 'Guides', href: '/guides' },
         { label: 'FAQ', href: '/#faq' },
     ];
 
