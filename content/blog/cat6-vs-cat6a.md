@@ -127,9 +127,9 @@ This is one of the practical reasons "just use the best cable" isn't always the 
 
 The raw cable cost difference is smaller than people expect. Cat6a cable typically costs around 10-40% more than Cat6 per metre or per reel, depending on the manufacturer and whether it's shielded. On its own, that's a modest difference.
 
-The bigger gap shows up once installation, termination and testing are included. As a rough professional UK guide for 2026, a standard installed Cat6 data point (cable, containment, termination, testing and labelling) tends to fall around £90-150, while an equivalent Cat6a point often runs closer to £130-200. The extra labour and care needed for the stiffer, bulkier cable adds more to the total than the raw material cost alone.
+The bigger gap shows up once installation, termination and testing are included. Cat6a is thicker and stiffer, so routing, terminating and testing it takes more care and more time. That extra labour adds more to the total than the raw material cost alone, and it grows with every run that has to be done to a certified standard.
 
-For a small number of runs in a typical home, that difference per point is rarely the deciding factor. It becomes more relevant at scale, since a full office fit-out with dozens of data points will feel the Cat6a premium far more than a handful of runs in a house.
+For a small number of runs in a typical home, that labour difference per point is rarely the deciding factor. It becomes more relevant at scale, since a full office fit-out with dozens of data points will feel the Cat6a premium far more than a handful of runs in a house.
 
 ## Our Approach
 
