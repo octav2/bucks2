@@ -93,4 +93,4 @@ Yes. Every single data cable run is tested for wire-map continuity and speed per
 T568A and T568B are the two colour-code standards used for terminating RJ45 patch panels and modular jacks. Both deliver the same performance. T568B is the standard in UK commercial network installations, so we keep one standard across all patch panels and faceplates.
 
 ### Can you fix or re-tidy an existing messy server cabinet?
-Absolutely. We offer server cabinet re-dressing and audit services—tracing existing chaotic cables, replacing oversized patch leads with custom lengths, and clearly labelling all patch panel ports.
+Absolutely. We offer server cabinet re-dressing and audit services, tracing existing chaotic cables, replacing oversized patch leads with custom lengths, and clearly labelling all patch panel ports.

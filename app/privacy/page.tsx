@@ -4,7 +4,7 @@ import EmailLink from '@/components/EmailLink';
 
 export const metadata: Metadata = {
     title: 'Privacy Policy',
-    description: 'Privacy Policy for Bucks Tech Help — enterprise network cabling, whole-home Wi-Fi and 4K IP CCTV installations across Buckinghamshire. How we collect, use and protect your data.',
+    description: 'Privacy Policy for Bucks Tech Help, enterprise network cabling, whole-home Wi-Fi and 4K IP CCTV installations across Buckinghamshire. How we collect, use and protect your data.',
     alternates: { canonical: '/privacy' },
 };
 
@@ -27,10 +27,10 @@ export default function PrivacyPolicy() {
                 <h2 className="text-xl font-bold text-white flex items-center gap-2"><span className="text-cyan-400">02</span> The Data We Collect About You</h2>
                 <p>We may collect, use, store and transfer the following kinds of personal data:</p>
                 <ul className="list-disc pl-6 space-y-2">
-                    <li><strong className="text-white">Identity Data</strong> — first and last name, and company name.</li>
-                    <li><strong className="text-white">Contact Data</strong> — email address, telephone number, and service/installation address.</li>
-                    <li><strong className="text-white">Technical Data</strong> — internet protocol (IP) address, browser type and version, time zone setting and location.</li>
-                    <li><strong className="text-white">Project Data</strong> — property details, site survey notes and network requirements relevant to your infrastructure project.</li>
+                    <li><strong className="text-white">Identity Data</strong>, first and last name, and company name.</li>
+                    <li><strong className="text-white">Contact Data</strong>, email address, telephone number, and service/installation address.</li>
+                    <li><strong className="text-white">Technical Data</strong>, internet protocol (IP) address, browser type and version, time zone setting and location.</li>
+                    <li><strong className="text-white">Project Data</strong>, property details, site survey notes and network requirements relevant to your infrastructure project.</li>
                 </ul>
             </div>
 

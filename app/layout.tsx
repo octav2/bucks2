@@ -63,7 +63,7 @@ export default function RootLayout({
         <html lang="en" className="scroll-smooth">
             <head>
                 <link rel="alternate" type="text/plain" href="/llm.txt" />
-                {/* Single consolidated GA4 + Ads tag — lazyOnload waits until idle to minimize TBT */}
+                {/* Single consolidated GA4 + Ads tag, lazyOnload waits until idle to minimize TBT */}
                 <Script
                     id="gtag-init"
                     strategy="lazyOnload"

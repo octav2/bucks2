@@ -13,7 +13,7 @@ export default function Logo({ className = 'h-12', priority = false }: LogoProps
         <span className="inline-flex items-center shrink-0 leading-none">
             <Image
                 src="/images/logo.png"
-                alt={`${businessDetails.name} — Network & Cabling Infrastructure`}
+                alt={`${businessDetails.name}, Network & Cabling Infrastructure`}
                 width={1600}
                 height={331}
                 priority={priority}

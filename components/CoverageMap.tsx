@@ -34,7 +34,7 @@ export default function CoverageMap() {
                             Proudly Serving <span className="text-blue-400">Buckinghamshire</span>
                         </h2>
                         <p className="text-slate-400 text-lg leading-relaxed mb-8 font-medium">
-                            We design and install enterprise Wi-Fi, structured cabling and IP CCTV across the affluent towns of South &amp; Central Buckinghamshire — from Beaconsfield to High Wycombe.
+                            We design and install enterprise Wi-Fi, structured cabling and IP CCTV across the affluent towns of South &amp; Central Buckinghamshire, from Beaconsfield to High Wycombe.
                         </p>
                         <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-8">
                             {coveragePills.map((loc) => (
@@ -48,7 +48,7 @@ export default function CoverageMap() {
                                 </Link>
                             ))}
                         </div>
-                        <p className="text-sm text-slate-400 font-medium">Tap any location for local coverage, case studies and typical installs across South &amp; Central Buckinghamshire — from the Chalfonts to High Wycombe and Aylesbury.</p>
+                        <p className="text-sm text-slate-400 font-medium">Tap any location for local coverage, case studies and typical installs across South &amp; Central Buckinghamshire, from the Chalfonts to High Wycombe and Aylesbury.</p>
                     </div>
 
                     {/* Stylised coverage visual */}

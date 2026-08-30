@@ -12,7 +12,7 @@ export default function QuoteForm({ locationSlug, townName }: Props) {
 
 const propertyTypes = ["Detached House", "Office", "Farm or Estate", "Commercial Unit", "Garden Office / Outbuilding"];
 const challenges = ["Wi-Fi Dead Zones", "Garden Room Connection", "Office Cabling", "CCTV"];
-const budgets = ["£1,500 – £2,500", "£2,500 – £5,000", "£5,000+", "Unsure — need expert recommendation"];
+const budgets = ["£1,500 – £2,500", "£2,500 – £5,000", "£5,000+", "Unsure, need expert recommendation"];
 
 const stepTitles = [
     "What type of property is it?",

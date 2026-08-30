@@ -3,7 +3,7 @@ import LegalLayout from '@/components/LegalLayout';
 
 export const metadata: Metadata = {
     title: 'Terms of Service',
-    description: 'Terms of Service for Bucks Tech Help — enterprise network cabling, whole-home Wi-Fi and 4K IP CCTV installations across Buckinghamshire.',
+    description: 'Terms of Service for Bucks Tech Help, enterprise network cabling, whole-home Wi-Fi and 4K IP CCTV installations across Buckinghamshire.',
     alternates: { canonical: '/terms' },
 };
 

@@ -43,7 +43,7 @@ const pillars = [
     {
         icon: Wifi,
         title: 'Hardwired, not patched',
-        desc: 'We reject plug-in boosters. Every project uses dedicated Cat6 cable backhauls and ceiling access points, so signal is delivered at full broadband speed — not halved over the air.',
+        desc: 'We reject plug-in boosters. Every project uses dedicated Cat6 cable backhauls and ceiling access points, so signal is delivered at full broadband speed, not halved over the air.',
     },
     {
         icon: Cable,
@@ -53,12 +53,12 @@ const pillars = [
     {
         icon: Cctv,
         title: 'Owned outright',
-        desc: 'Our CCTV and networks carry no recurring fees. Footage stays on your own NVR and your systems work for you — with no subscription lock-in.',
+        desc: 'Our CCTV and networks carry no recurring fees. Footage stays on your own NVR and your systems work for you, with no subscription lock-in.',
     },
     {
         icon: ShieldCheck,
         title: 'Transparent pricing',
-        desc: 'Quotes are scoped against a digital site audit and priced from £1,500 for Wi-Fi, £2,000 for Cat6 cabling and £1,800 for 4K IP CCTV — fixed and transparent before we start.',
+        desc: 'Quotes are scoped against a digital site audit and priced from £1,500 for Wi-Fi, £2,000 for Cat6 cabling and £1,800 for 4K IP CCTV, fixed and transparent before we start.',
     },
     {
         icon: HardHat,
@@ -190,7 +190,7 @@ export default function AboutPage() {
                     </h1>
                     <p className="text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed font-medium">
                         We are Buckinghamshire&apos;s trusted network cabling contractors, enterprise Wi-Fi engineers, and 4K CCTV installation
-                        specialists — designing, installing and certifying hardwired Ubiquiti UniFi Wi-Fi 7, certified Cat6 structured cabling,
+                        specialists, designing, installing and certifying hardwired Ubiquiti UniFi Wi-Fi 7, certified Cat6 structured cabling,
                         and subscription-free 4K IP CCTV for homes, estates, garden offices, and businesses across South Buckinghamshire.
                     </p>
                 </div>
@@ -201,11 +201,11 @@ export default function AboutPage() {
                         <span className="inline-block text-xs font-black uppercase tracking-[0.2em] text-blue-400 mb-4">Why most home &amp; office networks fail</span>
                         <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight mb-6">Most &quot;fast&quot; networks are quietly broken</h2>
                         <p className="text-lg text-slate-400 max-w-3xl mx-auto font-medium leading-relaxed">
-                            The problem is rarely your broadband line — it&apos;s the way signal travels through the building. In Buckinghamshire&apos;s
+                            The problem is rarely your broadband line, it&apos;s the way signal travels through the building. In Buckinghamshire&apos;s
                             period homes and garden studios, thick Chiltern flint walls, solid brick and modern foil-backed cavity insulation
                             block Wi-Fi before it reaches your rooms. Add cheap plug-in mesh boosters that repeat signal over the air, and you
                             lose up to 80% of your broadband speed, with constant drop-outs, buffering and dead zones. We fix the building
-                            itself — not the symptom.
+                            itself, not the symptom.
                         </p>
                     </div>
 
@@ -231,7 +231,7 @@ export default function AboutPage() {
                         <span className="inline-block text-xs font-black uppercase tracking-[0.2em] text-blue-400 mb-4">Engineering &amp; installation standards</span>
                         <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight">Commercial-Grade Standards on Every Project</h2>
                         <p className="text-lg text-slate-400 max-w-3xl mx-auto font-medium leading-relaxed">
-                            We hold every installation to specifications you would expect from a data-centre build — certified materials,
+                            We hold every installation to specifications you would expect from a data-centre build, certified materials,
                             verified performance and archival routing that respects your property.
                         </p>
                     </div>

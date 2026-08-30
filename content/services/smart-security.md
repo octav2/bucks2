@@ -31,7 +31,7 @@ coveredTowns: ["Beaconsfield", "Amersham", "Gerrards Cross", "Chesham", "High Wy
 </script>
 
 ## Hero Highlights
-- 100% Subscription-Free local 4K CCTV storage—zero monthly cloud fees
+- 100% Subscription-Free local 4K CCTV storage, zero monthly cloud fees
 - Ubiquiti Protect AI detection (human, vehicle, and license plate tracking)
 - Single mobile app for your entire property (Wi-Fi, CCTV installation, and door access)
 - Discrete external Cat6a PoE wiring with weather-sealed junction enclosures
@@ -52,7 +52,7 @@ If you are searching for CCTV installation near me, we provide hardwired, subscr
 
 | Category | Hardware Model | Description |
 | :--- | :--- | :--- |
-| **Video Storage Console** | Ubiquiti UniFi Protect NVR / Cloud Key+ | Subscription-free local NVR recorder storing 30+ days of continuous 4K footage directly on your property — no cloud, no monthly fees. |
+| **Video Storage Console** | Ubiquiti UniFi Protect NVR / Cloud Key+ | Subscription-free local NVR recorder storing 30+ days of continuous 4K footage directly on your property, no cloud, no monthly fees. |
 | **IP Security Cameras** | Ubiquiti UniFi G5 / AI 4K & 2K PoE Cameras | Weather-rated outdoor cameras with 4K/2K resolution, infrared night vision, wide dynamic range, and onboard UniFi AI. |
 | **Door Access Control** | UniFi Doorbell Pro & Video Intercom | Smart video doorbell and intercom access control system integrated into the same app for visitor verification and door release. |
 | **Power & Cabling** | Hardwired Cat6a PoE & Junction Boxes | A single Cat6a PoE cable per camera delivers power and high-bitrate video through discrete, weather-sealed junction enclosures. |
@@ -61,7 +61,7 @@ If you are searching for CCTV installation near me, we provide hardwired, subscr
 
 | Feature | Consumer Battery Cameras (Ring, Arlo, Blink) | Bucks Tech Help: Professional CCTV Installation |
 | :--- | :--- | :--- |
-| **Storage & Fees** | Monthly cloud subscription trap (£100–£400+/yr) | 100% Free local NVR storage — owned outright |
+| **Storage & Fees** | Monthly cloud subscription trap (£100–£400+/yr) | 100% Free local NVR storage, owned outright |
 | **Power & Reliability** | Batteries die & video lags | Hardwired uninterrupted PoE gigabit connection |
 | **Recording Quality** | Low resolution / motion blur | Pin-sharp 4K optical precision & AI recognition |
 | **Smart Detection** | False alerts from wind, rain & bugs | UniFi AI human, vehicle & license plate recognition |
@@ -94,7 +94,7 @@ Your security cameras continue recording 24/7 without interruption because they 
 Yes. We install smart door access control systems, video doorbells, and commercial intercoms that integrate directly into the same mobile app as your security cameras, allowing you to verify visitors and unlock doors remotely.
 
 ### How many days of video footage are stored on the NVR recorder?
-Our standard NVR storage configurations hold between 14 to 30 days of continuous 24/7 4K footage across 4 to 8 cameras. Once the drive reaches capacity, it automatically overwrites the oldest footage — all stored locally with zero monthly cloud fees.
+Our standard NVR storage configurations hold between 14 to 30 days of continuous 24/7 4K footage across 4 to 8 cameras. Once the drive reaches capacity, it automatically overwrites the oldest footage, all stored locally with zero monthly cloud fees.
 
 ### Do you provide CCTV installation near me, or only in specific towns?
-We install hardwired 4K CCTV systems throughout South & Central Buckinghamshire, covering all 13 location hubs listed below — from Beaconsfield and Gerrards Cross to High Wycombe and Aylesbury. Enter your postcode in the quote audit to confirm coverage and scheduling.
+We install hardwired 4K CCTV systems throughout South & Central Buckinghamshire, covering all 13 location hubs listed below, from Beaconsfield and Gerrards Cross to High Wycombe and Aylesbury. Enter your postcode in the quote audit to confirm coverage and scheduling.

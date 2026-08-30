@@ -18,7 +18,7 @@ export default function Footer() {
             <div className="max-w-6xl mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1fr_1fr_1.3fr] gap-12 mb-14">
                     <div className="flex flex-col gap-5">
-                        <Link href="/" className="inline-flex shrink-0" aria-label="Bucks Tech Help — back to homepage">
+                        <Link href="/" className="inline-flex shrink-0" aria-label="Bucks Tech Help, back to homepage">
                             <Logo className="h-12" />
                         </Link>
                         <p className="text-slate-400 leading-relaxed font-medium">

@@ -22,7 +22,7 @@ export default function NotFound() {
                         Page Not <span className="text-blue-400">Found</span>
                     </h1>
                     <p className="text-lg text-slate-400 font-medium leading-relaxed mb-10 max-w-xl mx-auto">
-                        Sorry — that page doesn&apos;t exist or may have moved. The rest of the site is
+                        Sorry, that page doesn&apos;t exist or may have moved. The rest of the site is
                         working fine. Try one of the quick links below to get back on track.
                     </p>
 

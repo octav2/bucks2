@@ -163,7 +163,7 @@ export default function TradePartnersPage() {
                     <span className="block w-16 h-1.5 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full mb-6"></span>
                     <h2 className="text-3xl md:text-4xl font-black text-white mb-4 tracking-tight">The Trade Problem We Solve</h2>
                     <p className="text-slate-400 text-lg max-w-3xl mb-12 font-medium">
-                        When building or renovating high-specification properties, network infrastructure is often an afterthought — until the client moves in and the Wi-Fi drops.
+                        When building or renovating high-specification properties, network infrastructure is often an afterthought, until the client moves in and the Wi-Fi drops.
                     </p>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                         {problemGroups.map((p) => {
@@ -188,7 +188,7 @@ export default function TradePartnersPage() {
                     <span className="flex justify-center"><span className="block w-16 h-1.5 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full mb-8"></span></span>
                     <h2 className="text-3xl md:text-4xl font-black text-white mb-5 tracking-tight text-center">How We Support Your Projects</h2>
                     <p className="text-slate-400 text-lg text-center max-w-2xl mx-auto mb-12 font-medium">
-                        We act as your dedicated network infrastructure specialists — you manage the primary build or electrical installation; our engineering team handles the technical network backbone.
+                        We act as your dedicated network infrastructure specialists, you manage the primary build or electrical installation; our engineering team handles the technical network backbone.
                     </p>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                         {supportServices.map((s) => {

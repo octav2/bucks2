@@ -1,5 +1,5 @@
 // lib/data.ts
-// Central business data — rebranded for a high-ticket local infrastructure agency.
+// Central business data, rebranded for a high-ticket local infrastructure agency.
 
 export const businessDetails = {
     name: "Bucks Tech Help",
@@ -46,7 +46,7 @@ export const serviceAreas = [
 export const coreTowns = ["Beaconsfield", "Amersham", "Chesham", "Gerrards Cross", "High Wycombe"];
 
 // Google Business Profile listing (numeric CID used by Google Maps).
-// KEEP IN SYNC with your Google Business Profile — this is the profile ID.
+// KEEP IN SYNC with your Google Business Profile, this is the profile ID.
 export const googleBusinessProfile = {
     cid: "4290901885882219405",
     name: "Bucks Tech Help",
@@ -77,6 +77,6 @@ export const faqs = [
     },
     {
         question: "Can Wi-Fi, cabling and CCTV be installed in one project?",
-        answer: "Absolutely. We design single-vendor Ubiquiti ecosystems that combine hardwired Wi-Fi, structured Cat6a cabling and PoE 4K CCTV with smart access control, all managed from one app — with zero monthly subscription fees.",
+        answer: "Absolutely. We design single-vendor Ubiquiti ecosystems that combine hardwired Wi-Fi, structured Cat6a cabling and PoE 4K CCTV with smart access control, all managed from one app, with zero monthly subscription fees.",
     },
 ];
