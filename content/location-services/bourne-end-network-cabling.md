@@ -12,28 +12,28 @@ Any instruction intended for Antigravity must remain inside an HTML comment and 
 
 <!-- SEO HEAD — preserve these values in the rendered page head -->
 <title>Network Cabling Bourne End | Cat6a | Bucks Tech Help</title>
-<meta name="description" content="Cat6a structured cabling in Bourne End for homes and businesses. Tested runs, PoE-ready racks, outdoor links and tidy network installation.">
+<meta name="description" content="Professional network cabling service in Bourne End, installing Cat 6a Ethernet cable for homes and businesses. Tested runs, PoE-ready racks, outdoor links and tidy network installation.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.buckstechhelp.co.uk/locations/bourne-end/network-cabling">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Network Cabling Bourne End | Cat6a | Bucks Tech Help">
-<meta property="og:description" content="Cat6a structured cabling in Bourne End for homes and businesses. Tested runs, PoE-ready racks, outdoor links and tidy network installation.">
+<meta property="og:description" content="Professional network cabling service in Bourne End, installing Cat 6a Ethernet cable for homes and businesses. Tested runs, PoE-ready racks, outdoor links and tidy network installation.">
 <meta property="og:url" content="https://www.buckstechhelp.co.uk/locations/bourne-end/network-cabling">
 <meta property="og:site_name" content="Bucks Tech Help">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Network Cabling Bourne End | Cat6a | Bucks Tech Help">
-<meta name="twitter:description" content="Cat6a structured cabling in Bourne End for homes and businesses. Tested runs, PoE-ready racks, outdoor links and tidy network installation.">
+<meta name="twitter:description" content="Professional network cabling service in Bourne End, installing Cat 6a Ethernet cable for homes and businesses. Tested runs, PoE-ready racks, outdoor links and tidy network installation.">
 
 <!-- Title: Network Cabling Bourne End | Cat6a | Bucks Tech Help -->
-<!-- Meta: Cat6a structured cabling in Bourne End for homes and businesses. Tested runs, PoE-ready racks, outdoor links and tidy network installation. -->
+<!-- Meta: Professional network cabling service in Bourne End, installing Cat 6a Ethernet cable for homes and businesses. Tested runs, PoE-ready racks, outdoor links and tidy network installation. -->
 
 # Network Cabling Installation in Bourne End
 
 Structured cabling in Bourne End often has to serve both the building and the plot around it. Riverside homes can need Ethernet for several Wi-Fi access points, CCTV cameras, media systems and outdoor connectivity, while garden offices, mooring-side structures and other suitable outbuildings may need their own permanent link back to the main network.
 
-Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across SL8, with central PoE switching, patch panels, labelled terminations and testing built into the finished infrastructure.
+Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across SL8, with central PoE switching, patch panels, labelled terminations and testing built into the finished infrastructure. As a local network cabling service, we run Cat 6a Ethernet cable wherever bandwidth and future headroom matter, and solid-copper Cat6 for standard endpoints.
 
 [Explore our structured cabling service](/services/commercial-cabling) or [view the Bourne End services](/locations/bourne-end).
 
@@ -199,7 +199,7 @@ Yes. Bucks Tech Help states that installed network runs are tested, labelled and
       "name": "Network Cabling Installation in Bourne End",
       "serviceType": "Cat6a structured network cabling installation",
       "url": "https://www.buckstechhelp.co.uk/locations/bourne-end/network-cabling",
-      "description": "Cat6a structured cabling in Bourne End for homes and businesses. Tested runs, PoE-ready racks, outdoor links and tidy network installation.",
+      "description": "Professional network cabling service in Bourne End, installing Cat 6a Ethernet cable for homes and businesses. Tested runs, PoE-ready racks, outdoor links and tidy network installation.",
       "provider": {
         "@id": "https://www.buckstechhelp.co.uk/#organization"
       },
@@ -258,7 +258,7 @@ Yes. Bucks Tech Help states that installed network runs are tested, labelled and
       "@id": "https://www.buckstechhelp.co.uk/locations/bourne-end/network-cabling#webpage",
       "url": "https://www.buckstechhelp.co.uk/locations/bourne-end/network-cabling",
       "name": "Network Cabling Installation in Bourne End",
-      "description": "Cat6a structured cabling in Bourne End for homes and businesses. Tested runs, PoE-ready racks, outdoor links and tidy network installation.",
+      "description": "Professional network cabling service in Bourne End, installing Cat 6a Ethernet cable for homes and businesses. Tested runs, PoE-ready racks, outdoor links and tidy network installation.",
       "about": {
         "@id": "https://www.buckstechhelp.co.uk/locations/bourne-end/network-cabling#service"
       },

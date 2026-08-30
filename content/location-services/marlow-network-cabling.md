@@ -11,28 +11,28 @@ Any instruction intended for Antigravity must remain inside an HTML comment and 
 
 <!-- SEO HEAD — preserve these values in the rendered page head -->
 <title>Network Cabling Marlow | Cat6a | Bucks Tech Help</title>
-<meta name="description" content="Cat6a structured cabling in Marlow for riverside homes and businesses. Tested runs, patch panels, PoE switches and tidy rack installation. Free survey.">
+<meta name="description" content="Professional network cabling service in Marlow. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.buckstechhelp.co.uk/locations/marlow/network-cabling">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Network Cabling Marlow | Cat6a | Bucks Tech Help">
-<meta property="og:description" content="Cat6a structured cabling in Marlow for riverside homes and businesses. Tested runs, patch panels, PoE switches and tidy rack installation. Free survey.">
+<meta property="og:description" content="Professional network cabling service in Marlow. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.">
 <meta property="og:url" content="https://www.buckstechhelp.co.uk/locations/marlow/network-cabling">
 <meta property="og:site_name" content="Bucks Tech Help">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Network Cabling Marlow | Cat6a | Bucks Tech Help">
-<meta name="twitter:description" content="Cat6a structured cabling in Marlow for riverside homes and businesses. Tested runs, patch panels, PoE switches and tidy rack installation. Free survey.">
+<meta name="twitter:description" content="Professional network cabling service in Marlow. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.">
 
 <!-- Title: Network Cabling Marlow | Cat6a | Bucks Tech Help -->
-<!-- Meta: Cat6a structured cabling in Marlow for riverside homes and businesses. Tested runs, patch panels, PoE switches and tidy rack installation. Free survey. -->
+<!-- Meta: Professional network cabling service in Marlow. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey. -->
 
 # Network Cabling Installation in Marlow
 
 Structured cabling in Marlow often has to solve two very different types of project. In multi-storey and riverside homes, Ethernet provides the hidden backbone for access points, media systems, smart-home equipment, CCTV and outdoor connectivity. In restaurants, shops, offices and hospitality premises, the same cabling discipline supports EPOS systems, guest Wi-Fi, phones, cameras and properly organised network racks.
 
-Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across SL7, with planned routes, patch panels, PoE switching and testing built into the finished network.
+Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across SL7, with planned routes, patch panels, PoE switching and testing built into the finished network. As a local network cabling service, we run Cat 6a Ethernet cable wherever bandwidth and future headroom matter, and solid-copper Cat6 for standard endpoints.
 
 [Explore our structured cabling service](/services/commercial-cabling) or [view the Marlow services](/locations/marlow).
 
@@ -197,7 +197,7 @@ Yes. Bucks Tech Help states that installed network runs are tested, labelled and
       "name": "Network Cabling Installation in Marlow",
       "serviceType": "Cat6a structured network cabling installation",
       "url": "https://www.buckstechhelp.co.uk/locations/marlow/network-cabling",
-      "description": "Cat6a structured cabling in Marlow for riverside homes and businesses. Tested runs, patch panels, PoE switches and tidy rack installation. Free survey.",
+      "description": "Professional network cabling service in Marlow. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.",
       "provider": {
         "@id": "https://www.buckstechhelp.co.uk/#organization"
       },
@@ -256,7 +256,7 @@ Yes. Bucks Tech Help states that installed network runs are tested, labelled and
       "@id": "https://www.buckstechhelp.co.uk/locations/marlow/network-cabling#webpage",
       "url": "https://www.buckstechhelp.co.uk/locations/marlow/network-cabling",
       "name": "Network Cabling Installation in Marlow",
-      "description": "Cat6a structured cabling in Marlow for riverside homes and businesses. Tested runs, patch panels, PoE switches and tidy rack installation. Free survey.",
+      "description": "Professional network cabling service in Marlow. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.",
       "isPartOf": {
         "@id": "https://www.buckstechhelp.co.uk/#website"
       },

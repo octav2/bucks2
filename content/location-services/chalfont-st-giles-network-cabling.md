@@ -12,28 +12,28 @@ Any instruction intended for Antigravity must remain inside an HTML comment and 
 
 <!-- SEO HEAD — preserve these values in the rendered page head -->
 <title>Network Cabling Chalfont St Giles | Cat6a | Bucks Tech Help</title>
-<meta name="description" content="Cat6a structured cabling in Chalfont St Giles for period homes and garden offices. Tested runs, PoE-ready racks and discreet installation.">
+<meta name="description" content="Professional network cabling service in Chalfont St Giles. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.buckstechhelp.co.uk/locations/chalfont-st-giles/network-cabling">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Network Cabling Chalfont St Giles | Cat6a | Bucks Tech Help">
-<meta property="og:description" content="Cat6a structured cabling in Chalfont St Giles for period homes and garden offices. Tested runs, PoE-ready racks and discreet installation.">
+<meta property="og:description" content="Professional network cabling service in Chalfont St Giles. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.">
 <meta property="og:url" content="https://www.buckstechhelp.co.uk/locations/chalfont-st-giles/network-cabling">
 <meta property="og:site_name" content="Bucks Tech Help">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Network Cabling Chalfont St Giles | Cat6a | Bucks Tech Help">
-<meta name="twitter:description" content="Cat6a structured cabling in Chalfont St Giles for period homes and garden offices. Tested runs, PoE-ready racks and discreet installation.">
+<meta name="twitter:description" content="Professional network cabling service in Chalfont St Giles. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.">
 
 <!-- Title: Network Cabling Chalfont St Giles | Cat6a | Bucks Tech Help -->
-<!-- Meta: Cat6a structured cabling in Chalfont St Giles for period homes and garden offices. Tested runs, PoE-ready racks and discreet installation. -->
+<!-- Meta: Professional network cabling service in Chalfont St Giles. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey. -->
 
 # Network Cabling Installation in Chalfont St Giles
 
 Structured cabling in Chalfont St Giles is often about bringing modern connectivity into older buildings without making the infrastructure visually intrusive. Period cottages and character homes may need Ethernet for Wi-Fi access points, home offices, CCTV and AV equipment, while larger properties can also need a permanent network link to a garden studio or detached building.
 
-Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across HP8, with planned routes, patch panels, PoE switching, testing and clear labelling built into the finished network.
+Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across HP8, with planned routes, patch panels, PoE switching, testing and clear labelling built into the finished network. As a local network cabling service, we run Cat 6a Ethernet cable wherever bandwidth and future headroom matter, and solid-copper Cat6 for standard endpoints.
 
 [Explore our structured cabling service](/services/commercial-cabling) or [view the Chalfont St Giles services](/locations/chalfont-st-giles).
 
@@ -200,7 +200,7 @@ Yes. Bucks Tech Help states that installed network runs are tested and documente
       "name": "Network Cabling Installation in Chalfont St Giles",
       "serviceType": "Cat6a structured network cabling installation",
       "url": "https://www.buckstechhelp.co.uk/locations/chalfont-st-giles/network-cabling",
-      "description": "Cat6a structured cabling in Chalfont St Giles for period homes and garden offices. Tested runs, PoE-ready racks and discreet installation.",
+      "description": "Professional network cabling service in Chalfont St Giles. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.",
       "provider": {
         "@id": "https://www.buckstechhelp.co.uk/#organization"
       },
@@ -259,7 +259,7 @@ Yes. Bucks Tech Help states that installed network runs are tested and documente
       "@id": "https://www.buckstechhelp.co.uk/locations/chalfont-st-giles/network-cabling#webpage",
       "url": "https://www.buckstechhelp.co.uk/locations/chalfont-st-giles/network-cabling",
       "name": "Network Cabling Installation in Chalfont St Giles",
-      "description": "Cat6a structured cabling in Chalfont St Giles for period homes and garden offices. Tested runs, PoE-ready racks and discreet installation.",
+      "description": "Professional network cabling service in Chalfont St Giles. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.",
       "isPartOf": {
         "@id": "https://www.buckstechhelp.co.uk/#website"
       },

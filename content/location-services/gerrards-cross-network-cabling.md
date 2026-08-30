@@ -11,28 +11,28 @@ Any instruction intended for Antigravity must remain inside an HTML comment and 
 
 <!-- SEO HEAD — preserve these values in the rendered page head -->
 <title>Network Cabling Gerrards Cross | Cat6a | Bucks Tech Help</title>
-<meta name="description" content="Cat6a structured cabling in Gerrards Cross for large homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation.">
+<meta name="description" content="Professional network cabling service in Gerrards Cross. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.buckstechhelp.co.uk/locations/gerrards-cross/network-cabling">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Network Cabling Gerrards Cross | Cat6a | Bucks Tech Help">
-<meta property="og:description" content="Cat6a structured cabling in Gerrards Cross for large homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation.">
+<meta property="og:description" content="Professional network cabling service in Gerrards Cross. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.">
 <meta property="og:url" content="https://www.buckstechhelp.co.uk/locations/gerrards-cross/network-cabling">
 <meta property="og:site_name" content="Bucks Tech Help">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Network Cabling Gerrards Cross | Cat6a | Bucks Tech Help">
-<meta name="twitter:description" content="Cat6a structured cabling in Gerrards Cross for large homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation.">
+<meta name="twitter:description" content="Professional network cabling service in Gerrards Cross. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.">
 
 <!-- Title: Network Cabling Gerrards Cross | Cat6a | Bucks Tech Help -->
-<!-- Meta: Cat6a structured cabling in Gerrards Cross for large homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation. -->
+<!-- Meta: Professional network cabling service in Gerrards Cross. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey. -->
 
 # Network Cabling Installation in Gerrards Cross
 
 In Gerrards Cross, structured cabling is often most valuable when it is planned as part of the property itself. Large detached homes, extensive renovations and generous plots can require Ethernet for several Wi-Fi access points, home offices, AV systems, CCTV, smart-home hardware and detached buildings. Installing those connections as one documented backbone is very different from adding isolated data points later.
 
-Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across SL9, including patch panels, PoE switching and data cabinets for residential projects and suitable local businesses.
+Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across SL9, including patch panels, PoE switching and data cabinets for residential projects and suitable local businesses. As a local network cabling service, we run Cat 6a Ethernet cable wherever bandwidth and future headroom matter, and solid-copper Cat6 for standard endpoints.
 
 [Explore our structured cabling service](/services/commercial-cabling) or [view the Gerrards Cross services](/locations/gerrards-cross).
 
@@ -186,7 +186,7 @@ Yes. Bucks Tech Help states that installed Cat6 and Cat6a infrastructure is test
       "name": "Network Cabling Installation in Gerrards Cross",
       "serviceType": "Cat6a structured network cabling installation",
       "url": "https://www.buckstechhelp.co.uk/locations/gerrards-cross/network-cabling",
-      "description": "Cat6a structured cabling in Gerrards Cross for large homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation.",
+      "description": "Professional network cabling service in Gerrards Cross. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.",
       "provider": {
         "@id": "https://www.buckstechhelp.co.uk/#organization"
       },
@@ -245,7 +245,7 @@ Yes. Bucks Tech Help states that installed Cat6 and Cat6a infrastructure is test
       "@id": "https://www.buckstechhelp.co.uk/locations/gerrards-cross/network-cabling#webpage",
       "url": "https://www.buckstechhelp.co.uk/locations/gerrards-cross/network-cabling",
       "name": "Network Cabling Installation in Gerrards Cross",
-      "description": "Cat6a structured cabling in Gerrards Cross for large homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation.",
+      "description": "Professional network cabling service in Gerrards Cross. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.",
       "isPartOf": {
         "@id": "https://www.buckstechhelp.co.uk/#website"
       },

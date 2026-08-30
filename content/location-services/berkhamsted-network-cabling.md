@@ -16,28 +16,28 @@ Any instruction intended for Antigravity must remain inside an HTML comment and 
 
 <!-- SEO HEAD — preserve these values in the rendered page head -->
 <title>Network Cabling Berkhamsted | Cat6a | Bucks Tech Help</title>
-<meta name="description" content="Cat6a structured cabling in Berkhamsted for homes and businesses. Tested runs, PoE-ready racks, discreet routes and documented network installation.">
+<meta name="description" content="Professional network cabling service in Berkhamsted, installing Cat 6a Ethernet cable for homes and businesses. Tested runs, PoE-ready racks, discreet routes and documented network installation.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.buckstechhelp.co.uk/locations/berkhamsted/network-cabling">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Network Cabling Berkhamsted | Cat6a | Bucks Tech Help">
-<meta property="og:description" content="Cat6a structured cabling in Berkhamsted for homes and businesses. Tested runs, PoE-ready racks, discreet routes and documented network installation.">
+<meta property="og:description" content="Professional network cabling service in Berkhamsted, installing Cat 6a Ethernet cable for homes and businesses. Tested runs, PoE-ready racks, discreet routes and documented network installation.">
 <meta property="og:url" content="https://www.buckstechhelp.co.uk/locations/berkhamsted/network-cabling">
 <meta property="og:site_name" content="Bucks Tech Help">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Network Cabling Berkhamsted | Cat6a | Bucks Tech Help">
-<meta name="twitter:description" content="Cat6a structured cabling in Berkhamsted for homes and businesses. Tested runs, PoE-ready racks, discreet routes and documented network installation.">
+<meta name="twitter:description" content="Professional network cabling service in Berkhamsted, installing Cat 6a Ethernet cable for homes and businesses. Tested runs, PoE-ready racks, discreet routes and documented network installation.">
 
 <!-- Title: Network Cabling Berkhamsted | Cat6a | Bucks Tech Help -->
-<!-- Meta: Cat6a structured cabling in Berkhamsted for homes and businesses. Tested runs, PoE-ready racks, discreet routes and documented network installation. -->
+<!-- Meta: Professional network cabling service in Berkhamsted, installing Cat 6a Ethernet cable for homes and businesses. Tested runs, PoE-ready racks, discreet routes and documented network installation. -->
 
 # Network Cabling Installation in Berkhamsted
 
 Berkhamsted is a strong fit for both residential and commercial structured cabling. Historic and multi-storey homes need discreet Ethernet for Wi-Fi access points, home offices, CCTV and media equipment, while the town centre and employment areas need data points, PoE switching and organised racks for retail, hospitality, offices and professional premises.
 
-Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across HP4, with planned routes, patch panels, managed PoE switching, testing and clear documentation built into the finished network.
+Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across HP4, with planned routes, patch panels, managed PoE switching, testing and clear documentation built into the finished network. As a local network cabling service, we run Cat 6a Ethernet cable wherever bandwidth and future headroom matter, and solid-copper Cat6 for standard endpoints.
 
 [Explore our structured cabling service](/services/commercial-cabling) or [view the Berkhamsted services](/locations/berkhamsted).
 
@@ -223,7 +223,7 @@ Yes. This page is intended to cover suitable town-centre offices, shops, hospita
       "name": "Network Cabling Installation in Berkhamsted",
       "serviceType": "Cat6a structured network cabling installation",
       "url": "https://www.buckstechhelp.co.uk/locations/berkhamsted/network-cabling",
-      "description": "Cat6a structured cabling in Berkhamsted for homes and businesses. Tested runs, PoE-ready racks, discreet routes and documented network installation.",
+      "description": "Professional network cabling service in Berkhamsted, installing Cat 6a Ethernet cable for homes and businesses. Tested runs, PoE-ready racks, discreet routes and documented network installation.",
       "provider": {
         "@id": "https://www.buckstechhelp.co.uk/#organization"
       },
@@ -282,7 +282,7 @@ Yes. This page is intended to cover suitable town-centre offices, shops, hospita
       "@id": "https://www.buckstechhelp.co.uk/locations/berkhamsted/network-cabling#webpage",
       "url": "https://www.buckstechhelp.co.uk/locations/berkhamsted/network-cabling",
       "name": "Network Cabling Installation in Berkhamsted",
-      "description": "Cat6a structured cabling in Berkhamsted for homes and businesses. Tested runs, PoE-ready racks, discreet routes and documented network installation.",
+      "description": "Professional network cabling service in Berkhamsted, installing Cat 6a Ethernet cable for homes and businesses. Tested runs, PoE-ready racks, discreet routes and documented network installation.",
       "isPartOf": {
         "@id": "https://www.buckstechhelp.co.uk/#website"
       },

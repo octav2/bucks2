@@ -11,28 +11,28 @@ Any instruction intended for Antigravity must remain inside an HTML comment and 
 
 <!-- SEO HEAD — preserve these values in the rendered page head -->
 <title>Network Cabling Hazlemere | Cat6a | Bucks Tech Help</title>
-<meta name="description" content="Cat6a structured cabling in Hazlemere for homes and local businesses. Tested runs, PoE-ready cabinets, garden-office links and tidy installation.">
+<meta name="description" content="Professional network cabling service in Hazlemere. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.buckstechhelp.co.uk/locations/hazlemere/network-cabling">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Network Cabling Hazlemere | Cat6a | Bucks Tech Help">
-<meta property="og:description" content="Cat6a structured cabling in Hazlemere for homes and local businesses. Tested runs, PoE-ready cabinets, garden-office links and tidy installation.">
+<meta property="og:description" content="Professional network cabling service in Hazlemere. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.">
 <meta property="og:url" content="https://www.buckstechhelp.co.uk/locations/hazlemere/network-cabling">
 <meta property="og:site_name" content="Bucks Tech Help">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Network Cabling Hazlemere | Cat6a | Bucks Tech Help">
-<meta name="twitter:description" content="Cat6a structured cabling in Hazlemere for homes and local businesses. Tested runs, PoE-ready cabinets, garden-office links and tidy installation.">
+<meta name="twitter:description" content="Professional network cabling service in Hazlemere. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.">
 
 <!-- Title: Network Cabling Hazlemere | Cat6a | Bucks Tech Help -->
-<!-- Meta: Cat6a structured cabling in Hazlemere for homes and local businesses. Tested runs, PoE-ready cabinets, garden-office links and tidy installation. -->
+<!-- Meta: Professional network cabling service in Hazlemere. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey. -->
 
 # Network Cabling Installation in Hazlemere
 
 Hazlemere is primarily residential, so network cabling here often starts with the home rather than the server room. Extensions, converted lofts, permanent home offices, Wi-Fi access points, CCTV and garden buildings can all benefit from a fixed Ethernet backbone. At the same time, Hazlemere's proximity to High Wycombe means small offices and commercial premises are also within a market where proper racks, patch panels and PoE switching are genuinely relevant.
 
-Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across HP15, with planned routes, labelled terminations and testing built into the finished installation.
+Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across HP15, with planned routes, labelled terminations and testing built into the finished installation. As a local network cabling service, we run Cat 6a Ethernet cable wherever bandwidth and future headroom matter, and solid-copper Cat6 for standard endpoints.
 
 [Explore our structured cabling service](/services/commercial-cabling) or [view the Hazlemere services](/locations/hazlemere).
 
@@ -200,7 +200,7 @@ Yes. Hazlemere's proximity to High Wycombe means Bucks Tech Help can also scope 
       "name": "Network Cabling Installation in Hazlemere",
       "serviceType": "Cat6a structured network cabling installation",
       "url": "https://www.buckstechhelp.co.uk/locations/hazlemere/network-cabling",
-      "description": "Cat6a structured cabling in Hazlemere for homes and local businesses. Tested runs, PoE-ready cabinets, garden-office links and tidy installation.",
+      "description": "Professional network cabling service in Hazlemere. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.",
       "provider": {
         "@id": "https://www.buckstechhelp.co.uk/#organization"
       },
@@ -259,7 +259,7 @@ Yes. Hazlemere's proximity to High Wycombe means Bucks Tech Help can also scope 
       "@id": "https://www.buckstechhelp.co.uk/locations/hazlemere/network-cabling#webpage",
       "url": "https://www.buckstechhelp.co.uk/locations/hazlemere/network-cabling",
       "name": "Network Cabling Installation in Hazlemere",
-      "description": "Cat6a structured cabling in Hazlemere for homes and local businesses. Tested runs, PoE-ready cabinets, garden-office links and tidy installation.",
+      "description": "Professional network cabling service in Hazlemere. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.",
       "about": {
         "@id": "https://www.buckstechhelp.co.uk/locations/hazlemere/network-cabling#service"
       },

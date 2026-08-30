@@ -12,28 +12,28 @@ Any instruction intended for Antigravity must remain inside an HTML comment and 
 
 <!-- SEO HEAD — preserve these values in the rendered page head -->
 <title>Network Cabling Penn | Cat6a | Bucks Tech Help</title>
-<meta name="description" content="Cat6a structured cabling in Penn for large homes, annexes and gated properties. Tested runs, PoE-ready racks and long-distance network links.">
+<meta name="description" content="Professional network cabling service in Penn. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.buckstechhelp.co.uk/locations/penn/network-cabling">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Network Cabling Penn | Cat6a | Bucks Tech Help">
-<meta property="og:description" content="Cat6a structured cabling in Penn for large homes, annexes and gated properties. Tested runs, PoE-ready racks and long-distance network links.">
+<meta property="og:description" content="Professional network cabling service in Penn. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.">
 <meta property="og:url" content="https://www.buckstechhelp.co.uk/locations/penn/network-cabling">
 <meta property="og:site_name" content="Bucks Tech Help">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Network Cabling Penn | Cat6a | Bucks Tech Help">
-<meta name="twitter:description" content="Cat6a structured cabling in Penn for large homes, annexes and gated properties. Tested runs, PoE-ready racks and long-distance network links.">
+<meta name="twitter:description" content="Professional network cabling service in Penn. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.">
 
 <!-- Title: Network Cabling Penn | Cat6a | Bucks Tech Help -->
-<!-- Meta: Cat6a structured cabling in Penn for large homes, annexes and gated properties. Tested runs, PoE-ready racks and long-distance network links. -->
+<!-- Meta: Professional network cabling service in Penn. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey. -->
 
 # Network Cabling Installation in Penn
 
 Network cabling in Penn is often a property-scale infrastructure job rather than a handful of Ethernet sockets. Large detached homes can need dedicated runs for Wi-Fi access points, home offices, AV systems, CCTV and smart-home equipment, while annexes, garages, garden buildings and gated entrances may require longer external links back to the central network.
 
-Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across HP10, with planned routes, patch panels, PoE switching, testing and clear labelling built into the finished network.
+Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across HP10, with planned routes, patch panels, PoE switching, testing and clear labelling built into the finished network. As a local network cabling service, we run Cat 6a Ethernet cable wherever bandwidth and future headroom matter, and solid-copper Cat6 for standard endpoints.
 
 [Explore our structured cabling service](/services/commercial-cabling) or [view the Penn services](/locations/penn).
 
@@ -195,7 +195,7 @@ Yes. Bucks Tech Help states that installed network runs are tested, labelled and
       "name": "Network Cabling Installation in Penn",
       "serviceType": "Cat6a structured network cabling installation",
       "url": "https://www.buckstechhelp.co.uk/locations/penn/network-cabling",
-      "description": "Cat6a structured cabling in Penn for large homes, annexes and gated properties. Tested runs, PoE-ready racks and long-distance network links.",
+      "description": "Professional network cabling service in Penn. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.",
       "provider": {
         "@id": "https://www.buckstechhelp.co.uk/#organization"
       },
@@ -254,7 +254,7 @@ Yes. Bucks Tech Help states that installed network runs are tested, labelled and
       "@id": "https://www.buckstechhelp.co.uk/locations/penn/network-cabling#webpage",
       "url": "https://www.buckstechhelp.co.uk/locations/penn/network-cabling",
       "name": "Network Cabling Installation in Penn",
-      "description": "Cat6a structured cabling in Penn for large homes, annexes and gated properties. Tested runs, PoE-ready racks and long-distance network links.",
+      "description": "Professional network cabling service in Penn. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.",
       "isPartOf": {
         "@id": "https://www.buckstechhelp.co.uk/#website"
       },

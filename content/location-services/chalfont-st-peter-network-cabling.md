@@ -12,28 +12,28 @@ Any instruction intended for Antigravity must remain inside an HTML comment and 
 
 <!-- SEO HEAD — preserve these values in the rendered page head -->
 <title>Network Cabling Chalfont St Peter | Cat6a | Bucks Tech</title>
-<meta name="description" content="Cat6a structured cabling in Chalfont St Peter for homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation.">
+<meta name="description" content="Professional network cabling service in Chalfont St Peter, installing Cat 6a Ethernet cable for homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.buckstechhelp.co.uk/locations/chalfont-st-peter/network-cabling">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Network Cabling Chalfont St Peter | Cat6a | Bucks Tech">
-<meta property="og:description" content="Cat6a structured cabling in Chalfont St Peter for homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation.">
+<meta property="og:description" content="Professional network cabling service in Chalfont St Peter, installing Cat 6a Ethernet cable for homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation.">
 <meta property="og:url" content="https://www.buckstechhelp.co.uk/locations/chalfont-st-peter/network-cabling">
 <meta property="og:site_name" content="Bucks Tech Help">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Network Cabling Chalfont St Peter | Cat6a | Bucks Tech">
-<meta name="twitter:description" content="Cat6a structured cabling in Chalfont St Peter for homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation.">
+<meta name="twitter:description" content="Professional network cabling service in Chalfont St Peter, installing Cat 6a Ethernet cable for homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation.">
 
 <!-- Title: Network Cabling Chalfont St Peter | Cat6a | Bucks Tech -->
-<!-- Meta: Cat6a structured cabling in Chalfont St Peter for homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation. -->
+<!-- Meta: Professional network cabling service in Chalfont St Peter, installing Cat 6a Ethernet cable for homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation. -->
 
 # Network Cabling Installation in Chalfont St Peter
 
 Structured cabling in Chalfont St Peter often supports the way family homes are now used: ceiling Wi-Fi access points, loft offices, media systems, CCTV and garden studios all need dependable network connections. Local shops, offices and professional premises add a secondary commercial requirement for tidy data points, PoE switching and cabinets that remain easy to understand.
 
-Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across SL9, with planned routes, patch panels, testing and clear labelling built into the finished network.
+Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across SL9, with planned routes, patch panels, testing and clear labelling built into the finished network. As a local network cabling service, we run Cat 6a Ethernet cable wherever bandwidth and future headroom matter, and solid-copper Cat6 for standard endpoints.
 
 [Explore our structured cabling service](/services/commercial-cabling) or [view the Chalfont St Peter services](/locations/chalfont-st-peter).
 
@@ -208,7 +208,7 @@ Yes. Bucks Tech Help states that installed network runs are tested and documente
       "name": "Network Cabling Installation in Chalfont St Peter",
       "serviceType": "Cat6a structured network cabling installation",
       "url": "https://www.buckstechhelp.co.uk/locations/chalfont-st-peter/network-cabling",
-      "description": "Cat6a structured cabling in Chalfont St Peter for homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation.",
+      "description": "Professional network cabling service in Chalfont St Peter, installing Cat 6a Ethernet cable for homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation.",
       "provider": {
         "@id": "https://www.buckstechhelp.co.uk/#organization"
       },
@@ -267,7 +267,7 @@ Yes. Bucks Tech Help states that installed network runs are tested and documente
       "@id": "https://www.buckstechhelp.co.uk/locations/chalfont-st-peter/network-cabling#webpage",
       "url": "https://www.buckstechhelp.co.uk/locations/chalfont-st-peter/network-cabling",
       "name": "Network Cabling Installation in Chalfont St Peter",
-      "description": "Cat6a structured cabling in Chalfont St Peter for homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation.",
+      "description": "Professional network cabling service in Chalfont St Peter, installing Cat 6a Ethernet cable for homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation.",
       "isPartOf": {
         "@id": "https://www.buckstechhelp.co.uk/#website"
       },

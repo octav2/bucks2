@@ -12,28 +12,28 @@ Any instruction intended for Antigravity must remain inside an HTML comment and 
 
 <!-- SEO HEAD — preserve these values in the rendered page head -->
 <title>Network Cabling Stoke Poges | Cat6a | Bucks Tech Help</title>
-<meta name="description" content="Cat6a structured cabling in Stoke Poges for large homes, annexes and gated properties. Tested runs, PoE-ready racks and long-distance network links.">
+<meta name="description" content="Professional network cabling service in Stoke Poges. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.buckstechhelp.co.uk/locations/stoke-poges/network-cabling">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Network Cabling Stoke Poges | Cat6a | Bucks Tech Help">
-<meta property="og:description" content="Cat6a structured cabling in Stoke Poges for large homes, annexes and gated properties. Tested runs, PoE-ready racks and long-distance network links.">
+<meta property="og:description" content="Professional network cabling service in Stoke Poges. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.">
 <meta property="og:url" content="https://www.buckstechhelp.co.uk/locations/stoke-poges/network-cabling">
 <meta property="og:site_name" content="Bucks Tech Help">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Network Cabling Stoke Poges | Cat6a | Bucks Tech Help">
-<meta name="twitter:description" content="Cat6a structured cabling in Stoke Poges for large homes, annexes and gated properties. Tested runs, PoE-ready racks and long-distance network links.">
+<meta name="twitter:description" content="Professional network cabling service in Stoke Poges. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.">
 
 <!-- Title: Network Cabling Stoke Poges | Cat6a | Bucks Tech Help -->
-<!-- Meta: Cat6a structured cabling in Stoke Poges for large homes, annexes and gated properties. Tested runs, PoE-ready racks and long-distance network links. -->
+<!-- Meta: Professional network cabling service in Stoke Poges. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey. -->
 
 # Network Cabling Installation in Stoke Poges
 
 Network cabling in Stoke Poges is often a whole-property infrastructure job rather than a small collection of Ethernet sockets. Large detached homes can need dedicated runs for Wi-Fi access points, workspaces, AV systems, CCTV and smart-home equipment, while garages, annexes and gated entrances may require longer external links back to the central network.
 
-Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across SL2, with planned routes, patch panels, PoE switching, testing and clear labelling built into the finished infrastructure.
+Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across SL2, with planned routes, patch panels, PoE switching, testing and clear labelling built into the finished infrastructure. As a local network cabling service, we run Cat 6a Ethernet cable wherever bandwidth and future headroom matter, and solid-copper Cat6 for standard endpoints.
 
 [Explore our structured cabling service](/services/commercial-cabling) or [view the Stoke Poges services](/locations/stoke-poges).
 
@@ -195,7 +195,7 @@ Yes. Bucks Tech Help states that installed network runs are tested and documente
       "name": "Network Cabling Installation in Stoke Poges",
       "serviceType": "Cat6a structured network cabling installation",
       "url": "https://www.buckstechhelp.co.uk/locations/stoke-poges/network-cabling",
-      "description": "Cat6a structured cabling in Stoke Poges for large homes, annexes and gated properties. Tested runs, PoE-ready racks and long-distance network links.",
+      "description": "Professional network cabling service in Stoke Poges. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.",
       "provider": {
         "@id": "https://www.buckstechhelp.co.uk/#organization"
       },
@@ -254,7 +254,7 @@ Yes. Bucks Tech Help states that installed network runs are tested and documente
       "@id": "https://www.buckstechhelp.co.uk/locations/stoke-poges/network-cabling#webpage",
       "url": "https://www.buckstechhelp.co.uk/locations/stoke-poges/network-cabling",
       "name": "Network Cabling Installation in Stoke Poges",
-      "description": "Cat6a structured cabling in Stoke Poges for large homes, annexes and gated properties. Tested runs, PoE-ready racks and long-distance network links.",
+      "description": "Professional network cabling service in Stoke Poges. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.",
       "isPartOf": {
         "@id": "https://www.buckstechhelp.co.uk/#website"
       },

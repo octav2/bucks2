@@ -12,22 +12,22 @@ SOURCE NOTE: The master town table lists HP11–HP14. The current live High Wyco
 
 <!-- SEO HEAD — preserve these values in the rendered page head -->
 <title>Network Cabling High Wycombe | Cat6a | Bucks Tech Help</title>
-<meta name="description" content="Cat6a structured cabling in High Wycombe for offices, industrial units and homes. Tested runs, patch panels, PoE switches and tidy rack builds.">
+<meta name="description" content="Professional network cabling service in High Wycombe. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.buckstechhelp.co.uk/locations/high-wycombe/network-cabling">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Network Cabling High Wycombe | Cat6a | Bucks Tech Help">
-<meta property="og:description" content="Cat6a structured cabling in High Wycombe for offices, industrial units and homes. Tested runs, patch panels, PoE switches and tidy rack builds.">
+<meta property="og:description" content="Professional network cabling service in High Wycombe. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.">
 <meta property="og:url" content="https://www.buckstechhelp.co.uk/locations/high-wycombe/network-cabling">
 <meta property="og:site_name" content="Bucks Tech Help">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Network Cabling High Wycombe | Cat6a | Bucks Tech Help">
-<meta name="twitter:description" content="Cat6a structured cabling in High Wycombe for offices, industrial units and homes. Tested runs, patch panels, PoE switches and tidy rack builds.">
+<meta name="twitter:description" content="Professional network cabling service in High Wycombe. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.">
 
 <!-- Title: Network Cabling High Wycombe | Cat6a | Bucks Tech Help -->
-<!-- Meta: Cat6a structured cabling in High Wycombe for offices, industrial units and homes. Tested runs, patch panels, PoE switches and tidy rack builds. -->
+<!-- Meta: Professional network cabling service in High Wycombe. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey. -->
 
 # Network Cabling Installation in High Wycombe
 
@@ -35,7 +35,7 @@ High Wycombe is one of the clearest places in your coverage area for a genuinely
 
 The residential side matters too. Multi-level homes, extensions and garden offices across High Wycombe can use the same **Cat6 and Cat6a structured cabling** approach to create a permanent backbone for Wi-Fi, workstations, CCTV and smart-home equipment.
 
-Bucks Tech Help installs structured cabling, patch panels and data cabinets with testing, labelling and documented handover built into the finished network.
+Bucks Tech Help installs structured cabling, patch panels and data cabinets with testing, labelling and documented handover built into the finished network. As a local network cabling service, we run Cat 6a Ethernet cable wherever bandwidth and future headroom matter, and solid-copper Cat6 for standard endpoints.
 
 [Explore our structured cabling service](/services/commercial-cabling) or [view the High Wycombe services](/locations/high-wycombe).
 
@@ -201,7 +201,7 @@ Yes. Bucks Tech Help states that installed network runs are tested, labelled and
       "name": "Network Cabling Installation in High Wycombe",
       "serviceType": "Cat6a structured network cabling installation",
       "url": "https://www.buckstechhelp.co.uk/locations/high-wycombe/network-cabling",
-      "description": "Cat6a structured cabling in High Wycombe for offices, industrial units and homes. Tested runs, patch panels, PoE switches and tidy rack builds.",
+      "description": "Professional network cabling service in High Wycombe. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.",
       "provider": {
         "@id": "https://www.buckstechhelp.co.uk/#organization"
       },
@@ -259,7 +259,7 @@ Yes. Bucks Tech Help states that installed network runs are tested, labelled and
       "@id": "https://www.buckstechhelp.co.uk/locations/high-wycombe/network-cabling#webpage",
       "url": "https://www.buckstechhelp.co.uk/locations/high-wycombe/network-cabling",
       "name": "Network Cabling Installation in High Wycombe",
-      "description": "Cat6a structured cabling in High Wycombe for offices, industrial units and homes. Tested runs, patch panels, PoE switches and tidy rack builds.",
+      "description": "Professional network cabling service in High Wycombe. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.",
       "isPartOf": {
         "@id": "https://www.buckstechhelp.co.uk/#website"
       },

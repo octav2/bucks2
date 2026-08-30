@@ -11,28 +11,28 @@ Any instruction intended for Antigravity must remain inside an HTML comment and 
 
 <!-- SEO HEAD — preserve these values in the rendered page head -->
 <title>Network Cabling Amersham | Cat6a | Bucks Tech Help</title>
-<meta name="description" content="Cat6a structured cabling in Amersham for homes and businesses. Tested network runs, PoE-ready cabinets and tidy rack installation. Free survey.">
+<meta name="description" content="Professional network cabling service in Amersham, installing Cat 6a Ethernet cable for homes and businesses. Tested network runs, PoE-ready cabinets and tidy rack installation. Free survey.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.buckstechhelp.co.uk/locations/amersham/network-cabling">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Network Cabling Amersham | Cat6a | Bucks Tech Help">
-<meta property="og:description" content="Cat6a structured cabling in Amersham for homes and businesses. Tested network runs, PoE-ready cabinets and tidy rack installation. Free survey.">
+<meta property="og:description" content="Professional network cabling service in Amersham, installing Cat 6a Ethernet cable for homes and businesses. Tested network runs, PoE-ready cabinets and tidy rack installation. Free survey.">
 <meta property="og:url" content="https://www.buckstechhelp.co.uk/locations/amersham/network-cabling">
 <meta property="og:site_name" content="Bucks Tech Help">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Network Cabling Amersham | Cat6a | Bucks Tech Help">
-<meta name="twitter:description" content="Cat6a structured cabling in Amersham for homes and businesses. Tested network runs, PoE-ready cabinets and tidy rack installation. Free survey.">
+<meta name="twitter:description" content="Professional network cabling service in Amersham, installing Cat 6a Ethernet cable for homes and businesses. Tested network runs, PoE-ready cabinets and tidy rack installation. Free survey.">
 
 <!-- Title: Network Cabling Amersham | Cat6a | Bucks Tech Help -->
-<!-- Meta: Cat6a structured cabling in Amersham for homes and businesses. Tested network runs, PoE-ready cabinets and tidy rack installation. Free survey. -->
+<!-- Meta: Professional network cabling service in Amersham, installing Cat 6a Ethernet cable for homes and businesses. Tested network runs, PoE-ready cabinets and tidy rack installation. Free survey. -->
 
 # Network Cabling Installation in Amersham
 
 Structured cabling in Amersham has to work in very different buildings. A period property in Old Town may need carefully planned cable routes that preserve character interiors, while a larger family home around Amersham-on-the-Hill may need Ethernet for access points, home offices, media equipment, CCTV and a garden building. Local offices, clinics and small commercial premises add another requirement: tidy racks, labelled data points and PoE infrastructure that can be maintained without guesswork.
 
-Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across HP6 and HP7, with testing, labelling and documented handover built into the finished network.
+Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across HP6 and HP7, with testing, labelling and documented handover built into the finished network. As a local network cabling service, we run Cat 6a Ethernet cable wherever bandwidth and future headroom matter, and solid-copper Cat6 for standard endpoints.
 
 [Explore our structured cabling service](/services/commercial-cabling) or [view the Amersham services](/locations/amersham).
 
@@ -180,7 +180,7 @@ Yes. Bucks Tech Help states that network drops are tested and verified using com
       "name": "Network Cabling Installation in Amersham",
       "serviceType": "Cat6a structured network cabling installation",
       "url": "https://www.buckstechhelp.co.uk/locations/amersham/network-cabling",
-      "description": "Cat6a structured cabling in Amersham for homes and businesses. Tested network runs, PoE-ready cabinets and tidy rack installation. Free survey.",
+      "description": "Professional network cabling service in Amersham, installing Cat 6a Ethernet cable for homes and businesses. Tested network runs, PoE-ready cabinets and tidy rack installation. Free survey.",
       "provider": {
         "@id": "https://www.buckstechhelp.co.uk/#organization"
       },
@@ -239,7 +239,7 @@ Yes. Bucks Tech Help states that network drops are tested and verified using com
       "@id": "https://www.buckstechhelp.co.uk/locations/amersham/network-cabling#webpage",
       "url": "https://www.buckstechhelp.co.uk/locations/amersham/network-cabling",
       "name": "Network Cabling Installation in Amersham",
-      "description": "Cat6a structured cabling in Amersham for homes and businesses. Tested network runs, PoE-ready cabinets and tidy rack installation. Free survey.",
+      "description": "Professional network cabling service in Amersham, installing Cat 6a Ethernet cable for homes and businesses. Tested network runs, PoE-ready cabinets and tidy rack installation. Free survey.",
       "isPartOf": {
         "@id": "https://www.buckstechhelp.co.uk/#website"
       },

@@ -13,28 +13,28 @@ Any instruction intended for Antigravity must remain inside an HTML comment and 
 
 <!-- SEO HEAD — preserve these values in the rendered page head -->
 <title>Network Cabling Aylesbury | Cat6a | Bucks Tech Help</title>
-<meta name="description" content="Cat6a structured cabling in Aylesbury for offices, industrial units and homes. Tested runs, patch panels, PoE switching and tidy rack builds.">
+<meta name="description" content="Professional network cabling service in Aylesbury. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.buckstechhelp.co.uk/locations/aylesbury/network-cabling">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Network Cabling Aylesbury | Cat6a | Bucks Tech Help">
-<meta property="og:description" content="Cat6a structured cabling in Aylesbury for offices, industrial units and homes. Tested runs, patch panels, PoE switching and tidy rack builds.">
+<meta property="og:description" content="Professional network cabling service in Aylesbury. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.">
 <meta property="og:url" content="https://www.buckstechhelp.co.uk/locations/aylesbury/network-cabling">
 <meta property="og:site_name" content="Bucks Tech Help">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Network Cabling Aylesbury | Cat6a | Bucks Tech Help">
-<meta name="twitter:description" content="Cat6a structured cabling in Aylesbury for offices, industrial units and homes. Tested runs, patch panels, PoE switching and tidy rack builds.">
+<meta name="twitter:description" content="Professional network cabling service in Aylesbury. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.">
 
 <!-- Title: Network Cabling Aylesbury | Cat6a | Bucks Tech Help -->
-<!-- Meta: Cat6a structured cabling in Aylesbury for offices, industrial units and homes. Tested runs, patch panels, PoE switching and tidy rack builds. -->
+<!-- Meta: Professional network cabling service in Aylesbury. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey. -->
 
 # Network Cabling Installation in Aylesbury
 
 Aylesbury is one of the strongest commercial cabling locations in the Bucks Tech Help coverage area. Offices, clinics, retail premises, warehouses and industrial units need labelled data points, dependable PoE switching and racks that an IT provider can trace without dismantling the network. At the same time, newer family homes and growing estates increasingly need structured Ethernet for Wi-Fi access points, workstations, CCTV and smart-home equipment.
 
-Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across the wider HP18–HP22 area, with patch panels, data cabinets, managed PoE switching, testing and clear labelling built into the finished installation.
+Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across the wider HP18–HP22 area, with patch panels, data cabinets, managed PoE switching, testing and clear labelling built into the finished installation. As a local network cabling service, we run Cat 6a Ethernet cable wherever bandwidth and future headroom matter, and solid-copper Cat6 for standard endpoints.
 
 [Explore our structured cabling service](/services/commercial-cabling) or [view the Aylesbury services](/locations/aylesbury).
 
@@ -209,7 +209,7 @@ Yes. Bucks Tech Help states that installed network runs are tested and documente
       "name": "Network Cabling Installation in Aylesbury",
       "serviceType": "Cat6a structured network cabling installation",
       "url": "https://www.buckstechhelp.co.uk/locations/aylesbury/network-cabling",
-      "description": "Cat6a structured cabling in Aylesbury for offices, industrial units and homes. Tested runs, patch panels, PoE switching and tidy rack builds.",
+      "description": "Professional network cabling service in Aylesbury. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.",
       "provider": {
         "@id": "https://www.buckstechhelp.co.uk/#organization"
       },
@@ -268,7 +268,7 @@ Yes. Bucks Tech Help states that installed network runs are tested and documente
       "@id": "https://www.buckstechhelp.co.uk/locations/aylesbury/network-cabling#webpage",
       "url": "https://www.buckstechhelp.co.uk/locations/aylesbury/network-cabling",
       "name": "Network Cabling Installation in Aylesbury",
-      "description": "Cat6a structured cabling in Aylesbury for offices, industrial units and homes. Tested runs, patch panels, PoE switching and tidy rack builds.",
+      "description": "Professional network cabling service in Aylesbury. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.",
       "isPartOf": {
         "@id": "https://www.buckstechhelp.co.uk/#website"
       },

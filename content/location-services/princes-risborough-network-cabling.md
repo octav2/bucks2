@@ -14,28 +14,28 @@ Any instruction intended for Antigravity must remain inside an HTML comment and 
 
 <!-- SEO HEAD — preserve these values in the rendered page head -->
 <title>Network Cabling Princes Risborough | Cat6a | Bucks Tech</title>
-<meta name="description" content="Cat6a structured cabling in Princes Risborough for homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation.">
+<meta name="description" content="Professional network cabling service in Princes Risborough, installing Cat 6a Ethernet cable for homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.buckstechhelp.co.uk/locations/princes-risborough/network-cabling">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Network Cabling Princes Risborough | Cat6a | Bucks Tech">
-<meta property="og:description" content="Cat6a structured cabling in Princes Risborough for homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation.">
+<meta property="og:description" content="Professional network cabling service in Princes Risborough, installing Cat 6a Ethernet cable for homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation.">
 <meta property="og:url" content="https://www.buckstechhelp.co.uk/locations/princes-risborough/network-cabling">
 <meta property="og:site_name" content="Bucks Tech Help">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Network Cabling Princes Risborough | Cat6a | Bucks Tech">
-<meta name="twitter:description" content="Cat6a structured cabling in Princes Risborough for homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation.">
+<meta name="twitter:description" content="Professional network cabling service in Princes Risborough, installing Cat 6a Ethernet cable for homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation.">
 
 <!-- Title: Network Cabling Princes Risborough | Cat6a | Bucks Tech -->
-<!-- Meta: Cat6a structured cabling in Princes Risborough for homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation. -->
+<!-- Meta: Professional network cabling service in Princes Risborough, installing Cat 6a Ethernet cable for homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation. -->
 
 # Network Cabling Installation in Princes Risborough
 
 Structured cabling in Princes Risborough needs to serve both a growing residential market and a modest local-business base. Older homes can need discreet Ethernet routes for Wi-Fi access points, offices and CCTV, while newer properties increasingly benefit from planning the wired backbone before every room fills up with wireless devices. Small commercial sites around the town also need data points, PoE switching and tidy network cabinets that remain easy to maintain.
 
-Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across HP27, with planned routes, patch panels, PoE switching, testing and clear labelling built into the finished infrastructure.
+Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across HP27, with planned routes, patch panels, PoE switching, testing and clear labelling built into the finished infrastructure. As a local network cabling service, we run Cat 6a Ethernet cable wherever bandwidth and future headroom matter, and solid-copper Cat6 for standard endpoints.
 
 [Explore our structured cabling service](/services/commercial-cabling) or [view the Princes Risborough services](/locations/princes-risborough).
 
@@ -224,7 +224,7 @@ Yes. Bucks Tech Help states that installed network runs are tested and documente
       "name": "Network Cabling Installation in Princes Risborough",
       "serviceType": "Cat6a structured network cabling installation",
       "url": "https://www.buckstechhelp.co.uk/locations/princes-risborough/network-cabling",
-      "description": "Cat6a structured cabling in Princes Risborough for homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation.",
+      "description": "Professional network cabling service in Princes Risborough, installing Cat 6a Ethernet cable for homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation.",
       "provider": {
         "@id": "https://www.buckstechhelp.co.uk/#organization"
       },
@@ -283,7 +283,7 @@ Yes. Bucks Tech Help states that installed network runs are tested and documente
       "@id": "https://www.buckstechhelp.co.uk/locations/princes-risborough/network-cabling#webpage",
       "url": "https://www.buckstechhelp.co.uk/locations/princes-risborough/network-cabling",
       "name": "Network Cabling Installation in Princes Risborough",
-      "description": "Cat6a structured cabling in Princes Risborough for homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation.",
+      "description": "Professional network cabling service in Princes Risborough, installing Cat 6a Ethernet cable for homes and businesses. Tested runs, PoE-ready racks, garden-office links and tidy installation.",
       "isPartOf": {
         "@id": "https://www.buckstechhelp.co.uk/#website"
       },

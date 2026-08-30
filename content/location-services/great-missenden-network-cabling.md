@@ -12,28 +12,28 @@ Any instruction intended for Antigravity must remain inside an HTML comment and 
 
 <!-- SEO HEAD — preserve these values in the rendered page head -->
 <title>Network Cabling Great Missenden | Cat6a | Bucks Tech Help</title>
-<meta name="description" content="Cat6a structured cabling in Great Missenden for period homes, garden offices and outbuildings. Tested runs, PoE-ready and neatly installed.">
+<meta name="description" content="Professional network cabling service in Great Missenden. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.buckstechhelp.co.uk/locations/great-missenden/network-cabling">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Network Cabling Great Missenden | Cat6a | Bucks Tech Help">
-<meta property="og:description" content="Cat6a structured cabling in Great Missenden for period homes, garden offices and outbuildings. Tested runs, PoE-ready and neatly installed.">
+<meta property="og:description" content="Professional network cabling service in Great Missenden. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.">
 <meta property="og:url" content="https://www.buckstechhelp.co.uk/locations/great-missenden/network-cabling">
 <meta property="og:site_name" content="Bucks Tech Help">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Network Cabling Great Missenden | Cat6a | Bucks Tech Help">
-<meta name="twitter:description" content="Cat6a structured cabling in Great Missenden for period homes, garden offices and outbuildings. Tested runs, PoE-ready and neatly installed.">
+<meta name="twitter:description" content="Professional network cabling service in Great Missenden. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.">
 
 <!-- Title: Network Cabling Great Missenden | Cat6a | Bucks Tech Help -->
-<!-- Meta: Cat6a structured cabling in Great Missenden for period homes, garden offices and outbuildings. Tested runs, PoE-ready and neatly installed. -->
+<!-- Meta: Professional network cabling service in Great Missenden. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey. -->
 
 # Network Cabling Installation in Great Missenden
 
 In Great Missenden, structured cabling is often about making modern connectivity work inside older buildings and across larger plots. Period homes may need careful Ethernet routes for ceiling Wi-Fi access points, home offices, CCTV and AV equipment, while detached studios and converted outbuildings need a reliable connection back to the main property.
 
-Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across HP16, with planned routes, labelled terminations, PoE switching and testing built into the finished network.
+Bucks Tech Help installs **Cat6 and Cat6a structured cabling** across HP16, with planned routes, labelled terminations, PoE switching and testing built into the finished network. As a local network cabling service, we run Cat 6a Ethernet cable wherever bandwidth and future headroom matter, and solid-copper Cat6 for standard endpoints.
 
 [Explore our structured cabling service](/services/commercial-cabling) or [view the Great Missenden services](/locations/great-missenden).
 
@@ -187,7 +187,7 @@ Yes. Bucks Tech Help states that installed network runs are tested, labelled and
       "name": "Network Cabling Installation in Great Missenden",
       "serviceType": "Cat6a structured network cabling installation",
       "url": "https://www.buckstechhelp.co.uk/locations/great-missenden/network-cabling",
-      "description": "Cat6a structured cabling in Great Missenden for period homes, garden offices and outbuildings. Tested runs, PoE-ready and neatly installed.",
+      "description": "Professional network cabling service in Great Missenden. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.",
       "provider": {
         "@id": "https://www.buckstechhelp.co.uk/#organization"
       },
@@ -246,7 +246,7 @@ Yes. Bucks Tech Help states that installed network runs are tested, labelled and
       "@id": "https://www.buckstechhelp.co.uk/locations/great-missenden/network-cabling#webpage",
       "url": "https://www.buckstechhelp.co.uk/locations/great-missenden/network-cabling",
       "name": "Network Cabling Installation in Great Missenden",
-      "description": "Cat6a structured cabling in Great Missenden for period homes, garden offices and outbuildings. Tested runs, PoE-ready and neatly installed.",
+      "description": "Professional network cabling service in Great Missenden. Cat 6a Ethernet cable installation, tested runs, PoE-ready cabinets and tidy racks. Free survey.",
       "about": {
         "@id": "https://www.buckstechhelp.co.uk/locations/great-missenden/network-cabling#service"
       },
