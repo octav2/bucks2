@@ -12,28 +12,32 @@ Any instruction intended for Antigravity must remain inside an HTML comment and 
 
 <!-- SEO HEAD — preserve these values in the rendered page head -->
 <title>CCTV Installation Bourne End | 4K CCTV | Bucks Tech Help</title>
-<meta name="description" content="Professional 4K CCTV installation in Bourne End. Hardwired PoE cameras, local NVR recording and smart access for riverside homes and businesses.">
+<meta name="description" content="Professional CCTV installation service in Bourne End. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.buckstechhelp.co.uk/locations/bourne-end/cctv-installation">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="CCTV Installation Bourne End | 4K CCTV | Bucks Tech Help">
-<meta property="og:description" content="Professional 4K CCTV installation in Bourne End. Hardwired PoE cameras, local NVR recording and smart access for riverside homes and businesses.">
+<meta property="og:description" content="Professional CCTV installation service in Bourne End. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey.">
 <meta property="og:url" content="https://www.buckstechhelp.co.uk/locations/bourne-end/cctv-installation">
 <meta property="og:site_name" content="Bucks Tech Help">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CCTV Installation Bourne End | 4K CCTV | Bucks Tech Help">
-<meta name="twitter:description" content="Professional 4K CCTV installation in Bourne End. Hardwired PoE cameras, local NVR recording and smart access for riverside homes and businesses.">
+<meta name="twitter:description" content="Professional CCTV installation service in Bourne End. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey.">
 
 <!-- Title: CCTV Installation Bourne End | 4K CCTV | Bucks Tech Help -->
-<!-- Meta: Professional 4K CCTV installation in Bourne End. Hardwired PoE cameras, local NVR recording and smart access for riverside homes and businesses. -->
+<!-- Meta: Professional CCTV installation service in Bourne End. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey. -->
 
 # CCTV Installation in Bourne End
 
 Bourne End properties can need security coverage across a wider site than the main house alone. Riverside homes may include long gardens, garages, gates, decks, outbuildings and other approach routes, while cameras positioned near the edge of the plot may sit beyond dependable indoor Wi-Fi coverage.
 
 Bucks Tech Help installs **hardwired 4K IP CCTV** using the UniFi Protect ecosystem. Cameras connect over Ethernet and PoE to a local NVR, giving the property an owned recording system without making a monthly cloud-storage subscription part of the core setup.
+
+If you have been comparing options for a **CCTV camera installation near me**, Bucks Tech Help works as a **CCTV camera installation company** covering Bourne End and the surrounding area. Every **CCTV systems installation** is designed around the individual property, whether that is a **house security camera installation** for a family home or a fuller **home security system installation** covering gates, driveways and outbuildings.
+
+For suitable light commercial premises in Bourne End, Bucks Tech Help also provides **commercial security services**, scoped around the way the site is actually used.
 
 [Explore our smart security service](/services/smart-security) or [view the Bourne End services](/locations/bourne-end).
 
@@ -139,7 +143,6 @@ Yes. A hardwired PoE design can place cameras around entrances, gardens, outbuil
 
 Yes. Compatible UniFi door-entry, intercom and access-control hardware can be integrated with a suitable UniFi Protect and network setup, depending on the entrance and cabling requirements.
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -181,7 +184,7 @@ Yes. Compatible UniFi door-entry, intercom and access-control hardware can be in
       "name": "CCTV Installation in Bourne End",
       "serviceType": "4K IP CCTV and smart security installation",
       "url": "https://www.buckstechhelp.co.uk/locations/bourne-end/cctv-installation",
-      "description": "Professional 4K CCTV installation in Bourne End. Hardwired PoE cameras, local NVR recording and smart access for riverside homes and businesses.",
+      "description": "Professional CCTV installation service in Bourne End. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey.",
       "provider": {
         "@id": "https://www.buckstechhelp.co.uk/#organization"
       },
@@ -240,7 +243,7 @@ Yes. Compatible UniFi door-entry, intercom and access-control hardware can be in
       "@id": "https://www.buckstechhelp.co.uk/locations/bourne-end/cctv-installation#webpage",
       "url": "https://www.buckstechhelp.co.uk/locations/bourne-end/cctv-installation",
       "name": "CCTV Installation in Bourne End",
-      "description": "Professional 4K CCTV installation in Bourne End. Hardwired PoE cameras, local NVR recording and smart access for riverside homes and businesses.",
+      "description": "Professional CCTV installation service in Bourne End. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey.",
       "about": {
         "@id": "https://www.buckstechhelp.co.uk/locations/bourne-end/cctv-installation#service"
       },

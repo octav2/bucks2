@@ -12,28 +12,30 @@ Any instruction intended for Antigravity must remain inside an HTML comment and 
 
 <!-- SEO HEAD — preserve these values in the rendered page head -->
 <title>CCTV Great Missenden | 4K Installation | Bucks Tech Help</title>
-<meta name="description" content="Professional 4K CCTV installation in Great Missenden. Hardwired PoE cameras, local NVR recording and smart access for rural and village homes.">
+<meta name="description" content="Professional CCTV installation service in Great Missenden. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.buckstechhelp.co.uk/locations/great-missenden/cctv-installation">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="CCTV Great Missenden | 4K Installation | Bucks Tech Help">
-<meta property="og:description" content="Professional 4K CCTV installation in Great Missenden. Hardwired PoE cameras, local NVR recording and smart access for rural and village homes.">
+<meta property="og:description" content="Professional CCTV installation service in Great Missenden. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey.">
 <meta property="og:url" content="https://www.buckstechhelp.co.uk/locations/great-missenden/cctv-installation">
 <meta property="og:site_name" content="Bucks Tech Help">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CCTV Great Missenden | 4K Installation | Bucks Tech Help">
-<meta name="twitter:description" content="Professional 4K CCTV installation in Great Missenden. Hardwired PoE cameras, local NVR recording and smart access for rural and village homes.">
+<meta name="twitter:description" content="Professional CCTV installation service in Great Missenden. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey.">
 
 <!-- Title: CCTV Great Missenden | 4K Installation | Bucks Tech Help -->
-<!-- Meta: Professional 4K CCTV installation in Great Missenden. Hardwired PoE cameras, local NVR recording and smart access for rural and village homes. -->
+<!-- Meta: Professional CCTV installation service in Great Missenden. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey. -->
 
 # CCTV Installation in Great Missenden
 
 Great Missenden's rural and village properties can need security coverage across a wider footprint than the front and rear doors alone. Larger plots may include long driveways, side entrances, garages, workshops, garden buildings and other approach routes that sit well beyond the strongest indoor Wi-Fi signal.
 
 Bucks Tech Help installs **hardwired 4K IP CCTV** using the UniFi Protect ecosystem. Cameras connect over Ethernet and PoE to a local NVR, giving the property a wired recording system without making a monthly cloud-storage subscription part of the core setup.
+
+If you have been comparing options for a **CCTV camera installation near me**, Bucks Tech Help works as a **CCTV camera installation company** covering Great Missenden and the surrounding area. Every **CCTV systems installation** is designed around the individual property, whether that is a **house security camera installation** for a family home or a fuller **home security system installation** covering gates, driveways and outbuildings.
 
 [Explore our smart security service](/services/smart-security) or [view the Great Missenden services](/locations/great-missenden).
 
@@ -129,7 +131,6 @@ Yes. A wired PoE design can place cameras around entrances, driveways, garages a
 
 Great Missenden is primarily treated here as a residential and rural market. Bucks Tech Help can still assess suitable local business premises, but this page focuses on homes, larger plots and outbuildings rather than forcing a commercial security angle.
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -171,7 +172,7 @@ Great Missenden is primarily treated here as a residential and rural market. Buc
       "name": "CCTV Installation in Great Missenden",
       "serviceType": "4K IP CCTV and smart security installation",
       "url": "https://www.buckstechhelp.co.uk/locations/great-missenden/cctv-installation",
-      "description": "Professional 4K CCTV installation in Great Missenden. Hardwired PoE cameras, local NVR recording and smart access for rural and village homes.",
+      "description": "Professional CCTV installation service in Great Missenden. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey.",
       "provider": {
         "@id": "https://www.buckstechhelp.co.uk/#organization"
       },
@@ -230,7 +231,7 @@ Great Missenden is primarily treated here as a residential and rural market. Buc
       "@id": "https://www.buckstechhelp.co.uk/locations/great-missenden/cctv-installation#webpage",
       "url": "https://www.buckstechhelp.co.uk/locations/great-missenden/cctv-installation",
       "name": "CCTV Installation in Great Missenden",
-      "description": "Professional 4K CCTV installation in Great Missenden. Hardwired PoE cameras, local NVR recording and smart access for rural and village homes.",
+      "description": "Professional CCTV installation service in Great Missenden. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey.",
       "about": {
         "@id": "https://www.buckstechhelp.co.uk/locations/great-missenden/cctv-installation#service"
       },

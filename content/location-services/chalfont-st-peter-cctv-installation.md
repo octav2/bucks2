@@ -12,28 +12,32 @@ Any instruction intended for Antigravity must remain inside an HTML comment and 
 
 <!-- SEO HEAD — preserve these values in the rendered page head -->
 <title>CCTV Chalfont St Peter | 4K Installation | Bucks Tech</title>
-<meta name="description" content="Professional 4K CCTV installation in Chalfont St Peter. Hardwired PoE cameras, local NVR recording and smart access for homes and local businesses.">
+<meta name="description" content="Professional CCTV installation service in Chalfont St Peter. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.buckstechhelp.co.uk/locations/chalfont-st-peter/cctv-installation">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="CCTV Chalfont St Peter | 4K Installation | Bucks Tech">
-<meta property="og:description" content="Professional 4K CCTV installation in Chalfont St Peter. Hardwired PoE cameras, local NVR recording and smart access for homes and local businesses.">
+<meta property="og:description" content="Professional CCTV installation service in Chalfont St Peter. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey.">
 <meta property="og:url" content="https://www.buckstechhelp.co.uk/locations/chalfont-st-peter/cctv-installation">
 <meta property="og:site_name" content="Bucks Tech Help">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CCTV Chalfont St Peter | 4K Installation | Bucks Tech">
-<meta name="twitter:description" content="Professional 4K CCTV installation in Chalfont St Peter. Hardwired PoE cameras, local NVR recording and smart access for homes and local businesses.">
+<meta name="twitter:description" content="Professional CCTV installation service in Chalfont St Peter. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey.">
 
 <!-- Title: CCTV Chalfont St Peter | 4K Installation | Bucks Tech -->
-<!-- Meta: Professional 4K CCTV installation in Chalfont St Peter. Hardwired PoE cameras, local NVR recording and smart access for homes and local businesses. -->
+<!-- Meta: Professional CCTV installation service in Chalfont St Peter. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey. -->
 
 # CCTV Installation in Chalfont St Peter
 
 Chalfont St Peter homes can need security coverage across more than a front doorway. Larger family properties may include driveways, garages, side access and garden buildings, while cameras positioned toward the edge of the plot should not have to depend on weak Wi-Fi travelling from the main house.
 
 Bucks Tech Help installs **hardwired 4K IP CCTV** using the UniFi Protect ecosystem. Cameras connect over Ethernet and PoE to a local NVR, giving the property an owned recording system without making a monthly cloud-storage subscription part of the core setup.
+
+If you have been comparing options for a **CCTV camera installation near me**, Bucks Tech Help works as a **CCTV camera installation company** covering Chalfont St Peter and the surrounding area. Every **CCTV systems installation** is designed around the individual property, whether that is a **house security camera installation** for a family home or a fuller **home security system installation** covering gates, driveways and outbuildings.
+
+For suitable light commercial premises in Chalfont St Peter, Bucks Tech Help also provides **commercial security services**, scoped around the way the site is actually used.
 
 [Explore our smart security service](/services/smart-security) or [view the Chalfont St Peter services](/locations/chalfont-st-peter).
 
@@ -137,7 +141,6 @@ Yes. Compatible UniFi door-entry, intercom and access-control hardware can be in
 
 Yes. Bucks Tech Help can scope hardwired IP CCTV and supporting network infrastructure for suitable local shops, offices, clinics and other small commercial premises as well as homes.
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -189,7 +192,7 @@ Yes. Bucks Tech Help can scope hardwired IP CCTV and supporting network infrastr
       "name": "CCTV Installation in Chalfont St Peter",
       "serviceType": "4K IP CCTV and smart security installation",
       "url": "https://www.buckstechhelp.co.uk/locations/chalfont-st-peter/cctv-installation",
-      "description": "Professional 4K CCTV installation in Chalfont St Peter. Hardwired PoE cameras, local NVR recording and smart access for homes and local businesses.",
+      "description": "Professional CCTV installation service in Chalfont St Peter. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey.",
       "provider": {
         "@id": "https://www.buckstechhelp.co.uk/#organization"
       },
@@ -248,7 +251,7 @@ Yes. Bucks Tech Help can scope hardwired IP CCTV and supporting network infrastr
       "@id": "https://www.buckstechhelp.co.uk/locations/chalfont-st-peter/cctv-installation#webpage",
       "url": "https://www.buckstechhelp.co.uk/locations/chalfont-st-peter/cctv-installation",
       "name": "CCTV Installation in Chalfont St Peter",
-      "description": "Professional 4K CCTV installation in Chalfont St Peter. Hardwired PoE cameras, local NVR recording and smart access for homes and local businesses.",
+      "description": "Professional CCTV installation service in Chalfont St Peter. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey.",
       "isPartOf": {
         "@id": "https://www.buckstechhelp.co.uk/#website"
       },

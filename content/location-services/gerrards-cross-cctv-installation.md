@@ -11,28 +11,32 @@ Any instruction intended for Antigravity must remain inside an HTML comment and 
 
 <!-- SEO HEAD — preserve these values in the rendered page head -->
 <title>CCTV Installation Gerrards Cross | 4K CCTV | Bucks Tech Help</title>
-<meta name="description" content="Professional 4K CCTV installation in Gerrards Cross. Hardwired PoE cameras, local NVR recording and smart access options with no cloud-storage fee.">
+<meta name="description" content="Professional CCTV installation service in Gerrards Cross. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.buckstechhelp.co.uk/locations/gerrards-cross/cctv-installation">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="CCTV Installation Gerrards Cross | 4K CCTV | Bucks Tech Help">
-<meta property="og:description" content="Professional 4K CCTV installation in Gerrards Cross. Hardwired PoE cameras, local NVR recording and smart access options with no cloud-storage fee.">
+<meta property="og:description" content="Professional CCTV installation service in Gerrards Cross. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey.">
 <meta property="og:url" content="https://www.buckstechhelp.co.uk/locations/gerrards-cross/cctv-installation">
 <meta property="og:site_name" content="Bucks Tech Help">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CCTV Installation Gerrards Cross | 4K CCTV | Bucks Tech Help">
-<meta name="twitter:description" content="Professional 4K CCTV installation in Gerrards Cross. Hardwired PoE cameras, local NVR recording and smart access options with no cloud-storage fee.">
+<meta name="twitter:description" content="Professional CCTV installation service in Gerrards Cross. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey.">
 
 <!-- Title: CCTV Installation Gerrards Cross | 4K CCTV | Bucks Tech Help -->
-<!-- Meta: Professional 4K CCTV installation in Gerrards Cross. Hardwired PoE cameras, local NVR recording and smart access options with no cloud-storage fee. -->
+<!-- Meta: Professional CCTV installation service in Gerrards Cross. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey. -->
 
 # CCTV Installation in Gerrards Cross
 
 Gerrards Cross properties often need security coverage across more than a front door and driveway. Larger detached homes and generous plots can include gates, garages, side access, garden buildings and several approach routes, so a useful CCTV system needs to be planned around the whole site.
 
 Bucks Tech Help installs **hardwired 4K IP CCTV** using the UniFi Protect ecosystem. Cameras connect over Ethernet and record to a local NVR, giving you an owned system without making paid cloud storage part of the core recording setup.
+
+If you have been comparing options for a **CCTV camera installation near me**, Bucks Tech Help works as a **CCTV camera installation company** covering Gerrards Cross and the surrounding area. Every **CCTV systems installation** is designed around the individual property, whether that is a **house security camera installation** for a family home or a fuller **home security system installation** covering gates, driveways and outbuildings.
+
+For suitable light commercial premises in Gerrards Cross, Bucks Tech Help also provides **commercial security services**, scoped around the way the site is actually used.
 
 [Explore our smart security service](/services/smart-security) or [view the Gerrards Cross services](/locations/gerrards-cross).
 
@@ -128,7 +132,6 @@ Yes. A wired PoE design can place cameras around entrances, driveways, garages a
 
 Yes. Compatible UniFi door-entry, intercom and access-control hardware can be integrated with a suitable UniFi Protect and network setup, depending on the entrance and cabling requirements.
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -170,7 +173,7 @@ Yes. Compatible UniFi door-entry, intercom and access-control hardware can be in
       "name": "CCTV Installation in Gerrards Cross",
       "serviceType": "4K IP CCTV and smart security installation",
       "url": "https://www.buckstechhelp.co.uk/locations/gerrards-cross/cctv-installation",
-      "description": "Professional 4K CCTV installation in Gerrards Cross. Hardwired PoE cameras, local NVR recording and smart access options with no cloud-storage fee.",
+      "description": "Professional CCTV installation service in Gerrards Cross. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey.",
       "provider": {
         "@id": "https://www.buckstechhelp.co.uk/#organization"
       },
@@ -229,7 +232,7 @@ Yes. Compatible UniFi door-entry, intercom and access-control hardware can be in
       "@id": "https://www.buckstechhelp.co.uk/locations/gerrards-cross/cctv-installation#webpage",
       "url": "https://www.buckstechhelp.co.uk/locations/gerrards-cross/cctv-installation",
       "name": "CCTV Installation in Gerrards Cross",
-      "description": "Professional 4K CCTV installation in Gerrards Cross. Hardwired PoE cameras, local NVR recording and smart access options with no cloud-storage fee.",
+      "description": "Professional CCTV installation service in Gerrards Cross. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey.",
       "isPartOf": {
         "@id": "https://www.buckstechhelp.co.uk/#website"
       },

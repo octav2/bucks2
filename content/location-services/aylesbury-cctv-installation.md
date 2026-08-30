@@ -13,28 +13,32 @@ Any instruction intended for Antigravity must remain inside an HTML comment and 
 
 <!-- SEO HEAD — preserve these values in the rendered page head -->
 <title>CCTV Installation Aylesbury | 4K CCTV | Bucks Tech Help</title>
-<meta name="description" content="Professional 4K CCTV installation in Aylesbury. Hardwired PoE cameras, local NVR recording and smart access for homes, offices and commercial sites.">
+<meta name="description" content="Professional CCTV installation service in Aylesbury. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.buckstechhelp.co.uk/locations/aylesbury/cctv-installation">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="CCTV Installation Aylesbury | 4K CCTV | Bucks Tech Help">
-<meta property="og:description" content="Professional 4K CCTV installation in Aylesbury. Hardwired PoE cameras, local NVR recording and smart access for homes, offices and commercial sites.">
+<meta property="og:description" content="Professional CCTV installation service in Aylesbury. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey.">
 <meta property="og:url" content="https://www.buckstechhelp.co.uk/locations/aylesbury/cctv-installation">
 <meta property="og:site_name" content="Bucks Tech Help">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CCTV Installation Aylesbury | 4K CCTV | Bucks Tech Help">
-<meta name="twitter:description" content="Professional 4K CCTV installation in Aylesbury. Hardwired PoE cameras, local NVR recording and smart access for homes, offices and commercial sites.">
+<meta name="twitter:description" content="Professional CCTV installation service in Aylesbury. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey.">
 
 <!-- Title: CCTV Installation Aylesbury | 4K CCTV | Bucks Tech Help -->
-<!-- Meta: Professional 4K CCTV installation in Aylesbury. Hardwired PoE cameras, local NVR recording and smart access for homes, offices and commercial sites. -->
+<!-- Meta: Professional CCTV installation service in Aylesbury. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey. -->
 
 # CCTV Installation in Aylesbury
 
 Aylesbury's security requirements span homes, town-centre premises, offices and industrial sites. A family property may need useful coverage around a driveway, garage and garden building, while a commercial unit may need cameras across entrances, reception space, parking, stock areas or loading routes.
 
 Bucks Tech Help installs **hardwired 4K IP CCTV** using the UniFi Protect ecosystem. Cameras connect over Ethernet and PoE to a local NVR, giving the site a wired recording system without making a monthly cloud-storage subscription part of the core setup.
+
+If you have been comparing options for a **CCTV camera installation near me**, Bucks Tech Help works as a **CCTV camera installation company** covering Aylesbury and the surrounding area. Every **CCTV systems installation** is designed around the individual property, whether that is a **house security camera installation** for a family home or a fuller **home security system installation** covering gates, driveways and outbuildings.
+
+Alongside residential work, Bucks Tech Help provides **commercial security services** for offices, retail units and studio premises in Aylesbury, with camera layouts scoped around how staff, customers and deliveries actually move through the site.
 
 [Explore our smart security service](/services/smart-security) or [view the Aylesbury services](/locations/aylesbury).
 
@@ -139,7 +143,6 @@ Yes. Bucks Tech Help can scope hardwired IP CCTV and supporting network infrastr
 
 Yes. Compatible UniFi door-entry, intercom and access-control hardware can be integrated with a suitable UniFi Protect and network setup, depending on the entrance and cabling requirements.
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -191,7 +194,7 @@ Yes. Compatible UniFi door-entry, intercom and access-control hardware can be in
       "name": "CCTV Installation in Aylesbury",
       "serviceType": "4K IP CCTV and smart security installation",
       "url": "https://www.buckstechhelp.co.uk/locations/aylesbury/cctv-installation",
-      "description": "Professional 4K CCTV installation in Aylesbury. Hardwired PoE cameras, local NVR recording and smart access for homes, offices and commercial sites.",
+      "description": "Professional CCTV installation service in Aylesbury. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey.",
       "provider": {
         "@id": "https://www.buckstechhelp.co.uk/#organization"
       },
@@ -250,7 +253,7 @@ Yes. Compatible UniFi door-entry, intercom and access-control hardware can be in
       "@id": "https://www.buckstechhelp.co.uk/locations/aylesbury/cctv-installation#webpage",
       "url": "https://www.buckstechhelp.co.uk/locations/aylesbury/cctv-installation",
       "name": "CCTV Installation in Aylesbury",
-      "description": "Professional 4K CCTV installation in Aylesbury. Hardwired PoE cameras, local NVR recording and smart access for homes, offices and commercial sites.",
+      "description": "Professional CCTV installation service in Aylesbury. 4K, subscription-free security system installation with locally stored footage and smart door access. Free survey.",
       "isPartOf": {
         "@id": "https://www.buckstechhelp.co.uk/#website"
       },
