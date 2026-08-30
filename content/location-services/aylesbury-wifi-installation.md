@@ -13,22 +13,22 @@ Any instruction intended for Antigravity must remain inside an HTML comment and 
 
 <!-- SEO HEAD — preserve these values in the rendered page head -->
 <title>Wi-Fi Installation Aylesbury | Bucks Tech Help</title>
-<meta name="description" content="Whole-home and business Wi-Fi installation in Aylesbury. Hardwired Ubiquiti UniFi networks for new-build homes, offices and commercial premises.">
+<meta name="description" content="Subscription-free Wi-Fi installation services in Aylesbury. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.buckstechhelp.co.uk/locations/aylesbury/wifi-installation">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Wi-Fi Installation Aylesbury | Bucks Tech Help">
-<meta property="og:description" content="Whole-home and business Wi-Fi installation in Aylesbury. Hardwired Ubiquiti UniFi networks for new-build homes, offices and commercial premises.">
+<meta property="og:description" content="Subscription-free Wi-Fi installation services in Aylesbury. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey.">
 <meta property="og:url" content="https://www.buckstechhelp.co.uk/locations/aylesbury/wifi-installation">
 <meta property="og:site_name" content="Bucks Tech Help">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Wi-Fi Installation Aylesbury | Bucks Tech Help">
-<meta name="twitter:description" content="Whole-home and business Wi-Fi installation in Aylesbury. Hardwired Ubiquiti UniFi networks for new-build homes, offices and commercial premises.">
+<meta name="twitter:description" content="Subscription-free Wi-Fi installation services in Aylesbury. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey.">
 
 <!-- Title: Wi-Fi Installation Aylesbury | Bucks Tech Help -->
-<!-- Meta: Whole-home and business Wi-Fi installation in Aylesbury. Hardwired Ubiquiti UniFi networks for new-build homes, offices and commercial premises. -->
+<!-- Meta: Subscription-free Wi-Fi installation services in Aylesbury. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey. -->
 
 # Wi-Fi Installation in Aylesbury
 
@@ -36,7 +36,7 @@ Aylesbury needs a broader Wi-Fi page than a small village location. The town com
 
 Bucks Tech Help installs **hardwired Ubiquiti UniFi networks** across the wider HP18–HP22 area, using Cat6 or Cat6a Ethernet to carry the network to access points positioned where people actually work, stream and connect. Instead of relying on wireless mesh nodes to repeat signal from the broadband router, each access point can receive a dedicated wired backbone.
 
-For customers searching for **home network installation**, **whole home Wi-Fi**, **business Wi-Fi**, **home Wi-Fi specialists near me** or a local **Ubiquiti installer near me**, the aim is a managed network that fits the building rather than a collection of plug-in fixes.
+For customers searching for **home network installation**, **whole house Wi-Fi**, **business Wi-Fi**, **home Wi-Fi specialists near mehome Wi-Fi specialists near me** or a local **home Wi-Fi specialists near me** or a local **Ubiquiti installer near me**, the aim is a managed network that fits the building rather than a collection of plug-in fixes. If you have been searching for the best Wi-Fi extender for a garden office in the UK, a wired access point at the far end is usually the more reliable answer. Our Wi-Fi installation services cover the survey, cabling, access point setup and final handover, so nothing is left half-configured.
 
 [Explore our whole-home Wi-Fi service](/services/whole-home-wifi) or [view the Aylesbury services](/locations/aylesbury).
 
@@ -65,7 +65,7 @@ Where the wider network and client devices justify it, Bucks Tech Help can also 
 
 ## What We Install
 
-An Aylesbury Wi-Fi project can include:
+Every job is planned and delivered by an experienced Ubiquiti installer. A typical project can include:
 
 - Ubiquiti UniFi access points positioned around the actual floor plan;
 - solid-copper Cat6 or Cat6a Ethernet backhaul;
@@ -196,7 +196,7 @@ Yes. Where a suitable route is practical, a dedicated hardwired network connecti
       "name": "Wi-Fi Installation in Aylesbury",
       "serviceType": "Whole-home and commercial Wi-Fi installation",
       "url": "https://www.buckstechhelp.co.uk/locations/aylesbury/wifi-installation",
-      "description": "Whole-home and business Wi-Fi installation in Aylesbury. Hardwired Ubiquiti UniFi networks for new-build homes, offices and commercial premises.",
+      "description": "Subscription-free Wi-Fi installation services in Aylesbury. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey.",
       "provider": {
         "@id": "https://www.buckstechhelp.co.uk/#organization"
       },
@@ -255,7 +255,7 @@ Yes. Where a suitable route is practical, a dedicated hardwired network connecti
       "@id": "https://www.buckstechhelp.co.uk/locations/aylesbury/wifi-installation#webpage",
       "url": "https://www.buckstechhelp.co.uk/locations/aylesbury/wifi-installation",
       "name": "Wi-Fi Installation in Aylesbury",
-      "description": "Whole-home and business Wi-Fi installation in Aylesbury. Hardwired Ubiquiti UniFi networks for new-build homes, offices and commercial premises.",
+      "description": "Subscription-free Wi-Fi installation services in Aylesbury. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey.",
       "isPartOf": {
         "@id": "https://www.buckstechhelp.co.uk/#website"
       },

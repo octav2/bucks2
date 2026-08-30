@@ -16,22 +16,22 @@ Any instruction intended for Antigravity must remain inside an HTML comment and 
 
 <!-- SEO HEAD — preserve these values in the rendered page head -->
 <title>Wi-Fi Installation Berkhamsted | Bucks Tech Help</title>
-<meta name="description" content="Whole-home Wi-Fi installation in Berkhamsted. Hardwired Ubiquiti UniFi networks for period homes, family properties, loft offices and garden rooms.">
+<meta name="description" content="Subscription-free Wi-Fi installation services in Berkhamsted. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.buckstechhelp.co.uk/locations/berkhamsted/wifi-installation">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Wi-Fi Installation Berkhamsted | Bucks Tech Help">
-<meta property="og:description" content="Whole-home Wi-Fi installation in Berkhamsted. Hardwired Ubiquiti UniFi networks for period homes, family properties, loft offices and garden rooms.">
+<meta property="og:description" content="Subscription-free Wi-Fi installation services in Berkhamsted. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey.">
 <meta property="og:url" content="https://www.buckstechhelp.co.uk/locations/berkhamsted/wifi-installation">
 <meta property="og:site_name" content="Bucks Tech Help">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Wi-Fi Installation Berkhamsted | Bucks Tech Help">
-<meta name="twitter:description" content="Whole-home Wi-Fi installation in Berkhamsted. Hardwired Ubiquiti UniFi networks for period homes, family properties, loft offices and garden rooms.">
+<meta name="twitter:description" content="Subscription-free Wi-Fi installation services in Berkhamsted. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey.">
 
 <!-- Title: Wi-Fi Installation Berkhamsted | Bucks Tech Help -->
-<!-- Meta: Whole-home Wi-Fi installation in Berkhamsted. Hardwired Ubiquiti UniFi networks for period homes, family properties, loft offices and garden rooms. -->
+<!-- Meta: Subscription-free Wi-Fi installation services in Berkhamsted. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey. -->
 
 # Wi-Fi Installation in Berkhamsted
 
@@ -39,7 +39,7 @@ Berkhamsted's historic market-town layout creates a very different Wi-Fi environ
 
 Bucks Tech Help designs **hardwired Ubiquiti UniFi networks** for Berkhamsted and HP4, using Cat6 or Cat6a Ethernet to carry the connection to access points positioned around the actual property. Instead of asking wireless mesh nodes to repeat signal through several floors or period walls, the network backbone is delivered over cable first.
 
-For homeowners searching for **home network installation**, **whole home Wi-Fi**, **home Wi-Fi specialists near me** or a local **Ubiquiti installer near me**, the aim is a stable network that respects the building while serving the way the home is used today.
+For homeowners searching for **home network installation**, **whole house Wi-Fi**, **home Wi-Fi specialists near me** or a local **Ubiquiti installer near me**, the aim is a stable network that respects the building while serving the way the home is used today. Our Wi-Fi installation services cover the survey, cabling, access point setup and final handover, so nothing is left half-configured.
 
 [Explore our whole-home Wi-Fi service](/services/whole-home-wifi) or [view the Berkhamsted services](/locations/berkhamsted).
 
@@ -66,7 +66,7 @@ Where the wider network and client devices justify it, the installation can also
 
 ## What We Install
 
-A Berkhamsted whole-home Wi-Fi project can include:
+Every Berkhamsted whole-home Wi-Fi project is planned and delivered by an experienced Ubiquiti installer, and can include:
 
 - Ubiquiti UniFi access points positioned around the actual floor plan;
 - solid-copper Cat6 or Cat6a Ethernet backhaul;
@@ -100,7 +100,7 @@ A hardwired access point on the upper floor moves the network source closer to t
 
 ## Garden Office Internet in Berkhamsted
 
-A detached garden room creates a separate network zone.
+A detached garden room creates a separate network zone. If you have been searching for the best Wi-Fi extender for a garden office in the UK, a wired access point at the far end is usually the more reliable answer.
 
 Where a suitable route is practical, Bucks Tech Help can extend the main network using an appropriate external or armoured Ethernet connection. The far end can then support its own access point, small switch or wired desk connection.
 
@@ -200,7 +200,7 @@ Yes. Where a suitable route is practical, a dedicated external or armoured netwo
       "name": "Wi-Fi Installation in Berkhamsted",
       "serviceType": "Whole-home and commercial Wi-Fi installation",
       "url": "https://www.buckstechhelp.co.uk/locations/berkhamsted/wifi-installation",
-      "description": "Whole-home Wi-Fi installation in Berkhamsted. Hardwired Ubiquiti UniFi networks for period homes, family properties, loft offices and garden rooms.",
+      "description": "Subscription-free Wi-Fi installation services in Berkhamsted. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey.",
       "provider": {
         "@id": "https://www.buckstechhelp.co.uk/#organization"
       },
@@ -259,7 +259,7 @@ Yes. Where a suitable route is practical, a dedicated external or armoured netwo
       "@id": "https://www.buckstechhelp.co.uk/locations/berkhamsted/wifi-installation#webpage",
       "url": "https://www.buckstechhelp.co.uk/locations/berkhamsted/wifi-installation",
       "name": "Wi-Fi Installation in Berkhamsted",
-      "description": "Whole-home Wi-Fi installation in Berkhamsted. Hardwired Ubiquiti UniFi networks for period homes, family properties, loft offices and garden rooms.",
+      "description": "Subscription-free Wi-Fi installation services in Berkhamsted. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey.",
       "isPartOf": {
         "@id": "https://www.buckstechhelp.co.uk/#website"
       },

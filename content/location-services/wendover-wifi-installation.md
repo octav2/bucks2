@@ -13,22 +13,22 @@ Any instruction intended for Antigravity must remain inside an HTML comment and 
 
 <!-- SEO HEAD — preserve these values in the rendered page head -->
 <title>Wi-Fi Installation Wendover | Bucks Tech Help</title>
-<meta name="description" content="Whole-home Wi-Fi installation in Wendover. Hardwired Ubiquiti UniFi networks for period homes, family properties, loft offices and garden rooms.">
+<meta name="description" content="Subscription-free Wi-Fi installation services in Wendover. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.buckstechhelp.co.uk/locations/wendover/wifi-installation">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Wi-Fi Installation Wendover | Bucks Tech Help">
-<meta property="og:description" content="Whole-home Wi-Fi installation in Wendover. Hardwired Ubiquiti UniFi networks for period homes, family properties, loft offices and garden rooms.">
+<meta property="og:description" content="Subscription-free Wi-Fi installation services in Wendover. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey.">
 <meta property="og:url" content="https://www.buckstechhelp.co.uk/locations/wendover/wifi-installation">
 <meta property="og:site_name" content="Bucks Tech Help">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Wi-Fi Installation Wendover | Bucks Tech Help">
-<meta name="twitter:description" content="Whole-home Wi-Fi installation in Wendover. Hardwired Ubiquiti UniFi networks for period homes, family properties, loft offices and garden rooms.">
+<meta name="twitter:description" content="Subscription-free Wi-Fi installation services in Wendover. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey.">
 
 <!-- Title: Wi-Fi Installation Wendover | Bucks Tech Help -->
-<!-- Meta: Whole-home Wi-Fi installation in Wendover. Hardwired Ubiquiti UniFi networks for period homes, family properties, loft offices and garden rooms. -->
+<!-- Meta: Subscription-free Wi-Fi installation services in Wendover. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey. -->
 
 # Wi-Fi Installation in Wendover
 
@@ -36,7 +36,7 @@ Wendover combines an older market-town centre with surrounding family homes and 
 
 Bucks Tech Help designs **hardwired Ubiquiti UniFi networks** across HP22, using Cat6 or Cat6a Ethernet to carry the network to access points positioned around the actual property layout. Instead of asking wireless mesh nodes to repeat signal through several walls or floors, the wired backbone takes connectivity to the right area first.
 
-For homeowners searching for **home network installation**, **whole home Wi-Fi**, **home Wi-Fi specialists near me** or a local **Ubiquiti installer near me**, the aim is a stable network that works across the finished home rather than a collection of plug-in workarounds.
+For homeowners searching for **home network installation**, **whole house Wi-Fi**, **home Wi-Fi specialists near me** or a local **Ubiquiti installer near me**, the aim is a stable network that works across the finished home rather than a collection of plug-in workarounds. Our Wi-Fi installation services cover the survey, cabling, access point setup and final handover, so nothing is left half-configured.
 
 [Explore our whole-home Wi-Fi service](/services/whole-home-wifi) or [view the Wendover services](/locations/wendover).
 
@@ -62,7 +62,7 @@ Where the wider network and client devices justify it, Bucks Tech Help can also 
 
 ## What We Install
 
-A Wendover whole-home Wi-Fi project can include:
+Every Wendover whole-home Wi-Fi project is planned and delivered by an experienced Ubiquiti installer, and can include:
 
 - Ubiquiti UniFi access points positioned around the actual floor plan;
 - solid-copper Cat6 or Cat6a Ethernet backhaul;
@@ -98,7 +98,7 @@ This also gives the network more headroom if broadband speeds increase or additi
 
 ## Garden Office Internet in Wendover
 
-A garden office creates a separate coverage zone.
+A garden office creates a separate coverage zone. If you have been searching for the best Wi-Fi extender for a garden office in the UK, a wired access point at the far end is usually the more reliable answer.
 
 Where a suitable cable route is practical, Bucks Tech Help can extend the main network to the building using an appropriate external or armoured connection. The far end can then support its own access point, switch or wired workstation.
 
@@ -196,7 +196,7 @@ Yes. Where a suitable route is practical, a dedicated external or armoured netwo
       "name": "Wi-Fi Installation in Wendover",
       "serviceType": "Whole-home Wi-Fi installation",
       "url": "https://www.buckstechhelp.co.uk/locations/wendover/wifi-installation",
-      "description": "Whole-home Wi-Fi installation in Wendover. Hardwired Ubiquiti UniFi networks for period homes, family properties, loft offices and garden rooms.",
+      "description": "Subscription-free Wi-Fi installation services in Wendover. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey.",
       "provider": {
         "@id": "https://www.buckstechhelp.co.uk/#organization"
       },
@@ -255,7 +255,7 @@ Yes. Where a suitable route is practical, a dedicated external or armoured netwo
       "@id": "https://www.buckstechhelp.co.uk/locations/wendover/wifi-installation#webpage",
       "url": "https://www.buckstechhelp.co.uk/locations/wendover/wifi-installation",
       "name": "Wi-Fi Installation in Wendover",
-      "description": "Whole-home Wi-Fi installation in Wendover. Hardwired Ubiquiti UniFi networks for period homes, family properties, loft offices and garden rooms.",
+      "description": "Subscription-free Wi-Fi installation services in Wendover. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey.",
       "isPartOf": {
         "@id": "https://www.buckstechhelp.co.uk/#website"
       },

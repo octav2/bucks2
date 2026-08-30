@@ -11,22 +11,22 @@ Any instruction intended for Antigravity must remain inside an HTML comment and 
 
 <!-- SEO HEAD — preserve these values in the rendered page head -->
 <title>Wi-Fi Installation Gerrards Cross | Bucks Tech Help</title>
-<meta name="description" content="Whole-home Wi-Fi installation in Gerrards Cross. Hardwired Ubiquiti UniFi networks for large homes, renovations and garden buildings. Free survey.">
+<meta name="description" content="Subscription-free Wi-Fi installation services in Gerrards Cross. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.buckstechhelp.co.uk/locations/gerrards-cross/wifi-installation">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Wi-Fi Installation Gerrards Cross | Bucks Tech Help">
-<meta property="og:description" content="Whole-home Wi-Fi installation in Gerrards Cross. Hardwired Ubiquiti UniFi networks for large homes, renovations and garden buildings. Free survey.">
+<meta property="og:description" content="Subscription-free Wi-Fi installation services in Gerrards Cross. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey.">
 <meta property="og:url" content="https://www.buckstechhelp.co.uk/locations/gerrards-cross/wifi-installation">
 <meta property="og:site_name" content="Bucks Tech Help">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Wi-Fi Installation Gerrards Cross | Bucks Tech Help">
-<meta name="twitter:description" content="Whole-home Wi-Fi installation in Gerrards Cross. Hardwired Ubiquiti UniFi networks for large homes, renovations and garden buildings. Free survey.">
+<meta name="twitter:description" content="Subscription-free Wi-Fi installation services in Gerrards Cross. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey.">
 
 <!-- Title: Wi-Fi Installation Gerrards Cross | Bucks Tech Help -->
-<!-- Meta: Whole-home Wi-Fi installation in Gerrards Cross. Hardwired Ubiquiti UniFi networks for large homes, renovations and garden buildings. Free survey. -->
+<!-- Meta: Subscription-free Wi-Fi installation services in Gerrards Cross. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey. -->
 
 # Wi-Fi Installation in Gerrards Cross
 
@@ -34,7 +34,7 @@ Gerrards Cross has exactly the kind of homes where a single router can become th
 
 Bucks Tech Help designs **hardwired Ubiquiti UniFi networks** across SL9 so the Wi-Fi is distributed around the property instead of forced out from one central router. Cat6 or Cat6a cabling carries the network to strategically placed access points, giving each part of the house a nearby source of strong Wi-Fi.
 
-For homeowners searching for **home network installation**, **whole home Wi-Fi**, **home Wi-Fi specialists near me** or a local **Ubiquiti installer near me**, the aim is to build the network as permanent property infrastructure rather than keep adding plug-in boosters.
+For homeowners searching for **home network installation**, **whole house Wi-Fi**, **home Wi-Fi specialists near me** or a local **Ubiquiti installer near me**, the aim is to build the network as permanent property infrastructure rather than keep adding plug-in boosters. Our Wi-Fi installation services cover the survey, cabling, access point setup and final handover, so nothing is left half-configured.
 
 [Explore our whole-home Wi-Fi service](/services/whole-home-wifi) or [view the Gerrards Cross services](/locations/gerrards-cross).
 
@@ -57,7 +57,7 @@ That removes one of the main weaknesses of consumer mesh systems and makes the n
 
 ## What We Install
 
-A Gerrards Cross whole-home Wi-Fi project can include:
+Every Gerrards Cross whole-home Wi-Fi project is planned and delivered by an experienced Ubiquiti installer, and can include:
 
 - Ubiquiti UniFi access points positioned around the actual floor plan;
 - solid-copper Cat6 or Cat6a Ethernet backhaul;
@@ -88,7 +88,7 @@ This is particularly useful where the property combines everyday family use with
 
 ## Garden Offices, Annexes and Outdoor Connectivity
 
-On a generous Gerrards Cross plot, the garden office may be physically close enough to see from the house but still too far away for dependable indoor Wi-Fi.
+On a generous Gerrards Cross plot, the garden office may be physically close enough to see from the house but still too far away for dependable indoor Wi-Fi. If you have been searching for the best Wi-Fi extender for a garden office in the UK, a wired access point at the far end is usually the more reliable answer.
 
 Where the route is practical, Bucks Tech Help can extend the main network to the outbuilding using a dedicated hardwired connection. The garden room can then have its own access point, switch or wired workstation connections rather than depending on a wireless hop across the garden.
 
@@ -176,7 +176,7 @@ It can be, particularly where the wider network and client devices can use the e
       "name": "Wi-Fi Installation in Gerrards Cross",
       "serviceType": "Whole-home Wi-Fi installation",
       "url": "https://www.buckstechhelp.co.uk/locations/gerrards-cross/wifi-installation",
-      "description": "Whole-home Wi-Fi installation in Gerrards Cross. Hardwired Ubiquiti UniFi networks for large homes, renovations and garden buildings. Free survey.",
+      "description": "Subscription-free Wi-Fi installation services in Gerrards Cross. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey.",
       "provider": {
         "@id": "https://www.buckstechhelp.co.uk/#organization"
       },
@@ -235,7 +235,7 @@ It can be, particularly where the wider network and client devices can use the e
       "@id": "https://www.buckstechhelp.co.uk/locations/gerrards-cross/wifi-installation#webpage",
       "url": "https://www.buckstechhelp.co.uk/locations/gerrards-cross/wifi-installation",
       "name": "Wi-Fi Installation in Gerrards Cross",
-      "description": "Whole-home Wi-Fi installation in Gerrards Cross. Hardwired Ubiquiti UniFi networks for large homes, renovations and garden buildings. Free survey.",
+      "description": "Subscription-free Wi-Fi installation services in Gerrards Cross. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey.",
       "isPartOf": {
         "@id": "https://www.buckstechhelp.co.uk/#website"
       },

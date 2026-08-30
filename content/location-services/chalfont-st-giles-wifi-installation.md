@@ -12,22 +12,22 @@ Any instruction intended for Antigravity must remain inside an HTML comment and 
 
 <!-- SEO HEAD — preserve these values in the rendered page head -->
 <title>Wi-Fi Installation Chalfont St Giles | Bucks Tech Help</title>
-<meta name="description" content="Whole-home Wi-Fi installation in Chalfont St Giles. Hardwired Ubiquiti UniFi networks for period cottages, larger homes and garden offices.">
+<meta name="description" content="Subscription-free Wi-Fi installation services in Chalfont St Giles. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey.">
 <meta name="robots" content="index,follow">
 <link rel="canonical" href="https://www.buckstechhelp.co.uk/locations/chalfont-st-giles/wifi-installation">
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="Wi-Fi Installation Chalfont St Giles | Bucks Tech Help">
-<meta property="og:description" content="Whole-home Wi-Fi installation in Chalfont St Giles. Hardwired Ubiquiti UniFi networks for period cottages, larger homes and garden offices.">
+<meta property="og:description" content="Subscription-free Wi-Fi installation services in Chalfont St Giles. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey.">
 <meta property="og:url" content="https://www.buckstechhelp.co.uk/locations/chalfont-st-giles/wifi-installation">
 <meta property="og:site_name" content="Bucks Tech Help">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Wi-Fi Installation Chalfont St Giles | Bucks Tech Help">
-<meta name="twitter:description" content="Whole-home Wi-Fi installation in Chalfont St Giles. Hardwired Ubiquiti UniFi networks for period cottages, larger homes and garden offices.">
+<meta name="twitter:description" content="Subscription-free Wi-Fi installation services in Chalfont St Giles. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey.">
 
 <!-- Title: Wi-Fi Installation Chalfont St Giles | Bucks Tech Help -->
-<!-- Meta: Whole-home Wi-Fi installation in Chalfont St Giles. Hardwired Ubiquiti UniFi networks for period cottages, larger homes and garden offices. -->
+<!-- Meta: Subscription-free Wi-Fi installation services in Chalfont St Giles. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey. -->
 
 # Wi-Fi Installation in Chalfont St Giles
 
@@ -35,7 +35,7 @@ Chalfont St Giles has the kind of housing where Wi-Fi design needs to respect th
 
 Bucks Tech Help designs **hardwired Ubiquiti UniFi networks** across HP8, using Cat6 or Cat6a Ethernet to carry the connection to access points positioned where coverage is actually needed. Instead of asking mesh pods to repeat an already weakened signal through period walls, the network backbone is delivered over cable first and Wi-Fi handles the shorter final connection to devices.
 
-For homeowners searching for **home network installation**, **whole home Wi-Fi**, **home Wi-Fi specialists near me** or a local **Ubiquiti installer near me**, the aim is a stable network that works with the character and layout of the property.
+For homeowners searching for **home network installation**, **whole house Wi-Fi**, **home Wi-Fi specialists near me** or a local **Ubiquiti installer near me**, the aim is a stable network that works with the character and layout of the property. Our Wi-Fi installation services cover the survey, cabling, access point setup and final handover, so nothing is left half-configured.
 
 [Explore our whole-home Wi-Fi service](/services/whole-home-wifi) or [view the Chalfont St Giles services](/locations/chalfont-st-giles).
 
@@ -61,7 +61,7 @@ Where the network and client devices justify it, Bucks Tech Help can also design
 
 ## What We Install
 
-A Chalfont St Giles whole-home Wi-Fi project can include:
+Every Chalfont St Giles whole-home Wi-Fi project is planned and delivered by an experienced Ubiquiti installer, and can include:
 
 - Ubiquiti UniFi access points positioned around the actual property layout;
 - solid-copper Cat6 or Cat6a Ethernet backhaul;
@@ -87,7 +87,7 @@ For listed or particularly sensitive properties, any work affecting protected fa
 
 ## Garden Office Internet in Chalfont St Giles
 
-A detached garden office creates a simple engineering problem: the network needs to leave the main house and arrive at another building.
+A detached garden office creates a simple engineering problem: the network needs to leave the main house and arrive at another building. If you have been searching for the best Wi-Fi extender for a garden office in the UK, a wired access point at the far end is usually the more reliable answer.
 
 Where a suitable route is practical, Bucks Tech Help can install an appropriate external or armoured Ethernet link. The far end can then support its own access point, switch or wired workstation connections.
 
@@ -185,7 +185,7 @@ Yes. Where a suitable route is practical, a dedicated external or armoured netwo
       "name": "Wi-Fi Installation in Chalfont St Giles",
       "serviceType": "Whole-home Wi-Fi installation",
       "url": "https://www.buckstechhelp.co.uk/locations/chalfont-st-giles/wifi-installation",
-      "description": "Whole-home Wi-Fi installation in Chalfont St Giles. Hardwired Ubiquiti UniFi networks for period cottages, larger homes and garden offices.",
+      "description": "Subscription-free Wi-Fi installation services in Chalfont St Giles. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey.",
       "provider": {
         "@id": "https://www.buckstechhelp.co.uk/#organization"
       },
@@ -244,7 +244,7 @@ Yes. Where a suitable route is practical, a dedicated external or armoured netwo
       "@id": "https://www.buckstechhelp.co.uk/locations/chalfont-st-giles/wifi-installation#webpage",
       "url": "https://www.buckstechhelp.co.uk/locations/chalfont-st-giles/wifi-installation",
       "name": "Wi-Fi Installation in Chalfont St Giles",
-      "description": "Whole-home Wi-Fi installation in Chalfont St Giles. Hardwired Ubiquiti UniFi networks for period cottages, larger homes and garden offices.",
+      "description": "Subscription-free Wi-Fi installation services in Chalfont St Giles. Hardwired Ubiquiti UniFi networks for whole house Wi-Fi that kills dead zones. Free survey.",
       "isPartOf": {
         "@id": "https://www.buckstechhelp.co.uk/#website"
       },
