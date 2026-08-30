@@ -126,8 +126,8 @@ We install whole-home Wi-Fi across Tring and HP23.
 
 Nearby location hubs include:
 
-- [Berkhamsted](/locations/berkhamsted/wifi-installation) — use the hub until `/locations/berkhamsted/wifi-installation` is confirmed live.
-- [Wendover](/locations/wendover/wifi-installation) — use the hub until `/locations/wendover/wifi-installation` is confirmed live.
+- [Berkhamsted](/locations/berkhamsted/wifi-installation), use the hub until `/locations/berkhamsted/wifi-installation` is confirmed live.
+- [Wendover](/locations/wendover/wifi-installation), use the hub until `/locations/wendover/wifi-installation` is confirmed live.
 
 <!-- INTERNAL-LINK UPGRADE:
 When the dedicated service pages are confirmed live online, replace the hub links above with:

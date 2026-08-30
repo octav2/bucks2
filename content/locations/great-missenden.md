@@ -14,13 +14,13 @@ nearbyVillages: ["Prestwood", "Little Missenden", "Little Kingshill", "Great Kin
 
 ## Local Knowledge & Property Infrastructure in Great Missenden
 
-Great Missenden's rural setting means many properties sit at the end of long driveways or backed onto woodland, with detached garden studios a common feature. Our **cat 6 cabling installation** runs discreetly through lofts and behind skirtings, with **armoured cat6 cables** extending out to any studio or outbuilding — the reliable backbone for a proper **whole home wifi setup**. A **wifi 7 router installation** then removes dead zones across the main house, while a **garden office ethernet link** and **outdoor wifi extension** cover studios and gardens. For security, a hardwired **4k ip cctv installation** using a **poe camera system** covers rural driveways, without relying on battery cameras that struggle in exposed, rural locations.
+Great Missenden's rural setting means many properties sit at the end of long driveways or backed onto woodland, with detached garden studios a common feature. Our **cat 6 cabling installation** runs discreetly through lofts and behind skirtings, with **armoured cat6 cables** extending out to any studio or outbuilding, the reliable backbone for a proper **whole home wifi setup**. A **wifi 7 router installation** then removes dead zones across the main house, while a **garden office ethernet link** and **outdoor wifi extension** cover studios and gardens. For security, a hardwired **4k ip cctv installation** using a **poe camera system** covers rural driveways, without relying on battery cameras that struggle in exposed, rural locations.
 
-Our certified **cat 6 cabling installation** runs solid-copper Cat6/Cat6a cabling sympathetically through lofts, voids, and behind skirtings, supported by precise **ethernet port installation** to desks, TVs, and ceiling access points, a tidy **data rack patch panel setup** in a central cupboard, and **armoured cat6 cables** for any run to a barn conversion, outbuilding, or estate building — the backbone of our [Cat6a Network Cabling Installation](/services/commercial-cabling).
+Our certified **cat 6 cabling installation** runs solid-copper Cat6/Cat6a cabling sympathetically through lofts, voids, and behind skirtings, supported by precise **ethernet port installation** to desks, TVs, and ceiling access points, a tidy **data rack patch panel setup** in a central cupboard, and **armoured cat6 cables** for any run to a barn conversion, outbuilding, or estate building, the backbone of our [Cat6a Network Cabling Installation](/services/commercial-cabling).
 
-On top of the structured cabling we deliver **wifi 7 router installation** with Ubiquiti UniFi, a **whole home wifi setup** engineered for zero dead zones, a dedicated **garden office ethernet link** for remote working, and **outdoor wifi extension** for gardens, paddocks, and outbuildings — results you can rely on from our [Enterprise Whole-Home Wi-Fi Installation](/services/whole-home-wifi).
+On top of the structured cabling we deliver **wifi 7 router installation** with Ubiquiti UniFi, a **whole home wifi setup** engineered for zero dead zones, a dedicated **garden office ethernet link** for remote working, and **outdoor wifi extension** for gardens, paddocks, and outbuildings, results you can rely on from our [Enterprise Whole-Home Wi-Fi Installation](/services/whole-home-wifi).
 
-For security our **4k ip cctv installation** uses hardwired Ubiquiti UniFi Protect instead of a brand like Hikvision or a battery-powered system — a **poe camera system** for rural driveways, garages, and outbuildings, recording to an on-premise NVR with zero monthly fees, plus **door access control** for gates and entrances — all through our [Subscription-Free 4K CCTV Systems](/services/smart-security).
+For security our **4k ip cctv installation** uses hardwired Ubiquiti UniFi Protect instead of a brand like Hikvision or a battery-powered system, a **poe camera system** for rural driveways, garages, and outbuildings, recording to an on-premise NVR with zero monthly fees, plus **door access control** for gates and entrances, all through our [Subscription-Free 4K CCTV Systems](/services/smart-security).
 
 ## Featured Great Missenden Case Study
 
@@ -35,10 +35,10 @@ For security our **4k ip cctv installation** uses hardwired Ubiquiti UniFi Prote
 Using armoured Cat6a cable, trenched or ducted from the main house to the studio.
 
 ### Do battery cameras work well in exposed rural locations?
-Not reliably — cold weather drains batteries faster, which is why we install hardwired PoE cameras instead.
+Not reliably, cold weather drains batteries faster, which is why we install hardwired PoE cameras instead.
 
 ### How does Ubiquiti UniFi compare to Hikvision for a rural property?
-Hardwired UniFi Protect avoids battery failure and monthly fees — a better fit for exposed, rural settings.
+Hardwired UniFi Protect avoids battery failure and monthly fees, a better fit for exposed, rural settings.
 
 ### What areas near Great Missenden do you cover?
 All of HP16, including Prestwood and Ballinger.

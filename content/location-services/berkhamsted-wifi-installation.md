@@ -120,8 +120,8 @@ We install whole-home Wi-Fi across Berkhamsted and HP4, including the wider Nort
 
 Nearby coverage and expansion locations include:
 
-- **Tring** — do not add a link until the Tring location hub is genuinely live online.
-- [Chesham](/locations/chesham/wifi-installation) — use the existing hub until `/locations/chesham/wifi-installation` is confirmed live.
+- **Tring**, do not add a link until the Tring location hub is genuinely live online.
+- [Chesham](/locations/chesham/wifi-installation), use the existing hub until `/locations/chesham/wifi-installation` is confirmed live.
 
 <!-- INTERNAL-LINK UPGRADE:
 When the relevant pages are confirmed live online:

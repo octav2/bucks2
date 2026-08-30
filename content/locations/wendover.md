@@ -16,11 +16,11 @@ nearbyVillages: ["Halton", "Weston Turville", "Ellesborough", "Stoke Mandeville"
 
 Wendover's canal-side cottages and commuter-friendly homes often need reliable Wi-Fi for remote working alongside period-property cabling challenges. Our **cat 6 cabling installation**, run through lofts and voids rather than visible trunking, supports both **ethernet port installation** for home offices and a **data rack patch panel setup** for anyone running a small business from home. On top, a **whole home wifi setup** via **wifi 7 router installation** removes dead zones for video calls, and a **garden office ethernet link** covers any converted outbuilding used as a home office. Hardwired **4k ip cctv installation** completes the setup for canal-side or street-facing properties.
 
-Our certified **cat 6 cabling installation** runs solid-copper Cat6/Cat6a cabling to every room, supported by precise **ethernet port installation** to desks, TVs, and ceiling access points, a tidy **data rack patch panel setup** in a central cupboard, and **armoured cat6 cables** for any run to an outbuilding or garden office — the backbone of our [Cat6a Network Cabling Installation](/services/commercial-cabling).
+Our certified **cat 6 cabling installation** runs solid-copper Cat6/Cat6a cabling to every room, supported by precise **ethernet port installation** to desks, TVs, and ceiling access points, a tidy **data rack patch panel setup** in a central cupboard, and **armoured cat6 cables** for any run to an outbuilding or garden office, the backbone of our [Cat6a Network Cabling Installation](/services/commercial-cabling).
 
-On top of the structured cabling we deliver **wifi 7 router installation** with Ubiquiti UniFi, a **whole home wifi setup** engineered for zero dead zones, a dedicated **garden office ethernet link** for remote working, and **outdoor wifi extension** for patios and gardens — results you can rely on from our [Enterprise Whole-Home Wi-Fi Installation](/services/whole-home-wifi).
+On top of the structured cabling we deliver **wifi 7 router installation** with Ubiquiti UniFi, a **whole home wifi setup** engineered for zero dead zones, a dedicated **garden office ethernet link** for remote working, and **outdoor wifi extension** for patios and gardens, results you can rely on from our [Enterprise Whole-Home Wi-Fi Installation](/services/whole-home-wifi).
 
-For security our **4k ip cctv installation** uses hardwired Ubiquiti UniFi Protect instead of a brand like Hikvision or a battery-powered system — a **poe camera system** for canal-side and street-facing properties, recording to an on-premise NVR with zero monthly fees, plus **door access control** — all through our [Subscription-Free 4K CCTV Systems](/services/smart-security).
+For security our **4k ip cctv installation** uses hardwired Ubiquiti UniFi Protect instead of a brand like Hikvision or a battery-powered system, a **poe camera system** for canal-side and street-facing properties, recording to an on-premise NVR with zero monthly fees, plus **door access control**, all through our [Subscription-Free 4K CCTV Systems](/services/smart-security).
 
 ## Featured Wendover Case Study
 
@@ -32,13 +32,13 @@ For security our **4k ip cctv installation** uses hardwired Ubiquiti UniFi Prote
 ## Frequently Asked Questions for Wendover
 
 ### Can you set up reliable Wi-Fi for remote working in a period Wendover cottage?
-Yes — a hardwired **whole home wifi setup** eliminates the dropped calls common with mesh boosters in period homes.
+Yes, a hardwired **whole home wifi setup** eliminates the dropped calls common with mesh boosters in period homes.
 
 ### Do you cover garden offices used for remote work?
 Yes, with a dedicated **garden office ethernet link** for full-speed, stable connectivity.
 
 ### What CCTV do you install compared to Hikvision for a canal-side property?
-Hardwired Ubiquiti UniFi Protect — weatherproofed, no monthly fees, no battery maintenance.
+Hardwired Ubiquiti UniFi Protect, weatherproofed, no monthly fees, no battery maintenance.
 
 ### What areas near Wendover do you cover?
 All of HP22, including Halton and Weston Turville.

@@ -14,13 +14,13 @@ nearbyVillages: ["Holmer Green", "Tylers Green", "Penn", "Cryers Hill", "Widmer 
 
 ## Local Knowledge & Property Infrastructure in Hazlemere
 
-Unlike many Chiltern villages, Hazlemere is largely modern estate housing — which brings a different problem: stud walls, foil-backed insulation, and multiple smart devices competing for bandwidth. A **whole home wifi setup** using **wifi 7 router installation** is engineered to handle 300+ connected devices without the crashes common on consumer mesh pods in a busy family home. Behind it, a certified **cat 6 cabling installation** with **ethernet port installation** at TVs, desks, and consoles gives a stable backbone instead of relying purely on wireless. For security, a hardwired **4k ip cctv installation** covers estate driveways and side access without a monthly subscription.
+Unlike many Chiltern villages, Hazlemere is largely modern estate housing, which brings a different problem: stud walls, foil-backed insulation, and multiple smart devices competing for bandwidth. A **whole home wifi setup** using **wifi 7 router installation** is engineered to handle 300+ connected devices without the crashes common on consumer mesh pods in a busy family home. Behind it, a certified **cat 6 cabling installation** with **ethernet port installation** at TVs, desks, and consoles gives a stable backbone instead of relying purely on wireless. For security, a hardwired **4k ip cctv installation** covers estate driveways and side access without a monthly subscription.
 
-Our certified **cat 6 cabling installation** runs solid-copper Cat6/Cat6a cabling to every room, supported by precise **ethernet port installation** to desks, TVs, and ceiling access points, a tidy **data rack patch panel setup** in a central cupboard, and **armoured cat6 cables** for any run to an outbuilding or garden office — the backbone of our [Cat6a Network Cabling Installation](/services/commercial-cabling).
+Our certified **cat 6 cabling installation** runs solid-copper Cat6/Cat6a cabling to every room, supported by precise **ethernet port installation** to desks, TVs, and ceiling access points, a tidy **data rack patch panel setup** in a central cupboard, and **armoured cat6 cables** for any run to an outbuilding or garden office, the backbone of our [Cat6a Network Cabling Installation](/services/commercial-cabling).
 
-On top of the structured cabling we deliver **wifi 7 router installation** with Ubiquiti UniFi, a **whole home wifi setup** engineered for zero dead zones, a dedicated **garden office ethernet link** for remote working, and **outdoor wifi extension** for patios and gardens — results you can rely on from our [Enterprise Whole-Home Wi-Fi Installation](/services/whole-home-wifi).
+On top of the structured cabling we deliver **wifi 7 router installation** with Ubiquiti UniFi, a **whole home wifi setup** engineered for zero dead zones, a dedicated **garden office ethernet link** for remote working, and **outdoor wifi extension** for patios and gardens, results you can rely on from our [Enterprise Whole-Home Wi-Fi Installation](/services/whole-home-wifi).
 
-For security our **4k ip cctv installation** uses hardwired Ubiquiti UniFi Protect instead of a brand like Hikvision or a battery-powered system — a **poe camera system** for estate driveways and side access, recording to an on-premise NVR with zero monthly fees, plus **door access control** for gates and entrances — all through our [Subscription-Free 4K CCTV Systems](/services/smart-security).
+For security our **4k ip cctv installation** uses hardwired Ubiquiti UniFi Protect instead of a brand like Hikvision or a battery-powered system, a **poe camera system** for estate driveways and side access, recording to an on-premise NVR with zero monthly fees, plus **door access control** for gates and entrances, all through our [Subscription-Free 4K CCTV Systems](/services/smart-security).
 
 ## Featured Hazlemere Case Study
 
@@ -32,13 +32,13 @@ For security our **4k ip cctv installation** uses hardwired Ubiquiti UniFi Prote
 ## Frequently Asked Questions for Hazlemere
 
 ### Why does Wi-Fi struggle in a modern Hazlemere estate home?
-Foil-backed insulation and stud walls block signal similarly to solid brick — a hardwired setup avoids the issue entirely.
+Foil-backed insulation and stud walls block signal similarly to solid brick, a hardwired setup avoids the issue entirely.
 
 ### Can your system handle a home with lots of smart devices?
 Yes, our enterprise Ubiquiti UniFi setup handles 300+ connected devices without the crashes common on consumer mesh systems.
 
 ### Is CCTV installation worthwhile on a smaller estate plot?
-Yes — hardwired PoE cameras still outperform battery units for reliability, even on smaller driveways.
+Yes, hardwired PoE cameras still outperform battery units for reliability, even on smaller driveways.
 
 ### What areas near Hazlemere do you cover?
 All of HP15, including Widmer End and Holmer Green.

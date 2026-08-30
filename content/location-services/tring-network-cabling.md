@@ -146,8 +146,8 @@ We provide network cabling across Tring and HP23.
 
 Nearby location hubs include:
 
-- [Berkhamsted](/locations/berkhamsted/network-cabling) — use the hub until `/locations/berkhamsted/network-cabling` is confirmed live.
-- [Wendover](/locations/wendover/network-cabling) — use the hub until `/locations/wendover/network-cabling` is confirmed live.
+- [Berkhamsted](/locations/berkhamsted/network-cabling), use the hub until `/locations/berkhamsted/network-cabling` is confirmed live.
+- [Wendover](/locations/wendover/network-cabling), use the hub until `/locations/wendover/network-cabling` is confirmed live.
 
 <!-- INTERNAL-LINK UPGRADE:
 When the dedicated service pages are confirmed live online, replace the hub links above with:

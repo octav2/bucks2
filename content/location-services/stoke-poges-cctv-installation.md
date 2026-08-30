@@ -62,7 +62,7 @@ The system is designed around the site's actual approach routes and lines of sig
 
 ## CCTV for Gated Entrances and Driveways
 
-A private entrance can be one of the most important camera positions on a larger Stoke Poges property — and one of the furthest from the house.
+A private entrance can be one of the most important camera positions on a larger Stoke Poges property, and one of the furthest from the house.
 
 Where site conditions allow, an appropriate external or armoured network route can extend connectivity toward the gate. That provides a wired foundation for a camera or compatible intercom system rather than relying on the house Wi-Fi reaching the entrance.
 

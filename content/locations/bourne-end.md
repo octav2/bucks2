@@ -14,13 +14,13 @@ nearbyVillages: ["Flackwell Heath", "Wooburn Green", "Wooburn Moor", "Well End",
 
 ## Local Knowledge & Property Infrastructure in Bourne End
 
-Bourne End's riverside homes often span larger plots with detached boathouses or garden annexes set back from the main house — too far for a booster to reach reliably. A **wifi 7 router installation** paired with hardwired backhaul gives a proper **whole home wifi setup** across the full plot, while a dedicated **garden office ethernet link** and **outdoor wifi extension** cover boathouses and riverside terraces. Behind this sits a **cat 6 cabling installation** with **armoured cat6 cables** for any outdoor run, plus **ethernet port installation** throughout the main house. For security, our **4k ip cctv installation** covers riverside access points with a weatherproof **poe camera system**.
+Bourne End's riverside homes often span larger plots with detached boathouses or garden annexes set back from the main house, too far for a booster to reach reliably. A **wifi 7 router installation** paired with hardwired backhaul gives a proper **whole home wifi setup** across the full plot, while a dedicated **garden office ethernet link** and **outdoor wifi extension** cover boathouses and riverside terraces. Behind this sits a **cat 6 cabling installation** with **armoured cat6 cables** for any outdoor run, plus **ethernet port installation** throughout the main house. For security, our **4k ip cctv installation** covers riverside access points with a weatherproof **poe camera system**.
 
-Our certified **cat 6 cabling installation** runs solid-copper Cat6/Cat6a cabling to every room, supported by precise **ethernet port installation** to desks, TVs, and ceiling access points, a tidy **data rack patch panel setup** in a central cupboard, and **armoured cat6 cables** for any run to an outbuilding or garage — the backbone of our [Cat6a Network Cabling Installation](/services/commercial-cabling).
+Our certified **cat 6 cabling installation** runs solid-copper Cat6/Cat6a cabling to every room, supported by precise **ethernet port installation** to desks, TVs, and ceiling access points, a tidy **data rack patch panel setup** in a central cupboard, and **armoured cat6 cables** for any run to an outbuilding or garage, the backbone of our [Cat6a Network Cabling Installation](/services/commercial-cabling).
 
-On top of the structured cabling we deliver **wifi 7 router installation** with Ubiquiti UniFi, a **whole home wifi setup** engineered for zero dead zones, a dedicated **garden office ethernet link** for remote working, and **outdoor wifi extension** for patios and gardens — results you can rely on from our [Enterprise Whole-Home Wi-Fi Installation](/services/whole-home-wifi).
+On top of the structured cabling we deliver **wifi 7 router installation** with Ubiquiti UniFi, a **whole home wifi setup** engineered for zero dead zones, a dedicated **garden office ethernet link** for remote working, and **outdoor wifi extension** for patios and gardens, results you can rely on from our [Enterprise Whole-Home Wi-Fi Installation](/services/whole-home-wifi).
 
-For security our **4k ip cctv installation** uses hardwired Ubiquiti UniFi Protect instead of a brand like Hikvision or a battery-powered system — a weatherproof **poe camera system** for riverside access points, outbuildings, and back lanes, recording to an on-premise NVR with zero monthly fees, plus **door access control** — all through our [Subscription-Free 4K CCTV Systems](/services/smart-security).
+For security our **4k ip cctv installation** uses hardwired Ubiquiti UniFi Protect instead of a brand like Hikvision or a battery-powered system, a weatherproof **poe camera system** for riverside access points, outbuildings, and back lanes, recording to an on-premise NVR with zero monthly fees, plus **door access control**, all through our [Subscription-Free 4K CCTV Systems](/services/smart-security).
 
 ## Featured Bourne End Case Study
 
@@ -44,4 +44,4 @@ Hardwired Ubiquiti UniFi Protect cameras, weatherproofed for riverside condition
 Yes. We cover all of SL8, including Flackwell Heath, Wooburn Green, Wooburn Moor, Well End, and the Cookham and Marlow borders.
 
 ### How much does network installation cost in Bourne End?
-Wireless projects start from £1,500, Cat6 structured cabling from £2,000, and 4K IP CCTV from £1,800 — all fixed and itemized after a free Bourne End site audit.
+Wireless projects start from £1,500, Cat6 structured cabling from £2,000, and 4K IP CCTV from £1,800, all fixed and itemized after a free Bourne End site audit.

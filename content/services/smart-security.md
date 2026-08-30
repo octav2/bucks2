@@ -5,8 +5,8 @@ subtitle: "Hardwired Ubiquiti UniFi Protect 4K AI optical cameras, IP CCTV syste
 metaTitle: "4K CCTV Installation & Business Security Systems | Bucks Tech Help"
 metaDescription: "Hardwired 4K CCTV installation, IP security cameras, and smart door access control for homes and commercial properties across Buckinghamshire. 100% subscription-free."
 startingPrice: "From £1,800"
-priceDetails: "Includes comprehensive property security audit, hardwired PoE Cat6a cable deployment, Ubiquiti Protect NVR storage setup, 4K AI optical camera installation, and smartphone app setup."
-pricingTitle: "Turnkey Perimeter Security Packages"
+priceDetails: "Includes full property security audit, hardwired PoE Cat6a cable deployment, Ubiquiti Protect NVR storage setup, 4K AI optical camera installation, and smartphone app setup."
+pricingTitle: "Perimeter Security Packages"
 coveredTowns: ["Beaconsfield", "Amersham", "Gerrards Cross", "Chesham", "High Wycombe", "Marlow", "Chalfont St Giles", "Wendover", "Princes Risborough", "Berkhamsted", "Tring"]
 ---
 
@@ -40,13 +40,13 @@ coveredTowns: ["Beaconsfield", "Amersham", "Gerrards Cross", "Chesham", "High Wy
 
 ## Subscription-Free 4K CCTV Installation & Business Security Systems
 
-Many homeowners and business owners across Beaconsfield, Amersham, and High Wycombe rely on consumer wireless cameras that fall into a monthly cloud subscription trap, suffer from dying batteries, and deliver low resolution with motion blur. These consumer boxes miss key moments when it matters most, and the fees never end.
+Consumer wireless cameras across Beaconsfield, Amersham, and High Wycombe often carry a monthly cloud subscription, batteries that die, and low resolution with motion blur. They miss key moments, and the fees keep coming.
 
-At Bucks Tech Help, we deliver professional CCTV installation using hardwired Ubiquiti UniFi Protect architecture. Every UniFi 4K AI IP camera connects back to an on-premise Network Video Recorder (NVR) over a single discrete Cat6a PoE run—deployed using our certified [Cat6a Network Cabling Installation](/services/commercial-cabling)—delivering pin-sharp 4K optical precision and uninterrupted gigabit reliability without relying on batteries or choking your local network.
+At Bucks Tech Help we use hardwired Ubiquiti UniFi Protect hardware. Every UniFi 4K AI IP camera connects back to an on-premises NVR over a single Cat6a PoE run, using our certified [Cat6a Network Cabling Installation](/services/commercial-cabling). The system does not rely on batteries and does not clog your network.
 
-Featuring onboard AI detection, our IP CCTV systems distinguish between humans, vehicles, and license plates — sending instant, accurate alerts to your smartphone through the same single app that controls your [Enterprise Whole-Home Wi-Fi System](/services/whole-home-wifi) and smart door access control. Best of all: you own the system and storage 100% outright, with zero monthly cloud fees.
+Onboard AI detection tells humans, vehicles, and license plates apart and sends alerts to your smartphone. It runs through the same single app that controls your [Enterprise Whole-Home Wi-Fi System](/services/whole-home-wifi) and smart door access. You own the system and storage outright, with no monthly cloud fees.
 
-If you're searching for CCTV installation near me, Bucks Tech Help provides hardwired, subscription-free 4K systems across Beaconsfield, Amersham, High Wycombe, and every South & Central Bucks town in between — usually with a site visit scheduled within days of your enquiry.
+If you are searching for CCTV installation near me, we provide hardwired, subscription-free 4K systems across Beaconsfield, Amersham, High Wycombe, and every South & Central Bucks town in between. Site visits are usually scheduled within days of your enquiry.
 
 ## Security Hardware Specs
 
@@ -66,7 +66,7 @@ If you're searching for CCTV installation near me, Bucks Tech Help provides hard
 | **Recording Quality** | Low resolution / motion blur | Pin-sharp 4K optical precision & AI recognition |
 | **Smart Detection** | False alerts from wind, rain & bugs | UniFi AI human, vehicle & license plate recognition |
 
-## Comprehensive Security & Access Control Solutions
+## Security & Access Control Solutions
 - **Commercial CCTV Installation:** High-definition IP camera coverage for retail shops, offices, warehouses, and industrial estates.
 - **Smart Door Access Control Systems:** Integrated video intercoms, keycard entry, and smart door access control managed via smartphone.
 - **Outdoor Security Cameras:** Weatherproof IP67-rated 4K optical cameras with infrared night vision and license plate recognition.

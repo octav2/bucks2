@@ -141,8 +141,8 @@ We provide network cabling across Berkhamsted and HP4, including the wider North
 
 Nearby coverage and expansion locations include:
 
-- **Tring** — do not add a link until the Tring location hub is genuinely live online.
-- [Chesham](/locations/chesham/network-cabling) — use the existing hub until `/locations/chesham/network-cabling` is confirmed live.
+- **Tring**, do not add a link until the Tring location hub is genuinely live online.
+- [Chesham](/locations/chesham/network-cabling), use the existing hub until `/locations/chesham/network-cabling` is confirmed live.
 
 <!-- INTERNAL-LINK UPGRADE:
 When the relevant pages are confirmed live online:

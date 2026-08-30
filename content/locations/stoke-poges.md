@@ -14,13 +14,13 @@ nearbyVillages: ["Fulmer", "Farnham Common", "Wexham", "Gerrards Cross", "Slough
 
 ## Local Knowledge & Property Infrastructure in Stoke Poges
 
-Stoke Poges' larger estate properties, several near golf and country club grounds, need security and connectivity to match the scale of the property. Our **4k ip cctv installation** — a hardwired **poe camera system** with **door access control** — covers extensive grounds and multiple entrances without relying on Wi-Fi-dependent battery cameras. For connectivity, a **whole home wifi setup** built on **wifi 7 router installation** covers every wing and outbuilding, with a **garden office ethernet link** for detached studios. All of it runs on a certified **cat 6 cabling installation** with a properly built **data rack patch panel setup**, not a tangle of extenders and boosters.
+Stoke Poges' larger estate properties, several near golf and country club grounds, need security and connectivity to match the scale of the property. Our **4k ip cctv installation**, a hardwired **poe camera system** with **door access control**, covers extensive grounds and multiple entrances without relying on Wi-Fi-dependent battery cameras. For connectivity, a **whole home wifi setup** built on **wifi 7 router installation** covers every wing and outbuilding, with a **garden office ethernet link** for detached studios. All of it runs on a certified **cat 6 cabling installation** with a properly built **data rack patch panel setup**, not a tangle of extenders and boosters.
 
-Our certified **cat 6 cabling installation** runs solid-copper Cat6/Cat6a cabling to every room, supported by precise **ethernet port installation** to desks, TVs, and ceiling access points, a tidy **data rack patch panel setup** in a central plant room, and **armoured cat6 cables** for any run to an outbuilding, gatehouse, or detached garage — the backbone of our [Cat6a Network Cabling Installation](/services/commercial-cabling).
+Our certified **cat 6 cabling installation** runs solid-copper Cat6/Cat6a cabling to every room, supported by precise **ethernet port installation** to desks, TVs, and ceiling access points, a tidy **data rack patch panel setup** in a central plant room, and **armoured cat6 cables** for any run to an outbuilding, gatehouse, or detached garage, the backbone of our [Cat6a Network Cabling Installation](/services/commercial-cabling).
 
-On top of the structured cabling we deliver **wifi 7 router installation** with Ubiquiti UniFi, a **whole home wifi setup** engineered for zero dead zones across every floor and wing, a dedicated **garden office ethernet link** for remote working, and **outdoor wifi extension** for pool houses and grounds — results you can rely on from our [Enterprise Whole-Home Wi-Fi Installation](/services/whole-home-wifi).
+On top of the structured cabling we deliver **wifi 7 router installation** with Ubiquiti UniFi, a **whole home wifi setup** engineered for zero dead zones across every floor and wing, a dedicated **garden office ethernet link** for remote working, and **outdoor wifi extension** for pool houses and grounds, results you can rely on from our [Enterprise Whole-Home Wi-Fi Installation](/services/whole-home-wifi).
 
-For security our **4k ip cctv installation** uses hardwired Ubiquiti UniFi Protect instead of a brand like Hikvision or a battery-powered system — a **poe camera system** for extensive grounds and multiple entrances, recording to an on-premise NVR with zero monthly fees, plus **door access control** for gates and entrances — all through our [Subscription-Free 4K CCTV Systems](/services/smart-security).
+For security our **4k ip cctv installation** uses hardwired Ubiquiti UniFi Protect instead of a brand like Hikvision or a battery-powered system, a **poe camera system** for extensive grounds and multiple entrances, recording to an on-premise NVR with zero monthly fees, plus **door access control** for gates and entrances, all through our [Subscription-Free 4K CCTV Systems](/services/smart-security).
 
 ## Featured Stoke Poges Case Study
 
@@ -32,7 +32,7 @@ For security our **4k ip cctv installation** uses hardwired Ubiquiti UniFi Prote
 ## Frequently Asked Questions for Stoke Poges
 
 ### Can you cover multiple entrances and large grounds with CCTV?
-Yes — hardwired PoE cameras and door access control scale to multiple entrances on one unified system.
+Yes, hardwired PoE cameras and door access control scale to multiple entrances on one unified system.
 
 ### Will Wi-Fi reach every wing of a large estate property?
 Yes, with hardwired backhaul to each wing rather than relying on a single router's range.

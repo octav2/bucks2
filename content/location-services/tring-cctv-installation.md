@@ -133,8 +133,8 @@ We install CCTV and smart security systems across Tring and HP23.
 
 Nearby location hubs include:
 
-- [Berkhamsted](/locations/berkhamsted/cctv-installation) — use the hub until `/locations/berkhamsted/cctv-installation` is confirmed live.
-- [Wendover](/locations/wendover/cctv-installation) — use the hub until `/locations/wendover/cctv-installation` is confirmed live.
+- [Berkhamsted](/locations/berkhamsted/cctv-installation), use the hub until `/locations/berkhamsted/cctv-installation` is confirmed live.
+- [Wendover](/locations/wendover/cctv-installation), use the hub until `/locations/wendover/cctv-installation` is confirmed live.
 
 <!-- INTERNAL-LINK UPGRADE:
 When the dedicated service pages are confirmed live online, replace the hub links above with:
