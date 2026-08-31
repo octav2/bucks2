@@ -47,6 +47,8 @@ const nextConfig = {
       { source: '/services/tech-support', destination: '/services/whole-home-wifi', permanent: true },
       // Old indexed BT Wi-Fi guide URL -> new guide
       { source: '/guides/improve-bt-wifi-speed-old-houses', destination: '/guides/fix-slow-bt-wifi-old-house', permanent: true },
+      // Old indexed Wi-Fi dead zones guide URL -> new guide
+      { source: '/guides/how-to-fix-wifi-dead-zones', destination: '/guides/wifi-extender-vs-mesh-vs-hardwired', permanent: true },
     ];
   },
 };
