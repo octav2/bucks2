@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
+import QuoteHeader from '@/components/QuoteHeader';
 import QuoteForm from '@/components/QuoteForm';
 import { getLocationBySlug } from '@/lib/locations';
 import { ClipboardCheck, ShieldCheck, Mail, MapPin } from 'lucide-react';
@@ -48,7 +47,7 @@ export default function QuotePage({ searchParams }: { searchParams: { location?:
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify([quoteWebPageSchema, quoteBreadcrumbSchema]) }}
             />
-            <Header />
+            <QuoteHeader />
 
             <section className="relative overflow-hidden bg-slate-950 py-20 md:py-28 px-4">
                 <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-600/10 rounded-full blur-[120px]"></div>
@@ -99,7 +98,7 @@ export default function QuotePage({ searchParams }: { searchParams: { location?:
                 </div>
             </section>
 
-            <Footer />
+            {/* Footer intentionally omitted from /quote — keeps users focused on completing the form */}
         </div>
     );
 }
