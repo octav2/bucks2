@@ -45,6 +45,8 @@ const nextConfig = {
       // Obsolete legacy service routes -> core offerings
       { source: '/services/computer-laptop-support', destination: '/services/commercial-cabling', permanent: true },
       { source: '/services/tech-support', destination: '/services/whole-home-wifi', permanent: true },
+      // Old indexed BT Wi-Fi guide URL -> new guide
+      { source: '/guides/improve-bt-wifi-speed-old-houses', destination: '/guides/fix-slow-bt-wifi-old-house', permanent: true },
     ];
   },
 };
